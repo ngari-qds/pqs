@@ -41,11 +41,9 @@ export function drawBackground(
       fillPaper(ctx, full, palette.bg, seed, bg.strength ?? 1);
       return { drawn: bg, isPhoto: false, upscaled: false };
     case "vignette": {
-      ctx.fillStyle = palette.bg;
-      ctx.fillRect(0, 0, W, H);
       const s = bg.strength ?? 0.45;
       const cx = W / 2, cy = H / 2, R = Math.hypot(W, H) / 2;
-      compositeAlpha(ctx, full, "#000000", (x, y) => s * smoothstep(0.35, 1.05, Math.hypot(x - cx, y - cy) / R));
+      compositeAlpha(ctx, full, "#000000", (x, y) => s * smoothstep(0.35, 1.05, Math.hypot(x - cx, y - cy) / R), palette.bg);
       return { drawn: bg, isPhoto: false, upscaled: false };
     }
     case "photo-scrim": {

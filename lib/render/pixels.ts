@@ -70,12 +70,25 @@ export function fillLinearGradient(ctx: Ctx, rect: Rect, stops: GradientStop[], 
 /**
  * Composites `color` over existing pixels with a per-pixel alpha function,
  * in float with dither. Used for scrims, vignettes and local contrast fixes.
+ * Pass `base` when the area underneath is a known solid colour: the pixels
+ * are then generated instead of read back, which is faster.
  */
-export function compositeAlpha(ctx: Ctx, rect: Rect, color: string | RGB, alphaAt: (x: number, y: number) => number) {
+export function compositeAlpha(ctx: Ctx, rect: Rect, color: string | RGB, alphaAt: (x: number, y: number) => number, base?: string) {
   const r = clampRect(ctx, rect);
   if (!r.w || !r.h) return;
   const [cr, cg, cb] = typeof color === "string" ? hexToRgb(color) : color;
-  const img = ctx.getImageData(r.x, r.y, r.w, r.h);
+  let img: ImageData;
+  if (base) {
+    img = ctx.createImageData(r.w, r.h);
+    const [br, bg, bb] = hexToRgb(base);
+    const d0 = img.data;
+    for (let i = 0; i < d0.length; i += 4) {
+      d0[i] = br;
+      d0[i + 1] = bg;
+      d0[i + 2] = bb;
+      d0[i + 3] = 255;
+    }
+  } else img = ctx.getImageData(r.x, r.y, r.w, r.h);
   const d = img.data;
   let p = 0, n = (r.x * 7 + r.y * 13) & 65535;
   for (let y = 0; y < r.h; y++) {
