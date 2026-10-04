@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #f3f2ee;
+  --color-panel: #ffffff;
+  --color-ink: #1b1b1a;
+  --color-dim: #6d6b66;
+  --color-line: #e3e1db;
+  --color-focus: #2f4a6b;
+}
+
+html,
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.label {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-dim);
+  font-weight: 500;
+}
+
+.field {
+  width: 100%;
+  border: 1px solid var(--color-line);
+  background: #fff;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 14px;
+  line-height: 1.45;
+  outline: none;
+}
+.field:focus {
+  border-color: var(--color-focus);
+}
+
+.chip {
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  background: #fff;
+  white-space: nowrap;
+}
+.chip[data-on="true"] {
+  background: var(--color-ink);
+  color: #fff;
+  border-color: var(--color-ink);
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid var(--color-line);
+  background: #fff;
+}
+.btn-primary {
+  background: var(--color-ink);
+  color: #fff;
+  border-color: var(--color-ink);
+}
+.btn:disabled {
+  opacity: 0.5;
+}
+kbd {
+  font-size: 10px;
+  border: 1px solid var(--color-line);
+  border-radius: 3px;
+  padding: 0 4px;
+  color: var(--color-dim);
+  margin-left: 6px;
+}

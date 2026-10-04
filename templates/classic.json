@@ -1,0 +1,10 @@
+[
+  { "id": "classic-ink-centered", "name": "Ink, centred", "format": "classic", "layout": "centered", "pairing": "fraunces-inter", "palette": "ink", "background": { "kind": "solid" }, "attribution": "caps", "hero": true },
+  { "id": "classic-paper-editorial", "name": "Paper editorial", "format": "classic", "layout": "editorial", "pairing": "newsreader-intertight", "palette": "paper-ink", "background": { "kind": "paper" }, "attribution": "dash", "hero": true },
+  { "id": "classic-fog-bottom", "name": "Fog, bottom", "format": "classic", "layout": "bottom", "pairing": "instrument-inter", "palette": "fog", "background": { "kind": "gradient", "angle": 0 }, "hero": true },
+  { "id": "classic-midnight-pull", "name": "Midnight pull quote", "format": "classic", "layout": "pull-quote", "pairing": "caslon-karla", "palette": "midnight", "background": { "kind": "vignette", "strength": 0.4 }, "accentMarks": true, "hero": true },
+  { "id": "classic-bone-corner", "name": "Bone placard", "format": "classic", "layout": "corner", "pairing": "garamond-plex", "palette": "bone-rust", "background": { "kind": "paper", "strength": 0.8 }, "hero": true },
+  { "id": "classic-concrete-card", "name": "Concrete card", "format": "classic", "layout": "framed-card", "pairing": "spectral-manrope", "palette": "concrete", "background": { "kind": "gradient", "angle": 24 }, "hero": true },
+  { "id": "classic-graphite-top", "name": "Graphite, top", "format": "classic", "layout": "top", "pairing": "dmserif-dmsans", "palette": "graphite", "background": { "kind": "gradient", "angle": 180 }, "hero": true },
+  { "id": "classic-teal-bebas", "name": "Deep Teal, bold", "format": "classic", "layout": "editorial", "pairing": "bebas-inter", "palette": "deep-teal", "background": { "kind": "solid" }, "hero": true }
+]
