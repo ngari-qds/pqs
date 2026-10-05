@@ -3,11 +3,11 @@
 A personal quote image designer. Paste a line, pick a look, export a
 pixel-perfect image with the signature **Fred M | 1963ke · @ngariq_** on it.
 
-> **Build status:** steps 1–4 of 5 are done: render engine, typography, all
-> 20 quote formats, 25 layout archetypes, photo backgrounds with resolution
-> checks, a generated gallery of 485 QA-verified designs plus 60 hand-tuned
-> heroes, and a gallery with filters, favourites, locks and Surprise me.
-> Batch mode, the quote library and export history (step 5) come next.
+> **Build status:** all five steps are done: render engine and typography,
+> 20 quote formats with 25 layout archetypes, photo backgrounds with
+> resolution checks, a generated gallery of 485 QA-verified designs plus 60
+> hand-tuned heroes, batch mode, a quote library with tags, export history,
+> and a collection of 441 cold quotes ready to load.
 
 ## Quick start
 
@@ -24,12 +24,15 @@ npm run dev          # http://localhost:3000
 | `npm run qa` | Renders every template × every preset at 3× and fails on overflow, contrast < 4.5:1, signature collisions or photo upscaling. Photo templates are tested on generated test photos, created automatically on first run. Flags: `-- --scale 1` for a fast pass, `-- --keep` to save the PNGs to `qa-report/`, `-- --only photo` to filter templates by id |
 | `npm run sample` | Writes sample exports to `samples/`, including a 400% crop |
 | `npx tsx scripts/render-formats.ts` | Renders every format's sample in every layout to `samples/formats/` with contact sheets |
+| `npx tsx scripts/check-quotes.ts` | Checks that every quote in the collection sets cleanly at Stories and Instagram portrait |
 | `npm run templates` | Regenerates `templates/gallery.json` (see below), about 3 minutes |
 | `npm run fonts` | Re-downloads fonts after editing `lib/fonts/registry.ts` |
 | `npm run typecheck` | TypeScript |
 
 Shortcuts in the studio: **R** shuffle (respects locks), **I** new image,
-**E** export, **F** favourite the current design.
+**E** export, **F** favourite the current design. A new quote goes from
+paste to exported image in a few seconds; a single 2× export typically takes
+0.2–1.5 s.
 
 ## Environment variables
 
@@ -84,6 +87,68 @@ Every format loads with a sample line (20 in all, one per format).
 - **Long text never overflows.** If text cannot fit at the minimum readable
   size, split and framed photos give up space, then the format's most compact
   layout is used, and the studio says so.
+
+## Views
+
+- **Studio**: one quote at a time. Format, fields, live preview, style
+  controls, export. The form has a **Library** box to save the current quote
+  with tags.
+- **Gallery**: every curated and generated design for the format, shown with
+  your text (see below).
+- **Batch**: paste many quotes, or load the collection, pick a style family,
+  preview every item, then **Render → ZIP**.
+- **Library**: saved quotes (search, tag and format filters, open in the
+  studio, edit tags, export as text) and **History** of every export, any of
+  which can be reopened.
+
+On a phone the views stack and Shuffle / New image / Export stay in a bar at
+the bottom of the screen.
+
+## Batch mode
+
+Paste quotes in any of three styles (they can be mixed):
+
+```
+Silence is not empty.                     ← plain: quotes separated by blank lines;
+                                            a last line "— Name" is the author
+Most people do not want the truth.
+— Fred M
+
+Comfort is a loan.                        ← "---" groups: hook / body… / punchline
+It feels free when you take it.
+You repay it in time.
+---
+@list                                     ← @format blocks for any of the 20 formats
+title: Things I stopped doing
+- Explaining myself twice
+- Keeping score
+- Arguing with weather
+tags: self
+```
+
+`key: value` sets a field, lines without a key continue the previous field
+(verse keeps its line breaks), `- item` adds list items, `tags:` feeds the
+library, and `//` starts a comment.
+
+**Style families** (Ink, Paper, Fog, Midnight, Sandstone, Graphite, Deep Teal,
+Oxblood, Bone, Pure Mono, or your current design) give every quote one
+palette, pairing and ground, in a layout chosen per format that obeys the
+design rules. For example, equations always get a monospace face. The
+output is one ZIP with clean, ordered file names
+(`007_classic_most-people-dont-want-the-truth.png`; carousels add
+`_01of04`), a `manifest.json`, and splits of 60 images per ZIP for very large
+batches. Rendering can be cancelled; whatever finished is still downloaded.
+
+## The quote collection
+
+`public/quotes/cold-quotes.txt` holds **441 original quotes** on reality,
+life, death, love, relationships, family, time and work, written cold and
+unsentimental. They cover all 20 formats, every one tagged, in batch syntax.
+In the app: **Batch → Load the cold-quotes collection** or **Library → Import
+the cold-quotes collection** (importing twice never duplicates; quotes are
+keyed by their content). Tests check that it parses, covers every format,
+has no duplicates and round-trips through the library's text export, and
+`scripts/check-quotes.ts` checks that every quote sets without overflow.
 
 ## Templates and the gallery
 
@@ -206,11 +271,17 @@ lib/render/            isolated render engine (no React)
 lib/images/            photo sourcing: providers, fallback chain, resolution rules,
                        keyword engine, calm-area scoring, browser client
 app/api/images/        search, file proxy, Unsplash download ping, mock photos
-templates/*.json       template configs, one file per format (duplicate and tweak freely)
-scripts/               qa.ts (+ qa-worker.ts), render-sample.ts, mock-photos.ts,
-                       fetch-fonts.ts, node-env.ts
+templates/*.json       template configs, one file per format (duplicate and tweak freely),
+                       plus the generated gallery.json
+public/quotes/         the cold-quotes collection (batch syntax)
+scripts/               qa.ts (+ qa-worker.ts), generate-templates.ts (+ verify-worker.ts),
+                       check-quotes.ts, render-sample.ts, render-formats.ts,
+                       mock-photos.ts, fetch-fonts.ts, node-env.ts
 tests/                 vitest unit tests
-components/Studio.tsx  the three-panel studio UI
+lib/templates/         template generator and combination rules
+lib/studio/            browser-side logic: batch parser, gallery, IndexedDB
+                       (library, history, favourites, own templates), export
+components/            Studio (three panels), Gallery, Batch, Library, ThumbCanvas
 ```
 
 ## Deploying to Vercel

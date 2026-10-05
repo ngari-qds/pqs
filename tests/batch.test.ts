@@ -101,3 +101,17 @@ describe("style families", () => {
     expect(batchFileStem(6, { format: "classic" }, "Most people don't *want* the truth!")).toBe("007_classic_most-people-dont-want-the-truth");
   });
 });
+
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { toBatchText } from "@/lib/studio/batch";
+
+describe("toBatchText", () => {
+  it("round-trips the whole collection through parseBatch", () => {
+    const text = readFileSync(path.resolve(__dirname, "../public/quotes/cold-quotes.txt"), "utf8");
+    const items = parseBatch(text);
+    const again = parseBatch(toBatchText(items));
+    expect(again.map((i) => i.content)).toEqual(items.map((i) => i.content));
+    expect(again.map((i) => i.tags)).toEqual(items.map((i) => i.tags));
+  });
+});

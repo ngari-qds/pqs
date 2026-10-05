@@ -227,3 +227,23 @@ export function batchFileStem(index: number, item: QuoteContent, text: string): 
   const slug = text.toLowerCase().replace(/\*/g, "").replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48).replace(/-$/, "") || "quote";
   return `${String(index + 1).padStart(3, "0")}_${item.format}_${slug}`;
 }
+
+/** Writes items back out in the @format block syntax (round-trips with parseBatch). */
+export function toBatchText(items: { content: QuoteContent; tags?: string[] }[]): string {
+  const out: string[] = [];
+  for (const { content, tags } of items) {
+    const def = FORMATS[content.format];
+    out.push(`@${content.format}`);
+    for (const f of def.fields) {
+      const v = content[f.key];
+      if (v === undefined || v === "" || (Array.isArray(v) && !v.length)) continue;
+      if (Array.isArray(v)) {
+        out.push(`${f.key}:`);
+        for (const item of v) out.push(`- ${item}`);
+      } else out.push(`${f.key}: ${String(v)}`);
+    }
+    if (tags?.length) out.push(`tags: ${tags.join(", ")}`);
+    out.push("");
+  }
+  return out.join("\n");
+}

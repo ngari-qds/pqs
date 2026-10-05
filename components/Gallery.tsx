@@ -1,44 +1,17 @@
 "use client";
 /**
  * Gallery: every curated and generated design for a format, rendered with
- * your current quote. Thumbnails render lazily (as they scroll into view)
- * through a single queue so the page stays responsive.
+ * your current quote. Thumbnails render lazily (components/ThumbCanvas).
  */
-import { memo, useEffect, useMemo, useRef, useState } from "react";
-import { browserEnv, ensureFonts, facesForRender } from "@/lib/render/browser";
+import { memo, useEffect, useMemo, useState } from "react";
+import { ThumbCanvas } from "@/components/ThumbCanvas";
 import { FORMATS, FORMAT_LIST } from "@/lib/render/formats";
-import { getPairing } from "@/lib/render/pairings";
 import { PALETTES } from "@/lib/render/palettes";
 import { getPreset } from "@/lib/render/presets";
-import { renderQuote } from "@/lib/render/render";
 import type { FormatId, QuoteContent, SignatureStyle, TemplateConfig } from "@/lib/render/template";
-import type { Ctx, Drawable } from "@/lib/render/types";
+import type { Drawable } from "@/lib/render/types";
 import { GALLERY_MOODS } from "@/lib/templates/generator";
-import { filterTemplates, placeholderPhoto, type GalleryFilter } from "@/lib/studio/gallery";
-
-// ------------------------------------------------------------ render queue
-
-type Job = () => Promise<void>;
-const queue: Job[] = [];
-let running = false;
-function enqueue(job: Job) {
-  queue.push(job);
-  if (running) return;
-  running = true;
-  const step = async () => {
-    const next = queue.shift();
-    if (!next) {
-      running = false;
-      return;
-    }
-    try {
-      await next();
-    } catch {}
-    // Yield to the browser between thumbnails.
-    setTimeout(step, 0);
-  };
-  step();
-}
+import { filterTemplates, type GalleryFilter } from "@/lib/studio/gallery";
 
 interface Props {
   format: FormatId;
@@ -195,43 +168,6 @@ interface ThumbProps {
 }
 
 const Thumb = memo(function Thumb({ template, content, aspect, photo, signature, current, favorite, mine, onToggleFavorite, onDelete, onApply }: ThumbProps) {
-  const ref = useRef<HTMLCanvasElement>(null);
-  const [visible, setVisible] = useState(false);
-  const isPhoto = template.background.kind.startsWith("photo");
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const io = new IntersectionObserver(([e]) => e.isIntersecting && setVisible(true), { rootMargin: "300px" });
-    io.observe(el);
-    return () => io.disconnect();
-  }, []);
-
-  useEffect(() => {
-    if (!visible) return;
-    let cancelled = false;
-    enqueue(async () => {
-      const canvas = ref.current;
-      if (cancelled || !canvas) return;
-      const cssW = canvas.clientWidth || 160;
-      const dpr = Math.min(2, window.devicePixelRatio || 1);
-      const w = Math.round(cssW * dpr);
-      await ensureFonts(facesForRender(getPairing(template.pairing), content));
-      if (cancelled) return;
-      canvas.width = w;
-      canvas.height = Math.round(w / aspect);
-      renderQuote(canvas.getContext("2d", { alpha: false }) as Ctx, browserEnv, {
-        content: { ...content, slide: 0 },
-        template,
-        signature,
-        photo: isPhoto ? { image: photo ?? placeholderPhoto() } : undefined,
-      });
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [visible, template, content, aspect, photo, signature, isPhoto]);
-
   return (
     <figure className="group">
       <button
@@ -240,7 +176,7 @@ const Thumb = memo(function Thumb({ template, content, aspect, photo, signature,
         style={{ aspectRatio: String(aspect), outline: current ? "2px solid #1b1b1a" : "none" }}
         title={`Use “${template.name}”`}
       >
-        <canvas ref={ref} className="block w-full h-full" />
+        <ThumbCanvas template={template} content={content} aspect={aspect} photo={photo} signature={signature} />
       </button>
       <figcaption className="mt-1.5 flex items-start gap-1 text-[11px] leading-snug text-dim">
         <span className="flex-1 min-w-0">

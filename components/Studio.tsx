@@ -12,8 +12,14 @@ import type { Ctx } from "@/lib/render/types";
 import { contentText, download, exportCarousel, exportImage, slug, type ExportFormat } from "@/lib/studio/export";
 import { ALL_TEMPLATES, GALLERY_TEMPLATES, templatesFor } from "@/lib/studio/templates";
 import Gallery from "@/components/Gallery";
+import Batch from "@/components/Batch";
+import Library from "@/components/Library";
 import { shuffleTemplate, surpriseMe, type Locks } from "@/lib/studio/gallery";
-import { deleteMyTemplate, listFavorites, listMyTemplates, saveMyTemplate, setFavorite } from "@/lib/studio/db";
+import {
+  addHistory, clearHistory, deleteMyTemplate, deleteQuote, listFavorites, listHistory, listMyTemplates, listQuotes,
+  saveMyTemplate, saveQuotes, setFavorite, updateQuoteTags, type HistoryEntry, type SavedQuote,
+} from "@/lib/studio/db";
+import { parseBatch } from "@/lib/studio/batch";
 import { FORMATS, FORMAT_LIST, resolveLayout, slideCount, type FieldDef } from "@/lib/render/formats";
 import type { FormatId, QuoteContent } from "@/lib/render/template";
 import { autoStructure, flatten } from "@/lib/studio/autostructure";
@@ -69,7 +75,17 @@ export default function Studio() {
   const [slide, setSlide] = useState(0);
   const [template, setTemplate] = useState<TemplateConfig>(templatesFor("classic")[0]);
   const content = contents[format];
-  const [view, setView] = useState<"studio" | "gallery">("studio");
+  const [view, setView] = useState<"studio" | "gallery" | "batch" | "library">("studio");
+  const [quotes, setQuotes] = useState<SavedQuote[]>([]);
+  const [history, setHistory] = useState<HistoryEntry[]>([]);
+  const [tagInput, setTagInput] = useState("");
+  const [savedNote, setSavedNote] = useState<string | null>(null);
+  useEffect(() => {
+    listQuotes().then(setQuotes);
+    listHistory().then(setHistory);
+  }, []);
+  const refreshLibrary = async () => setQuotes(await listQuotes());
+  const refreshHistory = async () => setHistory(await listHistory());
   const [locks, setLocks] = useState<Locks>({ font: false, palette: false, image: false });
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [mine, setMine] = useState<TemplateConfig[]>([]);
@@ -117,6 +133,31 @@ export default function Studio() {
     const own = templatesFor(id);
     setTemplate((t) => (t.format === id ? t : own[0] ? { ...own[0] } : { ...t, format: id, layout: FORMATS[id].layouts[0].id }));
   };
+  /** Brings a saved quote or past export back into the studio. */
+  const openContent = (c: QuoteContent, t?: TemplateConfig) => {
+    const clean = { ...c };
+    delete clean.slide;
+    setContents((all) => ({ ...all, [c.format]: clean }));
+    setFormat(c.format);
+    setSlide(0);
+    if (t && t.format === c.format) setTemplate(t);
+    else setTemplate((cur) => (cur.format === c.format ? cur : templatesFor(c.format)[0] ?? { ...cur, format: c.format, layout: FORMATS[c.format].layouts[0].id }));
+    setView("studio");
+  };
+  const saveToLibrary = async () => {
+    const tags = tagInput.split(",").map((t) => t.trim().toLowerCase().replace(/^#/, "")).filter(Boolean);
+    const added = await saveQuotes([{ content, tags }]);
+    await refreshLibrary();
+    setSavedNote(added ? "Saved to the library." : "Already in the library; tags merged.");
+    setTimeout(() => setSavedNote(null), 2500);
+  };
+  const importCollection = async () => {
+    const text = await (await fetch("/quotes/cold-quotes.txt")).text();
+    const items = parseBatch(text).filter((i) => !i.errors.length);
+    await saveQuotes(items.map((i) => ({ content: i.content, tags: i.tags })));
+    await refreshLibrary();
+  };
+
   /** Classic → Hook/Body/Punchline: split the pasted paragraph at sentence boundaries. */
   const structureInto = (target: "hbp" | "carousel") => {
     const source = format === "classic" ? String(content.text ?? "") : flatten(content as Record<string, string>);
@@ -244,6 +285,19 @@ export default function Studio() {
         reports = [r.report];
       }
       if (loaded) trackDownload(loaded.candidate);
+      await addHistory({
+        at: Date.now(),
+        kind: slides > 1 ? "carousel" : "single",
+        name: slides > 1 ? `${base}_${slides}-slides.zip` : `${base}.${settings.format === "jpeg" ? "jpg" : settings.format}`,
+        files: slides,
+        format,
+        presetId: preset.id,
+        width: w,
+        height: h,
+        template,
+        content,
+      });
+      refreshHistory();
       const issues = [...new Set(reports.flatMap((report) => [...report.collisions, ...(report.overflow ? ["text overflow"] : []), ...(report.upscaled ? ["photo upscaled"] : [])]))];
       setLastExport(`${slides > 1 ? `${slides} slides, ` : ""}${w}×${h} in ${Math.round(performance.now() - t0)} ms${issues.length ? ` · ${issues.join(", ")}` : ""}`);
     } catch (e) {
@@ -251,7 +305,7 @@ export default function Studio() {
     } finally {
       setBusy(false);
     }
-  }, [input, exportSize, preset, settings.format, text, photoBg, ph, slides, format]);
+  }, [input, exportSize, preset, settings.format, text, photoBg, ph, slides, format, template, content]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -270,14 +324,15 @@ export default function Studio() {
 
   return (
     <div className="min-h-dvh lg:h-dvh flex flex-col">
-      <header className="flex items-baseline justify-between px-5 py-3 border-b border-line bg-panel">
+      <header className="flex flex-wrap items-center justify-between gap-2 px-4 sm:px-5 py-3 border-b border-line bg-panel">
         <div className="flex items-baseline gap-3">
           <span className="text-[15px] font-semibold tracking-tight">Quote Studio</span>
           <span className="hidden md:inline text-xs text-dim">Fred M | 1963ke · @ngariq_</span>
         </div>
-        <nav className="flex gap-1.5" aria-label="View">
-          <button className="chip" data-on={view === "studio"} onClick={() => setView("studio")}>Studio</button>
-          <button className="chip" data-on={view === "gallery"} onClick={() => setView("gallery")}>Gallery</button>
+        <nav className="flex flex-wrap gap-1.5" aria-label="View">
+          {(["studio", "gallery", "batch", "library"] as const).map((v) => (
+            <button key={v} className="chip capitalize" data-on={view === v} onClick={() => setView(v)}>{v}</button>
+          ))}
         </nav>
         <div className="hidden lg:flex items-center gap-4 text-xs text-dim">
           <span>Favourite<kbd>F</kbd></span>
@@ -287,6 +342,46 @@ export default function Studio() {
         </div>
       </header>
 
+      {view === "batch" && (
+        <Batch
+          presetId={settings.preset}
+          scale={settings.scale}
+          format={settings.format}
+          signature={{ enabled: settings.signatureEnabled, style: settings.signatureStyle }}
+          currentTemplate={template}
+          photo={ph.photo?.bitmap}
+          onOpen={openContent}
+          onSaveToLibrary={async (items) => {
+            const added = await saveQuotes(items);
+            await refreshLibrary();
+            return added;
+          }}
+          onExported={async ({ name, files, preview }) => {
+            await addHistory({ at: Date.now(), kind: "batch", name, files, format: "batch", presetId: preset.id, width: exportSize.width, height: exportSize.height, preview });
+            refreshHistory();
+          }}
+        />
+      )}
+      {view === "library" && (
+        <Library
+          quotes={quotes}
+          history={history}
+          onOpen={openContent}
+          onDelete={async (id) => {
+            await deleteQuote(id);
+            refreshLibrary();
+          }}
+          onSetTags={async (id, tags) => {
+            await updateQuoteTags(id, tags);
+            refreshLibrary();
+          }}
+          onImportCollection={importCollection}
+          onClearHistory={async () => {
+            await clearHistory();
+            refreshHistory();
+          }}
+        />
+      )}
       {view === "gallery" && (
         <Gallery
           format={format}
@@ -336,6 +431,15 @@ export default function Studio() {
             )}
             <button className="btn" onClick={() => setContents((c) => ({ ...c, [format]: SAMPLES[format] }))}>Load sample</button>
           </div>
+
+          <div>
+            <div className="label mb-2">Library</div>
+            <div className="flex gap-2">
+              <input className="field" placeholder="Tags, comma separated" value={tagInput} onChange={(e) => setTagInput(e.target.value)} />
+              <button className="btn shrink-0" onClick={saveToLibrary}>Save</button>
+            </div>
+            {savedNote && <div className="mt-1 text-xs text-dim">{savedNote}</div>}
+          </div>
           {(format === "hbp" || format === "carousel") && (
             <div className="text-xs text-dim -mt-3">Auto-structure re-splits all the text: first sentence → hook, last → punchline, the rest → body.</div>
           )}
@@ -377,7 +481,8 @@ export default function Studio() {
 
         {/* Style controls */}
         <section className="order-3 bg-panel border-l border-line p-5 space-y-5 lg:overflow-y-auto">
-          <div className="flex gap-2">
+          {/* On phones these live in the sticky bar at the bottom. */}
+          <div className="hidden lg:flex gap-2">
             <button className="btn flex-1" onClick={shuffle}>Shuffle</button>
             <button className="btn btn-primary flex-1" onClick={doExport} disabled={busy}>{busy ? "Rendering…" : slides > 1 ? `Export ${slides}` : "Export"}</button>
           </div>
@@ -466,6 +571,15 @@ export default function Studio() {
           </Group>
         </section>
       </main>
+
+      {/* Phones: the main actions stay in reach while scrolling the form. */}
+      {view === "studio" && (
+        <div className="lg:hidden sticky bottom-0 z-10 flex gap-2 px-4 py-3 bg-panel/95 border-t border-line backdrop-blur" style={{ paddingBottom: "max(12px, env(safe-area-inset-bottom))" }}>
+          <button className="btn flex-1" onClick={shuffle}>Shuffle</button>
+          {photoBg && <button className="btn flex-1" onClick={ph.next}>New image</button>}
+          <button className="btn btn-primary flex-1" onClick={doExport} disabled={busy}>{busy ? "Rendering…" : slides > 1 ? `Export ${slides}` : "Export"}</button>
+        </div>
+      )}
     </div>
   );
 }
