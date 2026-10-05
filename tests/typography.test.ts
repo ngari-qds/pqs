@@ -107,3 +107,13 @@ describe("smart typography", () => {
     expect(mathSymbols("Effort - Ego = Progress")).toBe("Effort − Ego = Progress");
   });
 });
+
+describe("measure rules", () => {
+  it("accepts two short lines when one line would exceed the maximum measure", () => {
+    // 57 characters, max 55 per line: two lines averaging 28.5 < 30 must still fit.
+    const p = params("She found closure the day she stopped checking her phone.", { minCharsPerLine: 30, maxCharsPerLine: 55 });
+    const r = autofit(p);
+    expect(r.fits).toBe(true);
+    expect(r.lines.length).toBe(2);
+  });
+});

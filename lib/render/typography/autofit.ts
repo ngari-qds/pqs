@@ -56,9 +56,14 @@ export function layoutAtSize(p: FitParams, size: number): FitResult {
   else if (height > p.maxHeightPx + 0.01) reason = "too-tall";
   else if (p.minCharsPerLine && lines.length > 1) {
     const nonEmpty = lines.filter((l) => l.tokens.length);
-    const avg = nonEmpty.reduce((n, l) => n + charCount(l), 0) / Math.max(1, nonEmpty.length);
+    const total = nonEmpty.reduce((n, l) => n + charCount(l), 0);
+    const avg = total / Math.max(1, nonEmpty.length);
     const multiWordParas = p.paragraphs.some((para) => para.length > 1);
-    if (multiWordParas && avg < p.minCharsPerLine) reason = "measure-too-short";
+    // Only reject short lines when fewer, fuller lines are actually possible:
+    // a 57-character line under a 55-character maximum must take two lines,
+    // even though they average under the minimum.
+    const fewestPossible = p.maxCharsPerLine ? p.paragraphs.filter((x) => x.length).length + Math.max(0, Math.ceil(total / p.maxCharsPerLine) - 1) : 1;
+    if (multiWordParas && avg < p.minCharsPerLine && nonEmpty.length > fewestPossible) reason = "measure-too-short";
   }
   return { size, lines, lineHeight: lh, height, fits: !reason, reason };
 }

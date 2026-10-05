@@ -1,0 +1,2390 @@
+// =====================================================================
+// COLD QUOTES — Fred M | 1963ke · @ngariq_
+// A collection of original lines on reality, life, death, love,
+// relationships, family, time, work and memory. No comfort intended.
+//
+// Every quote is written in the studio's batch format, so this whole
+// file can be pasted into Batch mode or imported into the Library:
+//
+//   @format        starts a quote of that format (any of the 20)
+//   key: value     sets a field; lines without a key continue it
+//   - item         adds an item to a list
+//   tags: a, b     tags for the Library
+//   //             a comment (ignored)
+//
+// Formats, in order: classic, one-liner, hbp, carousel, highlight,
+// contrast, myth-truth, then-now, paradox, list, qa, definition,
+// equation, stat, law, dialogue, stanza, field-note, post-card,
+// pull-quote.
+// =====================================================================
+
+
+// ---------------------------------------------------------------------
+// CLASSIC
+// ---------------------------------------------------------------------
+
+@classic
+text: Most people don't want the truth. They want a *quieter* version of it they can live next to.
+tags: truth, reality
+
+@classic
+text: You are not owed a reason. Most endings arrive without one.
+tags: endings, relationships
+
+@classic
+text: Love does not conquer anything. It negotiates, and it usually loses to rent.
+tags: love, money
+
+@classic
+text: The dead are not watching. That is the part nobody wants to hear.
+tags: death
+
+@classic
+text: Nobody is thinking about you as much as you fear, or as much as you hope.
+tags: reality, self
+
+@classic
+text: Grief is the invoice for having loved something that was always going to leave.
+tags: grief, love
+
+@classic
+text: Your family knew you first, which is not the same as knowing you.
+tags: family
+
+@classic
+text: Time does not heal. It buries the wound under enough days that you stop digging.
+tags: time, grief
+
+@classic
+text: Most friendships are proximity mistaken for loyalty. Move away and watch.
+tags: friendship
+
+@classic
+text: The world was not built for you. It was built, and you arrived.
+tags: reality
+
+@classic
+text: Every promise is a prediction made by someone who cannot see the future.
+tags: love, promises
+
+@classic
+text: You will be forgotten. The only question is whether it takes one generation or two.
+tags: death, legacy
+
+@classic
+text: People do not change because you love them. They change when staying the same finally costs more.
+tags: relationships, change
+
+@classic
+text: Hope is a loan against a future that has not agreed to pay it back.
+tags: hope
+
+@classic
+text: The body keeps a ledger, and it always collects.
+tags: body, aging
+
+@classic
+text: Kindness is remembered briefly. Cruelty is remembered precisely.
+tags: people, memory
+
+@classic
+text: You were not chosen. You were *available*. Learn the difference before it costs you a decade.
+tags: love, relationships
+
+@classic
+text: Loneliness is not the absence of people. It is the presence of people who would not notice your absence.
+tags: loneliness
+
+@classic
+text: Most apologies are requests for the other person to stop making you uncomfortable.
+tags: relationships
+
+@classic
+text: Nobody is coming to tell you that you wasted it. That is how you know you are wasting it.
+tags: time, life
+
+@classic
+text: Money does not buy happiness. It buys distance from the things that make you unhappy, which is close enough.
+tags: money
+
+@classic
+text: The truth does not need you to believe it. It can wait. It has always waited.
+tags: truth
+
+@classic
+text: Children do not inherit your values. They inherit your habits.
+tags: family
+
+@classic
+text: Death is not a lesson. It teaches nothing to the person it happens to.
+tags: death
+
+@classic
+text: Most people are not evil. They are busy, and the effect is remarkably similar.
+tags: people
+
+@classic
+text: Your parents were just people who ran out of time to become better.
+tags: family, time
+
+@classic
+text: A relationship ends twice: once when it ends, and once when you stop explaining it.
+tags: relationships, endings
+
+@classic
+text: The universe is not cruel. It is uninterested, which is worse for the ego and better for the work.
+tags: reality
+
+@classic
+text: Success mostly reveals who was only waiting to resent you.
+tags: success, people
+
+@classic
+text: You are a draft that will never be finished. Nobody is reading closely enough to notice.
+tags: life
+
+@classic
+text: Love that requires constant proof is not love. It is surveillance with flowers.
+tags: love
+
+@classic
+text: Everyone is replaceable at work. Some are replaceable at home too. They just find out later.
+tags: work, relationships
+
+@classic
+text: Memory is not a record. It is a story you keep editing until it flatters you.
+tags: memory
+
+@classic
+text: The funeral is for the living. The dead have already stopped caring how it goes.
+tags: death
+
+@classic
+text: Most of what you call fate is your own patterns, compounded.
+tags: choices
+
+@classic
+text: People leave the way they arrived: for reasons that had very little to do with you.
+tags: relationships
+
+@classic
+text: There is no correct amount of grief. There is only how much you carry and how far.
+tags: grief
+
+@classic
+text: Being needed is not the same as being loved. Ask anyone who stopped being useful.
+tags: love
+
+@classic
+text: The past is not behind you. It is underneath you, holding up everything you think you chose.
+tags: past
+
+@classic
+text: Your comfort is someone else's unpaid labour. Usually someone you call by name.
+tags: family, society
+
+@classic
+text: You do not get closure. You get used to the open door.
+tags: endings
+
+@classic
+text: Aging is the slow discovery that the adults were improvising too.
+tags: aging, family
+
+@classic
+text: The silence after an argument tells you more than the argument did.
+tags: relationships
+
+@classic
+text: Nobody remembers second place, and first place rarely remembers anyone.
+tags: ambition
+
+@classic
+text: Love is a decision made daily by two tired people. When one stops deciding, it is already over.
+tags: love
+
+@classic
+text: Most people want to be understood only as far as it is flattering.
+tags: truth, people
+
+@classic
+text: The world does not reward effort. It rewards outcomes, and occasionally mistakes them for effort.
+tags: work
+
+@classic
+text: You cannot outrun your nature. You can only choose where it catches you.
+tags: self
+
+@classic
+text: Some people will only love you while you are struggling. Your success removes their role.
+tags: relationships, success
+
+@classic
+text: Every generation thinks it invented loneliness. It only invented new rooms to be lonely in.
+tags: loneliness, society
+
+@classic
+text: Death does not end the relationship. It makes it entirely one-sided.
+tags: death, grief
+
+@classic
+text: A home is a place where your absence is noticed within a day. Most people have fewer than they think.
+tags: home, loneliness
+
+@classic
+text: The heart wants what it wants, and the bank account decides.
+tags: love, money
+
+@classic
+text: You will outlive most of your convictions, and you will defend each one until the day you drop it.
+tags: self, aging
+
+@classic
+text: Forgiveness is not for them, and it is not for you. It is what happens when you are too tired to keep score.
+tags: forgiveness
+
+@classic
+text: Everyone you admire has disappointed someone who loved them.
+tags: people
+
+@classic
+text: Trust is a bet that someone's interests will keep matching yours.
+tags: trust
+
+@classic
+text: Life is not short. It is long enough to repeat the same mistake for forty years.
+tags: life, time
+
+@classic
+text: Your enemies are not thinking about you. That is the real insult.
+tags: reality
+
+@classic
+text: Most people die with their best work still in a drawer they kept meaning to open.
+tags: death, work
+
+
+// ---------------------------------------------------------------------
+// ONE-LINER
+// ---------------------------------------------------------------------
+
+@one-liner
+The city does not remember the people who waited.
+tags: time, city
+
+@one-liner
+Nobody is coming.
+tags: reality
+
+@one-liner
+There is no main character.
+tags: reality, self
+
+@one-liner
+Love is a contract with no enforcement clause.
+tags: love
+
+@one-liner
+The dead do not miss you back.
+tags: death, grief
+
+@one-liner
+Every room you leave stays exactly as it was.
+tags: endings
+
+@one-liner
+Time is the only debt everyone pays in full.
+tags: time, death
+
+@one-liner
+Some doors are closed because you closed them.
+tags: choices
+
+@one-liner
+Your excuses are only convincing to you.
+tags: self
+
+@one-liner
+People forget faces before they forget debts.
+tags: money, memory
+
+@one-liner
+Nothing lasts, and that is the whole schedule.
+tags: time
+
+@one-liner
+Hope is not a plan.
+tags: hope
+
+@one-liner
+Grief is the tax on love.
+tags: grief, love
+
+@one-liner
+You are temporary. Act like it.
+tags: death, life
+
+@one-liner
+Most loyalty has a price nobody has asked yet.
+tags: loyalty
+
+@one-liner
+Silence is also an answer.
+tags: relationships
+
+@one-liner
+The truth arrives late and never apologises.
+tags: truth
+
+@one-liner
+Your phone is full of people who would not cross town for you.
+tags: friendship, loneliness
+
+@one-liner
+Comfort is the slowest way to disappear.
+tags: comfort
+
+@one-liner
+Endings rarely announce themselves.
+tags: endings
+
+@one-liner
+Most regret is arithmetic done too late.
+tags: regret
+
+@one-liner
+Nobody owes you their best version.
+tags: relationships
+
+@one-liner
+The body always keeps the receipt.
+tags: body
+
+@one-liner
+The world will go on without you, smoothly.
+tags: death, reality
+
+@one-liner
+Being right is lonely and rarely useful.
+tags: truth
+
+@one-liner
+Waiting is a decision dressed as patience.
+tags: time, choices
+
+@one-liner
+Love fades. Habits remain.
+tags: love
+
+@one-liner
+Every crowd is a room of strangers agreeing to pretend.
+tags: society
+
+@one-liner
+You are someone's cautionary tale.
+tags: self
+
+@one-liner
+Memory flatters the one who keeps it.
+tags: memory
+
+@one-liner
+Your parents are slowly becoming your children.
+tags: family, aging
+
+@one-liner
+The clock does not care about your plans.
+tags: time
+
+@one-liner
+Most people leave quietly.
+tags: relationships, endings
+
+@one-liner
+Kindness without limits is a slower surrender.
+tags: people
+
+@one-liner
+Death is the only appointment nobody reschedules.
+tags: death
+
+@one-liner
+Being missed is rarer than being replaced.
+tags: work, relationships
+
+@one-liner
+Fear makes excellent furniture.
+tags: fear, comfort
+
+@one-liner
+The past does not stay where you left it.
+tags: past
+
+@one-liner
+Nobody reads the whole letter.
+tags: people
+
+@one-liner
+Some people are only lonely in company.
+tags: loneliness
+
+@one-liner
+You will not be remembered for what you intended.
+tags: legacy
+
+@one-liner
+Love is mostly logistics.
+tags: love
+
+@one-liner
+Every goodbye is a rehearsal.
+tags: endings, death
+
+@one-liner
+Reality does not negotiate.
+tags: reality
+
+@one-liner
+Potential is not an asset. It is a rumour.
+tags: ambition
+
+@one-liner
+The world rewards the loud and buries the careful.
+tags: society
+
+@one-liner
+Funerals are where people finally say what they meant.
+tags: death
+
+@one-liner
+Most dreams die of neglect, not failure.
+tags: ambition
+
+@one-liner
+You are not too old. You are too comfortable.
+tags: comfort, aging
+
+@one-liner
+Everyone you love becomes a memory, or makes one of you.
+tags: love, death
+
+
+// ---------------------------------------------------------------------
+// HOOK / BODY / PUNCHLINE
+// ---------------------------------------------------------------------
+
+@hbp
+hook: Nobody is coming.
+body: Not the mentor, not the lucky break, not the version of you that finally feels ready. The room stays exactly as you leave it.
+punchline: The door was never locked.
+tags: reality, choices
+
+@hbp
+hook: Love is not enough.
+body: It does not pay the rent, raise the children, or survive the fourth year of the same argument at the same table. Love is the fuel, not the engine.
+punchline: Most marriages end with plenty of fuel left.
+tags: love, marriage
+
+@hbp
+hook: You will be forgotten.
+body: Three generations from now nobody alive will know your voice. Your name may survive on paper, attached to nothing. Every grudge you carried will be carried by no one.
+punchline: Spend your grudges accordingly.
+tags: death, legacy
+
+@hbp
+hook: Your friends are temporary.
+body: Most were assigned by geography, schedules and shared complaints. Change one of those and watch the calls become texts, and the texts become birthdays.
+punchline: The ones who stay were never about convenience.
+tags: friendship
+
+@hbp
+hook: Grief does not end.
+body: It changes shape. It becomes smaller, quieter, easier to carry in public. It still sits at the table with you on certain dates.
+punchline: You do not get over it. You get used to the weight.
+tags: grief
+
+@hbp
+hook: Nobody is watching.
+body: The audience you perform for is mostly imaginary. The people you fear are busy with their own fear. Your mistakes are forgotten faster than you can replay them.
+punchline: That is either a tragedy or a permission slip.
+tags: self, reality
+
+@hbp
+hook: Time is not money.
+body: Money comes back. You can lose it, earn it, borrow it, inherit it. Time only leaves, and it leaves at the same speed whether you use it or not.
+punchline: Stop trading the scarce thing for the plentiful one.
+tags: time, money
+
+@hbp
+hook: The truth is boring.
+body: It rarely has a villain, a twist or a moral. Most disasters are small neglects that compounded quietly while everyone was looking elsewhere.
+punchline: That is why people prefer stories.
+tags: truth
+
+@hbp
+hook: Your parents did their best.
+body: Their best was limited by what they were given, what they feared and how tired they were. That explains a lot. It excuses less than you were taught.
+punchline: Both are true at the same time.
+tags: family
+
+@hbp
+hook: Love ends in small ways.
+body: A question not asked. A story not shared. A door closed a little more quietly than before. Nobody notices the last ordinary evening.
+punchline: The big fight is only the paperwork.
+tags: love, endings
+
+@hbp
+hook: Death is not dramatic.
+body: It happens in hospitals at four in the morning, between shift changes, while someone is getting coffee. It does not wait for the right words.
+punchline: Say them before the coffee.
+tags: death
+
+@hbp
+hook: Nobody owes you closure.
+body: People leave without explaining because explaining is work, and they have already stopped working on you.
+punchline: The silence is the explanation.
+tags: endings, relationships
+
+@hbp
+hook: Your potential is expiring.
+body: Every year you call yourself promising, the word means a little less. Eventually it becomes polite: what people say about someone who never did.
+punchline: Promise is a perishable good.
+tags: ambition, time
+
+@hbp
+hook: You are not special.
+body: Your pain is common, your story is familiar and your fears are shared by millions who will never meet you.
+punchline: That is not an insult. It is the only reason anyone can help.
+tags: self, reality
+
+@hbp
+hook: Most people stay.
+body: Not because they are happy, but because leaving requires a plan, a fight and a version of themselves they have not met yet.
+punchline: Staying is the default. Leaving is a decision.
+tags: relationships, choices
+
+@hbp
+hook: The world is not fair.
+body: It was never designed to be. Fairness is a human invention, enforced unevenly, mostly by the people who benefit from the current version.
+punchline: Expect nothing from the universe and specific things from people.
+tags: reality, society
+
+@hbp
+hook: Love is a risk.
+body: Every person you let in becomes a future grief, through leaving, changing or dying. There is no version of love that skips the ending.
+punchline: You are only choosing which ending.
+tags: love, grief
+
+@hbp
+hook: Your work will not love you back.
+body: You can give it nights, weekends and the best years of your attention. It will replace you within a month and throw a small party.
+punchline: Know who will be at your funeral.
+tags: work, death
+
+@hbp
+hook: Nobody gets it all.
+body: Every life is a set of trade-offs made in ignorance. The career cost the marriage, the marriage cost the city, the city cost the friend.
+punchline: Choose your losses on purpose.
+tags: life, choices
+
+@hbp
+hook: You cannot save people.
+body: You can offer a door, a meal, a phone number. Whether they walk through it was never your decision, and pretending otherwise is a kind of vanity.
+punchline: Help, then let go.
+tags: relationships
+
+@hbp
+hook: Aging is subtraction.
+body: First the knees, then the names, then the people who remember who you were at twenty. You become the only archive of a world that no longer exists.
+punchline: Write some of it down.
+tags: aging, memory
+
+@hbp
+hook: The past was not better.
+body: You were younger, your body worked, and somebody else was paying for most of it. Nostalgia is mostly a memory of being looked after.
+punchline: Nobody is looking after you now.
+tags: past, aging
+
+@hbp
+hook: Money changes people.
+body: Mostly it reveals them. The generous become effective, the cruel become efficient, and the insecure buy louder versions of the same doubt.
+punchline: Watch what people do with a little.
+tags: money, people
+
+@hbp
+hook: Silence is information.
+body: When someone stops arguing, they have usually stopped hoping. The quiet is not peace. It is the sound of a decision being made without you.
+punchline: Listen to what stopped.
+tags: relationships, endings
+
+@hbp
+hook: Everyone is lying a little.
+body: About how they are, what they earn, why they left, what they want. Society runs on small, mutual, forgivable dishonesty.
+punchline: Trust patterns, not sentences.
+tags: truth, people
+
+
+// ---------------------------------------------------------------------
+// CAROUSEL
+// ---------------------------------------------------------------------
+
+@carousel
+hook: Comfort is a loan.
+body: It feels free when you take it. The interest is invisible for years. Then one morning you notice the calls you stopped making and the rooms you no longer enter. Nobody sent a bill. You paid in time.
+punchline: Every loan is repaid in the currency you value most.
+tags: comfort, time
+
+@carousel
+hook: Your funeral will be short.
+body: Two hours, maybe three. A few people will speak, and most of what they say will be true and incomplete. Someone will mention your laugh. Someone will check the time. Afterwards there will be food and conversations about traffic. Within a week, the people who loved you will be back at work. That is not cruelty. It is the arrangement.
+punchline: Live for the few who will still talk about you a year later.
+tags: death, legacy
+
+@carousel
+hook: Love is a maintenance job.
+body: It is not a feeling you find. It is a building you keep repairing. The roof leaks in winter. The pipes freeze in the fourth year. Someone has to call the plumber, and someone has to pay. Most couples do not split over betrayal. They split over who stopped fixing things.
+punchline: Romance is the brochure. Maintenance is the house.
+tags: love, marriage
+
+@carousel
+hook: You are running out of summers.
+body: If you are forty, you may have forty left. If you are sixty, perhaps twenty. Each one feels endless while it is happening. Then it is a photograph, then a vague warmth, then nothing in particular.
+punchline: Count them. Counting does not make them shorter. It makes them visible.
+tags: time, aging
+
+@carousel
+hook: People will disappoint you.
+body: Not because they are bad, but because you built them out of hopes they never agreed to carry. Friends are not therapists. Parents are not finished. Partners are not rescuers. Everyone is busy surviving their own week.
+punchline: Lower the statue. Keep the person.
+tags: people, relationships
+
+@carousel
+hook: Nobody remembers the effort.
+body: They remember the result, and even that only briefly. The nights you stayed late are visible to you alone. The work that failed is filed under nothing. History is a list of outcomes written by people who were not there.
+punchline: Do it for your own record. Nobody else is keeping one.
+tags: work, legacy
+
+@carousel
+hook: Death keeps no schedule.
+body: It does not wait for the reconciliation, the apology or the trip you were saving for. It arrives on a Tuesday, unannounced, in the middle of a sentence. Every unsaid thing becomes permanent at once.
+punchline: The only safe time to say it is too early.
+tags: death, regret
+
+@carousel
+hook: Your parents are aging faster than you notice.
+body: You see them twice a year and the change looks sudden. It is not. It was gradual and daily, while you were busy. One visit you notice the handrail. Another, the repeated story. Another, the call that comes at night.
+punchline: The visits are numbered. Nobody tells you the number.
+tags: family, aging, time
+
+@carousel
+hook: Loneliness is crowded.
+body: You can be lonely in a marriage, in an office, in a group chat of forty people. Loneliness is not a lack of company. It is a lack of being known by anyone in the room.
+punchline: More people will not fix it. Fewer, deeper ones might.
+tags: loneliness
+
+@carousel
+hook: The truth costs something.
+body: Every honest sentence has a price: a friendship, a promotion, a comfortable silence at dinner. Most people pay a small fee in lies every day to avoid the larger bill. The bill arrives anyway, with interest.
+punchline: Pay early. It is cheaper.
+tags: truth
+
+
+// ---------------------------------------------------------------------
+// HIGHLIGHT
+// ---------------------------------------------------------------------
+
+@highlight
+text: We call it *patience* when it is only *fear* with better posture.
+tags: fear, time
+
+@highlight
+text: Most people do not want *love*. They want an *audience* that cannot leave.
+tags: love
+
+@highlight
+text: You are not *busy*. You are *avoiding* something with a schedule.
+tags: self, time
+
+@highlight
+text: The dead are not *gone*. They are *finished*, which is different and harder.
+tags: death
+
+@highlight
+text: *Closure* is a word invented by people who still have *questions*.
+tags: endings
+
+@highlight
+text: Family is not *home*. Home is wherever you are not *explaining yourself*.
+tags: family, home
+
+@highlight
+text: People do not *forgive*. They *forget* the details and keep the feeling.
+tags: forgiveness, memory
+
+@highlight
+text: Every *goodbye* is practice for the one you will not *hear*.
+tags: death, endings
+
+@highlight
+text: You do not have a *calling*. You have *bills* and a story about them.
+tags: work, money
+
+@highlight
+text: *Love* is the most expensive thing people do for *free*.
+tags: love
+
+@highlight
+text: The world is not watching *you*. *You* are watching you.
+tags: self
+
+@highlight
+text: Some people are not afraid of *dying*. They are afraid of being *finished* with nothing to show.
+tags: death, ambition
+
+@highlight
+text: *Grief* is what remains when *love* outlives its reason.
+tags: grief, love
+
+@highlight
+text: We do not *choose* our friends. We *tolerate* the ones who stayed.
+tags: friendship
+
+@highlight
+text: *Ambition* is often just *fear* of being ordinary, wearing a suit.
+tags: ambition, fear
+
+@highlight
+text: Nobody *ruined* your life. You *signed* most of it yourself.
+tags: choices
+
+@highlight
+text: The *truth* is not hidden. It is *inconvenient* to look at.
+tags: truth
+
+@highlight
+text: You will *become* your parents in exactly the places you *swore* you would not.
+tags: family
+
+@highlight
+text: *Marriage* is two people agreeing to *lose* the same arguments forever.
+tags: marriage, love
+
+@highlight
+text: *Death* is the only thing more *certain* than your excuses.
+tags: death
+
+@highlight
+text: *Freedom* mostly feels like *nobody calling*.
+tags: loneliness, freedom
+
+@highlight
+text: A *promise* is a *forecast* with feelings attached.
+tags: promises, love
+
+@highlight
+text: The *loneliest* people often have the *busiest* phones.
+tags: loneliness
+
+@highlight
+text: You are not *stuck*. You are *comfortable*, and calling it stuck.
+tags: comfort, self
+
+@highlight
+text: Time does not *heal*. It *distracts*.
+tags: time, grief
+
+
+// ---------------------------------------------------------------------
+// CONTRAST  (labels default to "Most people think" / "In reality")
+// ---------------------------------------------------------------------
+
+@contrast
+a: Silence means nothing is happening.
+b: Silence is where the decisions are made.
+tags: relationships
+
+@contrast
+a: Love lasts if it is real.
+b: Love lasts if it is maintained. Real has nothing to do with it.
+tags: love
+
+@contrast
+a: The dead are resting.
+b: The dead are absent. Rest is a word for the living.
+tags: death
+
+@contrast
+a: Friends are forever.
+b: Friends are for a season, and seasons end without notice.
+tags: friendship
+
+@contrast
+a: Time heals all wounds.
+b: Time teaches you to stop touching them.
+tags: time, grief
+
+@contrast
+a: People change.
+b: People adapt. Change costs more than most will pay.
+tags: change
+
+@contrast
+a: Hard work is rewarded.
+b: Results are rewarded. Hard work is how some people get them.
+tags: work
+
+@contrast
+a: Family will always be there.
+b: Family will always be family. That is not the same thing.
+tags: family
+
+@contrast
+a: Honesty builds trust.
+b: Honesty tests trust, and most relationships fail the test.
+tags: truth, trust
+
+@contrast
+a: You will find the one.
+b: You will choose someone, and keep choosing them, or you won't.
+tags: love
+
+@contrast
+a: Success will make you happy.
+b: Success makes you visible, which is a different problem.
+tags: success
+
+@contrast
+a: Everyone has a purpose.
+b: Everyone has a schedule. Purpose is optional.
+tags: life
+
+@contrast
+a: Closure ends the pain.
+b: Closure is the moment you stop expecting an answer.
+tags: endings
+
+@contrast
+a: Age brings wisdom.
+b: Age brings repetition. Wisdom is rarer and has to be earned.
+tags: aging
+
+@contrast
+a: Money cannot buy happiness.
+b: Money buys time, doctors and exits. Happiness lives near those.
+tags: money
+
+@contrast
+a: Grief has stages.
+b: Grief has weather. It does not move in order.
+tags: grief
+
+@contrast
+a: The truth sets you free.
+b: The truth sets you apart. Freedom comes later, if at all.
+tags: truth
+
+@contrast
+a: They left because of you.
+b: They left because of them. You were the occasion, not the cause.
+tags: relationships, endings
+
+@contrast
+a: Death is the end of life.
+b: Death is the end of your version of events.
+tags: death, legacy
+
+@contrast
+a: Loneliness means no one is around.
+b: Loneliness means no one is paying attention.
+tags: loneliness
+
+
+// ---------------------------------------------------------------------
+// MYTH VS TRUTH
+// ---------------------------------------------------------------------
+
+@myth-truth
+a: You will know when you are ready.
+b: Ready is a feeling that arrives after you start.
+tags: choices
+
+@myth-truth
+a: Love is all you need.
+b: You also need rent, patience and someone who does the dishes unasked.
+tags: love
+
+@myth-truth
+a: Everything happens for a reason.
+b: Everything happens. The reasons are added afterwards.
+tags: reality
+
+@myth-truth
+a: Blood is thicker than water.
+b: Blood is just closer. Thickness has to be proven.
+tags: family
+
+@myth-truth
+a: The good die young.
+b: Everyone dies. The young just leave more of the story unwritten.
+tags: death
+
+@myth-truth
+a: You can be anything you want.
+b: You can be a few things, at a cost, if you start early enough.
+tags: ambition
+
+@myth-truth
+a: Time heals.
+b: Time buries. Healing is a separate job.
+tags: time, grief
+
+@myth-truth
+a: Opposites attract.
+b: Opposites argue. Shared values last.
+tags: love
+
+@myth-truth
+a: Your soulmate is out there.
+b: Thousands of people could love you, and none of them are looking.
+tags: love
+
+@myth-truth
+a: Hard times make strong people.
+b: Hard times make tired people. Some of them also become strong.
+tags: life
+
+@myth-truth
+a: People never change.
+b: People change when staying the same finally hurts more than changing.
+tags: change
+
+@myth-truth
+a: Children are resilient.
+b: Children are quiet. They unpack it later, as adults.
+tags: family
+
+@myth-truth
+a: The truth always comes out.
+b: Most truths die with the people who knew them.
+tags: truth, death
+
+@myth-truth
+a: Money is the root of all evil.
+b: Fear is. Money is just where it shows.
+tags: money, fear
+
+@myth-truth
+a: You only regret what you did not do.
+b: You regret both. The things you did just have better stories.
+tags: regret
+
+@myth-truth
+a: Grief fades with time.
+b: Grief changes size. Some days it is the size of the room.
+tags: grief
+
+@myth-truth
+a: Friends are the family you choose.
+b: Friends are the people who chose you back. That list is shorter.
+tags: friendship
+
+@myth-truth
+a: Death is peaceful.
+b: Sometimes. More often it is administrative.
+tags: death
+
+@myth-truth
+a: Work hard and you will be rewarded.
+b: Work hard and you will be useful. Reward is someone else's decision.
+tags: work
+
+@myth-truth
+a: Love conquers all.
+b: Love conquers very little. Mostly it endures.
+tags: love
+
+
+// ---------------------------------------------------------------------
+// THEN / NOW
+// ---------------------------------------------------------------------
+
+@then-now
+a: I wanted to be understood.
+b: I want to be left alone to work.
+tags: self
+
+@then-now
+a: I thought love would complete me.
+b: It only showed me what was missing.
+tags: love
+
+@then-now
+a: I was afraid of dying.
+b: I am afraid of not having used the time.
+tags: death, time
+
+@then-now
+a: I wanted many friends.
+b: I want three people who answer at two in the morning.
+tags: friendship
+
+@then-now
+a: I believed my parents knew everything.
+b: They were guessing, tired, and younger than I am now.
+tags: family
+
+@then-now
+a: I waited for the right moment.
+b: The moment was the waiting.
+tags: time, choices
+
+@then-now
+a: I thought success would feel like arriving.
+b: It feels like a new list of things to lose.
+tags: success
+
+@then-now
+a: I explained myself to everyone.
+b: I explain myself to almost no one.
+tags: self
+
+@then-now
+a: I thought time was endless.
+b: I count summers now.
+tags: time, aging
+
+@then-now
+a: I needed to be liked.
+b: I need to be left alone with the work.
+tags: self, work
+
+@then-now
+a: I thought grief would pass.
+b: I carry it like a key to a house that no longer exists.
+tags: grief
+
+@then-now
+a: I believed promises.
+b: I believe patterns.
+tags: trust
+
+@then-now
+a: I wanted to be remembered.
+b: I want to finish the things that matter.
+tags: legacy
+
+@then-now
+labelA: Before
+a: Home was a place.
+labelB: After
+b: Home is the one person who notices when I go quiet.
+tags: home, love
+
+@then-now
+a: I wanted answers.
+b: I want better questions and fewer people asking them.
+tags: truth
+
+
+// ---------------------------------------------------------------------
+// PARADOX
+// ---------------------------------------------------------------------
+
+@paradox
+first: The more doors you keep open,
+second: the fewer rooms you ever enter.
+tags: choices
+
+@paradox
+first: The more you need to be loved,
+second: the harder you are to love.
+tags: love
+
+@paradox
+first: Everyone wants to live forever,
+second: and nobody knows what to do on a Sunday afternoon.
+tags: life, time
+
+@paradox
+first: The closer you get to someone,
+second: the more ways they have to leave.
+tags: relationships
+
+@paradox
+first: You spend your youth waiting to be older,
+second: and your age wishing you had wasted less of your youth.
+tags: aging, time
+
+@paradox
+first: The people who swear they will always be there
+second: are rarely there for long.
+tags: relationships
+
+@paradox
+first: Freedom is everything you want,
+second: until there is no one left to answer to.
+tags: freedom, loneliness
+
+@paradox
+first: The more you explain yourself,
+second: the less you are believed.
+tags: truth
+
+@paradox
+first: We bury the dead to remember them,
+second: and visit them less every year.
+tags: death, memory
+
+@paradox
+first: The safer you play it,
+second: the riskier your regrets become.
+tags: regret, choices
+
+@paradox
+first: You learn the value of time
+second: only after spending most of it.
+tags: time
+
+@paradox
+first: The loudest people in the room
+second: are rarely the ones being heard.
+tags: people
+
+@paradox
+first: Love asks you to stay the same,
+second: and then leaves because you did.
+tags: love
+
+@paradox
+first: The harder you hold on to people,
+second: the faster they look for the door.
+tags: relationships
+
+@paradox
+first: You protect your heart from everyone,
+second: and then wonder why it feels empty.
+tags: love, loneliness
+
+@paradox
+first: The things you work hardest to keep
+second: are the first things time takes.
+tags: time
+
+@paradox
+first: We call it independence
+second: when there is no one left to depend on.
+tags: loneliness, freedom
+
+@paradox
+first: The more you know about people,
+second: the less you expect, and the more you forgive.
+tags: people
+
+@paradox
+first: You chase certainty all your life,
+second: and the only certain thing is the end of the chase.
+tags: death
+
+@paradox
+first: The best years are the ones
+second: you were too busy to notice.
+tags: time, life
+
+@paradox
+first: Everyone is afraid of being forgotten,
+second: and almost everyone is.
+tags: legacy, death
+
+@paradox
+first: The more you have to lose,
+second: the less you actually live.
+tags: life
+
+@paradox
+first: You keep your options open
+second: until there are no options left.
+tags: choices
+
+@paradox
+first: We are most honest with strangers
+second: and most careful with the people we love.
+tags: truth, love
+
+@paradox
+first: The harder you try to be understood,
+second: the more of a stranger you become to yourself.
+tags: self
+
+
+// ---------------------------------------------------------------------
+// LIST
+// ---------------------------------------------------------------------
+
+@list
+title: Things I stopped doing
+- Explaining myself twice
+- Answering at midnight
+- Waiting for the right mood
+- Keeping score
+- Arguing with weather
+tags: self
+
+@list
+title: Things nobody tells you about grief
+- It is boring
+- It arrives on ordinary Tuesdays
+- It makes you angry at strangers
+- It skips the stages
+- It never fully leaves
+tags: grief
+
+@list
+title: What actually ends relationships
+- Silence
+- Contempt
+- Unpaid emotional labour
+- Growing at different speeds
+- Logistics
+tags: relationships, endings
+
+@list
+title: Rules I learned too late
+- Nobody is coming
+- Contracts beat promises
+- Sleep is not optional
+- The body keeps score
+- Most urgency is fake
+tags: life
+
+@list
+title: Not on your gravestone
+- Your job title
+- Your inbox
+- Who was right
+- How busy you were
+- What they thought of you
+tags: death, work
+
+@list
+title: Observations on love
+- It is mostly logistics
+- It does not survive contempt
+- It cannot be argued into existence
+- It is quieter than films claim
+- It ends more often than it fails
+tags: love
+
+@list
+title: What money actually buys
+- Time
+- Distance
+- Better doctors
+- Exits
+- Fewer witnesses
+tags: money
+
+@list
+title: Things I stopped expecting
+- Fairness
+- Gratitude
+- Apologies
+- Closure
+- Understanding from those who profit from not understanding
+tags: reality
+
+@list
+title: How people leave
+- Slowly
+- Quietly
+- With excuses
+- Without one
+- Long before the day they go
+tags: relationships, endings
+
+@list
+title: Things the dead cannot do
+- Apologise
+- Explain
+- Hear you
+- Forgive you
+- Correct the story
+tags: death, grief
+
+@list
+title: Lies we tell at funerals
+- He was never angry
+- She had no regrets
+- It was quick
+- They are at peace
+- We will stay in touch
+tags: death
+
+@list
+title: Truths about friendship
+- Most are seasonal
+- Distance tests everything
+- The ones who call first matter
+- Envy hides well
+- Few survive your success
+tags: friendship
+
+
+// ---------------------------------------------------------------------
+// QUESTION + ANSWER
+// ---------------------------------------------------------------------
+
+@qa
+question: What do you owe the people who doubted you?
+answer: Nothing. Not even the satisfaction of proving them wrong.
+tags: people
+
+@qa
+question: Does love last forever?
+answer: Nothing lasts forever. Love lasts as long as someone keeps choosing it.
+tags: love
+
+@qa
+question: What happens when we die?
+answer: For you, nothing. For the people left, paperwork and an empty chair.
+tags: death
+
+@qa
+question: Why do people leave?
+answer: Because staying became more expensive than going.
+tags: relationships
+
+@qa
+question: Will they ever apologise?
+answer: Probably not. Build your peace without their signature.
+tags: forgiveness
+
+@qa
+question: Is it too late?
+answer: For some things, yes. Stop asking about those and start on the rest.
+tags: time, regret
+
+@qa
+question: Why does it still hurt?
+answer: Because it mattered. Pain is the receipt.
+tags: grief
+
+@qa
+question: Who will remember me?
+answer: A few people, for a while. Then nobody. Act with that in mind.
+tags: legacy, death
+
+@qa
+question: What is the meaning of life?
+answer: None was included. You are expected to bring your own.
+tags: life
+
+@qa
+question: Why am I lonely in a crowd?
+answer: Because being seen and being known are different services.
+tags: loneliness
+
+@qa
+question: Will I find the one?
+answer: You will find people. Whether one becomes the one is decided daily, by both of you.
+tags: love
+
+@qa
+question: Can people change?
+answer: Yes. Usually after it is too late to matter to you.
+tags: change
+
+@qa
+question: Why do good people suffer?
+answer: Because suffering does not check references.
+tags: reality
+
+@qa
+question: When will I feel ready?
+answer: Never. Ready arrives after you have already started.
+tags: choices
+
+@qa
+question: Is my family right about me?
+answer: They are right about who you were. Not necessarily about who you are.
+tags: family
+
+@qa
+question: Why do I miss someone who hurt me?
+answer: Because you miss who they were on their best day, and that person never stayed.
+tags: relationships, grief
+
+@qa
+question: What do I owe my parents?
+answer: Respect for what they survived. Not obedience to what they feared.
+tags: family
+
+@qa
+question: How do I get over them?
+answer: You don't get over. You get used to, and then you get busy.
+tags: endings
+
+@qa
+question: Does anyone actually care?
+answer: A handful of people do. Learn their names. The rest are audience.
+tags: people
+
+@qa
+question: Is it worth it?
+answer: Nothing is worth it in advance. You find out afterwards, alone.
+tags: life
+
+
+// ---------------------------------------------------------------------
+// DEFINITION
+// ---------------------------------------------------------------------
+
+@definition
+word: Solitude
+phonetic: ˈsɒl.ɪ.tjuːd
+pos: noun
+definition: The condition in which a person finally hears their own opinion.
+usage: He mistook it for loneliness for years.
+tags: solitude
+
+@definition
+word: Love
+phonetic: lʌv
+pos: noun
+definition: A long negotiation between two people who keep changing the terms.
+usage: They called it love until the terms stopped matching.
+tags: love
+
+@definition
+word: Grief
+phonetic: ɡriːf
+pos: noun
+definition: The cost of having loved something that was always going to end.
+usage: Grief arrived late and stayed longer than any guest.
+tags: grief
+
+@definition
+word: Closure
+phonetic: ˈkləʊ.ʒə
+pos: noun
+definition: The point at which you stop waiting for an answer that was never coming.
+usage: She found closure the day she stopped checking her phone.
+tags: endings
+
+@definition
+word: Friendship
+phonetic: ˈfrend.ʃɪp
+pos: noun
+definition: An arrangement maintained by proximity, convenience and, occasionally, devotion.
+usage: The friendship ended when the commute did.
+tags: friendship
+
+@definition
+word: Nostalgia
+phonetic: nɒˈstæl.dʒə
+pos: noun
+definition: Missing a time when someone else was paying for things.
+usage: His nostalgia was mostly for a back that worked.
+tags: past
+
+@definition
+word: Hope
+phonetic: həʊp
+pos: noun
+definition: A loan taken out against a future that has not agreed to pay.
+usage: They lived on hope until the interest came due.
+tags: hope
+
+@definition
+word: Regret
+phonetic: rɪˈɡret
+pos: noun
+definition: Arithmetic, done too late to change the answer.
+usage: Regret kept perfect books.
+tags: regret
+
+@definition
+word: Home
+phonetic: həʊm
+pos: noun
+definition: Any place where your absence would be noticed within a day.
+usage: By that measure he had not been home in years.
+tags: home
+
+@definition
+word: Legacy
+phonetic: ˈleɡ.ə.si
+pos: noun
+definition: The story told about you by people who were not paying close attention.
+usage: His legacy fit on the back of the funeral programme.
+tags: legacy
+
+@definition
+word: Ambition
+phonetic: æmˈbɪʃ.ən
+pos: noun
+definition: The fear of being ordinary, given a schedule.
+usage: Her ambition outlived every reason she had for it.
+tags: ambition
+
+@definition
+word: Marriage
+phonetic: ˈmær.ɪdʒ
+pos: noun
+definition: A contract renewed silently every morning, or not.
+usage: Nobody noticed the morning it wasn't.
+tags: marriage
+
+@definition
+word: Loneliness
+phonetic: ˈləʊn.li.nəs
+pos: noun
+definition: The condition of being surrounded by people who would not notice you leave.
+usage: The office was full. So was his loneliness.
+tags: loneliness
+
+@definition
+word: Apology
+phonetic: əˈpɒl.ə.dʒi
+pos: noun
+definition: A request for the other person to stop making you feel bad.
+usage: It came with three explanations, which made it an invoice.
+tags: relationships
+
+@definition
+word: Memory
+phonetic: ˈmem.ər.i
+pos: noun
+definition: A story edited by its only reader until it flatters them.
+usage: In her memory he had always been kind.
+tags: memory
+
+@definition
+word: Mortality
+phonetic: mɔːˈtæl.ə.ti
+pos: noun
+definition: The deadline everyone agrees to ignore until the week it arrives.
+usage: Mortality was on the calendar the whole time.
+tags: death
+
+@definition
+word: Forgiveness
+phonetic: fəˈɡɪv.nəs
+pos: noun
+definition: What remains when you are too tired to keep the account open.
+usage: It looked like grace. It was exhaustion.
+tags: forgiveness
+
+@definition
+word: Trust
+phonetic: trʌst
+pos: noun
+definition: A bet that someone's interests will keep matching yours.
+usage: The trust lasted exactly as long as the deal.
+tags: trust
+
+@definition
+word: Adulthood
+phonetic: ˈæd.ʌlt.hʊd
+pos: noun
+definition: The discovery that nobody is in charge and the bills keep coming.
+usage: Adulthood arrived with a tax form.
+tags: life
+
+@definition
+word: Funeral
+phonetic: ˈfjuː.nər.əl
+pos: noun
+definition: A ceremony where people finally say what they meant, to someone who can no longer hear it.
+usage: Everyone was honest at the funeral. It was too late to be useful.
+tags: death
+
+@definition
+word: Potential
+phonetic: pəˈten.ʃəl
+pos: noun
+definition: Praise paid in advance for work that has not happened, and often will not.
+usage: At forty, potential becomes a polite word.
+tags: ambition
+
+@definition
+word: Family
+phonetic: ˈfæm.əl.i
+pos: noun
+definition: People bound by history, obligation and the occasional holiday.
+usage: They saw each other at weddings and funerals, and spoke at neither.
+tags: family
+
+@definition
+word: Silence
+phonetic: ˈsaɪ.ləns
+pos: noun
+definition: An answer that does not want to be quoted.
+usage: She asked twice. The silence was the reply.
+tags: relationships
+
+@definition
+word: Success
+phonetic: səkˈses
+pos: noun
+definition: A new list of things to lose.
+usage: Success arrived, and with it, the fear of its departure.
+tags: success
+
+@definition
+word: Time
+phonetic: taɪm
+pos: noun
+definition: The only currency spent at the same rate by the rich and the poor.
+usage: Nobody has ever bought more of it.
+tags: time
+
+
+// ---------------------------------------------------------------------
+// EQUATION  (x becomes ×, a spaced - becomes −, a spaced / becomes ÷)
+// ---------------------------------------------------------------------
+
+@equation
+equation: Comfort x Time = Regret
+caption: Compounded quietly.
+tags: comfort, regret
+
+@equation
+equation: Love - Effort = Habit
+caption: And then not even that.
+tags: love
+
+@equation
+equation: Silence x Years = Distance
+tags: relationships
+
+@equation
+equation: Ego + Fear = Most Decisions
+tags: choices, fear
+
+@equation
+equation: Promises - Action = Noise
+tags: promises
+
+@equation
+equation: Grief / Time = Smaller Grief
+caption: Never zero.
+tags: grief, time
+
+@equation
+equation: Hope - Plan = Waiting
+tags: hope
+
+@equation
+equation: Attention x Time = Love
+caption: Everything else is decoration.
+tags: love
+
+@equation
+equation: Excuses x Years = Biography
+tags: self, time
+
+@equation
+equation: Comfort + Comfort + Comfort = Cage
+tags: comfort
+
+@equation
+equation: Life - Risk = Waiting Room
+tags: life
+
+@equation
+equation: Talk - Action = Theatre
+tags: people
+
+@equation
+equation: Distance x Time = Truth
+caption: About who your friends were.
+tags: friendship
+
+@equation
+equation: Fear x Delay = Regret
+tags: fear, regret
+
+@equation
+equation: Memory - Witnesses = Myth
+tags: memory
+
+@equation
+equation: Youth + Time = Age
+Age - Lessons = Repetition
+Repetition x Years = Regret
+caption: The quiet arithmetic of a careless life.
+tags: aging, regret
+
+@equation
+equation: Love x Neglect = Distance
+Distance + Silence = Ending
+caption: Nobody remembers the first unanswered question.
+tags: love, endings
+
+@equation
+equation: Work - Rest = Burnout
+Burnout - Help = Collapse
+caption: The body keeps the books.
+tags: work, body
+
+@equation
+equation: Everyone - You = Everyone
+caption: The world rebalances quickly.
+tags: death, reality
+
+@equation
+equation: Money - Time = Another Poverty
+tags: money, time
+
+
+// ---------------------------------------------------------------------
+// STAT  (numbers are arithmetic or plain fact, never invented research)
+// ---------------------------------------------------------------------
+
+@stat
+number: 4,000
+context: weeks in a long life. Most of them feel like Tuesday.
+tags: time
+
+@stat
+number: 86,400
+context: seconds in every day. Nobody gets more, and nobody gets them back.
+tags: time
+
+@stat
+number: 100%
+context: of the people you love will leave or be left. Only the order is uncertain.
+tags: love, death
+
+@stat
+number: 0
+context: people at your funeral will mention your inbox.
+tags: work, death
+
+@stat
+number: 1
+context: life. No drafts, no refunds, no second edition.
+tags: life
+
+@stat
+number: 168
+context: hours in a week. Count how many you actually chose.
+tags: time, choices
+
+@stat
+number: 8 billion
+context: people alive, and almost none of them are thinking about you.
+tags: reality
+
+@stat
+number: 52
+context: Sundays a year. Most are forgotten by Tuesday.
+tags: time
+
+@stat
+number: 2
+context: dates on a gravestone. Nobody reads the space between them.
+tags: death, legacy
+
+@stat
+number: 1,440
+context: minutes in a day. Your phone would like all of them.
+tags: time
+
+@stat
+number: ?
+context: visits left with your parents. Nobody tells you the number.
+tags: family, time
+
+@stat
+number: 3
+context: generations, roughly, before nobody alive remembers your voice.
+tags: legacy, death
+
+
+// ---------------------------------------------------------------------
+// LAW
+// ---------------------------------------------------------------------
+
+@law
+number: 12
+statement: Any plan that requires everyone to be reasonable is not a plan.
+tags: people
+
+@law
+number: 1
+statement: Everything you postpone becomes heavier, not smaller.
+tags: time
+
+@law
+number: 2
+statement: Nobody remembers your intentions. They remember your absence.
+tags: relationships
+
+@law
+number: 3
+statement: The person who cares less controls the relationship.
+tags: love, relationships
+
+@law
+number: 4
+statement: Any promise made at night must be re-approved in the morning.
+tags: promises
+
+@law
+number: 5
+statement: The urgency of a request is inversely related to its importance.
+tags: work
+
+@law
+number: 6
+statement: People reveal themselves when they are tired, hungry or winning.
+tags: people
+
+@law
+number: 7
+statement: Every funeral is attended by someone who meant to call.
+tags: death, regret
+
+@law
+number: 8
+statement: Comfort expands to fill the life available for it.
+tags: comfort
+
+@law
+number: 9
+statement: The price of the truth only rises with time.
+tags: truth
+
+@law
+number: 10
+statement: If you have to ask whether they love you, the answer is in the question.
+tags: love
+
+@law
+number: 11
+statement: The loudest certainty in any room belongs to its least informed person.
+tags: people
+
+@law
+number: 13
+statement: You become exactly what you practise, whether or not you meant to practise it.
+tags: self
+
+@law
+number: 14
+statement: Every relationship has one person keeping score. It is rarely the one who admits it.
+tags: relationships
+
+@law
+number: 15
+statement: Grief arrives on ordinary days, not on anniversaries.
+tags: grief
+
+@law
+number: 16
+statement: The people who celebrate your success were not all there for the failure.
+tags: success, friendship
+
+@law
+number: 17
+statement: Whatever you are avoiding is already making decisions for you.
+tags: choices
+
+@law
+number: 18
+statement: The dead are always more patient than the living.
+tags: death
+
+@law
+number: 19
+statement: People forgive you for being wrong. They rarely forgive you for being right in public.
+tags: truth, people
+
+@law
+number: 20
+statement: Time spent waiting is never refunded.
+tags: time
+
+
+// ---------------------------------------------------------------------
+// DIALOGUE
+// ---------------------------------------------------------------------
+
+@dialogue
+speakerA: Young man
+lineA: When does it get easier?
+speakerB: Old man
+lineB: It doesn't. You just stop asking.
+tags: life, aging
+
+@dialogue
+speakerA: Me
+lineA: Do you think they think about me?
+speakerB: Reality
+lineB: Not as much as you think about them.
+tags: relationships
+
+@dialogue
+speakerA: Child
+lineA: Where do people go when they die?
+speakerB: Grandmother
+lineB: Into the stories of the people who stay. Then not even there.
+tags: death
+
+@dialogue
+speakerA: Him
+lineA: I'll change.
+speakerB: Her
+lineB: You said that last time, in that same chair.
+tags: relationships, change
+
+@dialogue
+speakerA: Student
+lineA: How do I find my purpose?
+speakerB: Teacher
+lineB: Pay your bills first. Purpose shows up later, if at all.
+tags: life, work
+
+@dialogue
+speakerA: Old friend
+lineA: We should catch up soon.
+speakerB: Me
+lineB: We both know we won't.
+tags: friendship
+
+@dialogue
+speakerA: Patient
+lineA: How long do I have?
+speakerB: Doctor
+lineB: Longer than you'll use well. Shorter than you'd like.
+tags: death, time
+
+@dialogue
+speakerA: Daughter
+lineA: Will love fix him?
+speakerB: Mother
+lineB: Love has never fixed anyone. It only keeps them company.
+tags: love, family
+
+@dialogue
+speakerA: Me
+lineA: Is it too late?
+speakerB: Time
+lineB: For that, yes. For the next thing, not yet.
+tags: time, regret
+
+@dialogue
+speakerA: Son
+lineA: Why didn't you ever say you were proud?
+speakerB: Father
+lineB: I assumed you knew. I assumed a lot of things.
+tags: family
+
+@dialogue
+speakerA: Her
+lineA: Do you still love me?
+speakerB: Him
+lineB: I'm still here. Lately that's the only answer I have.
+tags: love, marriage
+
+@dialogue
+speakerA: Man
+lineA: Why is everyone leaving?
+speakerB: Mirror
+lineB: Some were never staying. Some are leaving you.
+tags: relationships, self
+
+@dialogue
+speakerA: Me
+lineA: What did I do wrong?
+speakerB: Them
+lineB: Nothing worth explaining.
+tags: endings
+
+@dialogue
+speakerA: Granddaughter
+lineA: Did you have regrets?
+speakerB: Grandfather
+lineB: One or two a day. You get used to the company.
+tags: regret, aging
+
+@dialogue
+speakerA: Dreamer
+lineA: One day I'll start.
+speakerB: Clock
+lineB: I'll still be here. You won't, eventually.
+tags: time, death
+
+
+// ---------------------------------------------------------------------
+// STANZA  (line breaks are kept exactly)
+// ---------------------------------------------------------------------
+
+@stanza
+title: Stone
+text: The river argues with the stone
+for a thousand years
+and wins
+without raising its voice.
+tags: time
+
+@stanza
+title: Hospital, 4 a.m.
+text: The machines keep better time than we do.
+Someone is buying coffee
+while the sentence ends
+without them.
+tags: death
+
+@stanza
+title: Inheritance
+text: You get the house,
+the debts,
+the way he cleared his throat
+before lying.
+tags: family
+
+@stanza
+title: Love, later
+text: Not the fire.
+The dishes.
+The keys left where they always are
+so the other one can find them.
+tags: love, marriage
+
+@stanza
+title: City
+text: Eight million windows
+and not one of them
+is waiting for you
+to come home.
+tags: loneliness, city
+
+@stanza
+title: Grief
+text: It does not knock.
+It has a key.
+It knows where you keep the photographs
+and which day you are weakest.
+tags: grief
+
+@stanza
+title: Friendship
+text: We swore it would last.
+It lasted
+exactly as long
+as the bus route.
+tags: friendship
+
+@stanza
+title: Calendar
+text: The calendar on the fridge
+still has your appointments.
+Nobody can bring themselves
+to turn the page.
+tags: death, grief
+
+@stanza
+title: Age
+text: First the stairs,
+then the names,
+then the people
+who remembered you young.
+tags: aging
+
+@stanza
+title: Silence
+text: You stopped calling.
+I stopped noticing.
+That is how
+most things end.
+tags: endings, relationships
+
+@stanza
+title: Waiting
+text: I waited for the right time.
+Time waited too,
+for a while,
+and then it didn't.
+tags: time
+
+@stanza
+title: After
+text: The world did not stop.
+The trains ran on time.
+Someone laughed in the next room
+the day you left.
+tags: death, grief
+
+
+// ---------------------------------------------------------------------
+// FIELD NOTE
+// ---------------------------------------------------------------------
+
+@field-note
+date: 04.10.2026
+place: Nairobi, 6:40 a.m.
+text: The matatu driver checks his mirror more than the road. Everyone in this city is watching what is behind them.
+tags: city
+
+@field-note
+date: 12.01.2026
+place: Hospital corridor, 3:10 a.m.
+text: The vending machine hums louder than the people waiting. Nobody here talks about money anymore.
+tags: death
+
+@field-note
+date: 03.02.2026
+place: Kenyatta Avenue
+text: A man sells phone chargers outside a bank. Inside, a man sells loans. Same face, different chairs.
+tags: money, city
+
+@field-note
+date: 17.02.2026
+place: A funeral in Kiambu
+text: Three speeches about kindness. One cousin checking football scores. Grief and boredom shared the same tent.
+tags: death
+
+@field-note
+date: 01.03.2026
+place: Office, 7:45 p.m.
+text: The cleaner knows more about this company than the board does. She knows who cries in which bathroom.
+tags: work
+
+@field-note
+date: 22.03.2026
+place: Matatu stage
+text: Everyone is in a hurry to get somewhere they will complain about.
+tags: city, life
+
+@field-note
+date: 09.04.2026
+place: My father's house
+text: The clocks are all slightly wrong now. He does not notice. I do not correct them.
+tags: family, aging
+
+@field-note
+date: 30.04.2026
+place: A wedding
+text: The speeches promised forever. The caterers were paid for six hours.
+tags: marriage, love
+
+@field-note
+date: 14.05.2026
+place: A rooftop, night
+text: The city lights look like stars, and like stars, most of them are someone else's problem.
+tags: city, loneliness
+
+@field-note
+date: 02.06.2026
+place: Supermarket queue
+text: A couple argues quietly about the price of butter. The argument is not about butter.
+tags: marriage, money
+
+@field-note
+date: 18.07.2026
+place: Lake Naivasha, morning
+text: The water does not care who drowned here last year. It is calm and reflects everything.
+tags: death, reality
+
+@field-note
+date: 05.08.2026
+place: Contacts, letter K
+text: I scrolled past an old friend's number again. Neither of us called. Both of us are fine.
+tags: friendship
+
+@field-note
+date: 26.08.2026
+place: Waiting room
+text: Everyone holds a phone and a fear. Only one of them is lit.
+tags: fear
+
+@field-note
+date: 11.09.2026
+place: School gate
+text: Parents watch the children run in. The children do not look back. They never do. That is the point.
+tags: family
+
+@field-note
+date: 29.09.2026
+place: Langata Cemetery
+text: Fresh flowers on the new graves. On the old ones, nothing. Memory has a short lease.
+tags: death, memory
+
+
+// ---------------------------------------------------------------------
+// POST CARD
+// ---------------------------------------------------------------------
+
+@post-card
+text: Most advice is autobiography. Read it the way you would read someone's diary: with interest, and without obeying it.
+date: 4 Oct 2026
+tags: people
+
+@post-card
+text: Unpopular opinion: most people don't want advice. They want witnesses.
+tags: people
+
+@post-card
+text: Stop calling it a busy season. It's been three years. It's your life now.
+tags: work, time
+
+@post-card
+text: The people you are performing for are performing for someone else.
+tags: self
+
+@post-card
+text: Your "someday" list is a quiet obituary written in advance.
+tags: death, regret
+
+@post-card
+text: Nobody is reading your story as closely as you are. That is a relief and an insult.
+tags: self
+
+@post-card
+text: Reminder: your parents get older on the days you don't call too.
+tags: family, time
+
+@post-card
+text: If they wanted to, they would. If they don't, that is the answer. Stop translating.
+tags: relationships
+
+@post-card
+text: Love is not a feeling you find. It's a chore you choose. Most people stop doing chores.
+tags: love
+
+@post-card
+text: Every year you lose someone, and every year you don't notice until December.
+tags: grief, time
+
+@post-card
+text: The group chat is not a friendship. It's a waiting room with notifications.
+tags: friendship
+
+@post-card
+text: Grief is not a phase. It's a roommate who never pays rent.
+tags: grief
+
+@post-card
+text: You don't need closure. You need to stop opening the door.
+tags: endings
+
+@post-card
+text: Your job will replace you in a month. Your children will remember you for decades. Do the arithmetic.
+tags: work, family
+
+@post-card
+text: Most people die with their opinions intact and their plans untouched.
+tags: death
+
+@post-card
+text: Being liked is cheap. Being trusted takes years and one mistake.
+tags: trust
+
+@post-card
+text: If you are waiting for a sign, this isn't one. Nobody is sending them.
+tags: reality
+
+@post-card
+text: The world doesn't owe you meaning. It barely owes you a weekend.
+tags: reality, life
+
+@post-card
+text: An apology that comes with three explanations is an invoice.
+tags: relationships
+
+@post-card
+text: The person you were five years ago is a stranger who made all of your decisions.
+tags: self, time
+
+
+// ---------------------------------------------------------------------
+// PULL QUOTE
+// ---------------------------------------------------------------------
+
+@pull-quote
+text: The ocean is honest about its size. Most people are not.
+source: Field notes, 2026
+tags: truth
+
+@pull-quote
+text: The dead do not haunt us. We haunt them, visiting the same few memories until they wear thin.
+source: Notebook, 2026
+tags: death, memory
+
+@pull-quote
+text: Most love stories end the same way: quietly, over logistics.
+source: Notebook, 2026
+tags: love, endings
+
+@pull-quote
+text: Nothing is as permanent as the things you meant to say later.
+source: Field notes, 2026
+tags: regret, death
+
+@pull-quote
+text: A life is mostly waiting rooms with brief, unannounced exits.
+tags: life, death
+
+@pull-quote
+text: We are all being forgotten at the same speed. Some of us are just louder about it.
+tags: legacy
+
+@pull-quote
+text: The truth is rarely hidden. It is filed under things we would rather not read.
+tags: truth
+
+@pull-quote
+text: Every family has a story it tells and a story it keeps.
+source: Notebook, 2026
+tags: family
+
+@pull-quote
+text: Friendship is a promise made in one city and tested in another.
+tags: friendship
+
+@pull-quote
+text: There are no small betrayals. Only betrayals discovered early.
+tags: trust
+
+@pull-quote
+text: You will miss people you never thanked, in rooms you never left.
+tags: regret
+
+@pull-quote
+text: The future does not arrive. It accumulates.
+tags: time
+
+@pull-quote
+text: Grief is a language you only learn by losing someone who spoke it with you.
+tags: grief
+
+@pull-quote
+text: People will forgive you for leaving. They rarely forgive you for doing well afterwards.
+tags: people, success
+
+@pull-quote
+text: Most lives are not tragedies. They are long, quiet postponements.
+tags: life
+
+@pull-quote
+text: Time does not pass. You pass, and time watches.
+tags: time
+
+@pull-quote
+text: The world is indifferent, which is not the same as cruel, though it feels the same at night.
+tags: reality
+
+@pull-quote
+text: Every relationship is two strangers agreeing to stop asking certain questions.
+tags: relationships
+
+@pull-quote
+text: The body is honest when nothing else is.
+tags: body, truth
+
+@pull-quote
+text: We do not die once. We die a little in every person who forgets us.
+source: Field notes, 2026
+tags: death, legacy
