@@ -13,7 +13,7 @@ import { getPairing } from "./pairings";
 import { getPalette, type Palette } from "./palettes";
 import type { PhotoInput } from "./photo";
 import { compositeAlpha, greyOf, lumaStats, smoothstep, type LumaStats } from "./pixels";
-import { finishTone, tonePalette, tonePhoto, type Tone } from "./tone";
+import { finishTone, monoFinished, monoVignetteOver, tonePalette, tonePhoto, type Tone } from "./tone";
 import { chooseSignatureInk, layoutSignature } from "./signature";
 import { drawBlock, fitStack, placeStack, type PlacedBlock } from "./stack";
 import type { QuoteContent, SignatureStyle, TemplateConfig } from "./template";
@@ -118,16 +118,16 @@ function drawCredit(
 /**
  * Darkens (or lightens) a full-width horizontal band behind `region` with a
  * tall, soft fade above and below, a step at a time, until `measure` reaches
- * `target` (4.5:1 by default; at most 8 steps). A full-width band reads as part of the photo's
+ * 4.5:1 (at most 8 steps). A full-width band reads as part of the photo's
  * scrim rather than a box behind the text. Dark ink gets a light band.
  */
-function strengthenScrim(ctx: Ctx, region: Rect, ink: string, feather: number, measure: (st: LumaStats) => number, target = MIN_CONTRAST) {
+function strengthenScrim(ctx: Ctx, region: Rect, ink: string, feather: number, measure: (st: LumaStats) => number) {
   const W = ctx.canvas.width;
   const scrimColor = luminance(ink) < 0.4 ? "#f4f1ea" : "#000000";
   const outer = { x: 0, y: region.y - feather, w: W, h: region.h + feather * 2 };
   let st = lumaStats(ctx, region);
   let c = measure(st);
-  for (let k = 0; k < 8 && c < target; k++) {
+  for (let k = 0; k < 8 && c < MIN_CONTRAST; k++) {
     compositeAlpha(ctx, outer, scrimColor, (_x, y) => {
       const dy = Math.max(region.y - y, 0, y - (region.y + region.h));
       return 0.16 * (1 - smoothstep(0, feather, dy));
@@ -244,10 +244,15 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
 
   comp.prepaint?.(ctx, placed);
 
-  // Contrast enforcement: sample the real pixels under every block. Mono's
-  // finish (faded blacks, vignette, grain) costs up to ~25% of the measured
-  // contrast on photos, so it aims higher here to still clear 4.5:1 after.
-  const target = tone === "mono" ? 6 : MIN_CONTRAST;
+  // Contrast enforcement: sample the real pixels under every block. In mono,
+  // ink and ground are judged as they will land after the faded-print curve
+  // and the vignette at that spot, so 4.5:1 holds in the finished image.
+  const contrastAt = (color: string, st: LumaStats, rect: Rect) => {
+    if (tone !== "mono") return textContrast(color, st);
+    const v = monoVignetteOver(rect, W, H);
+    const L = monoFinished(luminance(color), v);
+    return Math.min(contrastFromLuminance(L, monoFinished(st.p02, v)), contrastFromLuminance(L, monoFinished(st.p98, v)));
+  };
   const blocks: BlockReport[] = [];
   for (const b of placed.flat()) {
     // Sample just around the ink, but never beyond the text area: for very
@@ -257,18 +262,18 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
     const region = intersect({ x: b.rect.x - pad, y: b.rect.y - pad, w: b.rect.w + pad * 2, h: b.rect.h + pad * 2 }, { x: area.x - pad, y: area.y - pad, w: area.w + pad * 2, h: area.h + pad * 2 });
     let color = b.spec.color;
     let st = lumaStats(ctx, region);
-    let c = textContrast(color, st);
+    let c = contrastAt(color, st, region);
     let fix: BlockReport["fix"];
-    if (c < target && onPhoto) {
-      ({ st, c } = strengthenScrim(ctx, region, color, Math.max(b.size * 3, H * 0.08), (s2) => textContrast(color, s2), target));
+    if (c < MIN_CONTRAST && onPhoto) {
+      ({ st, c } = strengthenScrim(ctx, region, color, Math.max(b.size * 3, H * 0.08), (s2) => contrastAt(color, s2, region)));
       fix = "scrim";
     }
-    if (c < target) {
+    if (c < MIN_CONTRAST) {
       const candidates = [palette.ink, palette.bg, "#111111", "#f6f3ee", "#000000", "#ffffff"];
-      const best = candidates.reduce((a, x) => (textContrast(x, st) > textContrast(a, st) ? x : a), color);
+      const best = candidates.reduce((a, x) => (contrastAt(x, st, region) > contrastAt(a, st, region) ? x : a), color);
       if (best !== color) {
         color = best;
-        c = textContrast(color, st);
+        c = contrastAt(color, st, region);
         fix = fix ?? "recolor";
       }
     }

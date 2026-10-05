@@ -60,10 +60,7 @@ export function tonePalette(p: Palette, tone: Tone): Palette {
 }
 
 /** sRGB grey value (0..1) of a pixel, by linear luminance. */
-const greyValue = (r: number, g: number, b: number) => {
-  const l = 0.2126 * LINEAR_LUT[r] + 0.7152 * LINEAR_LUT[g] + 0.0722 * LINEAR_LUT[b];
-  return l <= 0.0031308 ? l * 12.92 : 1.055 * Math.pow(l, 1 / 2.4) - 0.055;
-};
+const greyValue = (r: number, g: number, b: number) => toSrgb(0.2126 * LINEAR_LUT[r] + 0.7152 * LINEAR_LUT[g] + 0.0722 * LINEAR_LUT[b]);
 
 const smooth = (t: number) => t * t * (3 - 2 * t);
 
@@ -118,6 +115,34 @@ export function tonePhoto(env: RenderEnv, photo: PhotoInput | undefined, tone: T
   return { ...photo, image };
 }
 
+/** Mono's faded-print curve on an sRGB grey (0..1): blacks lift, whites sit below paper white. */
+const fade = (g: number) => 0.045 + g * 0.925;
+
+/** Vignette factor (≤ 1) at distance `r` from the centre (1 = the corners). */
+const falloff = (r: number) => (r > 0.45 ? 1 - 0.2 * smooth(Math.min(1, (r - 0.45) / 0.6)) : 1);
+
+/** Mono's print vignette factor at a point. */
+export const monoVignette = (x: number, y: number, W: number, H: number) => falloff(Math.hypot(x - W / 2, y - H / 2) / Math.hypot(W / 2, H / 2));
+
+/** The darkest vignette factor over a rectangle (at its corner farthest from the centre). */
+export function monoVignetteOver(rect: { x: number; y: number; w: number; h: number }, W: number, H: number) {
+  const x = Math.abs(rect.x - W / 2) > Math.abs(rect.x + rect.w - W / 2) ? rect.x : rect.x + rect.w;
+  const y = Math.abs(rect.y - H / 2) > Math.abs(rect.y + rect.h - H / 2) ? rect.y : rect.y + rect.h;
+  return monoVignette(x, y, W, H);
+}
+
+function toSrgb(l: number) {
+  return l <= 0.0031308 ? l * 12.92 : 1.055 * Math.pow(l, 1 / 2.4) - 0.055;
+}
+const toLinear = (g: number) => (g <= 0.04045 ? g / 12.92 : Math.pow((g + 0.055) / 1.055, 2.4));
+
+/**
+ * Where a relative luminance lands after Mono's finish (fade and vignette
+ * factor `v`; grain is zero-mean and left out). The renderer judges contrast
+ * in this space, so text meets 4.5:1 in the finished image.
+ */
+export const monoFinished = (l: number, v: number) => toLinear(Math.max(0, Math.min(1, fade(toSrgb(l)) * v)));
+
 /**
  * Mono finish: neutral greys, a faded-print tone curve, film grain over the
  * whole frame (heaviest in the midtones) and a print vignette.
@@ -138,15 +163,12 @@ function finishMono(ctx: Ctx, seed: number) {
     const d = img.data;
     for (let y = 0; y < bh; y++) {
       const gy = y0 + y;
+      const dy2 = ((gy - cy) / half) ** 2;
       if (gy % cell === 0) for (let i = 0; i < cols; i++) noiseRow[i] = rand() + rand() - 1; // triangular −1..1
-      const dy = (gy - cy) / half;
       for (let x = 0; x < W; x++) {
         const i = (y * W + x) * 4;
-        // Faded print: blacks lift a little, whites sit just below paper white.
-        let g = 0.045 + (d[i] / 255) * 0.925;
         const dx = (x - cx) / half;
-        const r = Math.sqrt(dx * dx + dy * dy);
-        if (r > 0.45) g *= 1 - 0.2 * smooth(Math.min(1, (r - 0.45) / 0.6));
+        let g = fade(d[i] / 255) * falloff(Math.sqrt(dx * dx + dy2));
         // Grain everywhere, heaviest in the midtones.
         g += noiseRow[(x / cell) | 0] * (0.03 + 0.1 * g * (1 - g));
         const v = Math.max(0, Math.min(255, Math.round(g * 255)));

@@ -22,7 +22,7 @@ npm run dev          # http://localhost:3000
 | `npm run dev` | Studio with live preview |
 | `npm run dev:mock` | Studio with generated local test photos instead of the APIs (run `npm run mock:photos` once first) |
 | `npm test` | Unit tests (auto-fit, line breaking, smart typography) |
-| `npm run qa` | Renders every template × every preset at 3× and fails on overflow, contrast < 4.5:1, signature collisions or photo upscaling. Photo templates are tested on generated test photos, created automatically on first run. Flags: `-- --scale 1` for a fast pass, `-- --keep` to save the PNGs to `qa-report/`, `-- --only photo` to filter templates by id, `-- --tone mono` / `-- --tone pure` to check a black and white mode (contrast is then re-read from the finished pixels) |
+| `npm run qa` | Renders every template × every preset at 3× and fails on overflow, contrast < 4.5:1, signature collisions or photo upscaling. Photo templates are tested on generated test photos, created automatically on first run. Flags: `-- --scale 1` for a fast pass, `-- --keep` to save the PNGs to `qa-report/`, `-- --only photo` to filter templates by id, `-- --tone mono` / `-- --tone pure` to check a black and white mode (mono measures contrast after its film finish; pure re-reads it from the finished pixels) |
 | `npm run sample` | Writes sample exports to `samples/`, including a 400% crop |
 | `npx tsx scripts/render-formats.ts` | Renders every format's sample in every layout to `samples/formats/` with contact sheets |
 | `npx tsx scripts/check-quotes.ts [filter]` | Checks that every quote in the collection sets cleanly at Stories and Instagram portrait (`filter` limits it to matching files, e.g. `stanza`) |

@@ -81,9 +81,10 @@ for (const [ki, { kind, content }] of variants.entries()) {
       out.worst = Math.min(out.worst, b.contrast);
       if (b.contrast < MIN_CONTRAST) problems.push(`${b.id} contrast ${b.contrast.toFixed(2)}:1`);
     }
-    // Black and white modes change pixels after layout (grain, vignette,
-    // dither): re-read the contrast under every block from the finished image.
-    if (job.tone && job.tone !== "color") {
+    // Mono judges contrast in finished space during layout (the report holds
+    // it). Pure quantises after layout, so its contrast is re-read from the
+    // finished pixels; solid two-tone type reads at full ink even when small.
+    if (job.tone === "pure") {
       for (const b of r.blocks) {
         const st = lumaStats(ctx, b.rect);
         const c = contrastFromLuminance(st.p02, st.p98);
