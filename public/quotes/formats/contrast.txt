@@ -1,0 +1,315 @@
+// Fred M | 1963ke · Contrast — 200 quotes.
+
+@contrast+
+tags: love
+
+a: Love conquers all.
+b: Love conquers very little. It mostly negotiates, compromises and waits.
+
+a: The right person will complete you.
+b: The right person will tolerate you. Completing yourself was always your job.
+
+a: True love never fights.
+b: True love fights about the dishes for forty years and stays.
+
+a: If they loved you, they would change.
+b: If they wanted to, they would change. Love is not the same as wanting to.
+
+a: Love is a feeling.
+b: Love is a set of habits that outlast the feeling.
+
+a: Jealousy shows they care.
+b: Jealousy shows they are afraid. Fear is not a compliment.
+
+a: Opposites attract.
+b: Opposites attract, then argue about holidays for the rest of their lives.
+
+a: Love will find you when you stop looking.
+b: Love finds people who leave the house and talk to strangers.
+
+a: A good relationship is effortless.
+b: A good relationship is effort that both people stopped counting.
+
+a: You will know when it is the one.
+b: You will decide it is the one, and then spend years making that decision right.
+
+a: Love means never having to apologise.
+b: Love means apologising often, and meaning it more each time.
+
+a: They will come back if it is meant to be.
+b: They will come back if they are lonely. Meaning has little to do with it.
+
+a: Marriage is the happy ending.
+b: Marriage is the beginning of the part nobody films.
+
+tags: death
+
+a: Everyone will remember you.
+b: A handful will remember you. Everyone else will remember the food at the funeral.
+
+a: There is plenty of time to make peace.
+b: There is an unknown amount of time, and it is usually less.
+
+a: They are in a better place.
+b: They are not here. That is the only part anybody actually knows.
+
+a: Death is something that happens to the old.
+b: Death is something that happens to anyone with a pulse.
+
+a: You should not speak ill of the dead.
+b: You should not speak only well of them either. That buries them twice.
+
+a: A peaceful death is the norm.
+b: A peaceful death is a privilege. Many deaths are noisy, frightened and fast.
+
+a: The deceased would want you to move on.
+b: The deceased want nothing now. Moving on is a decision for the living.
+
+a: Funerals honour the dead.
+b: Funerals comfort the living. The dead are beyond honour.
+
+a: We will talk about the will later.
+b: Later, someone you love will argue about it in a lawyer's office.
+
+a: Dying people find peace.
+b: Some do. Others are just too tired to keep fighting.
+
+a: The last words are meaningful.
+b: The last words are usually about water, pain or whether it is raining.
+
+a: A long life is a full life.
+b: A long life can be empty. A full one can be brief.
+
+tags: time
+
+a: Time is money.
+b: Time is worth far more. Money can be earned again.
+
+a: You have your whole life ahead of you.
+b: You have an unknown portion of it ahead of you, and it is shrinking daily.
+
+a: There will be a better moment.
+b: There will be another moment. Better is not guaranteed.
+
+a: The weekend is for rest.
+b: The weekend is for chores, errands and recovering from the week.
+
+a: You can always start again tomorrow.
+b: You can start again tomorrow until the day there is no tomorrow to start.
+
+a: Busy people get more done.
+b: Busy people get more scheduled. Done is a separate question.
+
+a: Youth lasts a long time.
+b: Youth lasts about ten years, most of which are spent worrying.
+
+a: Time flies when you are having fun.
+b: Time flies when you are on autopilot. Fun is often the only thing that slows it.
+
+a: The future will sort itself out.
+b: The future is built from what you neglect today.
+
+a: You will have more free time when the children grow up.
+b: You will have more free time and nobody left who wants to spend it with you.
+
+a: Good things come to those who wait.
+b: Good things come to those who move. Waiters get leftovers.
+
+a: Old habits die hard.
+b: Old habits rarely die. They retire, then come back on bad days.
+
+tags: family
+
+a: Family comes first.
+b: Family comes first until money, land or a funeral reorders the list.
+
+a: Your parents know best.
+b: Your parents knew what they knew, which was often fear and habit.
+
+a: Children are resilient.
+b: Children are adaptable. They carry what they adapted to for decades.
+
+a: Blood ties are unbreakable.
+b: Blood ties break all the time. They just leave more paperwork.
+
+a: Siblings will always have each other.
+b: Siblings will always have the same parents. Each other is optional.
+
+a: A happy family has no secrets.
+b: A happy family has secrets that nobody has opened yet.
+
+a: Your mother will always understand.
+b: Your mother will always worry. Understanding is a different skill.
+
+a: Children owe their parents gratitude.
+b: Children owe their parents honesty. Gratitude cannot be invoiced.
+
+a: Staying together is best for the children.
+b: Peace is best for the children. Sometimes that requires two houses.
+
+a: Every family is normal in its own way.
+b: Every family thinks its dysfunction is normal because it has never seen another.
+
+a: Grandparents spoil children.
+b: Grandparents are often trying to repair the mistakes they made with their own.
+
+a: You can choose not to be like your parents.
+b: You can choose. Your reflexes may disagree for years.
+
+tags: work
+
+a: Do what you love and you will never work a day.
+b: Do what you love for money and you will soon learn to resent it on Mondays.
+
+a: Loyalty to the company will be rewarded.
+b: Loyalty to the company will be noted, then forgotten at the next restructure.
+
+a: Your manager has your back.
+b: Your manager has a budget, a boss and a mortgage. You come after all three.
+
+a: Good work speaks for itself.
+b: Good work is silent. Somebody has to speak for it, preferably you.
+
+a: Retirement is the reward.
+b: Retirement is what is left after the reward was spent on the commute.
+
+a: Everyone at work is a team.
+b: Everyone at work is a team until there is only one promotion.
+
+a: The customer is always right.
+b: The customer is always paying. Right is a separate matter.
+
+a: Experience guarantees respect.
+b: Experience guarantees a higher salary, which makes you the first to be cut.
+
+a: Working late shows commitment.
+b: Working late shows your schedule. Commitment shows in results.
+
+a: Your job defines you.
+b: Your job describes how you pay rent. Definition is something you do at home.
+
+a: Quitting is failure.
+b: Staying too long is the more common failure, and nobody calls it that.
+
+a: The office is a meritocracy.
+b: The office is a meritocracy for the people who are already liked.
+
+a: If you work hard, you will be noticed.
+b: If you work hard, you will be given more work.
+
+tags: money
+
+a: Money is the root of all evil.
+b: Money is a tool. The evil was already in the hand holding it.
+
+a: Rich people worked harder.
+b: Some did. Many started closer to the finish line.
+
+a: A bigger salary will solve it.
+b: A bigger salary will meet a bigger lifestyle within eighteen months.
+
+a: Owning a home is security.
+b: Owning a home is a thirty-year debt with a garden.
+
+a: Saving is boring.
+b: Saving is buying a future version of yourself some freedom.
+
+a: Friends will repay you.
+b: Friends will avoid you until the debt becomes too awkward to mention.
+
+a: Money changes people.
+b: Money reveals people. The change was waiting for a budget.
+
+a: You deserve a treat.
+b: You deserve a future. Treats are often stolen from it.
+
+a: Wealth brings respect.
+b: Wealth brings attention. Respect is earned in how you treat the waiter.
+
+a: The poor are poor because of bad choices.
+b: The poor have the same choices with no room for a single mistake.
+
+a: Money cannot buy time.
+b: Money buys time constantly: taxis, cleaners, early retirement and good doctors.
+
+a: Expensive means better.
+b: Expensive means expensive. Better has to be checked.
+
+tags: aging
+
+a: You are only as old as you feel.
+b: You are as old as your knees, your doctor and your birth certificate agree.
+
+a: Fifty is the new thirty.
+b: Fifty is fifty. Only the marketing got younger.
+
+a: The old are wise.
+b: The old are experienced. Wisdom depends on whether they paid attention.
+
+a: Getting old is a tragedy.
+b: Getting old is what happens when the tragedy does not arrive early.
+
+a: Your best years are behind you.
+b: Your fastest years are behind you. Best is still being decided.
+
+a: The elderly are a burden.
+b: The elderly are a preview, and most of us will be lucky to join them.
+
+a: You will have time to travel when you retire.
+b: You will have time when you retire. Your hips may not have the patience.
+
+a: Older people are set in their ways.
+b: Older people have tested their ways for decades. Some are worth keeping.
+
+a: Wrinkles are ugly.
+b: Wrinkles are the handwriting of survival.
+
+a: Youth is the best time of life.
+b: Youth is the most anxious time of life, remembered fondly from a safer distance.
+
+a: Aging happens gradually.
+b: Aging happens gradually and is noticed all at once, usually in a lift mirror.
+
+a: The old have nothing left to learn.
+b: The old are learning the hardest lesson: how to let go of nearly everything.
+
+tags: friendship
+
+a: Real friends are forever.
+b: Real friends are rare, and even they can be lost to distance and silence.
+
+a: Friends never keep score.
+b: Friends always keep score. Good ones just round up in your favour.
+
+a: The more friends, the better.
+b: The more friends, the thinner each one. Three who would come at night is plenty.
+
+a: Friends will always tell you the truth.
+b: Friends will often tell you what keeps the friendship comfortable.
+
+a: You can tell a true friend by how long you have known them.
+b: You can tell a true friend by what they did on the worst day.
+
+a: Childhood friends understand you best.
+b: Childhood friends understand who you were. Many have not met who you became.
+
+a: A friend in need is a friend indeed.
+b: A friend in need is often a friend you stop hearing from once the need is met.
+
+a: Distance does not affect real friendship.
+b: Distance affects every friendship. Real ones just survive the damage.
+
+a: Friends support your success.
+b: Most friends support your success up to slightly below their own.
+
+a: Making friends is natural.
+b: Making friends after thirty is a project with scheduling software.
+
+a: Good friends never drift apart.
+b: Good friends drift apart constantly. The good ones paddle back.
+
+a: Friendship is free.
+b: Friendship costs time, patience and the occasional airport pick-up.
+
+a: You can always rekindle an old friendship.
+b: You can try. Often you find two strangers sharing a few old jokes.

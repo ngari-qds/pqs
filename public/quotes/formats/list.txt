@@ -1,0 +1,1052 @@
+// Fred M | 1963ke · List — 200 quotes.
+
+@list+
+tags: love
+
+title: What love turns into
+- A routine
+- A shared calendar
+- A list of grievances
+- A habit of tolerance
+- Sometimes, nothing
+
+title: Signs it already ended
+- You rehearse conversations alone
+- Their joy feels like noise
+- You stop telling them small things
+- Silence feels like relief
+
+title: What romance leaves out
+- Bills
+- Illness
+- In-laws
+- Boredom
+- The second decade
+
+title: Things love cannot survive
+- Contempt
+- Constant correction
+- Being taken for granted
+
+title: What people call love
+- Fear of an empty flat
+- A need to be needed
+- Good timing
+- Shared rent
+- Habit with a pet name
+- Occasionally, love
+
+title: Promises nobody keeps
+- Forever
+- I will never change
+- I will always understand
+- Nothing will come between us
+
+title: What the honeymoon hides
+- How they argue
+- How they spend
+- How they treat waiters
+- How they handle being wrong
+- How they sound when tired
+
+title: Love, after ten years
+- Fewer words
+- More negotiation
+- Separate blankets
+- A shared silence that may be peace
+
+title: Reasons people stay
+- Children
+- Money
+- Fear
+- Habit
+- The house
+- Love, sometimes
+
+title: What jealousy really is
+- Fear wearing a uniform
+- A demand for ownership
+- An admission of doubt
+
+tags: relationships
+
+title: How relationships actually end
+- One unanswered message at a time
+- In separate rooms
+- Over a sink of dishes
+- Long before anyone says it
+- With polite goodbyes
+
+title: Things you cannot negotiate
+- Whether they want children
+- Whether they respect you
+- Whether they want to stay
+
+title: What arguments are really about
+- Who feels unseen
+- Who does more
+- Who gave up what
+- Who is tired
+- Who is afraid
+
+title: What compatibility means
+- Similar tolerance for mess
+- Similar relationship with money
+- Similar idea of a weekend
+- Agreeing on what matters
+
+title: Things that do not fix a marriage
+- A holiday
+- A baby
+- A bigger house
+- A new year
+
+title: Signs you are a convenience
+- They call when bored
+- They vanish when you need help
+- They never ask a second question
+- Your plans bend to theirs
+
+title: What silence in a couple means
+- Peace
+- Exhaustion
+- Surrender
+- A decision already made
+
+title: Red flags we called charming
+- Jealousy
+- Intensity
+- Moving fast
+- Hating all their exes
+- Needing you constantly
+
+title: What people mean by space
+- I am leaving slowly
+- I want to see who else exists
+- I cannot say this to your face
+
+title: What a breakup takes
+- Half the friends
+- The good restaurant
+- The playlist
+- A year, at least
+- A version of yourself
+
+tags: family
+
+title: Things parents do not say
+- I was guessing
+- I was frightened
+- I had favourites
+- I resented the sacrifice
+- I am proud of you
+
+title: What families inherit
+- Debts
+- Silences
+- Recipes
+- Grudges
+- A way of slamming doors
+
+title: Roles assigned at birth
+- The responsible one
+- The difficult one
+- The baby
+- The one who left
+
+title: What family gatherings contain
+- Old wounds in new clothes
+- Rankings nobody admits
+- One person doing all the work
+- A topic that must not be raised
+- Leftovers
+
+title: What children remember
+- How you spoke when angry
+- Whether you came to things
+- What you said about their body
+- Not the toys
+
+title: What ageing parents need
+- Your time
+- Your patience
+- Help with forms
+- Someone to repeat things to
+- Not your advice
+
+title: Lies told at the family table
+- Everything is fine
+- We never argue
+- He is just tired
+- She did not mean it
+- We are all very close
+
+title: What siblings become
+- Strangers with shared memories
+- Rivals for an inheritance
+- The last witnesses to your childhood
+
+title: Things you only learn at forty
+- Your parents were young
+- They were improvising
+- They were also somebody's children
+- You are doing the same thing
+
+title: What home was
+- A smell
+- A temper
+- A table
+- A sound in the hallway
+- A place you could not leave
+
+tags: death
+
+title: What remains after you die
+- Unread emails
+- A wardrobe someone must clear
+- Passwords nobody knows
+- A few stories, slowly edited
+- Debts
+
+title: Things death does not care about
+- Your plans
+- Your age
+- Your diet, eventually
+- Whether you were ready
+- Your unfinished sentence
+
+title: What a funeral is for
+- The living
+- Paperwork
+- Catering
+- Seeing who turned up
+
+title: Things the dying say
+- I should have rested
+- Call my brother
+- Where are my glasses
+- Is it Tuesday
+- Do not fuss
+
+title: Things that outlive you
+- Your furniture
+- Your mortgage
+- Your mistakes
+- Your phone contract
+- A photograph nobody can name
+
+title: What we do instead of grieving
+- Work late
+- Clean the house
+- Organise the funeral
+- Make jokes
+- Become very busy
+
+title: What the dead lose
+- Their side of the story
+- Their say in the will
+- Their place at the table
+- Their name, in time
+
+title: How we avoid death
+- Euphemisms
+- Gyms
+- Calendars
+- Not visiting hospitals
+- Not making a will
+- Saying next year
+
+title: What a hospital teaches
+- Waiting is a skill
+- Money matters
+- Kindness is rare and enormous
+- Nobody is special
+
+title: After the burial
+- Casseroles for a week
+- Calls for a month
+- Silence for the rest
+- A chair nobody sits in
+
+tags: grief
+
+title: How grief actually behaves
+- It waits in supermarkets
+- It hides in a song
+- It forgets the calendar
+- It returns without warning
+
+title: Things the grieving hear
+- Everything happens for a reason
+- At least they are not suffering
+- Time heals
+- Let me know if you need anything
+
+title: What grief costs
+- Sleep
+- Appetite
+- Patience
+- Friends who could not cope
+- The person you were before
+
+title: What mourning looks like
+- Answering emails normally
+- Laughing at the wrong time
+- Keeping a voicemail
+- Buying their brand of tea
+
+title: Grief, measured honestly
+- Year one is shock
+- Year two is worse
+- Year five is quieter
+- Year ten still has days
+
+title: Things you keep of the dead
+- A coat that still smells of them
+- Their handwriting
+- A number you cannot delete
+- One argument you never finished
+
+title: What people stop doing after
+- Saying their name
+- Asking how you are
+- Remembering the date
+- Sending anything
+
+title: What loss teaches
+- Nothing is owed to you
+- People are temporary
+- Ordinary days are the treasure
+- Call now
+
+title: What nobody prepares you for
+- The admin
+- The clothes
+- The voicemail
+- The first birthday without them
+- The relief, and the guilt after it
+
+title: Grief does not
+- Follow stages
+- Respect anniversaries
+- End
+- Care if you are busy
+
+tags: time
+
+title: Where your years went
+- Commuting
+- Waiting rooms
+- Scrolling
+- Sleep
+- Meetings that could be emails
+- A few good evenings
+
+title: What time takes first
+- Knees
+- Patience
+- Friends who moved
+- Belief in someday
+
+title: Things you meant to do
+- Learn the language
+- Visit your grandmother
+- Write it down
+- Say sorry
+- Leave that job
+
+title: Clocks that are always running
+- Your parents' health
+- Your children's childhood
+- Your own body
+- The window for that apology
+
+title: What someday means
+- Never
+- Never, politely
+- When it is too late
+- After the funeral
+
+title: Things that cannot be rushed
+- Trust
+- Bread
+- Healing
+- Getting old
+- Grief
+
+title: What a decade does
+- Changes your friends
+- Changes your face
+- Changes your mind
+- Leaves your habits alone
+
+title: What you will not get back
+- The hours of arguing online
+- The years with the wrong person
+- That summer
+- Your twenties
+
+title: How time is wasted
+- Waiting to be ready
+- Waiting to be asked
+- Waiting for permission
+- Waiting for a sign
+- Waiting
+
+title: The cost of later
+- Opportunities close
+- People die
+- Courage fades
+- Excuses multiply
+
+tags: work
+
+title: What your job will not do
+- Love you back
+- Attend your funeral
+- Remember you after a month
+- Pay for your lost evenings
+
+title: What a company means by family
+- Unpaid overtime
+- Guilt about holidays
+- Loyalty only upwards
+- Redundancy by email
+
+title: Things a promotion brings
+- More meetings
+- More blame
+- Less sleep
+- A slightly bigger number
+
+title: What busy usually means
+- Avoiding something
+- Bad planning
+- A need to look important
+- No boundaries
+
+title: Things work steals quietly
+- Weekday evenings
+- Your posture
+- Your hobbies
+- Dinners with your children
+- Your sense of humour
+
+title: How careers actually go
+- Sideways
+- By accident
+- Through people you knew
+- Slower than planned
+
+title: What a manager remembers
+- Your last mistake
+- Who complained
+- Who stayed late
+- Not your best idea
+
+title: What overwork buys
+- Praise that fades by Friday
+- A health scare
+- A colleague's job later
+- Your replacement's training
+
+title: Signs you have stayed too long
+- You defend things you hate
+- Mondays feel like sentences
+- You stopped learning years ago
+- You only speak of the pension
+
+title: Things nobody says at leaving drinks
+- We will not keep in touch
+- You were replaceable
+- I always wanted your desk
+- I am jealous you are going
+
+title: What a CV leaves out
+- The breakdown
+- The boss who lied
+- The year you were lost
+- Why you really left
+
+title: What hard work guarantees
+- Tiredness
+- Experience
+- Nothing else
+
+tags: money
+
+title: What poverty costs
+- Time
+- Dignity
+- Teeth
+- Choices
+- Sleep
+- Your children's options
+
+title: What money cannot fix
+- A bad marriage
+- A dead parent
+- A cruel nature
+- Being bored with yourself
+
+title: Where salaries go
+- Rent
+- Transport
+- Food
+- Debt
+- Other people's emergencies
+
+title: What debt does
+- Narrows your choices
+- Keeps you in the job
+- Follows you home
+- Outlives your excuses
+
+title: Things wealth hides
+- Bad manners
+- Failure
+- Loneliness
+- Mediocrity
+- Mistakes that cost others
+
+title: What people lend and lose
+- Money
+- The friendship
+- The trust
+- The chance to be thanked
+
+title: What savings really are
+- Freedom held in advance
+- The right to say no
+- A quieter sleep
+
+title: Things that are always more expensive
+- Being poor
+- Being ill
+- Being late
+- Being proud
+- Cheap shoes
+
+title: What a lottery win changes
+- Your address
+- Your relatives' interest in you
+- Your friends
+- Not your character
+
+title: Money in a family
+- Who paid for the funeral
+- Who got the house
+- Who never paid back
+- Who keeps count
+
+title: What rich people buy
+- Silence
+- Time
+- Second chances
+- Distance from consequences
+
+tags: friendship
+
+title: How friendships end
+- Distance
+- Marriage
+- Children
+- Success
+- A loan
+- Nobody calling first
+
+title: What a real friend does
+- Tells you the truth
+- Helps you move house
+- Visits the hospital
+- Remembers your mother's name
+
+title: Friends you outgrow
+- The one who only complains
+- The one who keeps score
+- The one who needs you small
+- The one who never asks back
+
+title: Things friends hide
+- Envy
+- Boredom
+- Relief at your failure
+- How often they talk about you
+
+title: What adult friendship takes
+- Scheduling
+- Effort
+- Forgiveness
+- Booking things months ahead
+
+title: Who shows up
+- Fewer people than you invited
+- Not the ones you expected
+- One person who never forgets
+
+title: Friendship after thirty
+- Birthday messages
+- One dinner a year
+- Group chats nobody reads
+- A few who stay
+
+title: Tests of a friendship
+- Your good news
+- Your bad year
+- Your move abroad
+- Their new partner
+
+title: What a group chat contains
+- Memes
+- Old jokes
+- Unanswered questions
+- Silence after bad news
+
+title: Things you lose with an old friend
+- A witness
+- A shared language
+- A version of your youth
+
+tags: truth
+
+title: Truths people resent
+- Nobody is coming to save you
+- You are not that special
+- Feelings are not facts
+- Most of it was your choice
+
+title: How lies survive
+- Repetition
+- Convenience
+- Politeness
+- Fear of the alternative
+
+title: Things people say instead of no
+- Maybe
+- Let me check
+- We will see
+- Soon
+- Nothing at all
+
+title: What honesty costs
+- Invitations
+- Promotions
+- Friends who preferred the lie
+- A comfortable story
+
+title: What fine usually means
+- Not fine
+- Not now
+- Not with you
+- Too tired to explain
+
+title: Things people pretend to believe
+- That they will start Monday
+- That it was mutual
+- That they have no regrets
+- That money does not matter
+
+title: Facts you cannot argue with
+- Bodies age
+- Money runs out
+- People leave
+- Everything ends
+
+title: What we call honesty
+- Cruelty with good posture
+- Saying what is convenient
+- Rarely, the truth
+
+title: Lies adults tell children
+- It will not hurt
+- We will see
+- Everyone is equal
+- Hard work always pays
+
+title: The truth arrives
+- Late
+- At the wrong time
+- From the wrong person
+- Anyway
+
+tags: self
+
+title: Things you must do alone
+- Die
+- Grieve
+- Decide
+- Change
+- Get up in the morning
+
+title: What you avoid seeing
+- Your part in it
+- Your habits
+- What you are afraid of
+- How you treat waiters
+
+title: What confidence really is
+- Practice
+- Low expectations of approval
+- Having failed and survived
+
+title: Things you owe yourself
+- Sleep
+- Honesty
+- Fewer excuses
+- An exit plan
+
+title: Signs you are lying to yourself
+- You need others to agree
+- You avoid the numbers
+- You say tomorrow often
+- You are always tired of it
+
+title: What habits are
+- Votes for who you become
+- Decisions you no longer notice
+- Your real biography
+
+title: Things that will not change you
+- Another notebook
+- Another course
+- A motivational video
+- A new year
+
+title: What growth feels like
+- Loss
+- Awkwardness
+- Boredom
+- Saying no
+- Being misunderstood
+
+title: What you call your personality
+- Old wounds
+- Borrowed opinions
+- Habits from your father
+- A few real preferences
+
+title: What self-care became
+- Shopping
+- Cancelling plans
+- Bath products
+- Avoidance with candles
+
+tags: ageing
+
+title: What ageing brings
+- Reading glasses
+- Fewer invitations
+- More funerals
+- Less need to please
+- Knees with opinions
+
+title: What nobody warns you about
+- Your friends' parents dying
+- Then your own
+- Then your friends
+- Then you are the old one
+
+title: Things that become invisible
+- Older women
+- Older men in queues
+- The retired
+- The widowed
+
+title: What the body files away
+- Every late night
+- Every skipped meal
+- Every year of stress
+- The bill, arriving at fifty
+
+title: What old age actually is
+- Appointments
+- Pills
+- Waiting for calls
+- Talking about the weather
+- Remembering the dead
+
+title: How youth disappears
+- Without ceremony
+- In photographs
+- In the mirror at a shop
+- When a stranger calls you sir
+
+title: What getting older removes
+- The need to be liked
+- The energy to pretend
+- Several teeth
+- Most of the drama
+
+title: Things retirement does not bring
+- Purpose
+- Visitors
+- The trips you postponed
+- Your health back
+
+title: What a care home smells of
+- Bleach
+- Boiled vegetables
+- Waiting
+- Forgotten names
+
+title: Signs you are getting old
+- You talk about sleep
+- You know a good pharmacist
+- Music sounds like noise
+- Your doctor is younger
+
+tags: loneliness
+
+title: Where loneliness lives
+- In full rooms
+- In a marriage
+- At a wedding
+- In a city of millions
+- On a Sunday afternoon
+
+title: What lonely people do
+- Leave the radio on
+- Over-talk at shops
+- Check the phone again
+- Keep a pet
+- Apologise for calling
+
+title: What isolation teaches
+- Who checks on you
+- How long a weekend is
+- Your own voice
+- How rare a knock is
+
+title: Things a city offers the lonely
+- Crowds
+- Noise
+- Takeaway
+- Anonymity
+- No one to notice
+
+title: What loneliness is not
+- Being alone
+- A weakness
+- A choice, usually
+- Easy to admit
+
+title: Lonely hours
+- Sunday evening
+- Three in the morning
+- The drive home
+- Holidays
+- Your birthday
+
+title: How we hide loneliness
+- Busyness
+- Television
+- Long messages
+- Saying I like my own company
+
+title: What a phone gives you
+- Contacts
+- Notifications
+- Likes
+- Not one person to call at night
+
+tags: fear
+
+title: What fear disguises itself as
+- Caution
+- Being realistic
+- Waiting for the right time
+- Perfectionism
+- Loyalty
+
+title: Things we fear most
+- Being seen clearly
+- Being forgotten
+- Being ordinary
+- Being wrong in public
+
+title: What fear protects
+- Your comfort
+- Your excuses
+- Your old life
+- Nothing you actually need
+
+title: What happens when you wait
+- Others go first
+- The price rises
+- The fear stays
+- You get older
+
+title: What anxiety tells you
+- Everyone is watching
+- It will go badly
+- You must check again
+- Rest is dangerous
+
+title: Things fear has cost you
+- A move
+- A love
+- A career
+- A conversation
+- An apology
+
+title: What courage looks like
+- A difficult phone call
+- Leaving a party early
+- Saying I was wrong
+- Going to the doctor
+
+tags: memory
+
+title: What memory edits out
+- Your part in the fight
+- The boredom
+- The rain
+- The cost
+- Who was really there
+
+title: Things you remember wrongly
+- Your childhood home's size
+- Who left whom
+- How brave you were
+- What was said
+
+title: What survives in memory
+- A smell
+- A tone of voice
+- One sentence
+- The worst moment
+- A kitchen light
+
+title: What photographs do not show
+- The argument before
+- Who took the picture
+- Who was missing
+- How tired everyone was
+
+title: What nostalgia sells
+- A past that never was
+- Cheaper prices
+- Younger knees
+- A simpler you
+
+title: What fades first
+- Their voice
+- Their laugh
+- Their smell
+- Then their face
+
+title: Things only you remember
+- What your grandmother cooked
+- The name of that dog
+- The street before the flats
+- How your father whistled
+
+tags: society
+
+title: What society rewards
+- Confidence over competence
+- Looks over kindness
+- Noise over work
+- Being early with an opinion
+
+title: What crowds forget
+- Facts
+- Manners
+- Individuals
+- Yesterday's outrage
+
+title: How people judge you
+- Your shoes
+- Your accent
+- Your car
+- Your surname
+- Your postcode
+
+title: Things everyone performs
+- Happiness online
+- Busyness at work
+- Calm at weddings
+- Grief at funerals
+
+title: What fame delivers
+- Strangers who hate you
+- Friends who want things
+- No privacy
+- A short memory
+
+title: What outrage online achieves
+- Clicks
+- Advertising revenue
+- Tired people
+- Nothing else
+
+title: What manners actually are
+- Agreed small lies
+- Tools for strangers
+- A way to keep distance
+
+title: Things we pretend are normal
+- Two-hour commutes
+- Answering emails at dinner
+- Never seeing grandparents
+- Being tired all the time
+
+title: What a status symbol says
+- I am afraid
+- I need you to notice
+- I paid for this
+
+title: What the news leaves out
+- Most of the world
+- Ordinary kindness
+- What happened next
+- The ones who fixed it
+
+tags: home, city
+
+title: What a city does to you
+- Speeds you up
+- Shrinks your flat
+- Hides your neighbours
+- Costs more each year
+
+title: What moving house reveals
+- What you never used
+- What you could not throw away
+- Who helps
+- How much you hoarded
+
+title: Nairobi at rush hour
+- Matatus that do not wait
+- Hawkers at every window
+- Nobody looking up
+- Everyone already late
+
+title: Things a rented flat teaches
+- Do not nail the walls
+- Do not get attached
+- The landlord always wins
+
+title: What home becomes after you leave
+- A guest room
+- Someone else's kitchen
+- A photo on your phone
+- A place you visit politely
+
+title: What a commute costs
+- Two hours a day
+- Your mornings
+- Your evenings
+- Your patience
+- Your one life, in pieces
+
+title: Signs a place is not home
+- You never unpacked
+- Nobody knows your name
+- You leave without missing it
+
+title: What the old neighbourhood lost
+- The corner shop
+- The neighbours
+- The trees
+- You

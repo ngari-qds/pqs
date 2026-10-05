@@ -1,0 +1,434 @@
+// Fred M | 1963ke · Highlight — 200 quotes.
+
+@highlight+
+tags: love
+
+text: Most people do not fall in love. They fall into *routine* and call it *devotion*.
+
+text: The person who loves you will still *forget* you on a busy day.
+
+text: *Romance* is what love looks like before the *invoices* arrive.
+
+text: You were not *chosen*. You were *available* at the right moment.
+
+text: Love survives *betrayal* more often than it survives *boredom*.
+
+text: The opposite of love is not hate. It is *a closed door* nobody bothers to knock on.
+
+text: People promise *forever* because they cannot picture *Tuesday*.
+
+text: Some love is just *loneliness* that found a *witness*.
+
+text: You can love someone and still be *relieved* when they leave the room.
+
+text: *Jealousy* is not proof of love. It is proof of *ownership*.
+
+text: Love asks for *attention* long after it has stopped asking for *anything else*.
+
+text: The kindest lovers are often the ones who have already been *left*.
+
+tags: death
+
+text: Death is not the *enemy*. It is the *deadline* that makes the work matter.
+
+text: Everyone wants to go to heaven. Nobody wants to go *this week*.
+
+text: The dead do not *rest*. They simply stop *needing* anything from you.
+
+text: Your phone will keep receiving messages for a while after you *stop reading them*.
+
+text: Graveyards are full of people who were *about to start*.
+
+text: The last conversation is usually about *nothing*, and that is the *mercy*.
+
+text: Nobody dies *ready*. They die *interrupted*.
+
+text: At the funeral they will praise your *kindness*, not your *spreadsheets*.
+
+text: Mortality is the one appointment you cannot *reschedule*.
+
+text: The dead are *never late* again. The living are *always* a little late for them.
+
+text: A coffin is very *small* for everything a person *meant*.
+
+text: Death makes every *grudge* look like a *waste of postage*.
+
+text: Funerals are where people finally say the *kind things* to someone who *cannot hear*.
+
+tags: time
+
+text: You are not *running out* of time. You are *spending* it, mostly on other people's plans.
+
+text: The *someday* list is where dreams go to be *forgotten politely*.
+
+text: A wasted afternoon feels small. A wasted *decade* is made of them.
+
+text: Time is the only gift that is *always* returned *empty*.
+
+text: You do not *lose* years. You *trade* them for comfort and forget the receipt.
+
+text: *Tomorrow* is the busiest day in history. Nothing ever gets done in it.
+
+text: The clock is *honest*. It is your *calendar* that lies.
+
+text: Most people spend their *best hours* on their *worst obligations*.
+
+text: Nostalgia is time *charging interest* on moments you did not *notice*.
+
+text: *Later* is the most expensive word in any language.
+
+text: Every year feels shorter because you have *seen it all before*.
+
+text: The present is the only *place* you will ever *live*, and you rarely visit.
+
+text: Youth thinks time is *infinite*. Age knows it is *rationed*.
+
+tags: family
+
+text: Your family knows your *history*. That is not the same as knowing *you*.
+
+text: Every family has a *story* it tells and a *story* it hides.
+
+text: Parents give you *life*, then spend years *editing* it.
+
+text: You can leave your family's *house* and still live inside its *rules*.
+
+text: The family *peace* is usually kept by the one who *stopped talking*.
+
+text: Children do not *obey* your words. They *copy* your weather.
+
+text: Blood is thicker than water, and it *stains* just as easily.
+
+text: A mother's *worry* outlives her *ability* to do anything about it.
+
+text: The family *favourite* is rarely the one who *needed* it most.
+
+text: Siblings share a *past* and very little *after*.
+
+text: Your father was *young* once, and *frightened*, and nobody told you.
+
+text: Christmas is where families *rehearse* old *wounds* with better food.
+
+text: You inherit your parents' *fears* long before their *furniture*.
+
+tags: work
+
+text: Your employer calls you *family* right up until the *restructure*.
+
+text: Most careers are built on *one lucky break* and *ten years* of pretending it was a plan.
+
+text: The office remembers your *mistakes* and forgets your *overtime*.
+
+text: Nobody on their deathbed wishes they had answered *more emails*.
+
+text: You are *paid* for your time and *charged* for your health.
+
+text: A *promotion* is often a *bigger desk* for the same worries.
+
+text: Work gives you a *reason* to get up and an *excuse* not to look around.
+
+text: Being *indispensable* at work is how you become *dispensable* at home.
+
+text: The company will *survive* your absence. Your *children* may not forgive it.
+
+text: *Hustle* is a polite word for *never having enough*.
+
+text: Meetings exist so that nobody has to be *wrong alone*.
+
+text: You will be *replaced* at work within weeks and at home *never*.
+
+tags: money
+
+text: Money cannot buy *happiness*, but it rents a very convincing *substitute*.
+
+text: The *poor* worry about money every day. The *rich* worry about it every night.
+
+text: A *bank balance* is the only diary most people check daily.
+
+text: People will forgive your *faults* sooner than your *debts*.
+
+text: Spending feels like *freedom* until the *statement* arrives.
+
+text: You do not *own* the expensive car. The *loan* owns you.
+
+text: The wealthy are not *wiser*. They are *better insulated*.
+
+text: Most *savings* are just *fear* with a good interest rate.
+
+text: Money talks, and most people *lower their voice* to listen.
+
+text: The first thing a *windfall* attracts is *relatives*.
+
+text: Nobody is *greedy* in their own eyes. They are *careful*.
+
+text: Being *broke* is expensive. Everything costs more when you cannot pay *upfront*.
+
+tags: aging
+
+text: Getting older is mostly learning which *pains* are now *permanent*.
+
+text: At sixty you finally stop caring what people think, just as they *stop looking*.
+
+text: The *mirror* does not lie. It just waits until you are *tired*.
+
+text: Old age is not a *defeat*. It is the *bill* for surviving.
+
+text: You become *old* the day you start telling the *same story* to the same people.
+
+text: The young have *energy* and no map. The old have the map and no *legs*.
+
+text: Your knees will *retire* long before your *ambitions* do.
+
+text: The old are not *slow*. They are *done rushing* towards things that do not matter.
+
+text: Every *birthday* after fifty is a *receipt*, not a celebration.
+
+text: The *elderly* are a mirror most people refuse to *look into*.
+
+text: Aging takes your *looks* first and your *excuses* last.
+
+text: Grey hair is not *wisdom*. It is just *time* that happened to you.
+
+tags: friendship
+
+text: Friends are the family you *chose*, and they can *unchoose* you too.
+
+text: A real friend tells you the *truth* and then *stays* for dinner.
+
+text: Most friendships end not with a *fight* but with a *fading*.
+
+text: You will know your friends by who turns up to *carry boxes*.
+
+text: Some friends are only *loyal* to the version of you that *needed them*.
+
+text: Adult friendship is two calendars *negotiating* with *guilt*.
+
+text: The friend who never asks for help is often the one who *needs it most*.
+
+text: Friendship is easy in *good times* and *rare* in hard ones.
+
+text: A shared *past* is not enough to keep a friendship *alive*.
+
+text: You can count your real friends on one hand, and still have *fingers left over*.
+
+text: Old friends are *witnesses*. When they die, your *alibi* goes with them.
+
+text: People call it *drifting apart*. Usually one person simply *stopped rowing*.
+
+tags: grief
+
+text: Grief is *attention* with nowhere left to *land*.
+
+text: People say *time heals*. Time mostly teaches you to *flinch quietly*.
+
+text: The bereaved are not *strong*. They simply have *no alternative*.
+
+text: Grief keeps the *voicemail* long after it has let go of the *voice*.
+
+text: Mourning does not *end*. It just stops being *invited* to dinner.
+
+text: The worst part of loss is how *quickly* everyone else goes *back to work*.
+
+text: You do not *recover* from grief. You *rearrange* around it.
+
+text: Every *empty chair* at the table has a *name* nobody says.
+
+text: Grief makes the *ordinary* unbearable and the *unbearable* ordinary.
+
+text: The casseroles stop in *week three*. The grief does not *notice*.
+
+text: Some days grief is a *wave*. Most days it is *weather*.
+
+text: You will miss them most in the *small rooms* of your day, not the *big ones*.
+
+text: Grief is *loyal*. It turns up every *anniversary* without being asked.
+
+tags: truth
+
+text: The truth does not need your *permission* to be *true*.
+
+text: Most *honesty* is just *anger* that finally found a reason.
+
+text: People ask for *the truth* and mean *a kinder lie*.
+
+text: The *facts* rarely change. Your *willingness* to see them does.
+
+text: A lie told often enough does not become *true*. It becomes *tradition*.
+
+text: Everyone wants *transparency* until the light falls on *them*.
+
+text: Silence is the *politest* way to *lie*.
+
+text: The truth is often *boring*, which is why the *rumour* travels faster.
+
+text: You already *know*. You are just waiting for someone to *confirm* it.
+
+text: An *apology* without change is just a *well-written* excuse.
+
+text: The hardest truths are the ones you would have to *act on*.
+
+text: Being *right* is cheap. Being *honest* about being wrong costs something.
+
+tags: self
+
+text: You are not *misunderstood*. You are *unexplained*.
+
+text: Most people are *waiting* to be discovered by a life they never *applied for*.
+
+text: The person you are *becoming* is built from what you do when you are *bored*.
+
+text: You do not *lack* discipline. You lack a reason you *believe*.
+
+text: *Self-pity* is the most comfortable chair in any room.
+
+text: You are the *only* witness to every day of your life. Testify *honestly*.
+
+text: Nobody is *coming*. That is the *bad* news and the good news.
+
+text: Your *potential* is not an achievement. It is an *unpaid* invoice.
+
+text: The stories you tell about yourself are mostly *defence*, not *description*.
+
+text: You cannot *outrun* yourself. You just get *tired* in new places.
+
+text: You will not *find* yourself. You will *build* yourself, badly, then better.
+
+text: Being *liked* by everyone means being *known* by no one.
+
+text: *Regret* is just your old self *sending a bill*.
+
+tags: loneliness
+
+text: Loneliness is having *people* and no *person*.
+
+text: The loneliest sound in a full house is a *phone* that never *rings for you*.
+
+text: You can be *surrounded* and still eat every meal *alone* inside your head.
+
+text: Lonely people are often *excellent listeners*. They have had *practice*.
+
+text: A *crowded* city is a fine place to *disappear*.
+
+text: Nobody *asks* how the strong one is *doing*.
+
+text: Loneliness is not an *empty room*. It is a *full one* where nobody looks up.
+
+text: The *notifications* are many. The *conversations* are few.
+
+text: Solitude is *chosen*. Loneliness is *assigned*.
+
+text: The lonely do not need *advice*. They need *an invitation*.
+
+text: Some people are *alone* together for *thirty years* and call it marriage.
+
+text: Loneliness grows in *politeness* and dies in *honesty*.
+
+tags: society
+
+text: Society *applauds* honesty and *promotes* discretion.
+
+text: Most *opinions* are borrowed and returned *unread*.
+
+text: The crowd is never *wrong* until it is *too late* to leave it.
+
+text: People do not want *justice*. They want someone *else* to be blamed.
+
+text: *Manners* are how civilised people keep their *contempt* indoors.
+
+text: The world rewards *confidence* and calls it *competence*.
+
+text: Every *revolution* ends with someone new holding the *keys*.
+
+text: *Outrage* has a short memory and a *loud* voice.
+
+text: The *rules* were written by people who never had to *follow* them.
+
+text: You are *respected* in proportion to how much you could *harm* people.
+
+text: Kindness is *admired* in speeches and *exploited* in practice.
+
+text: *Normal* is just what the majority stopped *questioning*.
+
+text: Fame is being *misunderstood* by *more people*.
+
+tags: fear
+
+text: Most of your *caution* is just *fear* that learned to dress well.
+
+text: You are not *protecting* yourself. You are *shrinking*.
+
+text: The thing you *avoid* is usually the thing you *need*.
+
+text: Fear is a *liar* with an excellent *memory*.
+
+text: People stay in *bad jobs* because the *unknown* has no pension plan.
+
+text: Anxiety is *rehearsing* disasters that never *book a date*.
+
+text: The bravest thing most people do is *show up* to a life they *did not plan*.
+
+text: Fear does not *stop* you. It just makes you *late*.
+
+text: *Comfort* is fear's favourite *disguise*.
+
+text: You are not *afraid of failing*. You are afraid of *being seen* failing.
+
+text: Fear keeps you *safe* the way a *locked room* keeps you warm.
+
+text: Nobody regrets the *risk* as much as they regret the *hesitation*.
+
+text: Worry is *paying* for a disaster in *instalments* before it arrives.
+
+tags: memory
+
+text: Memory is a *museum* where the *curator* keeps changing the labels.
+
+text: You remember the *insult* word for word and the *compliment* only roughly.
+
+text: The past was not *better*. You were just *younger* in it.
+
+text: Most of your life will be *forgotten*, even by *you*.
+
+text: Old photographs are *proof* of moments you did not know were *precious*.
+
+text: You do not remember *days*. You remember *moments* that refused to leave.
+
+text: *Nostalgia* is the past with the *bad smells* removed.
+
+text: The dead grow *kinder* every year you *remember* them.
+
+text: Your memory is not a *record*. It is a *verdict*.
+
+text: We forget *faces* before voices, and voices before *smells*.
+
+text: The happiest memories were *ordinary* at the *time*.
+
+text: Remembering is how the *living* keep *visiting*.
+
+tags: home, city
+
+text: Home is not where you were *born*. It is where you stopped *apologising*.
+
+text: The city never *sleeps*, which is why it never *notices* you.
+
+text: You can *own* a house and still have *nowhere* to go.
+
+text: Every *move* leaves a *version* of you behind in the empty rooms.
+
+text: The *old neighbourhood* is still there. *Your* place in it is not.
+
+text: A city is a million *strangers* agreeing to share *traffic*.
+
+text: Homesickness is missing a *place* that has already *changed*.
+
+text: You never really *leave* home. You just *stop visiting* it.
+
+text: Cities are *generous* with *anonymity* and stingy with company.
+
+text: The house is *quiet* now. That is what *empty nest* really means.
+
+text: Rent is the monthly *reminder* that you are *visiting* your own life.
+
+text: Home is the place where your *absence* is *noticed*.
+
+text: Your *hometown* remembers you as someone you *no longer are*.

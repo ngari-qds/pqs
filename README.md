@@ -7,7 +7,7 @@ pixel-perfect image with the signature **Fred M | 1963ke · @ngariq_** on it.
 > 20 quote formats with 25 layout archetypes, photo backgrounds with
 > resolution checks, a generated gallery of 485 QA-verified designs plus 60
 > hand-tuned heroes, batch mode, a quote library with tags, export history,
-> a collection of 3,247 cold quotes (200 or more per format) ready to load,
+> a collection of 3,909 cold quotes (200 or more per format) ready to load,
 > and upload import for .txt, .md, .json and .csv files.
 
 ## Quick start
@@ -181,7 +181,7 @@ batches. Rendering can be cancelled; whatever finished is still downloaded.
 
 ## The quote collection
 
-`public/quotes/` holds **3,247 original quotes** on reality, life, death,
+`public/quotes/` holds **3,909 original quotes** on reality, life, death,
 love, relationships, family, time, work, grief, aging and more, written cold
 and unsentimental, every one tagged, in batch syntax:
 
@@ -194,10 +194,14 @@ and unsentimental, every one tagged, in batch syntax:
 | `cold-quotes.txt` (Sampler (every format)) | 441 |
 | `formats/classic.txt` (Classic) | 200 |
 | `formats/hbp.txt` (Hook / Body / Punchline) | 200 |
+| `formats/carousel.txt` (Carousel) | 200 |
 | `formats/one-liner.txt` (One-liner) | 200 |
+| `formats/highlight.txt` (Highlight) | 200 |
+| `formats/contrast.txt` (Contrast) | 99 |
 | `formats/myth-truth.txt` (Myth vs Truth) | 200 |
 | `formats/then-now.txt` (Then / Now) | 200 |
 | `formats/paradox.txt` (Paradox) | 200 |
+| `formats/list.txt` (List) | 163 |
 | `formats/equation.txt` (Equation) | 202 |
 | `formats/stat.txt` (Stat) | 201 |
 | `formats/law.txt` (Law) | 200 |
@@ -206,7 +210,7 @@ and unsentimental, every one tagged, in batch syntax:
 | `formats/field-note.txt` (Field Note) | 201 |
 | `formats/post-card.txt` (Post Card) | 200 |
 | `formats/pull-quote.txt` (Pull Quote) | 200 |
-| **Total** | **3,247** |
+| **Total** | **3,909** |
 
 In the app: **Batch → Collection → Load** (everything, or one file) or
 **Library → Import collection**. Importing twice never duplicates; quotes are

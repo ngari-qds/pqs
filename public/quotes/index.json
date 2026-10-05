@@ -1,5 +1,5 @@
 {
-  "total": 3247,
+  "total": 3909,
   "files": [
     {
       "id": "sampler",
@@ -20,10 +20,28 @@
       "count": 200
     },
     {
+      "id": "carousel",
+      "name": "Carousel",
+      "file": "formats/carousel.txt",
+      "count": 200
+    },
+    {
       "id": "one-liner",
       "name": "One-liner",
       "file": "formats/one-liner.txt",
       "count": 200
+    },
+    {
+      "id": "highlight",
+      "name": "Highlight",
+      "file": "formats/highlight.txt",
+      "count": 200
+    },
+    {
+      "id": "contrast",
+      "name": "Contrast",
+      "file": "formats/contrast.txt",
+      "count": 99
     },
     {
       "id": "myth-truth",
@@ -42,6 +60,12 @@
       "name": "Paradox",
       "file": "formats/paradox.txt",
       "count": 200
+    },
+    {
+      "id": "list",
+      "name": "List",
+      "file": "formats/list.txt",
+      "count": 163
     },
     {
       "id": "equation",
