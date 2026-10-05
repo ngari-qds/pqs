@@ -1,5 +1,5 @@
 {
-  "total": 3046,
+  "total": 3247,
   "files": [
     {
       "id": "sampler",
@@ -48,6 +48,12 @@
       "name": "Equation",
       "file": "formats/equation.txt",
       "count": 202
+    },
+    {
+      "id": "stat",
+      "name": "Stat",
+      "file": "formats/stat.txt",
+      "count": 201
     },
     {
       "id": "law",

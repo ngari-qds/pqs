@@ -1,0 +1,772 @@
+// Fred M | 1963ke · Stat — 200 quotes. Every number is plain arithmetic or a
+// well-established general fact. No invented research figures.
+
+@stat+
+tags: time
+
+number: 700,800
+context: hours in an 80-year life. You will sleep through about a third of them.
+source: 80 x 365 x 24
+
+number: 4,160
+context: weeks in 80 years. Each one starts on a Monday.
+source: 80 x 52
+
+number: 960
+context: months in 80 years. Fewer than a thousand pay days, if you are lucky.
+source: 80 x 12
+
+number: 8,760
+context: hours in a year. Count the ones you can actually remember.
+source: 365 x 24
+
+number: 525,600
+context: minutes in a year. Most of them go unnoticed.
+source: 365 x 24 x 60
+
+number: 604,800
+context: seconds in a week. None of them wait for you to be ready.
+source: 7 x 86,400
+
+number: 10,080
+context: minutes in a week. Not one of them is labelled later.
+source: 7 x 1,440
+
+number: 31.7 years
+context: is how long one billion seconds lasts. Most people do not get two and a half.
+source: 1,000,000,000 / 31,557,600
+
+number: 11.6 days
+context: is how long one million seconds lasts. A fortnight, and then it is gone.
+source: 1,000,000 / 86,400
+
+number: 1,000
+context: months is about 83 years. Almost nobody lives a thousand months.
+source: 1,000 / 12
+
+number: 30,000
+context: days is about 82 years. Very few people are given all of them.
+source: 30,000 / 365.25
+
+number: 10,000
+context: days old arrives at about 27. Nobody throws a party for it.
+source: 10,000 / 365.25
+
+number: 20,000
+context: days old arrives at about 55. Most people pass it without noticing.
+source: 20,000 / 365.25
+
+number: 1,000
+context: weeks old arrives at about 19, before most people know what they want.
+source: 1,000 x 7 / 365.25
+
+number: 7
+context: days in a week. None of them is called someday.
+
+number: 0
+context: hours in any day reserved for things you keep postponing.
+
+number: 24
+context: hours in a day for everyone: the busy, the idle, the dying.
+
+tags: time, life
+
+number: 1/2
+context: of an 80-year life is already spent by your 40th birthday.
+source: 40 / 80
+
+number: 3/8
+context: of an 80-year life is gone by 30, and most of it was school.
+source: 30 / 80
+
+number: 2,080
+context: weeks left at 40, if you reach 80. It sounds like a lot until you count.
+source: 40 x 52
+
+number: 1,040
+context: weeks left at 60, if you reach 80. About as many as you spent at school.
+source: 20 x 52
+
+number: 360
+context: months left at 50, if you reach 80. Thirty more summers, at best.
+source: 30 x 12
+
+number: 30
+context: summers left at 50, if you reach 80. Plan accordingly.
+source: 80 - 50
+
+number: 15
+context: years between retirement at 65 and 80. The reward for forty years of waiting.
+source: 80 - 65
+
+number: 5,475
+context: days between 65 and 80. That is the whole retirement you saved for.
+source: 15 x 365
+
+number: 3,652
+context: days in your twenties. You will spend many of them waiting for life to start.
+source: 10 x 365.25
+
+number: 990
+context: full moons, roughly, in an 80-year life. You will look up at very few.
+source: 12.37 x 80
+
+number: 80
+context: laps around the Sun in an 80-year life. The planet does not slow down for you.
+
+number: 75 bn km
+context: travelled around the Sun in 80 years. You will still feel stuck.
+source: 940 million km x 80
+
+number: 122
+context: years: the longest verified human life. Everyone else stopped sooner.
+
+number: 150
+context: years from now, almost no one alive today will be. Including you.
+
+tags: sleep, body
+
+number: 1/3
+context: of your life is spent asleep, if you sleep eight hours a night.
+source: 8 / 24
+
+number: 26
+context: years asleep in an 80-year life of eight-hour nights.
+source: 8 x 365 x 80 / 8,760
+
+number: 100,000
+context: heartbeats a day, roughly. None are kept in reserve.
+source: about 70 a minute x 1,440
+
+number: 3 billion
+context: heartbeats, roughly, in a long life. It is a large number with an end.
+source: 100,000 x 365 x 80
+
+number: 20,000
+context: breaths a day, roughly. You notice almost none of them.
+source: about 14 a minute x 1,440
+
+number: 206
+context: bones in an adult body. Every one of them will outlast your name.
+
+number: 60%
+context: of an adult body is water, roughly. Pride does not change the figure.
+
+number: 5 litres
+context: of blood, roughly, in an adult. Everything you are runs on that.
+
+number: 37°C
+context: normal body temperature. Lose a few degrees and the story ends.
+
+number: 32
+context: adult teeth. You will lose some of them before you lose your vanity.
+
+number: 1 cm
+context: of hair grows each month, roughly. Grief does not pause it.
+
+number: 40 weeks
+context: to be born, roughly. Leaving can take one second.
+
+number: 3
+context: years old, roughly, is where most adult memories begin. Your first years are lost.
+
+tags: family
+
+number: 40
+context: visits left if you see your parents twice a year and they live 20 more years.
+source: 2 x 20
+
+number: 15
+context: Christmases left with a parent who is 70 now, if they live to 85.
+source: 85 - 70
+
+number: 60
+context: visits left if you see your father three times a year and he lives 20 more years.
+source: 3 x 20
+
+number: 1,040
+context: Sunday calls in 20 years, if you ring your mother every week. Most people skip some.
+source: 52 x 20
+
+number: 936
+context: weekends with your child before they turn 18. Some are already gone.
+source: 18 x 52
+
+number: 6,570
+context: days of childhood before 18. You cannot add any to the ones you missed.
+source: 18 x 365
+
+number: 2/3
+context: of your child's years at home are already spent by the time they turn 12.
+source: 12 / 18
+
+number: 1/2
+context: of your child's years at home are over by their ninth birthday.
+source: 9 / 18
+
+number: 18
+context: summers with your child before they are an adult. Count how many are left.
+
+number: 2,190
+context: bedtime stories, if you read one every night from age two to eight. Then never again.
+source: 6 x 365
+
+number: 1,560
+context: Sunday dinners in 30 years, if you eat with your parents every week. Most families manage far fewer.
+source: 52 x 30
+
+number: 5/8
+context: of your parents' lives you witness, if they had you at 30 and live to 80.
+source: 50 / 80
+
+number: 80
+context: years old: your parents' age when you are 50, if they had you at 30.
+source: 50 + 30
+
+number: 4
+context: grandparents. Try saying all four full names without stopping to think.
+
+number: 8
+context: great-grandparents. Few people know even one of their faces.
+
+number: 16
+context: great-great-grandparents, and almost nobody remembers a single thing they said.
+
+number: 1,024
+context: ancestors ten generations back. You carry their blood and none of their names.
+source: 2 to the power of 10
+
+number: 1 billion+
+context: ancestor slots thirty generations back. Every one of them is forgotten.
+source: 2 to the power of 30
+
+number: 20
+context: visits left with grandparents you see twice a year, if they have ten years left.
+source: 2 x 10
+
+tags: love, relationships
+
+number: 18,262
+context: nights beside the same person, if you marry at 30 and both live to 80.
+source: 50 x 365.25
+
+number: 50
+context: years of marriage needs a wedding at 30 and two people still alive at 80.
+source: 80 - 30
+
+number: 60
+context: years of marriage for a diamond anniversary. Most couples run out of time first.
+
+number: 1 in 365
+context: chance that a stranger shares your birthday. You are less unique than you feel.
+
+number: 23
+context: people in a room, and the chance two share a birthday passes 50%. Coincidence is cheap.
+
+number: 70
+context: people in a room, and a shared birthday is almost certain. Special is a matter of sample size.
+
+number: < 1
+context: second for a message to cross the world. The reply can still take a week.
+
+number: 300,000
+context: km per second: the speed of light. Some apologies travel slower.
+
+number: 480
+context: meetings in 40 years, if you see a close friend once a month.
+source: 12 x 40
+
+number: 40
+context: meetings in 40 years, if you only see an old friend at Christmas.
+source: 1 x 40
+
+number: 30
+context: reunions in 30 years, if you meet once a year. Each one a little quieter.
+source: 1 x 30
+
+tags: work
+
+number: 2,080
+context: hours in a full-time working year. Most people cannot name what they built in them.
+source: 40 x 52
+
+number: 76,800
+context: hours worked in a 40-year career of 40-hour weeks and 48 working weeks.
+source: 40 x 48 x 40
+
+number: 1,920
+context: working weeks in a 40-year career. Holidays are the rounding error.
+source: 48 x 40
+
+number: 9,600
+context: working days in a 40-year career of 240-day years.
+source: 240 x 40
+
+number: 2,080
+context: Monday mornings in a 40-year career. Each one feels like the first.
+source: 52 x 40
+
+number: 260
+context: weekdays in a year. Only 104 days are weekend.
+source: 52 x 5
+
+number: 104
+context: weekend days in a year, minus the ones spent recovering from the week.
+source: 52 x 2
+
+number: 5/7
+context: of every week belongs to work, if you work weekdays.
+source: 5 / 7
+
+number: 24%
+context: of every week is paid work in a 40-hour job. It occupies far more than that.
+source: 40 / 168
+
+number: 72
+context: hours a week left after 40 hours of work and 56 hours of sleep. Then the commute.
+source: 168 - 40 - 56
+
+number: 80
+context: weeks of holiday in a 40-year career with two weeks off a year.
+source: 2 x 40
+
+number: 6
+context: hours a day left after eight of sleep, eight of work and two of travel.
+source: 24 - 8 - 8 - 2
+
+number: 480
+context: hours a year spent commuting, if the journey is an hour each way.
+source: 2 x 5 x 48
+
+number: 20
+context: full days a year spent commuting at an hour each way.
+source: 480 / 24
+
+number: 2.2 years
+context: of a 40-year career spent commuting at an hour each way.
+source: 19,200 hours / 8,760
+
+tags: money
+
+number: 2,740
+context: years to earn one billion at a thousand a day. Some people still think it is talent.
+source: 1,000,000,000 / 1,000 / 365
+
+number: 2,488
+context: owed after five years on a debt of 1,000 at 20% interest, compounded yearly.
+source: 1,000 x 1.2 to the power of 5
+
+number: 4 years
+context: for a debt to double at 18% interest, roughly. It works while you sleep.
+source: rule of 72: 72 / 18
+
+number: 14 years
+context: for 5% inflation to halve what your savings buy.
+source: 72 / 5, roughly
+
+number: 24 years
+context: for prices to double at 3% inflation. Your salary has to keep up or you get poorer.
+source: 72 / 3, roughly
+
+number: 7,040
+context: is what 1,000 becomes after 40 years at 5% a year. Time does the heavy lifting.
+source: 1,000 x 1.05 to the power of 40
+
+number: 48,000
+context: saved in 40 years at 100 a month, before interest. Starting late halves it.
+source: 100 x 12 x 40
+
+number: 300
+context: monthly payments on a 25-year mortgage. The house is the bank's for most of them.
+source: 25 x 12
+
+number: 360
+context: monthly payments on a 30-year mortgage. You will be a different person at the last one.
+source: 30 x 12
+
+number: 480
+context: rent payments in 40 years of renting. Each one buys a month and nothing more.
+source: 12 x 40
+
+number: 1,825
+context: spent in a year at 5 a day. Small leaks sink large boats.
+source: 5 x 365
+
+number: 73,000
+context: spent in 40 years at 5 a day. The daily habit costs more than the big mistake.
+source: 5 x 365 x 40
+
+number: 1,095
+context: cups of coffee a year at three a day. Energy borrowed, not earned.
+source: 3 x 365
+
+number: 200,000
+context: saved in 40 years if you put away 10% of a 50,000 salary, before interest.
+source: 5,000 x 40
+
+number: 200
+context: a year in interest on 1,000 borrowed at 20% simple interest. The lender never forgets.
+source: 1,000 x 0.2
+
+number: 13,983,816
+context: possible combinations in a 6-from-49 lottery. You hold one of them.
+source: 49 choose 6
+
+tags: habits, attention
+
+number: 182
+context: hours a year spent on 30 minutes of scrolling a day. About a week, gone.
+source: 0.5 x 365
+
+number: 7.6 days
+context: lost every year to half an hour of scrolling a day.
+source: 182.5 / 24
+
+number: 3.8 days
+context: a year spent on just 15 minutes a day. Nothing is too small to add up.
+source: 91.25 / 24
+
+number: 8.3 years
+context: of a 50-year stretch spent on a screen, at four hours a day.
+source: 4 x 365 x 50 / 8,760
+
+number: 1,460
+context: hours a year on a phone at four hours a day. That is 61 full days.
+source: 4 x 365
+
+number: 1,095
+context: hours a year in front of a television at three hours a day.
+source: 3 x 365
+
+number: 3,650
+context: hours in ten years, if you give one hour a day to something. Enough to become good.
+source: 1 x 365 x 10
+
+number: 37.8
+context: times better after a year of improving 1% a day. Pure arithmetic, rarely practised.
+source: 1.01 to the power of 365
+
+number: 0.026
+context: is what remains after a year of getting 1% worse every day. Decline is quiet.
+source: 0.99 to the power of 365
+
+number: 61
+context: hours a year spent waiting, at ten minutes a day.
+source: 10 x 365 / 60
+
+number: 71 days
+context: of a 70-year life spent brushing your teeth, at four minutes a day.
+source: 4 x 365 x 70 / 1,440
+
+number: 177 days
+context: of a 70-year life spent in the shower, at ten minutes a day.
+source: 10 x 365 x 70 / 1,440
+
+number: 2.5 years
+context: spent cooking in 60 years, at one hour a day. Most of it eaten in ten minutes.
+source: 365 x 60 / 8,760
+
+number: 87,600
+context: meals in 80 years at three a day. You will remember perhaps a dozen.
+source: 3 x 365 x 80
+
+number: 600
+context: books in 50 years, if you read one a month. Choose them carefully.
+source: 12 x 50
+
+number: 5,840
+context: waking hours a year, if you sleep eight hours a night.
+source: 16 x 365
+
+tags: death
+
+number: 2
+context: people die every second worldwide, roughly. The clock does not stop for any of them.
+source: about 60 million a year / 31.5 million seconds
+
+number: 4
+context: people are born every second, roughly. The world replaces everyone.
+source: about 130 million a year / 31.5 million seconds
+
+number: 170,000
+context: people die every day worldwide, roughly. Today is no exception.
+source: about 60 million / 365
+
+number: 60 million
+context: people die every year, roughly. Each one was the centre of a world.
+
+number: 6 feet
+context: the traditional depth of a grave. Everything you worried about stays above it.
+
+number: 1 in 1
+context: odds of dying eventually. Every other risk is only a matter of timing.
+
+number: 100 years
+context: from now, every person you have ever argued with will be gone.
+
+number: 122
+context: years is the record. You are not going to break it.
+
+tags: universe, scale
+
+number: 4.5 bn
+context: years: the age of the Earth. Your worries are a few decades old.
+
+number: 13.8 bn
+context: years: the age of the universe. It was fine without you for all of them.
+
+number: 6 seconds
+context: before midnight: when humans appear, if Earth's history were one day.
+source: 300,000 / 4.54 billion x 86,400
+
+number: 0.1 second
+context: before midnight: all of recorded history, if Earth's history were one day.
+source: 5,000 / 4.54 billion x 86,400
+
+number: 0.0015 s
+context: is an 80-year life, if Earth's history were squeezed into one day.
+source: 80 / 4.54 billion x 86,400
+
+number: 8 minutes
+context: for sunlight to reach you. The sun you see is always slightly in the past.
+
+number: 1.3 sec
+context: for moonlight to reach you. Even the moon is old news.
+
+number: 4.2 years
+context: for light from the nearest star beyond the Sun to reach Earth.
+
+number: 2.5m
+context: years: the age of the light from Andromeda. It left before humans existed.
+
+number: 5 bn
+context: more years, roughly, before the Sun runs out. It will not be watching.
+
+number: 71%
+context: of the Earth's surface is ocean. Most of the planet was never meant for you.
+
+number: 40,000 km
+context: around the Earth at the equator. You can feel far from someone in the same room.
+
+number: 384,400 km
+context: to the Moon, on average. Some silences feel further.
+
+number: 1,670 km/h
+context: is how fast the ground spins at the equator. You still feel stuck.
+
+number: 107,000
+context: km per hour: Earth's speed around the Sun. Standing still is an illusion.
+
+number: 76 years
+context: between visits of Halley's comet. Most people see it once, if at all.
+
+number: 375 years
+context: on average between total solar eclipses at any one spot on Earth.
+
+number: 48 years
+context: for the world population to double from four billion to eight.
+
+number: 4,500
+context: years old: the Great Pyramid. Its builders' names did not last.
+
+number: 12 hours
+context: of daylight in Nairobi almost every day of the year. The equator offers no long summer evenings.
+
+number: 300,000
+context: years, roughly, since modern humans appeared. Most of them left no trace at all.
+
+number: 12,000
+context: years, roughly, since farming began. Before that, nobody owned a field to worry about.
+
+number: 5,000
+context: years of writing, roughly. Almost everything ever said was never written down.
+
+number: 66 million
+context: years since the dinosaurs died out. Dominance is not the same as permanence.
+
+number: 3.8 cm
+context: a year: how far the Moon drifts from the Earth. Distance grows without anyone noticing.
+
+number: 2.5 cm
+context: a year, roughly: how fast continents drift. Nothing stays where you left it.
+
+number: 150m km
+context: to the Sun. It still decides whether you are warm.
+
+number: 29.5 days
+context: from one full moon to the next. It keeps time whether you look up or not.
+
+tags: odds, chance
+
+number: 50%
+context: chance on every coin toss. The coin does not remember the last ten.
+
+number: 1 in 6
+context: chance on a die, every throw. Luck is not owed to you.
+
+number: 1 in 36
+context: chance of two sixes. People still call it fate when it happens.
+
+number: 1 in 1,024
+context: chance of ten heads in a row. Rare things happen to someone every day.
+source: 2 to the power of 10
+
+number: 2.7%
+context: house edge on a single-zero roulette wheel. Play long enough and it wins.
+source: 1 / 37
+
+number: 8 x 10^67
+context: possible orders of a shuffled deck. Yours has almost certainly never existed before.
+source: 52 factorial
+
+number: 1 in 1,461
+context: chance of being born on 29 February. Even rare things do not make you special.
+source: 1 / (4 x 365 + 1)
+
+number: 20
+context: birthdays by 80 for someone born on 29 February. The calendar does not negotiate.
+source: 80 / 4
+
+tags: time, calendar
+
+number: 36,525
+context: days in a century. Nobody you know will see two of them.
+source: 100 x 365.25
+
+number: 520
+context: weeks in a decade. Ten years can go by while you are deciding.
+source: 10 x 52
+
+number: 120
+context: months in a decade. Most people only notice the ones with bad news.
+source: 10 x 12
+
+number: 22
+context: times a day the hands of a clock overlap. They never stay together.
+source: 11 per 12 hours
+
+number: 2
+context: times a day a stopped clock is right. Being right occasionally proves nothing.
+
+number: 96
+context: quarter hours in a day. Every one of them is spent on something.
+source: 24 x 4
+
+number: 1
+context: extra day every four years. People still say they did not have time.
+
+number: 29,220
+context: sunrises in 80 years. You will be awake for very few.
+source: 80 x 365.25
+
+number: 80
+context: birthdays in an 80-year life. Each one a year closer, with cake.
+
+number: 4
+context: generations is about a century, at 25 years each. Your great-great-grandchildren will not know your name.
+source: 4 x 25
+
+tags: sleep, body
+
+number: 2,920
+context: hours a year asleep at eight hours a night. Nearly four months spent unconscious.
+source: 8 x 365
+
+number: 730
+context: hours of sleep lost every year by sleeping six hours instead of eight. A full month.
+source: 2 x 365
+
+number: 56
+context: hours of sleep in a week of eight-hour nights. The body collects what it is owed.
+source: 8 x 7
+
+number: 36.5m
+context: heartbeats a year, roughly. The count runs whether you live well or not.
+source: 100,000 x 365
+
+number: 20%
+context: of the body's energy, roughly, goes to the brain. Most of it spent on worry.
+
+number: 2%
+context: of body weight, roughly, is the brain. Small organ, enormous bill.
+
+number: 20
+context: baby teeth, all of them lost. The body starts practising loss early.
+
+tags: family, friendship
+
+number: 100
+context: days with your parents in 20 years, if you visit for five days a year. About three months in all.
+source: 5 x 20
+
+number: 6,570
+context: days with your parents before you leave at 18. Visiting ten days a year for 30 years adds 300.
+source: 18 x 365
+
+number: 40
+context: times you will see a sibling in 40 years, if you meet once a year.
+source: 1 x 40
+
+number: 26
+context: times fewer meetings when weekly school friends become twice-a-year adult friends.
+source: 52 / 2
+
+number: 20
+context: years old: your grandchild when you turn 80, if you and your child each have children at 30.
+source: 80 - 60
+
+tags: work, money
+
+number: 10 hours
+context: is the true length of a one-hour meeting with ten people in it.
+source: 1 x 10
+
+number: 26 hours
+context: a year spent in one 30-minute weekly meeting.
+source: 0.5 x 52
+
+number: 240 hours
+context: of free work a year, if you stay five unpaid hours late each week. Six working weeks.
+source: 5 x 48
+
+number: 120 hours
+context: a year eaten at your desk, at thirty minutes a lunch over 240 working days.
+source: 0.5 x 240
+
+number: 1/2
+context: of your waking hours go to work, if you work eight of the sixteen you are awake.
+source: 8 / 16
+
+number: 47
+context: years of work if you start at 18 and retire at 65. That is most of a life.
+source: 65 - 18
+
+number: 5,200
+context: a year spent at 100 a week. The small amounts are the large ones.
+source: 100 x 52
+
+number: 12.7%
+context: is what 1% interest a month really costs over a year. The lender knows the maths.
+source: 1.01 to the power of 12
+
+number: 83 years
+context: to save a million at 1,000 a month without interest. Hard work alone does not make fortunes.
+source: 1,000,000 / 12,000
+
+number: 2,400
+context: a year spent on a 10 lunch every working day. Habits have prices.
+source: 10 x 240
+
+tags: society
+
+number: 195
+context: countries, roughly. Not one of them has abolished death.
+
+number: 7,000
+context: languages, roughly. In none of them is sorry easy to say well.
+
+number: 73
+context: years: global life expectancy at birth, roughly. Plans for 100 are optimistic.
+
+number: 4.4m
+context: people in Nairobi at the 2019 census. You can still eat dinner alone every night.
