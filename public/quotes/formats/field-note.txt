@@ -1,0 +1,844 @@
+// Fred M | 1963ke · Field note — 200 quotes.
+
+@field-note+
+tags: city
+
+date: 06.01.2025
+place: Nairobi CBD, 7:15 a.m.
+text: Ten thousand people crossing Moi Avenue, each one certain their day matters most. The traffic lights treat them all the same.
+
+date: 19.01.2025
+place: Thika Road, rush hour
+text: A Range Rover and a handcart stuck in the same jam. For twenty minutes, the city was perfectly fair.
+
+date: 02.02.2025
+place: Westlands, rooftop bar
+text: The view of the city is beautiful from up here. You cannot see who is sleeping under the bridges from this height.
+
+date: 14.02.2025
+place: Kibera, late afternoon
+text: Children fly a kite made of a plastic bag. It climbs higher than anything their parents will be allowed to reach.
+
+date: 27.02.2025
+place: Uhuru Highway overpass
+text: A man sells flags for a team that lost. Nobody is buying. He keeps waving them anyway, because hunger does not follow football.
+
+date: 11.03.2025
+place: Ngara, 5:30 a.m.
+text: The bakeries are already hot. The people who feed this city are always awake before it notices them.
+
+date: 25.03.2025
+place: Railway station, Nairobi
+text: An old woman waits for a train that was cancelled in 2017. Nobody has the heart to tell her, and nobody has the time.
+
+date: 08.04.2025
+place: Kencom bus stop
+text: A preacher shouts about the end of the world. A woman beside him checks the price of tomatoes. Both are equally urgent.
+
+date: 21.04.2025
+place: Kilimani, gated estate
+text: The guard has worked here nine years. The residents know his shift times better than his name.
+
+date: 05.05.2025
+place: Muthurwa market
+text: A woman counts out shillings for a single onion. A man on the radio talks about economic growth.
+
+date: 18.05.2025
+place: Nairobi, 11:50 p.m.
+text: The city goes quiet in layers. The rich go home first, then the workers, and last of all the ones with nowhere to go.
+
+date: 31.05.2025
+place: Ngong Road, roadside kiosk
+text: The kiosk owner knows everyone who passes by name and debt. In this city, that is the closest thing to a bank.
+
+date: 13.06.2025
+place: Jevanjee Gardens, noon
+text: Men sleep on the benches in the shade. They are not lazy. They have simply run out of places to be.
+
+tags: work
+
+date: 27.06.2025
+place: Upper Hill, 8th floor
+text: The meeting was about wellness. It ran forty minutes over, and nobody had lunch.
+
+date: 09.07.2025
+place: Industrial Area, 6:00 p.m.
+text: The factory whistle goes and a river of blue overalls pours out. Nobody runs. Everyone is saving the last of their strength.
+
+date: 22.07.2025
+place: Open-plan office, Friday
+text: A colleague was let go this morning. By three o'clock someone had already taken his better chair.
+
+date: 04.08.2025
+place: Construction site, Ruaka
+text: The men building the apartments will never live in them. They eat lunch in the shadow of the show flat.
+
+date: 17.08.2025
+place: Bank queue, Tom Mboya St
+text: The teller smiles at every customer. Her smile ends exactly at the edge of the glass.
+
+date: 30.08.2025
+place: Boardroom, 9:00 a.m.
+text: Twelve people agreed with the director. Eleven of them disagreed in the lift afterwards.
+
+date: 12.09.2025
+place: Night shift, hospital laundry
+text: The sheets come in stained with every kind of ending. The women fold them neatly and talk about their children.
+
+date: 25.09.2025
+place: Coworking space, Kilimani
+text: Thirty laptops, thirty dreams of being the boss. The coffee machine is the only one making money.
+
+date: 08.10.2025
+place: Bus to work, 6:20 a.m.
+text: The man next to me sleeps against the window. He has the face of someone who works two jobs and remembers neither.
+
+date: 21.10.2025
+place: Farewell party, office canteen
+text: Twenty years of service, one cake, and a speech that called him Peter. His name is Paul.
+
+date: 03.11.2025
+place: Job fair, KICC
+text: A thousand graduates in their best shoes. Forty positions. The shoes will be resoled long before anyone calls back.
+
+tags: family
+
+date: 16.11.2025
+place: My mother's kitchen, Nyeri
+text: She still cooks for six. There are two of us now. She freezes what is left and calls it planning.
+
+date: 29.11.2025
+place: Father's sitting room
+text: He watches the news with the volume very high. He does not hear the news. He hears that the house is not silent.
+
+date: 12.12.2025
+place: Christmas lunch, Murang'a
+text: Three generations at one table. The youngest on their phones, the oldest on their memories, the middle on the bill.
+
+date: 25.12.2025
+place: Village home, Christmas Day
+text: An uncle asks when I am getting married. Nobody asks when he will repay the money he borrowed in 2019.
+
+date: 07.01.2026
+place: School gate, 7:30 a.m.
+text: A father waves until the car turns the corner. The boy has already stopped looking. That is how it is meant to go, and it still stings.
+
+date: 20.01.2026
+place: Family WhatsApp group
+text: Forty-two members. Most messages are blessings and forwarded videos. The real news arrives by phone call, late at night.
+
+date: 02.02.2026
+place: Sister's wedding, Nakuru
+text: My parents danced together for the photographer. They have not shared a room in eleven years.
+
+date: 15.02.2026
+place: Grandmother's bedside
+text: She called me by my father's name. I answered to it. Nobody corrected anybody.
+
+date: 28.02.2026
+place: Maternity ward, Pumwani
+text: Seven babies born before noon. Seven sets of parents who will lie awake for the next twenty years.
+
+date: 13.03.2026
+place: Kitchen, Sunday
+text: My son asked why I never talk about my father. I said I was busy. I was busy for thirty years.
+
+date: 26.03.2026
+place: Parents' house, the hallway
+text: The pencil marks of our heights are still on the wall. The tallest line stopped at fourteen. The paint will cover them next month.
+
+tags: death
+
+date: 08.04.2026
+place: Lang'ata Cemetery
+text: The grave diggers eat lunch sitting on a mound of soil. Death is their office, and lunch is still lunch.
+
+date: 21.04.2026
+place: Hospital corridor, 3:40 a.m.
+text: A doctor tells a family the news in under a minute. Then he walks to the next room and does it again.
+
+date: 04.05.2026
+place: Funeral home, Nairobi
+text: The price list is laminated. Mahogany, pine, cardboard. Grief is offered in three tiers.
+
+date: 17.05.2026
+place: Burial, Kakamega
+text: The pastor mispronounced her name twice. Her grandchildren noticed. She would have laughed.
+
+date: 30.05.2026
+place: Mortuary car park
+text: A man sits in his car for an hour without getting out. Some news needs a little more time to walk into.
+
+date: 12.06.2026
+place: Obituary page, Saturday
+text: Twelve photographs, mostly smiling. Each one was taken for a happier reason, years before.
+
+date: 25.06.2026
+place: Harambee for funeral costs
+text: People gave generously to bury him. Nobody gave this much while he was sick and asking.
+
+date: 08.07.2026
+place: Intensive care, Kenyatta
+text: The machines beep in steady rhythms. The families watch them like the stock market.
+
+date: 21.07.2026
+place: Friend's memorial, Karen
+text: We told funny stories about him. We had not called him in two years. The laughter covered that well.
+
+date: 03.08.2026
+place: Roadside, Naivasha highway
+text: A cross with plastic flowers, faded white. Lorries pass it at a hundred kilometres an hour. The flowers shake, and nothing else changes.
+
+date: 16.08.2026
+place: Grandfather's grave, Machakos
+text: The weeds have grown over his name. Nobody here can read it anyway. Everyone who could has joined him.
+
+date: 29.08.2026
+place: Hospice garden
+text: A man feeds the birds every morning. He knows they will come tomorrow whether he does or not.
+
+date: 11.09.2026
+place: Church, after a funeral
+text: The chairs are stacked within ten minutes of the coffin leaving. The hall is booked for a wedding at four.
+
+tags: love, relationships
+
+date: 09.01.2025
+place: Java House, Valentine's week
+text: A couple at the next table photographed their cake for fifteen minutes. They did not speak once while eating it.
+
+date: 23.01.2025
+place: Bus stop, Kasarani
+text: A girl watches every bus pull up, checks her phone, and watches the next. He is not coming. She knows. She waits another hour.
+
+date: 06.02.2025
+place: Wedding reception, Karen
+text: The bride smiled for four hundred photographs. In the bathroom, she cried for four minutes, fixed her makeup and went back out.
+
+date: 20.02.2025
+place: Restaurant, Kilimani
+text: An older couple ate in total silence and shared dessert without asking. Love at seventy looks a lot like logistics.
+
+date: 06.03.2025
+place: Kitchen, 11 p.m.
+text: He apologised by washing the dishes. She accepted by drying them. Neither mentioned the argument again, which is not the same as resolving it.
+
+date: 20.03.2025
+place: Divorce court, Milimani
+text: Two people who once chose each other in front of three hundred guests now cannot agree on a sofa.
+
+date: 03.04.2025
+place: My phone, 1:20 a.m.
+text: I typed a long message to someone I no longer see. I deleted it word by word. The screen knew more than they ever will.
+
+date: 17.04.2025
+place: Uhuru Park, Sunday
+text: Young couples on the grass make plans for twenty years. The old couple on the bench just make sure the other one has a jumper.
+
+date: 01.05.2025
+place: Jewellery shop, Moi Avenue
+text: A young man counts his savings against the price of a ring. Love here is measured first in carats, then in months of salary.
+
+date: 15.05.2025
+place: Hospital waiting area
+text: An old man holds his wife's handbag on his lap while she is in surgery. He has carried it for forty years without once opening it.
+
+date: 29.05.2025
+place: Bedroom, Sunday morning
+text: Two people in one bed, scrolling two phones, each checking on strangers. The person beside them stays unread.
+
+date: 12.06.2025
+place: Café near the courts
+text: A woman orders for two out of habit, then cancels one. The waiter does not ask. He has seen that face before.
+
+date: 26.06.2025
+place: Airport, departures
+text: A couple holds each other for a long time at the barrier. One of them will remember it for years. The other has already boarded.
+
+tags: money
+
+date: 10.07.2025
+place: M-Pesa agent, Kawangware
+text: A woman withdraws two hundred shillings and is charged for the privilege. Poverty always comes with a service fee.
+
+date: 24.07.2025
+place: Supermarket, end of month
+text: The shelves are full. The trolleys are half empty. People hold items, read the price, and put them back quietly.
+
+date: 07.08.2025
+place: Westgate, Saturday
+text: A teenager spends a month's school fees on trainers. His friends cheer. His mother will learn on Monday.
+
+date: 21.08.2025
+place: Petrol station, Thika Road
+text: The price went up again overnight. The attendant apologises as though it were his fault. He walks to work.
+
+date: 04.09.2025
+place: Landlord's office
+text: A tenant explains why the rent is late. The landlord listens, nods, and adds the penalty anyway. Sympathy is not legal tender.
+
+date: 18.09.2025
+place: Chama meeting, Githurai
+text: Twelve women save a little every week. They trust each other more than any bank, and they have the records to prove it.
+
+date: 02.10.2025
+place: Mall food court
+text: A family of five shares two meals. The father says he is not hungry. He is lying with impressive practice.
+
+date: 16.10.2025
+place: Betting shop, River Road
+text: Men stare at the screens like they are praying. The only one guaranteed to win is the man behind the counter.
+
+date: 30.10.2025
+place: Wedding committee meeting
+text: The budget for the wedding is larger than the deposit they will need for a home. Nobody says so out loud.
+
+date: 13.11.2025
+place: Hospital billing desk
+text: The cashier does not look up. Behind her, a sign says patients will not be discharged until the bill is cleared.
+
+date: 27.11.2025
+place: Kiosk, Kayole
+text: The shopkeeper sells cigarettes one at a time. Everything here is sold in the size people can afford today.
+
+tags: aging
+
+date: 11.12.2025
+place: Old people's home, Nairobi
+text: Visiting hours are from two to four. Most rooms have no visitors at four. The nurses know which ones to sit with.
+
+date: 24.12.2025
+place: My father's bathroom
+text: There are eleven medicine bottles by the sink. He used to keep only a razor there.
+
+date: 08.01.2026
+place: Pharmacy queue
+text: An old man reads every word on the leaflet aloud. The young woman behind him sighs. She will read her own leaflet one day.
+
+date: 22.01.2026
+place: Park bench, Arboretum
+text: Two old men play draughts without speaking. They have known each other fifty years. There is nothing left that needs saying.
+
+date: 05.02.2026
+place: Mirror, 6:00 a.m.
+text: I found my father's face looking out of mine this morning. He used to say he did not recognise himself either.
+
+date: 19.02.2026
+place: Reunion, Alliance High
+text: Thirty years on, we compared blood pressure instead of girlfriends. The loudest boy in class is now the quietest man.
+
+date: 05.03.2026
+place: Mother's sitting room, Kisii
+text: She has started repeating questions. I answer each time as if it is the first. It is easier than watching her realise.
+
+date: 19.03.2026
+place: Bus to Kisumu
+text: An old woman offered me her seat. I am forty-two. I took it and thought about that the whole journey.
+
+date: 02.04.2026
+place: Retirement party, Parklands
+text: He received a clock after thirty-five years. The irony was not lost on anyone but the manager.
+
+date: 16.04.2026
+place: Hairdresser, Sunday
+text: She asked if I wanted to colour the grey. I said not yet. I meant not ever, but I was not ready to say it.
+
+tags: friendship
+
+date: 30.04.2026
+place: Phone contacts, scrolling
+text: I counted the names of people I would actually call in an emergency. It took less than a minute.
+
+date: 14.05.2026
+place: Coffee shop, Westlands
+text: An old friend and I met after six years. We talked about our jobs for an hour. Neither of us asked the question that mattered.
+
+date: 28.05.2026
+place: Birthday party, Lavington
+text: Fifty guests. The birthday boy spent most of the night looking for one friend who said he would come.
+
+date: 11.06.2026
+place: WhatsApp, 9:00 p.m.
+text: The school group chat woke up to announce a death. Forty people sent condolences. Then it fell silent for another year.
+
+date: 25.06.2026
+place: Hospital ward, visiting hours
+text: Three friends visited in the first week. One in the second. In the third, only the man who sells newspapers in the corridor.
+
+date: 09.07.2026
+place: Matatu, Ngong Road
+text: I saw my closest friend from university across the aisle. We nodded. Ten years ago we shared everything, including a toothbrush once.
+
+date: 23.07.2026
+place: Wedding, back row
+text: I was her best friend in school. Today I was seated near the kitchen door. Friendship gets reseated quietly.
+
+date: 06.08.2026
+place: Nyama choma joint, Kitengela
+text: The men toast to brotherhood. By the end of the night they are arguing over who pays. The goat was the only one fully committed.
+
+tags: loneliness
+
+date: 20.08.2026
+place: Flat, Sunday evening
+text: The only sound in the flat is the neighbour's television. I know the plot of his soap opera now. We have never met.
+
+date: 03.09.2026
+place: Supermarket checkout, 10 p.m.
+text: A man buys one portion of everything. The cashier asks how his day was. He talks for longer than she expected.
+
+date: 17.09.2026
+place: Apartment lift, Kileleshwa
+text: Six people. Six phones. Twelve floors. Nobody said good morning, and everybody would call this building a community.
+
+date: 01.10.2026
+place: Restaurant, table for one
+text: The waiter removed the second chair before I sat down. It felt efficient. It felt like a verdict.
+
+date: 12.01.2025
+place: Night bus, Mombasa to Nairobi
+text: Forty sleeping strangers, one awake driver. Every passenger trusted him with their life and nobody learned his name.
+
+date: 26.01.2025
+place: Balcony, 2:00 a.m.
+text: Across the courtyard, one other light is still on. I imagine someone like me. I will never knock to find out.
+
+date: 09.02.2025
+place: Church, Sunday service
+text: The pastor said nobody is alone in this family. After the service, people left in groups. I walked to the stage by myself.
+
+date: 23.02.2025
+place: Old man's flat, Eastleigh
+text: He keeps the radio on all day. He says it is for the news. It is for the voices.
+
+date: 09.03.2025
+place: Holiday, Diani beach
+text: Everyone here came with someone. I came with a book. The book was good. That did not help as much as I hoped.
+
+date: 23.03.2025
+place: Social media, midnight
+text: I liked forty photographs of people I have not spoken to in years. Each like was a small, cowardly hello.
+
+tags: time
+
+date: 06.04.2025
+place: Clock tower, Machakos
+text: The clock has said quarter past three for six years. The town still uses it to arrange meetings. Everybody arrives late.
+
+date: 20.04.2025
+place: Desk calendar, April
+text: I still have not turned the page from February. Two months passed, and the paper did not notice.
+
+date: 04.05.2025
+place: Primary school, Nyeri
+text: My old classroom is the same size. I am not. The desk I carved is gone, and so is the boy who carved it.
+
+date: 18.05.2025
+place: Graduation, University of Nairobi
+text: Five thousand graduates throwing caps. Most will spend the next decade finding out what the degree was for.
+
+date: 01.06.2025
+place: Phone gallery, 2015 folder
+text: Ten years of photographs. In almost all of them I thought I looked tired. I looked young.
+
+date: 15.06.2025
+place: Train window, Madaraka Express
+text: The plains pass quickly. A herd of zebras looks up and goes back to grazing. They do not count the days. We count nothing else.
+
+date: 29.06.2025
+place: Hospital, birth and death wings
+text: Same building, two lifts. One goes up with balloons. The other goes down quietly. Time uses both.
+
+date: 13.07.2025
+place: Birthday, my 40th
+text: Forty candles. My daughter had to help blow them out. That is how it starts, I suppose.
+
+date: 27.07.2025
+place: Watch repair stall, Biashara St
+text: The repairman has fixed watches for thirty years. He does not wear one. He says he knows what time it is.
+
+date: 10.08.2025
+place: New Year's Eve, rooftop
+text: Everyone counted down from ten with great joy. Nobody counts the other way, where it really matters.
+
+date: 24.08.2025
+place: Hourly parking, CBD
+text: I paid for two hours and stayed for three. The fine was cheaper than the hour I wasted worrying.
+
+tags: grief
+
+date: 07.09.2025
+place: My mother's wardrobe
+text: Her dresses still smell of her perfume. Each time I open the door, a little more of it escapes.
+
+date: 21.09.2025
+place: Supermarket, cereal aisle
+text: I picked up his favourite brand by habit, then stood holding it for a full minute. A child asked if I was lost.
+
+date: 05.10.2025
+place: Kitchen, first Christmas after
+text: We set the table and stopped at the plate count. Nobody said anything. Somebody quietly put one back.
+
+date: 19.10.2025
+place: Phone, an old voicemail
+text: Seven seconds of her voice, asking me to buy bread. I have played it over two hundred times. The bread is long gone.
+
+date: 02.11.2025
+place: Grave, one year later
+text: The soil has settled. The flowers are plastic now. Everyone else has returned to their lives, as they should.
+
+date: 16.11.2025
+place: Bedroom, his side
+text: I still sleep on my side of the bed. A whole half of the mattress stays smooth, as if waiting.
+
+date: 30.11.2025
+place: Bank, closing his account
+text: The clerk asked for the death certificate in a bored voice. To her it was paperwork. To me it was the last signature.
+
+date: 14.12.2025
+place: Road to Nyeri, alone
+text: We always made this trip together. I turned on the radio so the silence would have competition.
+
+date: 28.12.2025
+place: Funeral, second cousin
+text: I cried more for him than I expected. I think I was still crying for my father, two years late.
+
+tags: marriage
+
+date: 11.01.2026
+place: Wedding anniversary dinner
+text: Twenty years. They talked about the children, the car, the fees. The waiter brought cake and they both seemed surprised.
+
+date: 25.01.2026
+place: Marriage counsellor's office
+text: The counsellor asked what drew them together. They each answered differently. Both were telling the truth.
+
+date: 08.02.2026
+place: Kitchen, Saturday morning
+text: She makes his tea exactly the way he likes it. He has never noticed she drinks hers differently.
+
+date: 22.02.2026
+place: Car park, school pickup
+text: A couple argues in a parked car with the windows up. Their children wave from the gate. The parents wave back, smiling.
+
+date: 08.03.2026
+place: Dinner table, our house
+text: We have run out of new things to say and have not yet found it peaceful. Maybe that is next.
+
+date: 22.03.2026
+place: Wedding photographer's studio
+text: The album cost more than our first year's rent. We have opened it twice. Once to show my mother, once to check if it was mouldy.
+
+date: 05.04.2026
+place: Bedroom, midnight
+text: He snores. She used to find it sweet. Now she counts the breaths and plans the morning in the gaps.
+
+tags: truth, self
+
+date: 19.04.2026
+place: Job interview, Upper Hill
+text: I described myself as a team player who thrives under pressure. Both of us knew it was a script, and both of us nodded.
+
+date: 03.05.2026
+place: Mirror, gym changing room
+text: Six months of training. The mirror still shows the same man, only more tired, and slightly less forgiving.
+
+date: 17.05.2026
+place: Therapist's office, Kilimani
+text: I talked for fifty minutes about everyone else. She said nothing until the end, then asked where I was in the story.
+
+date: 31.05.2026
+place: Church, the back pew
+text: The congregation sang about humility. Afterwards, three men compared the size of their offerings in the car park.
+
+date: 14.06.2026
+place: Social media, scrolling
+text: Everyone is thriving here. I posted a photo of my breakfast too. Nobody needs to know I ate it standing up.
+
+date: 28.06.2026
+place: Car, parked outside home
+text: I sat in the car for ten minutes before going inside. It is the only room in my life where nobody needs me.
+
+date: 12.07.2026
+place: Old diary, 2009
+text: I read my own plans from seventeen years ago. Almost none happened. I had forgotten I even wanted them.
+
+date: 26.07.2026
+place: Meeting with my manager
+text: He asked for honest feedback. I gave him the polite version. He thanked me. We both left believing we had been brave.
+
+date: 09.08.2026
+place: Bathroom scale, Monday
+text: The number did not change, despite the promises I made on Friday. The scale does not accept intentions.
+
+date: 23.08.2026
+place: Family dinner, Kiambu
+text: I said I was doing well. My aunt said I looked tired. Only one of us was telling the truth, and it was not me.
+
+tags: fear
+
+date: 06.09.2026
+place: Clinic, results day
+text: Nine people in the waiting room, nine envelopes coming. The receptionist calls names in the same tone for good news and bad.
+
+date: 20.09.2026
+place: Dark road, Ngong Hills
+text: A car broke down on the hill at night. Every pair of headlights that passed was either rescue or danger. None stopped.
+
+date: 15.01.2025
+place: Exam hall, KCSE
+text: Four hundred teenagers sit in silence, believing this paper decides their whole life. Some of them are right.
+
+date: 29.01.2025
+place: Airport security queue
+text: Everyone is calm until the machine beeps. Then everyone is guilty for a moment, even the priest.
+
+date: 12.02.2025
+place: Bedroom, 3:00 a.m.
+text: A noise downstairs. I lay still for twenty minutes deciding it was the cat. We do not own a cat.
+
+date: 26.02.2025
+place: Bank, loan officer's desk
+text: She said the application was under review. The words were mild. My hands were not.
+
+date: 12.03.2025
+place: Hospital car park
+text: I sat in the car rehearsing what the doctor might say. I rehearsed every version except the one he said.
+
+date: 26.03.2025
+place: Lift, power cut
+text: Six of us stood in the dark for ten minutes. Strangers became honest very quickly. Then the lights came back.
+
+date: 09.04.2025
+place: Phone ringing at 2 a.m.
+text: Nobody calls at that hour to say they are fine. I let it ring three times before I could pick it up.
+
+tags: society
+
+date: 23.04.2025
+place: Traffic police checkpoint
+text: The officer looked at my licence, then at my car, then at my wallet. The law has excellent eyesight.
+
+date: 07.05.2025
+place: Political rally, Kamukunji
+text: Thousands cheered a promise they heard last election. The speaker's car had new tyres. The road did not.
+
+date: 21.05.2025
+place: Mall, Saturday afternoon
+text: A security guard checks bags at the entrance. The richer the shopper looks, the less carefully he checks.
+
+date: 04.06.2025
+place: Hospital queue, Kenyatta
+text: An old man has waited since dawn. A man in a suit arrives at ten and is seen at ten-fifteen. Nobody says anything.
+
+date: 18.06.2025
+place: Primary school, public
+text: Seventy children, one teacher, a chalkboard cracked in two. Somewhere a minister is opening a new conference centre.
+
+date: 02.07.2025
+place: News broadcast, 9 p.m.
+text: A flood killed twelve people. The next story was about a footballer's haircut. Both got two minutes.
+
+date: 16.07.2025
+place: Charity dinner, Muthaiga
+text: The plates cost more than what was raised per guest. The photographers did very well.
+
+date: 30.07.2025
+place: Street corner, River Road
+text: A boy begs between cars at a red light. A woman locks her doors. He moves on. Both of them were frightened.
+
+date: 13.08.2025
+place: Online comment section
+text: Ten thousand people who have never met the man are certain he is guilty. The trial starts next year.
+
+date: 27.08.2025
+place: Election day, polling station
+text: The queue was long and patient. Everyone voted for change. Five years later, the queue will be the same.
+
+tags: home
+
+date: 10.09.2025
+place: Village, Kakamega
+text: The house I grew up in still stands. My cousin lives there now. He has painted over every wall I remember.
+
+date: 24.09.2025
+place: Moving truck, Kasarani
+text: Eight years in one flat fit in a small lorry. The driver asked if that was everything. I said yes.
+
+date: 08.10.2025
+place: Grandmother's compound
+text: The mango tree she planted has outlived her by six years. It produces more fruit than anyone collects.
+
+date: 22.10.2025
+place: Airport arrivals, JKIA
+text: A man returns after twelve years abroad. His mother does not recognise him at first. He does not recognise the city at all.
+
+date: 05.11.2025
+place: Rented flat, Roysambu
+text: The landlord painted the walls the same beige as every other flat. Nothing here will remember me after the lease.
+
+date: 19.11.2025
+place: Back gate, parents' house
+text: The gate still squeaks at the same note. My mother says it is her alarm. She will not let anyone oil it.
+
+date: 03.12.2025
+place: Bus home, December
+text: The buses out of Nairobi are full for Christmas. Everyone is going home to a place that has moved on without them.
+
+date: 17.12.2025
+place: Village path, dusk
+text: The children no longer know who I am. They call me visitor in their language. They are not wrong.
+
+tags: memory
+
+date: 31.12.2025
+place: Shoebox under the bed
+text: Letters from someone I loved at nineteen. The handwriting is familiar. The person who wrote back is not.
+
+date: 14.01.2026
+place: Old school friend's house
+text: We remembered the same night differently. Both of us were sure. Memory is a witness that can be bought by mood.
+
+date: 28.01.2026
+place: Song on the radio, matatu
+text: A song from 2004 played. For three minutes I was fifteen. Then the conductor shouted my stage and I was forty again.
+
+date: 11.02.2026
+place: Grandfather's photo album
+text: Half the faces in the album have no names written under them. Nobody left alive can identify them.
+
+date: 25.02.2026
+place: Childhood street, Eastlands
+text: The football pitch we played on is now a parking lot. Nobody parked there remembers the goal I scored.
+
+date: 11.03.2026
+place: Old phone, battery revived
+text: Messages from a friend who died three years ago. The last one was about lunch plans we never made.
+
+date: 25.03.2026
+place: Care home, Mother's room
+text: She did not know my name today, but she remembered the song I sang at seven. Memory keeps strange receipts.
+
+date: 08.04.2026
+place: Primary school reunion
+text: A man said I was kind to him in Standard Four. I have no memory of it. Small things outlive the people who did them.
+
+tags: life
+
+date: 22.04.2026
+place: Matatu stage, Githurai
+text: A man runs for the bus and misses it by a second. Another comes in two minutes. He is still angry about the first one.
+
+date: 06.05.2026
+place: Hospital window, maternity
+text: A baby cries for the first time. In the next room, an old man coughs for maybe the last. The corridor connects them.
+
+date: 20.05.2026
+place: Roadside, Mai Mahiu
+text: A broken-down lorry, a driver asleep beneath it in the shade. Everything stops eventually, even the things built to keep moving.
+
+date: 03.06.2026
+place: Garden, early morning
+text: The weeds grew back in a week. I spent a month planting the roses. Nature has clear priorities.
+
+date: 17.06.2026
+place: Lake Victoria shore, Kisumu
+text: Fishermen pull in nets with very little in them. They come back tomorrow anyway. That is most of life, described honestly.
+
+date: 01.07.2026
+place: Coffee shop, Monday 8 a.m.
+text: Thirty people in the queue, each one carrying a whole life. Each one only wants a cappuccino.
+
+date: 15.07.2026
+place: Amboseli, at dawn
+text: An elephant stands over the bones of another. Then it walks on. Even here, mourning has a time limit.
+
+date: 29.07.2026
+place: Bus window, Nakuru
+text: A field of maize passes by. A farmer bends over it, as his father did. The view from the bus makes it look peaceful.
+
+date: 12.08.2026
+place: Waiting room, embassy
+text: Fifty people holding folders full of proof that they deserve a better life. The officer has eight minutes for each.
+
+date: 26.08.2026
+place: Home, Sunday evening
+text: The weekend ended the way it always does, with laundry and dread. Nobody writes songs about Sunday at seven.
+
+tags: reality
+
+date: 09.09.2026
+place: Nairobi National Park
+text: A lion sleeps in the grass with the city towers behind it. Neither of them knows the other exists. Both are hungry.
+
+date: 23.09.2026
+place: Indian Ocean, Watamu
+text: The tide came in and took the sandcastle a child spent all day building. The sea did not consult anyone.
+
+date: 18.01.2025
+place: Rain on the windscreen
+text: The forecast promised sun. The rain did not read it. I sat in traffic with the wipers saying no, no, no.
+
+date: 01.02.2025
+place: Hospital, ward 7
+text: The man in bed three prayed all night. The man in bed four did not. Both were discharged on Thursday.
+
+date: 15.02.2025
+place: Building site, collapsed wall
+text: Everybody says it was an accident. The inspector was paid. The wall did what walls do with bad cement.
+
+date: 01.03.2025
+place: Kitchen window, morning
+text: The bird that nests in the gutter came back again this year. It does not know about our quarrels. Lucky bird.
+
+date: 15.03.2025
+place: Hilltop, Kiambu
+text: From up here the city looks quiet and organised. The view lies, as most views do from a distance.
+
+date: 29.03.2025
+place: Phone screen, 11:59 p.m.
+text: A new day starts in one minute. Nothing about me will be new. Midnight is a promise the calendar cannot keep.
+
+date: 12.04.2025
+place: Football stadium, Kasarani
+text: Sixty thousand fans singing as one. On Monday they will go back to being alone in sixty thousand separate rooms.
+
+date: 26.04.2025
+place: Desert road, Isiolo
+text: The road runs straight for miles with no shade. It is the most honest thing I have seen all year.
+
+date: 10.05.2025
+place: Hotel lobby, Mombasa
+text: The brochure showed an empty beach. The beach was full of hawkers, and the hotel was full of complaints.
+
+date: 24.05.2025
+place: Petrol station, 4 a.m.
+text: The attendant sleeps standing up, leaning on the pump. The country runs on people nobody sees awake.
+
+date: 07.06.2025
+place: Library, Kenyatta University
+text: The shelves are full of books nobody borrows. Each one took someone years. Most were read twice: by the author and the editor.
+
+date: 21.06.2025
+place: Mountain trail, Mt Kenya
+text: Halfway up, the guide said the summit would still be there next year. I would not, he meant, if I did not slow down.
+
+date: 05.07.2025
+place: Kitchen, power cut
+text: Candles on the table and no phones. We talked for two hours. The power came back and we went to our rooms.
+
+date: 19.07.2025
+place: Bus stop, rain
+text: Ten strangers under one small shelter. Nobody spoke. Everyone made room. Kindness, at its smallest and most real.
+
+date: 02.08.2025
+place: Courtroom, Milimani
+text: The judge yawned during the sentencing. Five years of a man's life fit between breakfast and lunch.
+
+date: 16.08.2025
+place: Night sky, Turkana
+text: Without city lights, the stars are endless. You feel small. Then a mosquito bites you, and you feel smaller.
+
+date: 30.08.2025
+place: Bedroom window, Sunday
+text: The neighbour is washing his car again. He loves it more openly than he loves anything in his house.
