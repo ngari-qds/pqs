@@ -10,7 +10,10 @@ import { SIGNATURE_STYLES } from "@/lib/render/signature";
 import type { BackgroundConfig, SignatureStyle, TemplateConfig } from "@/lib/render/template";
 import type { Ctx } from "@/lib/render/types";
 import { contentText, download, exportCarousel, exportImage, slug, type ExportFormat } from "@/lib/studio/export";
-import { templatesFor } from "@/lib/studio/templates";
+import { ALL_TEMPLATES, GALLERY_TEMPLATES, templatesFor } from "@/lib/studio/templates";
+import Gallery from "@/components/Gallery";
+import { shuffleTemplate, surpriseMe, type Locks } from "@/lib/studio/gallery";
+import { deleteMyTemplate, listFavorites, listMyTemplates, saveMyTemplate, setFavorite } from "@/lib/studio/db";
 import { FORMATS, FORMAT_LIST, resolveLayout, slideCount, type FieldDef } from "@/lib/render/formats";
 import type { FormatId, QuoteContent } from "@/lib/render/template";
 import { autoStructure, flatten } from "@/lib/studio/autostructure";
@@ -35,7 +38,7 @@ const PHOTO_BACKGROUNDS: { id: BackgroundConfig["kind"]; name: string; config: B
   { id: "photo-split", name: "Split", config: { kind: "photo-split" } },
   { id: "photo-frame", name: "Framed", config: { kind: "photo-frame" } },
 ];
-const ALL_BACKGROUNDS = [...BACKGROUNDS, ...PHOTO_BACKGROUNDS];
+
 
 const SAMPLES = Object.fromEntries(FORMAT_LIST.map((f) => [f.id, f.sample])) as Record<FormatId, QuoteContent>;
 const SETTINGS_KEY = "pqs.settings.v1";
@@ -59,10 +62,6 @@ function loadSettings(): Settings {
   }
 }
 
-const pick = <T,>(xs: T[], not?: T) => {
-  const pool = xs.length > 1 ? xs.filter((x) => x !== not) : xs;
-  return pool[Math.floor(Math.random() * pool.length)];
-};
 
 export default function Studio() {
   const [format, setFormat] = useState<FormatId>("classic");
@@ -70,6 +69,17 @@ export default function Studio() {
   const [slide, setSlide] = useState(0);
   const [template, setTemplate] = useState<TemplateConfig>(templatesFor("classic")[0]);
   const content = contents[format];
+  const [view, setView] = useState<"studio" | "gallery">("studio");
+  const [locks, setLocks] = useState<Locks>({ font: false, palette: false, image: false });
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
+  const [mine, setMine] = useState<TemplateConfig[]>([]);
+  useEffect(() => {
+    listFavorites().then((f) => setFavorites(new Set(f)));
+    listMyTemplates().then(setMine);
+  }, []);
+  /** Hero templates, the generated gallery and the user's own, in that order. */
+  const pool = useMemo(() => [...mine, ...ALL_TEMPLATES, ...GALLERY_TEMPLATES], [mine]);
+  const mineIds = useMemo(() => new Set(mine.map((t) => t.id)), [mine]);
   const text = useMemo(() => contentText(content), [content]);
   const slides = slideCount(content);
   const fmt = FORMATS[format];
@@ -166,18 +176,50 @@ export default function Studio() {
     };
   }, [input, frame, preset, template.pairing]);
 
+  /** Shuffle within the curated designs, keeping whatever is locked. */
   const shuffle = useCallback(() => {
-    setTemplate((t) => ({
-      ...t,
-      id: "custom",
-      name: "Shuffled",
-      layout: pick(FORMATS[t.format].layouts.map((l) => l.id), t.layout),
-      palette: pick(PALETTES.map((p) => p.id), t.palette),
-      // Monospace pairings only where the format allows them.
-      pairing: pick(PAIRINGS.filter((p) => !p.mono || FORMATS[t.format].monoAllowed).map((p) => p.id), t.pairing),
-      background: pick(ALL_BACKGROUNDS.map((b) => b.config)),
-    }));
+    setTemplate((t) => shuffleTemplate(t, pool.filter((x) => x.format === t.format), locks));
+  }, [pool, locks]);
+
+  const surprise = useCallback(() => {
+    const t = surpriseMe(pool.filter((x) => x.format === format), text.length, settings.preset, template.id);
+    if (t) {
+      setTemplate(t);
+      setView("studio");
+    }
+  }, [pool, format, text, settings.preset, template.id]);
+
+  const toggleFavorite = useCallback((id: string) => {
+    setFavorites((f) => {
+      const next = new Set(f);
+      const on = !next.has(id);
+      if (on) next.add(id);
+      else next.delete(id);
+      setFavorite(id, on).catch(() => {});
+      return next;
+    });
   }, []);
+
+  const saveCurrentAsMine = async () => {
+    const name = window.prompt("Name this template", template.name.startsWith("Shuffled") ? "My template" : `${template.name} (mine)`);
+    if (!name) return;
+    const t: TemplateConfig = { ...template, id: `mine-${Date.now().toString(36)}`, name, hero: false, presets: undefined, score: undefined };
+    await saveMyTemplate(t);
+    setMine(await listMyTemplates());
+    setTemplate(t);
+  };
+  const deleteMine = async (id: string) => {
+    await deleteMyTemplate(id);
+    setMine(await listMyTemplates());
+  };
+  const [copied, setCopied] = useState(false);
+  const copyJson = async () => {
+    try {
+      await navigator.clipboard.writeText(JSON.stringify(template, null, 2));
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    } catch {}
+  };
 
   const doExport = useCallback(async () => {
     setBusy(true);
@@ -216,12 +258,13 @@ export default function Studio() {
       const tag = (e.target as HTMLElement)?.tagName;
       if (tag === "TEXTAREA" || tag === "INPUT" || tag === "SELECT" || e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.key === "r" || e.key === "R") shuffle();
+      if (e.key === "f" || e.key === "F") toggleFavorite(template.id);
       if (e.key === "e" || e.key === "E") doExport();
       if ((e.key === "i" || e.key === "I") && photoBg) ph.next();
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [shuffle, doExport, photoBg, ph]);
+  }, [shuffle, doExport, photoBg, ph, toggleFavorite, template.id]);
 
   const set = (patch: Partial<TemplateConfig>) => setTemplate((t) => ({ ...t, ...patch, id: "custom" }));
 
@@ -230,16 +273,43 @@ export default function Studio() {
       <header className="flex items-baseline justify-between px-5 py-3 border-b border-line bg-panel">
         <div className="flex items-baseline gap-3">
           <span className="text-[15px] font-semibold tracking-tight">Quote Studio</span>
-          <span className="text-xs text-dim">Fred M | 1963ke · @ngariq_</span>
+          <span className="hidden md:inline text-xs text-dim">Fred M | 1963ke · @ngariq_</span>
         </div>
-        <div className="hidden sm:flex items-center gap-4 text-xs text-dim">
+        <nav className="flex gap-1.5" aria-label="View">
+          <button className="chip" data-on={view === "studio"} onClick={() => setView("studio")}>Studio</button>
+          <button className="chip" data-on={view === "gallery"} onClick={() => setView("gallery")}>Gallery</button>
+        </nav>
+        <div className="hidden lg:flex items-center gap-4 text-xs text-dim">
+          <span>Favourite<kbd>F</kbd></span>
           <span>Shuffle<kbd>R</kbd></span>
           <span>New image<kbd>I</kbd></span>
           <span>Export<kbd>E</kbd></span>
         </div>
       </header>
 
-      <main className="flex-1 min-h-0 grid grid-cols-1 lg:grid-cols-[320px_1fr_300px]">
+      {view === "gallery" && (
+        <Gallery
+          format={format}
+          contents={contents}
+          presetId={settings.preset}
+          templates={pool}
+          currentId={template.id}
+          photo={ph.photo?.bitmap}
+          signature={{ enabled: settings.signatureEnabled, style: settings.signatureStyle }}
+          favorites={favorites}
+          mine={mineIds}
+          onToggleFavorite={toggleFavorite}
+          onDeleteMine={deleteMine}
+          onApply={(t) => {
+            if (t.format !== format) chooseFormat(t.format);
+            setTemplate(t);
+            setView("studio");
+          }}
+          onSurprise={surprise}
+        />
+      )}
+      {/* Kept mounted while the gallery is open so the preview keeps its state. */}
+      <main className={`flex-1 min-h-0 grid-cols-1 lg:grid-cols-[320px_1fr_300px] ${view === "studio" ? "grid" : "hidden"}`}>
         {/* Input */}
         <section className="order-2 lg:order-1 bg-panel border-r border-line p-5 space-y-5 lg:overflow-y-auto">
           <div>
@@ -334,7 +404,14 @@ export default function Studio() {
             <Chips items={fmt.layouts} value={resolveLayout(format, template.layout)} onPick={(id) => set({ layout: id })} />
           </Group>
 
-          <Group label="Type pairing">
+          <div className="flex gap-2">
+            <button className="btn flex-1" onClick={surprise}>Surprise me</button>
+            <button className="btn" onClick={() => toggleFavorite(template.id)} aria-pressed={favorites.has(template.id)} title="Favourite (F)">
+              {favorites.has(template.id) ? "★" : "☆"}
+            </button>
+          </div>
+
+          <Group label="Type pairing" lock={{ on: locks.font, toggle: () => setLocks((l) => ({ ...l, font: !l.font })) }}>
             <select className="field" value={template.pairing} onChange={(e) => set({ pairing: e.target.value })}>
               {PAIRINGS.map((p) => (
                 <option key={p.id} value={p.id}>{p.name}</option>
@@ -342,7 +419,7 @@ export default function Studio() {
             </select>
           </Group>
 
-          <Group label="Palette">
+          <Group label="Palette" lock={{ on: locks.palette, toggle: () => setLocks((l) => ({ ...l, palette: !l.palette })) }}>
             <div className="grid grid-cols-8 gap-1.5">
               {PALETTES.map((p) => (
                 <button
@@ -355,10 +432,10 @@ export default function Studio() {
                 />
               ))}
             </div>
-            <div className="text-xs text-dim mt-1.5">{getPalette(template.palette).name}</div>
+            <div className="text-xs text-dim mt-1.5" data-testid="palette-name">{getPalette(template.palette).name}</div>
           </Group>
 
-          <Group label="Background">
+          <Group label="Background" lock={{ on: locks.image, toggle: () => setLocks((l) => ({ ...l, image: !l.image })) }}>
             <Chips items={BACKGROUNDS} value={template.background.kind} onPick={(id) => set({ background: BACKGROUNDS.find((b) => b.id === id)!.config })} />
             <div className="mt-2">
               <Chips items={PHOTO_BACKGROUNDS} value={template.background.kind} onPick={(id) => set({ background: PHOTO_BACKGROUNDS.find((b) => b.id === id)!.config })} />
@@ -379,16 +456,36 @@ export default function Studio() {
             <Chips items={SIGNATURE_STYLES} value={settings.signatureStyle} onPick={(id) => updateSettings({ signatureStyle: id })} />
             <div className="text-xs text-dim mt-1.5">Your choice is remembered as the default.</div>
           </Group>
+
+          <Group label="Template">
+            <div className="text-xs text-dim mb-2" data-testid="template-name">{template.name}{template.hero ? " · hero" : ""}</div>
+            <div className="flex flex-wrap gap-2">
+              <button className="btn" onClick={saveCurrentAsMine}>Save as mine</button>
+              <button className="btn" onClick={copyJson}>{copied ? "Copied" : "Copy JSON"}</button>
+            </div>
+          </Group>
         </section>
       </main>
     </div>
   );
 }
 
-function Group({ label, children }: { label: string; children: React.ReactNode }) {
+function Group({ label, children, lock }: { label: string; children: React.ReactNode; lock?: { on: boolean; toggle: () => void } }) {
   return (
     <div>
-      <div className="label mb-2">{label}</div>
+      <div className="flex items-center justify-between mb-2">
+        <div className="label">{label}</div>
+        {lock && (
+          <button
+            onClick={lock.toggle}
+            aria-pressed={lock.on}
+            title={lock.on ? "Locked: shuffle keeps this" : "Lock while shuffling"}
+            className={`text-[11px] px-1.5 rounded border ${lock.on ? "bg-ink text-white border-ink" : "border-line text-dim"}`}
+          >
+            {lock.on ? "Locked" : "Lock"}
+          </button>
+        )}
+      </div>
       {children}
     </div>
   );

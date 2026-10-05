@@ -14,7 +14,8 @@
     "sample": "tsx scripts/render-sample.ts",
     "qa": "tsx scripts/qa.ts",
     "mock:photos": "tsx scripts/mock-photos.ts",
-    "dev:mock": "PQS_MOCK_PHOTOS=1 next dev"
+    "dev:mock": "PQS_MOCK_PHOTOS=1 next dev",
+    "templates": "tsx scripts/generate-templates.ts"
   },
   "dependencies": {
     "idb": "^8.0.3",

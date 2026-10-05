@@ -3,11 +3,11 @@
 A personal quote image designer. Paste a line, pick a look, export a
 pixel-perfect image with the signature **Fred M | 1963ke · @ngariq_** on it.
 
-> **Build status:** steps 1–3 of 5 are done: render engine, typography, all
-> 20 quote formats with their own layouts, crisp exports up to 3×, six
-> signature styles, QA, and photo backgrounds from Unsplash / Pexels /
-> Pixabay with resolution checks. The template generator and gallery
-> (step 4) and batch mode / library (step 5) come next.
+> **Build status:** steps 1–4 of 5 are done: render engine, typography, all
+> 20 quote formats, 25 layout archetypes, photo backgrounds with resolution
+> checks, a generated gallery of 485 QA-verified designs plus 60 hand-tuned
+> heroes, and a gallery with filters, favourites, locks and Surprise me.
+> Batch mode, the quote library and export history (step 5) come next.
 
 ## Quick start
 
@@ -24,10 +24,12 @@ npm run dev          # http://localhost:3000
 | `npm run qa` | Renders every template × every preset at 3× and fails on overflow, contrast < 4.5:1, signature collisions or photo upscaling. Photo templates are tested on generated test photos, created automatically on first run. Flags: `-- --scale 1` for a fast pass, `-- --keep` to save the PNGs to `qa-report/`, `-- --only photo` to filter templates by id |
 | `npm run sample` | Writes sample exports to `samples/`, including a 400% crop |
 | `npx tsx scripts/render-formats.ts` | Renders every format's sample in every layout to `samples/formats/` with contact sheets |
+| `npm run templates` | Regenerates `templates/gallery.json` (see below), about 3 minutes |
 | `npm run fonts` | Re-downloads fonts after editing `lib/fonts/registry.ts` |
 | `npm run typecheck` | TypeScript |
 
-Shortcuts in the studio: **R** shuffle, **I** new image, **E** export.
+Shortcuts in the studio: **R** shuffle (respects locks), **I** new image,
+**E** export, **F** favourite the current design.
 
 ## Environment variables
 
@@ -82,6 +84,54 @@ Every format loads with a sample line (20 in all, one per format).
 - **Long text never overflows.** If text cannot fit at the minimum readable
   size, split and framed photos give up space, then the format's most compact
   layout is used, and the studio says so.
+
+## Templates and the gallery
+
+**Hand-tuned heroes** (60) live in `templates/<format>.json`. **The gallery**
+(485 designs) is generated into `templates/gallery.json` by
+`npm run templates`:
+
+1. Every combination of format × layout × type pairing × palette ×
+   background is enumerated: 168,000 in all.
+2. Combinations that break a design rule are rejected, which leaves about
+   83,000. The rules (`lib/templates/generator.ts`, unit-tested):
+   - monospace pairings only for equations, field notes and posts;
+     equations always monospace
+   - never more than two font families
+   - delicate display serifs never on busy photos without a scrim
+   - photographs only for formats they support, never behind layouts
+     that paint their own page (panels, notebook, typewriter) or that
+     already divide the canvas
+   - all-capital display faces never for long text
+   - vignettes only on dark palettes, paper only on light ones,
+     duotone never in pure black-and-white
+   - frosted glass only over photos; Swiss grid only with a grotesk
+3. The rest are scored for fit (pairing × format, palette × ground,
+   layout × ground) and picked greedily for variety: repeats of a palette,
+   pairing or layout cost points, both within a format and across the
+   whole gallery. Photographs are capped at 40% per format.
+4. Every pick is rendered at every export size with its sample text and a
+   long stress text. It is kept only if nothing overflows, collides or
+   fails contrast, and if the sample sets comfortably (no fallback, main
+   text above its minimum size) on Instagram portrait, Stories and square.
+   Each kept template records the sizes where it is comfortable, and the
+   gallery can hide the rest.
+
+**Layout archetypes** (25): centred, editorial, bottom-anchored, top-anchored,
+split screen (photo/text), framed card, frosted glass panel, oversized
+single word, Swiss grid poster, minimal corner, vertical strip, pull quote,
+stacked hook/body/punchline, margin rule, numbered list, ruled list,
+dictionary entry, equation block, ledger, stat hero, placard, script,
+notebook page, typewriter sheet and post card.
+
+**The gallery view** shows every design for the current format, rendered with
+*your* text: filter by layout, mood, palette and photo/no photo, show only
+favourites or your own templates, shuffle the order, or press
+**Surprise me**. That picks a well-scoring design suited to the quote's
+length and the current size. **Locks** (type, palette, background) keep
+those choices while **R** shuffles. **Save as mine** stores the current
+design in IndexedDB; **Copy JSON** gives you its config to edit or commit
+to `templates/`.
 
 ## Photos
 

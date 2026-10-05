@@ -7,7 +7,7 @@ import { drawBackground } from "./background";
 import { contrastFromLuminance, luminance } from "./color";
 import type { Composition, LayoutContext } from "./compose";
 import { Measurer, fontString } from "./env";
-import { FORMATS, composeFormat, resolveLayout } from "./formats";
+import { FORMATS, composeFormat, layoutArea, resolveLayout } from "./formats";
 import { rule } from "./draw";
 import { getPairing } from "./pairings";
 import { getPalette, type Palette } from "./palettes";
@@ -36,6 +36,8 @@ export interface BlockReport {
   contrast: number;
   /** How the contrast rule was satisfied, if it needed help. */
   fix?: "scrim" | "recolor";
+  /** An auto-sized block that could only fit at (or near) its minimum size. */
+  atMin?: boolean;
 }
 
 export interface RenderReport {
@@ -161,6 +163,12 @@ export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): Rende
     const r2 = renderOnce(ctx, env, { ...input, template: t });
     if (!r2.overflow) return { ...r2, fallback: `layout changed to ${compact}` };
   }
+  if (bg.kind === "photo-split" || bg.kind === "photo-frame") {
+    // Last resort: the photo moves behind the text (blurred), freeing the whole canvas.
+    const t = { ...input.template, background: { kind: "photo-blur" as const } };
+    const r3 = renderOnce(ctx, env, { ...input, template: t });
+    if (!r3.overflow) return { ...r3, fallback: "photo moved behind the text" };
+  }
   return r;
 }
 
@@ -182,8 +190,14 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
 
   // Split and frame backgrounds keep text (and the signature) on the solid
   // panel, so one ink colour always reads against a uniform background.
-  const area = bg.textArea ? intersect(safe, bg.textArea) : safe;
-  const sig = input.signature.enabled ? layoutSignature(input.signature.style, W, H, area, env, m, pairing) : null;
+  let area = bg.textArea ? intersect(safe, bg.textArea) : safe;
+  const confined = layoutArea(input.content.format, template.layout, W, H);
+  if (confined) area = intersect(area, confined);
+  // In a narrow column the chosen signature may not fit: step down to the
+  // stacked style, then the monogram, so it always stays inside the safe area.
+  let sig = input.signature.enabled ? layoutSignature(input.signature.style, W, H, area, env, m, pairing) : null;
+  for (const style of ["stacked", "monogram"] as const)
+    if (sig && sig.rect.w > area.w + 0.5 && input.signature.style !== style) sig = layoutSignature(style, W, H, area, env, m, pairing);
   const r = sig?.reserve ?? { top: 0, bottom: 0, left: 0, right: 0 };
   const box: Rect = { x: area.x + r.left, y: area.y + r.top, w: area.w - r.left - r.right, h: area.h - r.top - r.bottom };
 
@@ -216,8 +230,11 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
   // Contrast enforcement: sample the real pixels under every block.
   const blocks: BlockReport[] = [];
   for (const b of placed.flat()) {
-    const pad = b.size * 0.25;
-    const region = { x: b.rect.x - pad, y: b.rect.y - pad, w: b.rect.w + pad * 2, h: b.rect.h + pad * 2 };
+    // Sample just around the ink, but never beyond the text area: for very
+    // large type the padding would otherwise reach pixels the text never
+    // touches (e.g. the photo beside a split layout).
+    const pad = Math.min(b.size * 0.25, lc.ref * 0.03);
+    const region = intersect({ x: b.rect.x - pad, y: b.rect.y - pad, w: b.rect.w + pad * 2, h: b.rect.h + pad * 2 }, { x: area.x - pad, y: area.y - pad, w: area.w + pad * 2, h: area.h + pad * 2 });
     let color = b.spec.color;
     let st = lumaStats(ctx, region);
     let c = textContrast(color, st);
@@ -235,7 +252,8 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
         fix = fix ?? "recolor";
       }
     }
-    blocks.push({ id: b.spec.id, rect: b.rect, size: b.size, color, contrast: c, fix });
+    const atMin = "ratio" in b.spec.size ? b.size <= b.spec.size.min * 1.08 : undefined;
+    blocks.push({ id: b.spec.id, rect: b.rect, size: b.size, color, contrast: c, fix, atMin });
     drawBlock(ctx, env, m, b, color);
   }
 

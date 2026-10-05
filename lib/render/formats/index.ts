@@ -5,6 +5,7 @@
 import type { Composition, LayoutContext } from "../compose";
 import type { FormatId, QuoteContent } from "../template";
 import { CLASSIC_LAYOUTS, composeClassic } from "./classic";
+import { archetypeArea } from "./archetypes";
 import { CAROUSEL_LAYOUTS, HBP_LAYOUTS, carouselSlides, composeCarousel, composeHbp } from "./hbp";
 import { PAIR_LAYOUTS, PARADOX_LAYOUTS, composePair, composeParadox } from "./pair";
 import { HIGHLIGHT_LAYOUTS, ONE_LINER_LAYOUTS, PULL_QUOTE_LAYOUTS, STANZA_LAYOUTS, composeHighlight, composeOneLiner, composePullQuote, composeStanza } from "./text";
@@ -45,6 +46,7 @@ const names: Record<string, string> = {
   low: "Low", panels: "Panels", mirror: "Mirror", axis: "Axis", numbered: "Numbered", ruled: "Ruled", margin: "Margin",
   entry: "Entry", ledger: "Ledger", hero: "Hero", placard: "Placard", script: "Script", notebook: "Notebook",
   card: "Card", flat: "Flat", rules: "Rules", hanging: "Hanging mark",
+  glass: "Frosted glass", "big-word": "Oversized word", swiss: "Swiss grid", strip: "Vertical strip", typewriter: "Typewriter",
 };
 const L = (ids: readonly string[]) => ids.map((id) => ({ id, name: names[id] ?? id }));
 
@@ -241,6 +243,12 @@ export function resolveLayout(format: FormatId, layout: string): string {
 export function composeFormat(lc: LayoutContext, c: QuoteContent): Composition {
   const def = FORMATS[c.format] ?? FORMATS.classic;
   return def.compose(lc, c, resolveLayout(def.id, lc.template.layout));
+}
+
+/** Part of the canvas a layout confines text and signature to, if any. */
+export function layoutArea(format: FormatId, layout: string, W: number, H: number) {
+  const l = resolveLayout(format, layout);
+  return archetypeArea(l, W, H);
 }
 
 export const slideCount = (c: QuoteContent) => FORMATS[c.format]?.slideCount?.(c) ?? 1;

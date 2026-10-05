@@ -45,7 +45,9 @@ const fitting = PHOTO_ORDER.map((f) => manifest.find((m) => m.file === f)!).filt
 const isPhoto = t.background.kind.startsWith("photo");
 if (isPhoto && !fitting.length) throw new Error(`No mock photo covers ${canvas.width}x${canvas.height}`);
 
-for (const [ki, { kind, content }] of qaContent(t.format).entries()) {
+// Generated gallery templates: the sample (required) and the long stress text.
+const variants = qaContent(t.format).filter((v) => t.hero !== false || v.kind !== "short");
+for (const [ki, { kind, content }] of variants.entries()) {
   let photo: PhotoInput | undefined;
   let photoName = "";
   if (isPhoto) {

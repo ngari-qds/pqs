@@ -1,20 +1,27 @@
 "use client";
 /**
- * IndexedDB storage. Step 2 uses the image-search cache; saved quotes,
- * favourites, presets and history are added to the same database in step 5.
+ * IndexedDB storage: image-search cache, favourite templates and the user's
+ * own saved templates. Saved quotes and export history arrive in step 5.
  */
 import { openDB, type DBSchema, type IDBPDatabase } from "idb";
 import type { SearchResponse } from "@/lib/images/types";
+import type { TemplateConfig } from "@/lib/render/template";
 
 interface PqsDB extends DBSchema {
   imageSearch: { key: string; value: { key: string; at: number; response: SearchResponse } };
+  favorites: { key: string; value: { id: string; at: number } };
+  myTemplates: { key: string; value: TemplateConfig & { savedAt: number } };
 }
 
 let dbp: Promise<IDBPDatabase<PqsDB>> | null = null;
 export function db() {
-  dbp ??= openDB<PqsDB>("pqs", 1, {
-    upgrade(d) {
-      d.createObjectStore("imageSearch", { keyPath: "key" });
+  dbp ??= openDB<PqsDB>("pqs", 2, {
+    upgrade(d, oldVersion) {
+      if (oldVersion < 1) d.createObjectStore("imageSearch", { keyPath: "key" });
+      if (oldVersion < 2) {
+        d.createObjectStore("favorites", { keyPath: "id" });
+        d.createObjectStore("myTemplates", { keyPath: "id" });
+      }
     },
   });
   return dbp;
@@ -37,4 +44,34 @@ export async function putCachedSearch(key: string, response: SearchResponse) {
   } catch {
     // Private mode or quota: caching is an optimisation only.
   }
+}
+
+export async function listFavorites(): Promise<string[]> {
+  try {
+    return (await (await db()).getAll("favorites")).sort((a, b) => b.at - a.at).map((f) => f.id);
+  } catch {
+    return [];
+  }
+}
+
+export async function setFavorite(id: string, on: boolean) {
+  const d = await db();
+  if (on) await d.put("favorites", { id, at: Date.now() });
+  else await d.delete("favorites", id);
+}
+
+export async function listMyTemplates(): Promise<TemplateConfig[]> {
+  try {
+    return (await (await db()).getAll("myTemplates")).sort((a, b) => b.savedAt - a.savedAt);
+  } catch {
+    return [];
+  }
+}
+
+export async function saveMyTemplate(t: TemplateConfig) {
+  await (await db()).put("myTemplates", { ...t, savedAt: Date.now() });
+}
+
+export async function deleteMyTemplate(id: string) {
+  await (await db()).delete("myTemplates", id);
 }

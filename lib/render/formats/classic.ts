@@ -7,12 +7,14 @@ import { fontString } from "../env";
 import type { BlockSpec, PlacedBlock } from "../stack";
 import { str, type QuoteContent } from "../template";
 import { smartQuotes } from "../typography/smart";
-import { emColorFor } from "./common";
+import { emColorFor, label } from "./common";
+import { ARCHETYPE_LAYOUTS, composeArchetype } from "./archetypes";
 import type { Rect } from "../types";
 
-export const CLASSIC_LAYOUTS = ["centered", "editorial", "bottom", "top", "pull-quote", "corner", "framed-card"] as const;
+export const CLASSIC_LAYOUTS = ["centered", "editorial", "bottom", "top", "pull-quote", "corner", "framed-card", ...ARCHETYPE_LAYOUTS] as const;
 
 export function composeClassic(lc: LayoutContext, content: QuoteContent, layout: string = lc.template.layout): Composition {
+  if ((ARCHETYPE_LAYOUTS as readonly string[]).includes(layout)) return composeArchetype(lc, content, layout);
   const { ref, box, pairing, template, palette } = lc;
   const author = str(content, "author") || str(content, "source");
   const align = layout === "centered" || layout === "framed-card" ? "center" : "left";
@@ -43,7 +45,7 @@ export function composeClassic(lc: LayoutContext, content: QuoteContent, layout:
     if (!author) return null;
     const caps = (template.attribution ?? "caps") === "caps";
     return caps
-      ? { id: "author", role: "caps", text: smartQuotes(author), uppercase: true, face: pairing.label, color: muted, align, size: { fixed: ref * 0.022 }, gapBefore: ref * 0.06 }
+      ? label(lc, "author", author, { color: muted, align, gapBefore: ref * 0.06 })
       : { id: "author", role: "body", text: `— ${smartQuotes(author)}`, face: pairing.mono ? pairing.text : pairing.displayEm, color: muted, align, size: { fixed: ref * 0.034 }, gapBefore: ref * 0.045 };
   };
 

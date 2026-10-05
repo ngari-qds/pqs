@@ -39,6 +39,10 @@ export interface TemplateConfig {
   accentMarks?: boolean;
   hero?: boolean;
   tags?: string[];
+  /** Generated templates: presets where the sample text sets comfortably. */
+  presets?: string[];
+  /** Generated templates: fitness score from the generator. */
+  score?: number;
 }
 
 /**

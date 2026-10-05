@@ -23,6 +23,12 @@ export function textRegionFor(layout: LayoutId): NormRect {
       return { x: 0.07, y: 0.2, w: 0.78, h: 0.55 };
     case "corner":
       return { x: 0.07, y: 0.62, w: 0.62, h: 0.31 };
+    case "strip":
+      return { x: 0.0, y: 0.0, w: 0.5, h: 1 };
+    case "swiss":
+      return { x: 0.07, y: 0.07, w: 0.86, h: 0.5 };
+    case "big-word":
+      return { x: 0.07, y: 0.25, w: 0.86, h: 0.5 };
     default:
       return { x: 0.1, y: 0.25, w: 0.8, h: 0.5 };
   }

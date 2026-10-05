@@ -141,3 +141,34 @@ export function addDither(ctx: Ctx, rect: Rect) {
   }
   ctx.putImageData(img, x, y);
 }
+
+/**
+ * Frosted glass: blurs what is already drawn inside `rect` (via a reduced
+ * copy, since blur removes detail anyway), clips it to a rounded panel and
+ * lays a light or dark tint over it, then dithers so the smooth fill cannot band.
+ */
+export function frostedPanel(ctx: Ctx, env: RenderEnv, rect: Rect, tint: string, tintAlpha: number, radius: number) {
+  const r = { x: Math.round(rect.x), y: Math.round(rect.y), w: Math.round(rect.w), h: Math.round(rect.h) };
+  const down = 6;
+  const sw = Math.max(16, Math.round(r.w / down)), sh = Math.max(16, Math.round(r.h / down));
+  const small = env.createCanvas(sw, sh);
+  const sctx = small.getContext("2d")!;
+  sctx.imageSmoothingEnabled = true;
+  sctx.imageSmoothingQuality = "high";
+  sctx.drawImage(ctx.canvas as unknown as CanvasImageSource, r.x, r.y, r.w, r.h, 0, 0, sw, sh);
+  const img = sctx.getImageData(0, 0, sw, sh);
+  boxBlur(img.data, sw, sh, Math.max(2, Math.round(Math.min(sw, sh) * 0.06)));
+  sctx.putImageData(img, 0, 0);
+  ctx.save();
+  ctx.beginPath();
+  ctx.roundRect(r.x, r.y, r.w, r.h, radius);
+  ctx.clip();
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = "high";
+  ctx.drawImage(small as unknown as CanvasImageSource, r.x, r.y, r.w, r.h);
+  ctx.globalAlpha = tintAlpha;
+  ctx.fillStyle = tint;
+  ctx.fillRect(r.x, r.y, r.w, r.h);
+  ctx.restore();
+  addDither(ctx, r);
+}

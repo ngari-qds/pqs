@@ -7,11 +7,11 @@ import { OWNER } from "../signature";
 import type { BlockSpec } from "../stack";
 import { str, type QuoteContent } from "../template";
 import type { FaceRef, Rect } from "../types";
-import { body, display, gap, label } from "./common";
+import { body, display, gap, label, sq } from "./common";
 
 // --------------------------------------------------------------- field note
 
-export const FIELD_NOTE_LAYOUTS = ["notebook", "margin"] as const;
+export const FIELD_NOTE_LAYOUTS = ["notebook", "margin", "typewriter"] as const;
 
 /** Date stamp face: the pairing's label face (monospace in mono pairings). */
 const stampFace = (lc: LayoutContext): FaceRef => lc.pairing.label;
@@ -19,6 +19,46 @@ const stampFace = (lc: LayoutContext): FaceRef => lc.pairing.label;
 export function composeFieldNote(lc: LayoutContext, c: QuoteContent, layout: string): Composition {
   const { box, ref } = lc;
   const stamp = [str(c, "date"), str(c, "place")].filter(Boolean).join("  ·  ");
+  if (layout === "typewriter") {
+    // A typed sheet: monospace text from the top of an inset page.
+    const pad = gap(lc, 0.06);
+    const sheet = { ...box };
+    const inner = { x: sheet.x + pad, y: sheet.y + pad, w: sheet.w - pad * 2, h: sheet.h - pad * 2 };
+    const typeFace: FaceRef = lc.pairing.mono ? lc.pairing.text : { family: "JetBrains Mono", weight: 400, style: "normal" };
+    const specs: BlockSpec[] = [];
+    if (stamp) specs.push({ id: "stamp", role: "label", text: stamp, face: typeFace, color: lc.muted, align: "left", size: { ratio: 0.8, min: ref * 0.024, max: ref * 0.032 } });
+    specs.push({
+      id: "note",
+      role: "mono",
+      text: sq(str(c, "text")),
+      face: typeFace,
+      emFace: { ...typeFace, weight: 600 },
+      emStyle: "italic",
+      color: lc.ink,
+      align: "left",
+      size: { ratio: 1, min: ref * 0.026, max: ref * 0.046 },
+      measure: [26, 52],
+      balance: false,
+      lineHeightFactor: 1.2,
+      gapBefore: stamp ? gap(lc, 0.05) : 0,
+    });
+    const sheetColor = lc.palette.dark ? rgbToHex(mixOklab(lc.palette.bg, lc.palette.ink, 0.06)) : rgbToHex(mixOklab(lc.palette.bg, "#ffffff", 0.55));
+    return {
+      stacks: [{ specs, box: inner, valign: "top" }],
+      prepaint: (ctx) => {
+        ctx.save();
+        ctx.fillStyle = sheetColor;
+        ctx.globalAlpha = lc.isPhoto ? 0.96 : 1;
+        ctx.fillRect(Math.round(sheet.x), Math.round(sheet.y), Math.round(sheet.w), Math.round(sheet.h));
+        ctx.globalAlpha = 0.25;
+        ctx.strokeStyle = lc.palette.ink;
+        ctx.lineWidth = hairline(ref);
+        const o = hairline(ref) % 2 ? 0.5 : 0;
+        ctx.strokeRect(Math.round(sheet.x) + o, Math.round(sheet.y) + o, Math.round(sheet.w) - hairline(ref), Math.round(sheet.h) - hairline(ref));
+        ctx.restore();
+      },
+    };
+  }
   if (layout === "margin") {
     // A narrow note set to the right, like writing in a book's margin.
     const colW = box.w * 0.62;

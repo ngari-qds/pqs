@@ -27,7 +27,7 @@ export function composeOneLiner(lc: LayoutContext, c: QuoteContent, layout: stri
 
 // ---------------------------------------------------------------- highlight
 
-export const HIGHLIGHT_LAYOUTS = ["centered", "editorial", "bottom"] as const;
+export const HIGHLIGHT_LAYOUTS = ["centered", "editorial", "bottom", "big-word", "glass"] as const;
 
 /** Emphasised words get the template's treatment (marker by default). */
 export function composeHighlight(lc: LayoutContext, c: QuoteContent, layout: string): Composition {
