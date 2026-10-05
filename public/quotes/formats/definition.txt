@@ -1,0 +1,1256 @@
+// Fred M | 1963ke · Definition — 200 quotes.
+
+@definition+
+tags: love
+
+word: Romance
+phonetic: rəʊˈmæns
+pos: noun
+definition: The brief period before two people discover each other's habits.
+usage: The romance lasted exactly as long as the separate flats.
+
+word: Devotion
+phonetic: dɪˈvəʊ.ʃən
+pos: noun
+definition: Love that has decided to keep turning up when nobody is grateful.
+usage: Her devotion looked like a hospital chair at two in the morning.
+
+word: Jealousy
+phonetic: ˈdʒel.ə.si
+pos: noun
+definition: Fear of loss, presented as proof of love.
+usage: He called his jealousy passion until she called it a reason to leave.
+
+word: Commitment
+phonetic: kəˈmɪt.mənt
+pos: noun
+definition: A promise made by one version of you and kept by all the later ones.
+usage: Commitment was easy at the wedding and difficult in the fourth year.
+
+word: Intimacy
+phonetic: ˈɪn.tɪ.mə.si
+pos: noun
+definition: Being seen without the lighting you arranged.
+usage: Real intimacy began the night she watched him fail.
+
+word: Affection
+phonetic: əˈfek.ʃən
+pos: noun
+definition: Small, regular proof that someone still notices you are there.
+usage: The affection went first; the marriage took another six years.
+
+word: Heartbreak
+phonetic: ˈhɑːt.breɪk
+pos: noun
+definition: The discovery that your future had another person's name in it.
+usage: Heartbreak made him tidy the flat at three in the morning.
+
+word: Infatuation
+phonetic: ɪnˌfætʃ.uˈeɪ.ʃən
+pos: noun
+definition: Love for a person you have mostly invented.
+usage: The infatuation ended on the first long car journey.
+
+word: Chemistry
+phonetic: ˈkem.ɪ.stri
+pos: noun
+definition: A pleasant reaction that says nothing about who will do the dishes.
+usage: They had chemistry and nothing else to talk about.
+
+word: Honeymoon
+phonetic: ˈhʌn.i.muːn
+pos: noun
+definition: A short holiday from finding out who you married.
+usage: The honeymoon ended with the first joint bank statement.
+
+word: Anniversary
+phonetic: ˌæn.ɪˈvɜː.sər.i
+pos: noun
+definition: A date on which a couple agrees to measure how long they have endured.
+usage: They spent the anniversary checking their phones across the table.
+
+word: Divorce
+phonetic: dɪˈvɔːs
+pos: noun
+definition: The legal end of a decision that usually died much earlier.
+usage: The divorce took a year; the marriage had ended in a kitchen long before.
+
+word: Compromise
+phonetic: ˈkɒm.prə.maɪz
+pos: noun
+definition: An agreement in which both people lose something and call it peace.
+usage: Their compromise was that neither of them got the holiday they wanted.
+
+word: Partner
+phonetic: ˈpɑːt.nə
+pos: noun
+definition: The person who will know your worst habits and stay anyway, or will not.
+usage: Her partner knew her coffee order and none of her fears.
+
+word: Desire
+phonetic: dɪˈzaɪə
+pos: noun
+definition: Wanting something most strongly while it remains out of reach.
+usage: Desire faded the moment he had a key to her flat.
+
+tags: relationships
+
+word: Fidelity
+phonetic: fɪˈdel.ə.ti
+pos: noun
+definition: Choosing the same person again when nobody would find out.
+usage: Fidelity was easy for him until it cost something.
+
+word: Betrayal
+phonetic: bɪˈtreɪ.əl
+pos: noun
+definition: Harm that only someone you trusted was close enough to cause.
+usage: The betrayal came from the one person who knew the password.
+
+word: Soulmate
+phonetic: ˈsəʊl.meɪt
+pos: noun
+definition: A person you have not yet lived with long enough.
+usage: He called her his soulmate until the mortgage.
+
+word: Ghosting
+phonetic: ˈɡəʊ.stɪŋ
+pos: noun
+definition: Ending a relationship by making the other person do all the work of understanding.
+usage: Ghosting saved him one conversation and cost her a month.
+
+word: Reconciliation
+phonetic: ˌrek.ən.sɪl.iˈeɪ.ʃən
+pos: noun
+definition: Two people agreeing to forget the parts they cannot forgive.
+usage: The reconciliation lasted until the next family wedding.
+
+word: Argument
+phonetic: ˈɑːɡ.jə.mənt
+pos: noun
+definition: A loud conversation about the dishes that is never about the dishes.
+usage: Every argument in that house was secretly about money.
+
+word: Resentment
+phonetic: rɪˈzent.mənt
+pos: noun
+definition: An unpaid bill kept in a drawer and read every evening.
+usage: Her resentment grew quietly beside the laundry basket.
+
+word: Contempt
+phonetic: kənˈtempt
+pos: noun
+definition: The point at which a partner stops being someone you disagree with and becomes someone you despise.
+usage: It was the contempt in his sigh that ended it.
+
+word: Tolerance
+phonetic: ˈtɒl.ər.əns
+pos: noun
+definition: What remains of affection after twenty years of the same jokes.
+usage: Their tolerance for each other was the marriage now.
+
+word: Patience
+phonetic: ˈpeɪ.ʃəns
+pos: noun
+definition: Waiting without complaint, usually because complaint stopped working.
+usage: Her patience was mistaken for agreement for a decade.
+
+word: Courtship
+phonetic: ˈkɔːt.ʃɪp
+pos: noun
+definition: The period in which both people present their best behaviour as typical.
+usage: The courtship was all restaurants; the marriage was all receipts.
+
+word: Breakup
+phonetic: ˈbreɪk.ʌp
+pos: noun
+definition: The public announcement of a private ending that happened months before.
+usage: The breakup took ten minutes after a year of silence.
+
+word: Wedding
+phonetic: ˈwed.ɪŋ
+pos: noun
+definition: An expensive day designed to distract everyone from the decades after it.
+usage: The wedding cost more than their first two years of rent.
+
+word: Flirting
+phonetic: ˈflɜː.tɪŋ
+pos: noun
+definition: Testing interest while keeping the right to deny everything.
+usage: His flirting was a hobby, not an intention.
+
+word: Ex
+phonetic: eks
+pos: noun
+definition: Someone who knows exactly where your old wounds are and no longer needs to be careful.
+usage: Her ex still remembered every story she had told him.
+
+tags: family
+
+word: Parent
+phonetic: ˈpeə.rənt
+pos: noun
+definition: An adult improvising a role that nobody trained them for, watched by a permanent critic.
+usage: She understood her parent only after becoming one.
+
+word: Childhood
+phonetic: ˈtʃaɪld.hʊd
+pos: noun
+definition: The years that decide most of your life while you are too young to vote on them.
+usage: His childhood followed him into every argument.
+
+word: Inheritance
+phonetic: ɪnˈher.ɪ.təns
+pos: noun
+definition: What parents leave behind, including the things they did not mean to.
+usage: The inheritance was a house, a debt and a temper.
+
+word: Sibling
+phonetic: ˈsɪb.lɪŋ
+pos: noun
+definition: A rival issued at birth who later becomes the last witness to your childhood.
+usage: Her sibling remembered a completely different house.
+
+word: Upbringing
+phonetic: ˈʌpˌbrɪŋ.ɪŋ
+pos: noun
+definition: The set of instructions you follow for years before noticing they are not yours.
+usage: His upbringing taught him to apologise for taking up space.
+
+word: Motherhood
+phonetic: ˈmʌð.ə.hʊd
+pos: noun
+definition: Unpaid, permanent employment with no appraisal until the funeral.
+usage: Motherhood took her name and gave her a title.
+
+word: Fatherhood
+phonetic: ˈfɑː.ðə.hʊd
+pos: noun
+definition: A role often measured by presence, which some men mistake for paying.
+usage: Fatherhood, for him, was a cheque and an absence.
+
+word: Duty
+phonetic: ˈdjuː.ti
+pos: noun
+definition: What you do when love is not enough to make you do it.
+usage: Duty took him to his father's bedside every Sunday.
+
+word: Obligation
+phonetic: ˌɒb.lɪˈɡeɪ.ʃən
+pos: noun
+definition: A debt nobody remembers lending you but everyone remembers collecting.
+usage: She attended out of obligation and left before the speeches.
+
+word: Reunion
+phonetic: ˌriːˈjuː.ni.ən
+pos: noun
+definition: An event at which people check whether you did better than them.
+usage: At the reunion everyone was suddenly in property.
+
+word: Heirloom
+phonetic: ˈeə.luːm
+pos: noun
+definition: An object passed down because nobody had the heart to throw it away.
+usage: The heirloom was a clock that had not worked since 1974.
+
+word: Ancestry
+phonetic: ˈæn.ses.tri
+pos: noun
+definition: A long line of strangers whose mistakes you are still repeating.
+usage: He traced his ancestry and found the same temper in every generation.
+
+word: Grandparent
+phonetic: ˈɡræn.peə.rənt
+pos: noun
+definition: A parent given a second chance, usually with someone else's children.
+usage: As a grandparent he was gentle in a way his son never saw.
+
+word: Guilt
+phonetic: ɡɪlt
+pos: noun
+definition: The family currency, accepted everywhere and never fully spent.
+usage: Guilt brought her home for Christmas three years running.
+
+word: Favouritism
+phonetic: ˈfeɪ.vər.ɪ.tɪ.zəm
+pos: noun
+definition: The ranking every parent denies and every child can recite.
+usage: The favouritism showed most clearly in the will.
+
+word: Estrangement
+phonetic: ɪˈstreɪndʒ.mənt
+pos: noun
+definition: A distance chosen because every closer arrangement kept causing damage.
+usage: The estrangement was quieter than any of their visits.
+
+word: Kinship
+phonetic: ˈkɪn.ʃɪp
+pos: noun
+definition: A connection by blood that guarantees access but not affection.
+usage: Kinship got him into the funeral; nothing got him a seat at the front.
+
+word: Household
+phonetic: ˈhaʊs.həʊld
+pos: noun
+definition: A group of people sharing a roof, a fridge and a list of unspoken rules.
+usage: The household ran on one woman who never sat down.
+
+word: Christmas
+phonetic: ˈkrɪs.məs
+pos: noun
+definition: An annual test of how long a family can share a table politely.
+usage: Christmas lasted until the second bottle and the first old grievance.
+
+word: Discipline
+phonetic: ˈdɪs.ə.plɪn
+pos: noun
+definition: Doing what you decided to do after the feeling that made you decide has gone.
+usage: Discipline got him to the gym; motivation never once showed up.
+
+tags: death
+
+word: Death
+phonetic: deθ
+pos: noun
+definition: The one appointment that does not need confirming.
+usage: Death arrived on a Wednesday, between errands.
+
+word: Eulogy
+phonetic: ˈjuː.lə.dʒi
+pos: noun
+definition: A speech praising the dead for qualities the living rarely mentioned to them.
+usage: The eulogy described a patient man nobody in the room had met.
+
+word: Will
+phonetic: wɪl
+pos: noun
+definition: A final document that reveals who a person loved, owed or forgot.
+usage: The will was read in ten minutes and argued over for ten years.
+
+word: Coffin
+phonetic: ˈkɒf.ɪn
+pos: noun
+definition: An expensive box chosen by grieving people under pressure from a catalogue.
+usage: They chose the coffin in twenty minutes because nobody could look at it longer.
+
+word: Obituary
+phonetic: əˈbɪtʃ.u.ər.i
+pos: noun
+definition: A life summarised in the space between two advertisements.
+usage: His obituary listed his job titles and none of his kindness.
+
+word: Condolence
+phonetic: kənˈdəʊ.ləns
+pos: noun
+definition: A sincere sentence that sounds the same every time it is said.
+usage: She received forty condolences and one casserole that mattered.
+
+word: Mourning
+phonetic: ˈmɔː.nɪŋ
+pos: noun
+definition: The period in which the world expects you to be sad on schedule.
+usage: Her mourning lasted far longer than her compassionate leave.
+
+word: Widow
+phonetic: ˈwɪd.əʊ
+pos: noun
+definition: A woman who still sets two cups out of habit and puts one back.
+usage: As a widow she discovered which friends had been his.
+
+word: Orphan
+phonetic: ˈɔː.fən
+pos: noun
+definition: What you become at any age when the last parent dies.
+usage: At fifty-two he felt like an orphan at the graveside.
+
+word: Cemetery
+phonetic: ˈsem.ə.tri
+pos: noun
+definition: A quiet park for the dead, visited less each year by the living.
+usage: The cemetery was full of names nobody came to read.
+
+word: Afterlife
+phonetic: ˈɑːf.tə.laɪf
+pos: noun
+definition: A hope about the dead that mainly comforts the living.
+usage: He did not believe in the afterlife, only in the empty chair.
+
+word: Hospice
+phonetic: ˈhɒs.pɪs
+pos: noun
+definition: A place where people stop pretending about the ending and start being kind about it.
+usage: The hospice was the first place anyone told them the truth.
+
+word: Bereavement
+phonetic: bɪˈriːv.mənt
+pos: noun
+definition: The formal word for an informal and endless disaster.
+usage: Her bereavement leave was five days for a lifetime.
+
+word: Epitaph
+phonetic: ˈep.ɪ.tɑːf
+pos: noun
+definition: The last sentence about you, written by someone else, in stone.
+usage: His epitaph was kinder than most of his life.
+
+word: Wake
+phonetic: weɪk
+pos: noun
+definition: A gathering where grief and sandwiches compete for attention.
+usage: At the wake the cousins argued quietly about the house.
+
+word: Sympathy
+phonetic: ˈsɪm.pə.θi
+pos: noun
+definition: Sorrow for someone's pain, felt sincerely and briefly.
+usage: The sympathy cards stopped arriving after a fortnight.
+
+word: Euphemism
+phonetic: ˈjuː.fə.mɪ.zəm
+pos: noun
+definition: A softer word used so that nobody has to hear what actually happened.
+usage: Passed away was the euphemism; he died in pain.
+
+word: Ashes
+phonetic: ˈæʃ.ɪz
+pos: noun
+definition: What remains of a person, weighing a few kilograms and kept in a cupboard.
+usage: The ashes sat on the shelf for three years.
+
+word: Remembrance
+phonetic: rɪˈmem.brəns
+pos: noun
+definition: The effort of keeping someone present after the world has moved on.
+usage: Remembrance, for her, was making his recipe every March.
+
+word: Inevitability
+phonetic: ɪˌnev.ɪ.təˈbɪl.ə.ti
+pos: noun
+definition: The quality of things that will happen whether or not you are ready.
+usage: He accepted the inevitability only after the second scan.
+
+tags: grief
+
+word: Absence
+phonetic: ˈæb.səns
+pos: noun
+definition: The shape a person leaves, which is often larger than they were.
+usage: His absence filled the kitchen more than he ever had.
+
+word: Loss
+phonetic: lɒs
+pos: noun
+definition: The permanent removal of something you assumed would stay.
+usage: The loss arrived by phone during a supermarket queue.
+
+word: Survivor
+phonetic: səˈvaɪ.və
+pos: noun
+definition: The one who is left behind to answer all the questions.
+usage: As the survivor she had to cancel every one of his subscriptions.
+
+word: Denial
+phonetic: dɪˈnaɪ.əl
+pos: noun
+definition: The mind's decision to keep living in a world that has already ended.
+usage: Denial kept his voicemail greeting unchanged for a year.
+
+word: Acceptance
+phonetic: əkˈsep.təns
+pos: noun
+definition: The point at which you stop arguing with something that will never reply.
+usage: Acceptance did not feel like peace, only like less shouting.
+
+word: Sorrow
+phonetic: ˈsɒr.əʊ
+pos: noun
+definition: Sadness that has unpacked and intends to stay a while.
+usage: Her sorrow kept the curtains closed until noon.
+
+word: Keepsake
+phonetic: ˈkiːp.seɪk
+pos: noun
+definition: A small object asked to hold a whole person.
+usage: The keepsake was his reading glasses, still smudged.
+
+word: Widower
+phonetic: ˈwɪd.əʊ.ə
+pos: noun
+definition: A man who learns, too late, where everything in the house was kept.
+usage: As a widower he ate standing at the counter.
+
+word: Vigil
+phonetic: ˈvɪdʒ.ɪl
+pos: noun
+definition: A night spent watching over someone, mostly to have something to do with the fear.
+usage: The vigil ended at dawn with a nurse closing the curtain.
+
+word: Lament
+phonetic: ləˈment
+pos: noun
+definition: Grief given a tune so it can be shared without explanation.
+usage: The old lament made the whole church look at the floor.
+
+tags: time
+
+word: Someday
+phonetic: ˈsʌm.deɪ
+pos: adverb
+definition: A time that does not appear on any calendar.
+usage: They would travel someday, he said, until there were no days left.
+
+word: Tomorrow
+phonetic: təˈmɒr.əʊ
+pos: noun
+definition: The day on which most plans are scheduled and few are carried out.
+usage: Tomorrow had been his favourite word for thirty years.
+
+word: Deadline
+phonetic: ˈded.laɪn
+pos: noun
+definition: An arbitrary date that is the only reason anything gets done.
+usage: Without a deadline the book stayed a folder on his desktop.
+
+word: Procrastination
+phonetic: prəˌkræs.tɪˈneɪ.ʃən
+pos: noun
+definition: Fear of the task, disguised as a sudden interest in cleaning.
+usage: Procrastination gave him the tidiest kitchen and no thesis.
+
+word: Routine
+phonetic: ruːˈtiːn
+pos: noun
+definition: The structure that either holds a life up or quietly replaces it.
+usage: The routine kept him upright in the year after she died.
+
+word: Youth
+phonetic: juːθ
+pos: noun
+definition: A period of energy and certainty, spent mainly on the wrong things.
+usage: He spent his youth waiting for his real life to start.
+
+word: Midlife crisis
+phonetic: ˌmɪd.laɪf ˈkraɪ.sɪs
+pos: noun
+definition: The moment a person notices the arithmetic and buys something fast.
+usage: His midlife crisis came with two seats and a loan.
+
+word: Retirement
+phonetic: rɪˈtaɪə.mənt
+pos: noun
+definition: Free time granted at the age when the body can least use it.
+usage: Retirement arrived the same year as his knee operation.
+
+word: Wrinkle
+phonetic: ˈrɪŋ.kəl
+pos: noun
+definition: A line the face keeps for every year you were not paying attention.
+usage: She noticed the wrinkle in a lift mirror and stood very still.
+
+word: Birthday
+phonetic: ˈbɜːθ.deɪ
+pos: noun
+definition: An annual reminder, decorated with candles, that the supply is limited.
+usage: His fiftieth birthday felt more like a statement than a party.
+
+word: Decade
+phonetic: ˈdek.eɪd
+pos: noun
+definition: A unit of time long enough to change everything and short enough to miss.
+usage: A decade passed between his first idea and his first attempt.
+
+word: Calendar
+phonetic: ˈkæl.ən.də
+pos: noun
+definition: A grid that shows where your life went, in other people's meetings.
+usage: Her calendar had no space for her own mother.
+
+word: Punctuality
+phonetic: ˌpʌŋk.tʃuˈæl.ə.ti
+pos: noun
+definition: Respect for other people's time, which is also their life.
+usage: His punctuality was the only courtesy he never forgot.
+
+word: Hindsight
+phonetic: ˈhaɪnd.saɪt
+pos: noun
+definition: Perfect vision, delivered after the decision has been made.
+usage: In hindsight the signs were everywhere, especially in his silence.
+
+word: Weekend
+phonetic: ˌwiːkˈend
+pos: noun
+definition: Two days spent recovering from five and preparing for the next five.
+usage: The weekend vanished into laundry and dread.
+
+word: Monday
+phonetic: ˈmʌn.deɪ
+pos: noun
+definition: The day the week reminds you who owns your time.
+usage: Every Monday he swore it would be his last year there.
+
+word: Experience
+phonetic: ɪkˈspɪə.ri.əns
+pos: noun
+definition: The name people give their mistakes once they have stopped hurting.
+usage: His experience was mostly ten years of the same year.
+
+word: Wisdom
+phonetic: ˈwɪz.dəm
+pos: noun
+definition: Knowing what matters, usually learned too late to use on what mattered.
+usage: Wisdom arrived with his grandchildren and missed his children entirely.
+
+word: Pension
+phonetic: ˈpen.ʃən
+pos: noun
+definition: Deferred wages paid to a future self who may not arrive.
+usage: He saved for his pension and died two years before collecting it.
+
+word: Elderly
+phonetic: ˈel.dəl.i
+pos: adjective
+definition: A polite word for people society has stopped asking for opinions.
+usage: The elderly man in the queue was spoken to as if he were a child.
+
+word: Waiting
+phonetic: ˈweɪ.tɪŋ
+pos: noun
+definition: Time spent hoping someone else will make the decision.
+usage: The waiting took longer than the life he was waiting for.
+
+word: Future
+phonetic: ˈfjuː.tʃə
+pos: noun
+definition: A place where all your unfinished plans are stored without a guarantee.
+usage: He kept investing in a future that kept moving further away.
+
+word: Past
+phonetic: pɑːst
+pos: noun
+definition: The only part of time that cannot be changed, and the part most often rewritten.
+usage: Her past improved every time she told it.
+
+word: Moment
+phonetic: ˈməʊ.mənt
+pos: noun
+definition: A short piece of time, usually recognised as important only after it has gone.
+usage: He missed the moment because he was filming it.
+
+word: Eternity
+phonetic: ɪˈtɜː.nə.ti
+pos: noun
+definition: A length of time promised by people who will not be there to check.
+usage: They promised each other eternity and managed seven years.
+
+tags: work
+
+word: Career
+phonetic: kəˈrɪə
+pos: noun
+definition: A series of jobs arranged afterwards into a story that sounds intentional.
+usage: His career was mostly accidents, explained well in interviews.
+
+word: Promotion
+phonetic: prəˈməʊ.ʃən
+pos: noun
+definition: More responsibility, more meetings and a slightly larger reason to stay.
+usage: The promotion cost him every Thursday evening for five years.
+
+word: Meeting
+phonetic: ˈmiː.tɪŋ
+pos: noun
+definition: A gathering held to postpone a decision with witnesses.
+usage: The meeting ended with an agreement to have another meeting.
+
+word: Overtime
+phonetic: ˈəʊ.və.taɪm
+pos: noun
+definition: Hours sold from your evenings at a price the company set.
+usage: The overtime paid for a holiday he was too tired to take.
+
+word: Burnout
+phonetic: ˈbɜːn.aʊt
+pos: noun
+definition: The body's resignation letter, submitted when the mind refused to write one.
+usage: Burnout arrived the week after his best quarter.
+
+word: Colleague
+phonetic: ˈkɒl.iːɡ
+pos: noun
+definition: A person you see more than your family and know far less.
+usage: Her colleague of nine years did not know she had a son.
+
+word: Boss
+phonetic: bɒs
+pos: noun
+definition: A person with power over your mornings and no interest in your evenings.
+usage: His boss remembered his mistakes and forgot his name.
+
+word: Redundancy
+phonetic: rɪˈdʌn.dən.si
+pos: noun
+definition: The formal discovery that the company family was only a company.
+usage: The redundancy came by email after eighteen years.
+
+word: Productivity
+phonetic: ˌprɒd.ʌkˈtɪv.ə.ti
+pos: noun
+definition: Output measured carefully by people who never measure the cost.
+usage: Productivity rose the same year as the sick days.
+
+word: Networking
+phonetic: ˈnet.wɜː.kɪŋ
+pos: noun
+definition: Making friends on purpose, for reasons both sides understand.
+usage: Networking got him the job; his work kept it for a while.
+
+word: Hustle
+phonetic: ˈhʌs.əl
+pos: noun
+definition: Exhaustion presented as a lifestyle choice.
+usage: The hustle left him a brand and no weekends.
+
+word: Commute
+phonetic: kəˈmjuːt
+pos: noun
+definition: Unpaid hours spent travelling to be paid.
+usage: His commute added up to three years of his life.
+
+word: CV
+phonetic: ˌsiːˈviː
+pos: noun
+definition: A list of your life with the difficult years carefully removed.
+usage: His CV skipped the year he was falling apart.
+
+word: Salary
+phonetic: ˈsæl.ər.i
+pos: noun
+definition: The agreed price of your weekdays, reviewed annually by the buyer.
+usage: Her salary rose slower than her rent every year.
+
+word: Loyalty
+phonetic: ˈlɔɪ.əl.ti
+pos: noun
+definition: A virtue employers request and rarely return.
+usage: His loyalty earned him a card and a leaving cake.
+
+word: Meritocracy
+phonetic: ˌmer.ɪˈtɒk.rə.si
+pos: noun
+definition: A system in which success is explained by talent, especially by those who inherited it.
+usage: He praised the meritocracy from his father's company.
+
+word: Interview
+phonetic: ˈɪn.tə.vjuː
+pos: noun
+definition: A meeting in which two parties lie politely about what the job will be like.
+usage: In the interview nobody mentioned the weekend emails.
+
+word: Busyness
+phonetic: ˈbɪz.i.nəs
+pos: noun
+definition: A state of constant activity used to avoid a single difficult thought.
+usage: His busyness kept him from noticing the marriage was over.
+
+word: Holiday
+phonetic: ˈhɒl.ə.deɪ
+pos: noun
+definition: A week spent recovering from the year, checking emails by the pool.
+usage: The holiday took four days to start and ended on the fifth.
+
+word: Professionalism
+phonetic: prəˈfeʃ.ən.əl.ɪ.zəm
+pos: noun
+definition: The skill of hiding every human reaction until you are in the car.
+usage: Her professionalism lasted until the car park.
+
+tags: money
+
+word: Money
+phonetic: ˈmʌn.i
+pos: noun
+definition: Stored time, mostly someone else's, that decides which doors open.
+usage: Money did not buy him happiness, only better rooms to be unhappy in.
+
+word: Debt
+phonetic: det
+pos: noun
+definition: A claim on your future, signed by a younger and more hopeful you.
+usage: The debt decided where he lived and whom he married.
+
+word: Wealth
+phonetic: welθ
+pos: noun
+definition: Enough money that most of your problems can be handed to someone else.
+usage: Their wealth made the scandal disappear in a week.
+
+word: Poverty
+phonetic: ˈpɒv.ə.ti
+pos: noun
+definition: A condition in which every small mistake becomes expensive.
+usage: Poverty taught her to count before she was ten.
+
+word: Savings
+phonetic: ˈseɪ.vɪŋz
+pos: noun
+definition: A small amount of freedom kept in reserve against the next emergency.
+usage: His savings lasted exactly one illness.
+
+word: Budget
+phonetic: ˈbʌdʒ.ɪt
+pos: noun
+definition: A plan for money that reality reads once and ignores.
+usage: The budget survived until the boiler broke.
+
+word: Mortgage
+phonetic: ˈmɔː.ɡɪdʒ
+pos: noun
+definition: A twenty-five-year agreement to keep going to work.
+usage: The mortgage kept him in a job he hated for two decades.
+
+word: Rent
+phonetic: rent
+pos: noun
+definition: The monthly price of being allowed to stay where your life is.
+usage: The rent rose and the neighbourhood emptied of anyone who grew up there.
+
+word: Luxury
+phonetic: ˈlʌk.ʃər.i
+pos: noun
+definition: Something unnecessary that is mainly enjoyed for being seen.
+usage: The luxury watch told the time no better than his phone.
+
+word: Bargain
+phonetic: ˈbɑː.ɡɪn
+pos: noun
+definition: Something you did not need, bought cheaply enough to feel clever.
+usage: The bargain sat unopened in the cupboard for a year.
+
+word: Generosity
+phonetic: ˌdʒen.əˈrɒs.ə.ti
+pos: noun
+definition: Giving that does not keep a record, which makes it rare.
+usage: His generosity came with a speech every time.
+
+word: Greed
+phonetic: ɡriːd
+pos: noun
+definition: Hunger that has forgotten what full feels like.
+usage: Greed made the second house feel like a small first step.
+
+word: Credit
+phonetic: ˈkred.ɪt
+pos: noun
+definition: Permission to spend money you have not yet earned, at a price.
+usage: Credit paid for the wedding and the next six years.
+
+word: Investment
+phonetic: ɪnˈvest.mənt
+pos: noun
+definition: Money placed where it might grow, by people who can afford to watch it shrink.
+usage: The investment was explained to him as safe twice.
+
+word: Inflation
+phonetic: ɪnˈfleɪ.ʃən
+pos: noun
+definition: The steady process by which the same salary buys a smaller life.
+usage: Inflation took the holiday first, then the meat.
+
+word: Lottery
+phonetic: ˈlɒt.ər.i
+pos: noun
+definition: A weekly payment for a short permission to imagine leaving.
+usage: He bought a lottery ticket every Friday for thirty years.
+
+word: Charity
+phonetic: ˈtʃær.ə.ti
+pos: noun
+definition: Help given from a comfortable distance, often with photographs.
+usage: The charity dinner cost more than the donation.
+
+word: Thrift
+phonetic: θrɪft
+pos: noun
+definition: The careful use of money, admired in the poor only when they are old.
+usage: His mother's thrift paid for his education.
+
+word: Envy
+phonetic: ˈen.vi
+pos: noun
+definition: Pain caused by someone else's good news.
+usage: Envy kept her scrolling through his holiday photos.
+
+word: Status
+phonetic: ˈsteɪ.təs
+pos: noun
+definition: Your rank among strangers, purchased at great expense and lost by a single rumour.
+usage: Status bought him a car he could not afford to park.
+
+tags: self
+
+word: Ego
+phonetic: ˈiː.ɡəʊ
+pos: noun
+definition: The part of you that would rather be right than happy.
+usage: His ego won the argument and lost the friendship.
+
+word: Pride
+phonetic: praɪd
+pos: noun
+definition: A refusal to ask for help, presented as strength.
+usage: Pride kept him from calling until it was too late.
+
+word: Shame
+phonetic: ʃeɪm
+pos: noun
+definition: The belief that you are the mistake, not that you made one.
+usage: Shame kept the debt secret until the letters came.
+
+word: Honesty
+phonetic: ˈɒn.ə.sti
+pos: noun
+definition: Telling the truth when it costs you, not only when it costs others.
+usage: Her honesty lost her two friends and kept her one.
+
+word: Lie
+phonetic: laɪ
+pos: noun
+definition: A loan of comfort, repaid later with interest.
+usage: The lie bought him one peaceful evening.
+
+word: Integrity
+phonetic: ɪnˈteɡ.rə.ti
+pos: noun
+definition: Behaving the same whether anyone is watching or not.
+usage: His integrity cost him the contract and saved him the shame.
+
+word: Confidence
+phonetic: ˈkɒn.fɪ.dəns
+pos: noun
+definition: The memory of having survived something similar before.
+usage: Her confidence came from failing the first three times.
+
+word: Insecurity
+phonetic: ˌɪn.sɪˈkjʊə.rə.ti
+pos: noun
+definition: A quiet voice that reads every silence as a verdict.
+usage: His insecurity turned a late reply into a crisis.
+
+word: Courage
+phonetic: ˈkʌr.ɪdʒ
+pos: noun
+definition: Fear that has made a decision anyway.
+usage: Courage, that day, was a phone call to the doctor.
+
+word: Anxiety
+phonetic: æŋˈzaɪ.ə.ti
+pos: noun
+definition: Rehearsing disasters that mostly never come, with full commitment.
+usage: Her anxiety prepared her for everything except rest.
+
+word: Fear
+phonetic: fɪə
+pos: noun
+definition: A warning system that cannot tell a tiger from an email.
+usage: Fear kept him in the same flat for twelve years.
+
+word: Comfort
+phonetic: ˈkʌm.fət
+pos: noun
+definition: A pleasant room that slowly becomes the whole house.
+usage: Comfort was the reason he never left the town.
+
+word: Self-esteem
+phonetic: ˌself.ɪˈstiːm
+pos: noun
+definition: The opinion of yourself that survives without applause.
+usage: Her self-esteem returned once she stopped asking him.
+
+word: Authenticity
+phonetic: ˌɔː.θenˈtɪs.ə.ti
+pos: noun
+definition: A quality now sold online with careful lighting.
+usage: His authenticity was scheduled for six in the evening.
+
+word: Motivation
+phonetic: ˌməʊ.tɪˈveɪ.ʃən
+pos: noun
+definition: A feeling that arrives after starting and is wrongly expected before.
+usage: Motivation never came; the habit did the work instead.
+
+word: Willpower
+phonetic: ˈwɪlˌpaʊ.ə
+pos: noun
+definition: A small resource, usually gone by four in the afternoon.
+usage: His willpower lasted until the biscuit tin.
+
+word: Habit
+phonetic: ˈhæb.ɪt
+pos: noun
+definition: A decision made so often that you no longer notice making it.
+usage: The habit of checking his phone ate two hours a day.
+
+word: Excuse
+phonetic: ɪkˈskjuːs
+pos: noun
+definition: A reason prepared in advance for something you did not intend to do.
+usage: He had an excuse for every year he did not write.
+
+word: Hypocrisy
+phonetic: hɪˈpɒk.rə.si
+pos: noun
+definition: Holding others to standards you excuse yourself from daily.
+usage: His hypocrisy was clearest at the dinner table.
+
+word: Vanity
+phonetic: ˈvæn.ə.ti
+pos: noun
+definition: Spending more care on how you look than on how you treat people.
+usage: Vanity kept her from wearing the glasses she needed.
+
+word: Humility
+phonetic: hjuːˈmɪl.ə.ti
+pos: noun
+definition: An accurate estimate of your own importance, which is usually smaller than hoped.
+usage: Illness gave him the humility success never had.
+
+word: Perfectionism
+phonetic: pəˈfek.ʃən.ɪ.zəm
+pos: noun
+definition: Fear of judgement disguised as high standards.
+usage: Her perfectionism kept the novel in a drawer for eleven years.
+
+word: Optimism
+phonetic: ˈɒp.tɪ.mɪ.zəm
+pos: noun
+definition: Expecting good outcomes, useful only when combined with a plan.
+usage: His optimism did not cover the repair bill.
+
+word: Cynicism
+phonetic: ˈsɪn.ɪ.sɪ.zəm
+pos: noun
+definition: Disappointment that has decided to get there first.
+usage: Her cynicism protected her from hope and from everything else.
+
+word: Boundary
+phonetic: ˈbaʊn.dər.i
+pos: noun
+definition: A limit people only respect after you stop explaining it.
+usage: The boundary held once she stopped answering after nine.
+
+word: Resilience
+phonetic: rɪˈzɪl.i.əns
+pos: noun
+definition: The ability to keep going, often praised in people who were given no choice.
+usage: They praised her resilience instead of helping with the rent.
+
+word: Gratitude
+phonetic: ˈɡræt.ɪ.tjuːd
+pos: noun
+definition: Noticing what you have before it is taken, which is rare.
+usage: His gratitude for his legs came after the accident.
+
+word: Happiness
+phonetic: ˈhæp.i.nəs
+pos: noun
+definition: A brief state usually noticed only in the past tense.
+usage: Looking back, the happiness had been in the cramped first flat.
+
+word: Kindness
+phonetic: ˈkaɪnd.nəs
+pos: noun
+definition: Help offered without an audience, which is why it is so seldom recorded.
+usage: The kindness came from a stranger at the bus stop.
+
+word: Cowardice
+phonetic: ˈkaʊ.ə.dɪs
+pos: noun
+definition: Choosing your comfort over someone else's need, then explaining why.
+usage: His cowardice was polite and lasted twenty years.
+
+tags: truth, society
+
+word: Rumour
+phonetic: ˈruː.mə
+pos: noun
+definition: A story that travels faster because nobody has to stand behind it.
+usage: The rumour reached his mother before he did.
+
+word: Gossip
+phonetic: ˈɡɒs.ɪp
+pos: noun
+definition: Talk about absent people that reveals mostly the people talking.
+usage: The office gossip knew everyone's business except his own.
+
+word: Reputation
+phonetic: ˌrep.jəˈteɪ.ʃən
+pos: noun
+definition: What strangers believe about you, built over years and spent in an afternoon.
+usage: His reputation ended with one forwarded message.
+
+word: Fame
+phonetic: feɪm
+pos: noun
+definition: Being known by people who do not know you.
+usage: Fame brought him thousands of followers and nobody to call.
+
+word: Influencer
+phonetic: ˈɪn.flu.ən.sə
+pos: noun
+definition: A person paid to make strangers feel their lives are not enough.
+usage: The influencer filmed her breakfast three times before eating it.
+
+word: Politeness
+phonetic: pəˈlaɪt.nəs
+pos: noun
+definition: An agreed set of small lies that lets strangers share a lift.
+usage: Their politeness was the last thing left of the marriage.
+
+word: Small talk
+phonetic: ˈsmɔːl ˌtɔːk
+pos: noun
+definition: Conversation designed to avoid saying anything that could be held against you.
+usage: The small talk at the funeral was about parking.
+
+word: Neighbour
+phonetic: ˈneɪ.bə
+pos: noun
+definition: A person who lives a wall away and is often a total stranger.
+usage: His neighbour of ten years learned his name from the obituary.
+
+word: Stranger
+phonetic: ˈstreɪn.dʒə
+pos: noun
+definition: Anyone you have not met yet, including some people you married.
+usage: By the end he was a stranger at his own table.
+
+word: Crowd
+phonetic: kraʊd
+pos: noun
+definition: A large group in which nobody is responsible for anything.
+usage: The crowd filmed the accident and nobody called for help.
+
+word: Opinion
+phonetic: əˈpɪn.jən
+pos: noun
+definition: A belief held strongly in proportion to how little has been read.
+usage: He had an opinion on every country he had never visited.
+
+word: Advice
+phonetic: ədˈvaɪs
+pos: noun
+definition: What people give you instead of help.
+usage: The advice was free and worth roughly that.
+
+word: Acquaintance
+phonetic: əˈkweɪn.təns
+pos: noun
+definition: Someone who knows your name and would not notice if you moved away.
+usage: Most of his friends turned out to be acquaintances after the divorce.
+
+word: Reciprocity
+phonetic: ˌres.ɪˈprɒs.ə.ti
+pos: noun
+definition: The unspoken accounting behind every friendship that claims to keep none.
+usage: Reciprocity ended the friendship when she stopped calling first.
+
+word: Truth
+phonetic: truːθ
+pos: noun
+definition: What remains after everyone has stopped protecting themselves.
+usage: The truth came out at the hospital, as it often does.
+
+tags: loneliness, home
+
+word: Isolation
+phonetic: ˌaɪ.səlˈeɪ.ʃən
+pos: noun
+definition: A distance from people that grows quietly until a phone call feels like an effort.
+usage: His isolation began with one cancelled dinner.
+
+word: Souvenir
+phonetic: ˌsuː.vənˈɪə
+pos: noun
+definition: An object bought to prove a moment happened, then stored in a drawer.
+usage: The souvenir outlasted the marriage by a decade.
+
+word: Photograph
+phonetic: ˈfəʊ.tə.ɡrɑːf
+pos: noun
+definition: A smiling record of a day that may not have been happy.
+usage: In the photograph they looked fine; they had argued all morning.
+
+word: Hometown
+phonetic: ˈhəʊm.taʊn
+pos: noun
+definition: A place that remembers who you were and refuses to accept who you are.
+usage: In his hometown he was still the boy who failed maths.
+
+word: City
+phonetic: ˈsɪt.i
+pos: noun
+definition: Millions of people living close together and agreeing not to look at each other.
+usage: The city was crowded and he had not spoken to anyone all day.
+
+word: Traffic
+phonetic: ˈtræf.ɪk
+pos: noun
+definition: Thousands of people sitting alone, each angry at the others for being there.
+usage: The traffic on Mombasa Road ate his evening again.
+
+word: Landlord
+phonetic: ˈlænd.lɔːd
+pos: noun
+definition: A person who owns the walls of your life and visits only to raise the price.
+usage: The landlord fixed the gate the week before the rent rose.
+
+word: Suburb
+phonetic: ˈsʌb.ɜːb
+pos: noun
+definition: A quiet place built for families who are rarely at home.
+usage: The suburb emptied at six and filled again at nine.
+
+word: Insomnia
+phonetic: ɪnˈsɒm.ni.ə
+pos: noun
+definition: Nightly time set aside for reviewing every mistake in order.
+usage: His insomnia knew every regret by its first name.
+
+tags: reality
+
+word: Sleep
+phonetic: sliːp
+pos: noun
+definition: A third of your life, treated as the first thing to cut.
+usage: He traded sleep for work and paid it back in hospital.
+
+word: Fate
+phonetic: feɪt
+pos: noun
+definition: A word used for the consequences people would rather not have chosen.
+usage: He called it fate; it was mostly the second loan.
+
+word: Luck
+phonetic: lʌk
+pos: noun
+definition: The part of success that successful people rarely mention.
+usage: His luck began with being born on the right street.
+
+word: Reality
+phonetic: riˈæl.ə.ti
+pos: noun
+definition: What continues to happen whether you believe in it or not.
+usage: Reality arrived in a brown envelope on a Tuesday.
+
+word: Fairness
+phonetic: ˈfeə.nəs
+pos: noun
+definition: A principle taught to children and rarely encountered by adults.
+usage: He waited for fairness for years and received a pension instead.
+
+word: Destiny
+phonetic: ˈdes.tɪ.ni
+pos: noun
+definition: A grand name for where your habits were always taking you.
+usage: His destiny turned out to be the sofa he sat on every night.

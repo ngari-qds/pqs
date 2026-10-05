@@ -1,5 +1,5 @@
 {
-  "total": 4249,
+  "total": 4454,
   "files": [
     {
       "id": "sampler",
@@ -72,6 +72,12 @@
       "name": "Question + Answer",
       "file": "formats/qa.txt",
       "count": 201
+    },
+    {
+      "id": "definition",
+      "name": "Definition",
+      "file": "formats/definition.txt",
+      "count": 205
     },
     {
       "id": "equation",
