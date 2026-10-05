@@ -6,22 +6,24 @@
 import { drawBackground } from "./background";
 import { contrastFromLuminance, luminance } from "./color";
 import type { Composition, LayoutContext } from "./compose";
-import { Measurer } from "./env";
+import { Measurer, fontString } from "./env";
 import { composeClassic } from "./formats/classic";
 import { getPairing } from "./pairings";
-import { getPalette } from "./palettes";
+import { getPalette, type Palette } from "./palettes";
 import type { PhotoInput } from "./photo";
-import { compositeAlpha, lumaStats, smoothstep } from "./pixels";
+import { compositeAlpha, lumaStats, smoothstep, type LumaStats } from "./pixels";
 import { chooseSignatureInk, layoutSignature } from "./signature";
 import { drawBlock, fitStack, placeStack, type PlacedBlock } from "./stack";
 import type { QuoteContent, SignatureStyle, TemplateConfig } from "./template";
-import { inside, intersects, type Ctx, type Rect, type RenderEnv } from "./types";
+import { inside, intersects, type Ctx, type FaceRef, type Rect, type RenderEnv } from "./types";
 
 export interface RenderInput {
   content: QuoteContent;
   template: TemplateConfig;
   signature: { enabled: boolean; style: SignatureStyle };
   photo?: PhotoInput;
+  /** Tiny "Photo: Name / Unsplash" line in the bottom margin. */
+  showCredit?: boolean;
   seed?: number;
 }
 
@@ -42,9 +44,11 @@ export interface RenderReport {
   blocks: BlockReport[];
   decorations: Rect[];
   signature?: { rect: Rect; color: string; alpha: number; contrast: number };
+  credit?: { rect: Rect; text: string };
   overflow: boolean;
   collisions: string[];
   upscaled: boolean;
+  photoUsed: boolean;
   photoScale?: number;
   background: string;
   ms: number;
@@ -74,6 +78,61 @@ function compose(lc: LayoutContext, content: QuoteContent): Composition {
   }
 }
 
+function intersect(a: Rect, b: Rect): Rect {
+  const x = Math.max(a.x, b.x), y = Math.max(a.y, b.y);
+  return { x, y, w: Math.max(0, Math.min(a.x + a.w, b.x + b.w) - x), h: Math.max(0, Math.min(a.y + a.h, b.y + b.h) - y) };
+}
+
+/**
+ * Photo credit: a small line right-aligned in the bottom margin, outside the
+ * safe area where quote text and the signature live, so it can never collide.
+ */
+function drawCredit(
+  ctx: Ctx, env: RenderEnv, m: Measurer, credit: { name: string; source: string },
+  W: number, H: number, safe: Rect, face: FaceRef, palette: Palette, sigSize: number,
+) {
+  const size = Math.max(sigSize * 0.62, Math.min(W, H) * 0.0105);
+  const text = `Photo: ${credit.name} / ${credit.source}`;
+  const tracking = 0.02;
+  const w = m.width(face, text, tracking) * size;
+  const met = m.metrics(face);
+  const marginTop = safe.y + safe.h;
+  const base = marginTop + (H - marginTop) / 2 + (met.capHeight * size) / 2;
+  const rect = { x: safe.x + safe.w - w, y: base - met.capHeight * size, w, h: (met.capHeight + met.descent) * size };
+  const ink = chooseSignatureInk(ctx, rect, palette, size * 0.4);
+  ctx.save();
+  ctx.font = fontString(env, face, size);
+  if ("letterSpacing" in ctx) ctx.letterSpacing = `${(tracking * size).toFixed(3)}px`;
+  ctx.fillStyle = ink.color;
+  ctx.globalAlpha = Math.min(0.85, ink.alpha);
+  ctx.fillText(text, rect.x, base);
+  ctx.restore();
+  return { rect, text };
+}
+
+/**
+ * Darkens (or lightens) a full-width horizontal band behind `region` with a
+ * tall, soft fade above and below, a step at a time, until `measure` reaches
+ * 4.5:1 (at most 8 steps). A full-width band reads as part of the photo's
+ * scrim rather than a box behind the text. Dark ink gets a light band.
+ */
+function strengthenScrim(ctx: Ctx, region: Rect, ink: string, feather: number, measure: (st: LumaStats) => number) {
+  const W = ctx.canvas.width;
+  const scrimColor = luminance(ink) < 0.4 ? "#f4f1ea" : "#000000";
+  const outer = { x: 0, y: region.y - feather, w: W, h: region.h + feather * 2 };
+  let st = lumaStats(ctx, region);
+  let c = measure(st);
+  for (let k = 0; k < 8 && c < MIN_CONTRAST; k++) {
+    compositeAlpha(ctx, outer, scrimColor, (_x, y) => {
+      const dy = Math.max(region.y - y, 0, y - (region.y + region.h));
+      return 0.16 * (1 - smoothstep(0, feather, dy));
+    });
+    st = lumaStats(ctx, region);
+    c = measure(st);
+  }
+  return { st, c };
+}
+
 const textContrast = (color: string, st: { p02: number; p98: number }) => {
   const L = luminance(color);
   return Math.min(contrastFromLuminance(L, st.p02), contrastFromLuminance(L, st.p98));
@@ -92,14 +151,17 @@ export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): Rende
   ctx.imageSmoothingEnabled = true;
   ctx.imageSmoothingQuality = "high";
 
-  const bg = drawBackground(ctx, env, W, H, template.background, palette, input.photo, seed);
   const safe = safeArea(W, H);
+  const bg = drawBackground(ctx, env, W, H, template.background, palette, input.photo, seed, template.layout, safe);
 
-  const sig = input.signature.enabled ? layoutSignature(input.signature.style, W, H, safe, env, m, pairing) : null;
+  // Split and frame backgrounds keep text (and the signature) on the solid
+  // panel, so one ink colour always reads against a uniform background.
+  const area = bg.textArea ? intersect(safe, bg.textArea) : safe;
+  const sig = input.signature.enabled ? layoutSignature(input.signature.style, W, H, area, env, m, pairing) : null;
   const r = sig?.reserve ?? { top: 0, bottom: 0, left: 0, right: 0 };
-  const box: Rect = { x: safe.x + r.left, y: safe.y + r.top, w: safe.w - r.left - r.right, h: safe.h - r.top - r.bottom };
+  const box: Rect = { x: area.x + r.left, y: area.y + r.top, w: area.w - r.left - r.right, h: area.h - r.top - r.bottom };
 
-  const onPhoto = bg.isPhoto;
+  const onPhoto = bg.textOnPhoto;
   const lc: LayoutContext = {
     W, H, ref: Math.min(W, H * 1.1), safe, box, palette, pairing, template, env, m, isPhoto: onPhoto,
     ink: onPhoto ? "#f6f3ee" : palette.ink,
@@ -128,22 +190,8 @@ export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): Rende
     let c = textContrast(color, st);
     let fix: BlockReport["fix"];
     if (c < MIN_CONTRAST && onPhoto) {
-      // Strengthen a soft local scrim behind the text until it passes.
-      const darkText = luminance(color) < 0.4;
-      const scrimColor = darkText ? "#f4f1ea" : "#000000";
-      const feather = b.size * 1.6;
-      const outer = { x: region.x - feather, y: region.y - feather, w: region.w + feather * 2, h: region.h + feather * 2 };
-      for (let k = 0; k < 8 && c < MIN_CONTRAST; k++) {
-        const strength = 0.18;
-        compositeAlpha(ctx, outer, scrimColor, (x, y) => {
-          const dx = Math.max(region.x - x, 0, x - (region.x + region.w));
-          const dy = Math.max(region.y - y, 0, y - (region.y + region.h));
-          return strength * (1 - smoothstep(0, feather, Math.hypot(dx, dy)));
-        });
-        st = lumaStats(ctx, region);
-        c = textContrast(color, st);
-        fix = "scrim";
-      }
+      ({ st, c } = strengthenScrim(ctx, region, color, Math.max(b.size * 3, H * 0.08), (s2) => textContrast(color, s2)));
+      fix = "scrim";
     }
     if (c < MIN_CONTRAST) {
       const candidates = [palette.ink, palette.bg, "#111111", "#f6f3ee", "#000000", "#ffffff"];
@@ -162,9 +210,22 @@ export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): Rende
 
   let signature: RenderReport["signature"];
   if (sig) {
-    const ink = chooseSignatureInk(ctx, sig.rect, palette, sig.size * 0.4);
+    let ink = chooseSignatureInk(ctx, sig.rect, palette, sig.size * 0.4);
+    if (ink.contrast < MIN_CONTRAST && bg.photoUsed) {
+      // Busy photo under the signature: soften it locally, then re-pick the ink.
+      const pad = sig.size * 0.6;
+      const region = { x: sig.rect.x - pad, y: sig.rect.y - pad, w: sig.rect.w + pad * 2, h: sig.rect.h + pad * 2 };
+      const chosen = ink.color;
+      strengthenScrim(ctx, region, chosen, Math.max(sig.size * 4, H * 0.06), () => chooseSignatureInk(ctx, sig.rect, palette, sig.size * 0.4).contrast);
+      ink = chooseSignatureInk(ctx, sig.rect, palette, sig.size * 0.4);
+    }
     sig.draw(ctx, ink.color, ink.alpha);
     signature = { rect: sig.rect, ...ink };
+  }
+
+  let credit: RenderReport["credit"];
+  if (input.showCredit && bg.photoUsed && input.photo?.credit) {
+    credit = drawCredit(ctx, env, m, input.photo.credit, W, H, safe, pairing.label, palette, sig?.size ?? H * 0.018);
   }
   ctx.restore();
 
@@ -176,10 +237,14 @@ export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): Rende
   }
   for (const d of decorations) if (signature && intersects(d, signature.rect)) collisions.push(`decoration overlaps signature`);
   if (signature && !inside(signature.rect, safe, 1)) collisions.push("signature leaves the safe area");
+  if (credit) {
+    if (signature && intersects(credit.rect, signature.rect)) collisions.push("credit overlaps signature");
+    for (const b of blocks) if (intersects(credit.rect, b.rect)) collisions.push(`credit overlaps ${b.id}`);
+  }
 
   const t1 = typeof performance !== "undefined" ? performance.now() : Date.now();
   return {
-    width: W, height: H, safe, blocks, decorations, signature, overflow, collisions,
-    upscaled: bg.upscaled, photoScale: bg.photoScale, background: bg.drawn.kind, ms: t1 - t0,
+    width: W, height: H, safe, blocks, decorations, signature, credit, overflow, collisions,
+    upscaled: bg.upscaled, photoUsed: bg.photoUsed, photoScale: bg.photoScale, background: bg.drawn.kind, ms: t1 - t0,
   };
 }

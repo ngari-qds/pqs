@@ -11,6 +11,11 @@ import type { BackgroundConfig, LayoutId, SignatureStyle, TemplateConfig } from 
 import type { Ctx } from "@/lib/render/types";
 import { download, exportImage, slug, type ExportFormat } from "@/lib/studio/export";
 import { HERO_TEMPLATES } from "@/lib/studio/templates";
+import { usePhoto } from "@/lib/studio/usePhoto";
+import { trackDownload } from "@/lib/images/client";
+import { MOODS, MOOD_IDS } from "@/lib/images/keywords";
+import { PROVIDER_NAMES } from "@/lib/images/types";
+import { withReferral } from "@/lib/images/urls";
 
 const LAYOUTS: { id: LayoutId; name: string }[] = [
   { id: "centered", name: "Centred" },
@@ -29,6 +34,16 @@ const BACKGROUNDS: { id: BackgroundConfig["kind"]; name: string; config: Backgro
   { id: "vignette", name: "Vignette", config: { kind: "vignette", strength: 0.4 } },
 ];
 
+const PHOTO_BACKGROUNDS: { id: BackgroundConfig["kind"]; name: string; config: BackgroundConfig }[] = [
+  { id: "photo-scrim", name: "Photo + scrim", config: { kind: "photo-scrim", scrim: "auto" } },
+  { id: "photo-mono-tint", name: "Grayscale", config: { kind: "photo-mono-tint" } },
+  { id: "photo-duotone", name: "Duotone", config: { kind: "photo-duotone" } },
+  { id: "photo-blur", name: "Blurred", config: { kind: "photo-blur" } },
+  { id: "photo-split", name: "Split", config: { kind: "photo-split" } },
+  { id: "photo-frame", name: "Framed", config: { kind: "photo-frame" } },
+];
+const ALL_BACKGROUNDS = [...BACKGROUNDS, ...PHOTO_BACKGROUNDS];
+
 const SAMPLE = "Most people don't want the truth. They want a *quieter* version of it they can live next to.";
 const SETTINGS_KEY = "pqs.settings.v1";
 
@@ -38,8 +53,9 @@ interface Settings {
   preset: string;
   scale: number;
   format: ExportFormat;
+  showCredit: boolean;
 }
-const DEFAULT_SETTINGS: Settings = { signatureEnabled: true, signatureStyle: "line", preset: "status", scale: 2, format: "png" };
+const DEFAULT_SETTINGS: Settings = { signatureEnabled: true, signatureStyle: "line", preset: "status", scale: 2, format: "png", showCredit: false };
 
 function loadSettings(): Settings {
   try {
@@ -79,13 +95,21 @@ export default function Studio() {
     });
 
   const preset = getPreset(settings.preset);
+  const exportSize = useMemo(() => ({ width: preset.width * settings.scale, height: preset.height * settings.scale }), [preset, settings.scale]);
+  const photoBg = template.background.kind.startsWith("photo");
+  const ph = usePhoto({ enabled: photoBg, text, layout: template.layout, target: exportSize });
+
   const input: RenderInput = useMemo(
     () => ({
       content: { format: "classic", text: text || " ", author: author || undefined },
       template,
       signature: { enabled: settings.signatureEnabled, style: settings.signatureStyle },
+      photo: ph.photo
+        ? { image: ph.photo.bitmap, credit: { name: ph.photo.candidate.author.name, source: PROVIDER_NAMES[ph.photo.candidate.provider] } }
+        : undefined,
+      showCredit: settings.showCredit,
     }),
-    [text, author, template, settings.signatureEnabled, settings.signatureStyle],
+    [text, author, template, settings.signatureEnabled, settings.signatureStyle, settings.showCredit, ph.photo],
   );
 
   // Track the preview frame size.
@@ -134,7 +158,7 @@ export default function Studio() {
       layout: pick(LAYOUTS.map((l) => l.id), t.layout),
       palette: pick(PALETTES.map((p) => p.id), t.palette),
       pairing: pick(PAIRINGS.filter((p) => !p.mono).map((p) => p.id), t.pairing),
-      background: pick(BACKGROUNDS.map((b) => b.config)),
+      background: pick(ALL_BACKGROUNDS.map((b) => b.config)),
     }));
   }, []);
 
@@ -142,19 +166,25 @@ export default function Studio() {
     setBusy(true);
     setError(null);
     try {
-      const w = preset.width * settings.scale, h = preset.height * settings.scale;
+      const { width: w, height: h } = exportSize;
       const t0 = performance.now();
-      const { blob, report } = await exportImage(input, w, h, settings.format);
+      // Re-verify the photo against the export size (reloads larger if needed).
+      const loaded = photoBg ? await ph.ensureFor(exportSize) : null;
+      const exportInput: RenderInput = loaded
+        ? { ...input, photo: { image: loaded.bitmap, credit: { name: loaded.candidate.author.name, source: PROVIDER_NAMES[loaded.candidate.provider] } } }
+        : input;
+      const { blob, report } = await exportImage(exportInput, w, h, settings.format);
+      if (loaded) trackDownload(loaded.candidate);
       const name = `fred-m_${slug(text)}_${preset.id}_${w}x${h}.${settings.format === "jpeg" ? "jpg" : settings.format}`;
       download(blob, name);
-      const issues = [...report.collisions, ...(report.overflow ? ["text overflow"] : [])];
+      const issues = [...report.collisions, ...(report.overflow ? ["text overflow"] : []), ...(report.upscaled ? ["photo upscaled"] : [])];
       setLastExport(`${w}×${h} in ${Math.round(performance.now() - t0)} ms${issues.length ? ` · ${issues.join(", ")}` : ""}`);
     } catch (e) {
       setError((e as Error).message);
     } finally {
       setBusy(false);
     }
-  }, [input, preset, settings.scale, settings.format, text]);
+  }, [input, exportSize, preset, settings.format, text, photoBg, ph]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -162,10 +192,11 @@ export default function Studio() {
       if (tag === "TEXTAREA" || tag === "INPUT" || tag === "SELECT" || e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.key === "r" || e.key === "R") shuffle();
       if (e.key === "e" || e.key === "E") doExport();
+      if ((e.key === "i" || e.key === "I") && photoBg) ph.next();
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [shuffle, doExport]);
+  }, [shuffle, doExport, photoBg, ph]);
 
   const set = (patch: Partial<TemplateConfig>) => setTemplate((t) => ({ ...t, ...patch, id: "custom" }));
 
@@ -178,6 +209,7 @@ export default function Studio() {
         </div>
         <div className="hidden sm:flex items-center gap-4 text-xs text-dim">
           <span>Shuffle<kbd>R</kbd></span>
+          <span>New image<kbd>I</kbd></span>
           <span>Export<kbd>E</kbd></span>
         </div>
       </header>
@@ -223,6 +255,7 @@ export default function Studio() {
             {report && <span>contrast {Math.min(...report.blocks.map((b) => b.contrast)).toFixed(1)}:1</span>}
             {report && report.collisions.length > 0 && <span className="text-red-700">{report.collisions.join(", ")}</span>}
             {report?.overflow && <span className="text-red-700">text too long for this size</span>}
+            {report?.upscaled && <span className="text-red-700">photo would be upscaled</span>}
             {error && <span className="text-red-700">{error}</span>}
           </div>
         </section>
@@ -282,8 +315,16 @@ export default function Studio() {
 
           <Group label="Background">
             <Chips items={BACKGROUNDS} value={template.background.kind} onPick={(id) => set({ background: BACKGROUNDS.find((b) => b.id === id)!.config })} />
-            <div className="text-xs text-dim mt-1.5">Photo backgrounds arrive in step 2.</div>
+            <div className="mt-2">
+              <Chips items={PHOTO_BACKGROUNDS} value={template.background.kind} onPick={(id) => set({ background: PHOTO_BACKGROUNDS.find((b) => b.id === id)!.config })} />
+            </div>
           </Group>
+
+          {photoBg && (
+            <Group label="Photo">
+              <PhotoPanel ph={ph} showCredit={settings.showCredit} onCredit={(v) => updateSettings({ showCredit: v })} />
+            </Group>
+          )}
 
           <Group label="Signature">
             <label className="flex items-center gap-2 text-sm mb-2">
@@ -316,6 +357,71 @@ function Chips<T extends string>({ items, value, onPick }: { items: { id: T; nam
           {i.name}
         </button>
       ))}
+    </div>
+  );
+}
+
+function PhotoPanel({ ph, showCredit, onCredit }: { ph: ReturnType<typeof usePhoto>; showCredit: boolean; onCredit: (v: boolean) => void }) {
+  const c = ph.photo?.candidate;
+  const statusText: Record<string, string> = {
+    searching: "Searching…",
+    loading: "Loading full-resolution photo…",
+    offline: "No image API keys configured. Using a generated background.",
+    empty: "No photo large enough for this export. Try another keyword or mood.",
+    error: ph.message ?? "Something went wrong.",
+  };
+  const r = ph.response;
+  const used = r?.providers.filter((p) => p.status === "ok" && p.found) ?? [];
+  const tooSmall = r?.providers.reduce((n, p) => n + p.tooSmall, 0) ?? 0;
+  return (
+    <div className="space-y-3">
+      <div className="flex flex-wrap gap-1.5">
+        {MOOD_IDS.map((m) => (
+          <button
+            key={m}
+            className="chip"
+            data-on={ph.moods.includes(m)}
+            onClick={() => ph.setMoods(ph.moods.includes(m) ? ph.moods.filter((x) => x !== m) : [...ph.moods, m].slice(-3))}
+          >
+            {MOODS[m].label}
+          </button>
+        ))}
+      </div>
+      <div className="flex items-center gap-2 text-xs text-dim">
+        <span>{ph.moodsTouched ? "Moods chosen by you." : "Moods detected from the quote."}</span>
+        {ph.moodsTouched && (
+          <button className="underline" onClick={ph.resetMoods}>Auto</button>
+        )}
+      </div>
+      <input className="field" value={ph.keyword} onChange={(e) => ph.setKeyword(e.target.value)} placeholder={`Keyword (auto: ${ph.query})`} />
+      <button className="btn w-full" onClick={ph.next} disabled={ph.status === "searching" || ph.status === "offline"}>
+        New image<kbd>I</kbd>
+      </button>
+      <div className="text-xs text-dim space-y-1">
+        {statusText[ph.status] && <div className={ph.status === "error" ? "text-red-700" : ""}>{statusText[ph.status]}</div>}
+        {c && ph.photo && (
+          <div>
+            Photo by{" "}
+            <a className="underline" href={withReferral(c.author.url)} target="_blank" rel="noreferrer">{c.author.name}</a> on{" "}
+            <a className="underline" href={withReferral(c.pageUrl)} target="_blank" rel="noreferrer">{PROVIDER_NAMES[c.provider]}</a>
+            <span className="block">
+              {c.width}×{c.height} original · {ph.index + 1} of {ph.candidates.length}, calmest first
+            </span>
+          </div>
+        )}
+        {used.length > 0 && (
+          <div>
+            Source: {used.map((p) => PROVIDER_NAMES[p.provider]).join(", ")}
+            {tooSmall > 0 && ` · ${tooSmall} rejected as too small`}
+            {r?.unsplashRemaining !== undefined && ` · Unsplash quota left: ${r.unsplashRemaining}`}
+          </div>
+        )}
+        {r?.providers.some((p) => p.status === "rate-limited") && <div>Unsplash hourly limit reached; using fallbacks.</div>}
+      </div>
+      <label className="flex items-center gap-2 text-sm">
+        <input type="checkbox" checked={showCredit} onChange={(e) => onCredit(e.target.checked)} />
+        Tiny photo credit on the image
+      </label>
     </div>
   );
 }

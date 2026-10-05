@@ -12,7 +12,9 @@
     "test": "vitest run",
     "fonts": "node scripts/fetch-fonts.mjs",
     "sample": "tsx scripts/render-sample.ts",
-    "qa": "tsx scripts/qa.ts"
+    "qa": "tsx scripts/qa.ts",
+    "mock:photos": "tsx scripts/mock-photos.ts",
+    "dev:mock": "PQS_MOCK_PHOTOS=1 next dev"
   },
   "dependencies": {
     "idb": "^8.0.3",

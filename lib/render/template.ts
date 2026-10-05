@@ -16,8 +16,12 @@ export type BackgroundConfig =
   | { kind: "gradient"; angle?: number }
   | { kind: "paper"; strength?: number }
   | { kind: "vignette"; strength?: number }
-  | { kind: "photo-scrim"; scrim?: "bottom" | "top" | "full" | "left"; strength?: number }
-  | { kind: "photo-mono-tint"; strength?: number };
+  | { kind: "photo-scrim"; scrim?: "auto" | "bottom" | "top" | "full" | "left"; strength?: number }
+  | { kind: "photo-mono-tint"; strength?: number }
+  | { kind: "photo-duotone" }
+  | { kind: "photo-blur"; radius?: number }
+  | { kind: "photo-split"; ratio?: number }
+  | { kind: "photo-frame" };
 
 export type SignatureStyle = "line" | "stacked" | "caps" | "rule" | "monogram" | "vertical";
 

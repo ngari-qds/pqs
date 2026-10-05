@@ -5,7 +5,8 @@
  *   - text overflows its box or leaves the safe area
  *   - any text block is below WCAG 4.5:1 against the pixels behind it
  *   - text or decorations collide with the signature
- *   - a photo is upscaled
+ *   - a photo is upscaled (photo templates use generated test photos from
+ *     .mock-photos/, the hardest ones that cover each export size)
  *
  *   npm run qa                         3x, all presets
  *   npm run qa -- --scale 1            faster pass
@@ -19,6 +20,7 @@ import path from "node:path";
 import type { TemplateConfig } from "../lib/render/template";
 import { PRESETS } from "../lib/render/presets";
 import type { WorkerJob, WorkerResult } from "./qa-worker";
+import { ensureMockPhotos } from "./mock-photos";
 
 const args = process.argv.slice(2);
 const flag = (name: string) => (args.includes(name) ? args[args.indexOf(name) + 1] : undefined);
@@ -52,6 +54,7 @@ function runWorker(job: WorkerJob): Promise<WorkerResult> {
 
 async function main() {
   const templates = await loadTemplates();
+  if (templates.some((t) => t.background.kind.startsWith("photo"))) await ensureMockPhotos();
   const jobs: WorkerJob[] = templates.flatMap((template, templateIndex) =>
     PRESETS.map((p) => ({ template, templateIndex, preset: p.id, scale, keepDir })),
   );

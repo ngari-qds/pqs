@@ -7,8 +7,11 @@ import { MIN_CONTRAST, renderQuote, type TemplateConfig } from "../lib/render";
 import { getPreset } from "../lib/render/presets";
 import { newCanvas, nodeEnv } from "./node-env";
 import { QA_TEXTS, QA_STYLES } from "./qa-config";
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readFileSync } from "node:fs";
 import path from "node:path";
+import { loadImage } from "@napi-rs/canvas";
+import type { PhotoInput } from "../lib/render/photo";
+import { coversTarget } from "../lib/images/resolution";
 
 export interface WorkerJob {
   template: TemplateConfig;
@@ -32,29 +35,48 @@ const { canvas, ctx } = newCanvas(p.width * job.scale, p.height * job.scale);
 const out: WorkerResult = { runs: 0, worst: Infinity, failures: [], ms: 0 };
 const t0 = Date.now();
 
-Object.entries(QA_TEXTS).forEach(([kind, text], ki) => {
+// Photo templates are tested against the hardest mock photos that are large
+// enough for this export (the app rejects smaller ones before rendering).
+const PHOTO_ORDER = ["fog-field.jpg", "stone-wall.jpg", "night-city.jpg", "desert-dunes.jpg", "sea-horizon.jpg", "concrete-stairs.jpg", "dark-forest.jpg"];
+const mockDir = path.resolve(import.meta.dirname, "../.mock-photos");
+const manifest: { file: string; width: number; height: number; author: string }[] = JSON.parse(readFileSync(path.join(mockDir, "manifest.json"), "utf8"));
+const fitting = PHOTO_ORDER.map((f) => manifest.find((m) => m.file === f)!).filter((m) => m && coversTarget(m, { width: canvas.width, height: canvas.height }));
+const isPhoto = t.background.kind.startsWith("photo");
+if (isPhoto && !fitting.length) throw new Error(`No mock photo covers ${canvas.width}x${canvas.height}`);
+
+for (const [ki, [kind, text]] of Object.entries(QA_TEXTS).entries()) {
+  let photo: PhotoInput | undefined;
+  let photoName = "";
+  if (isPhoto) {
+    const m = fitting[(job.templateIndex + ki) % fitting.length];
+    photo = { image: await loadImage(path.join(mockDir, m.file)), credit: { name: m.author, source: "Test" } };
+    photoName = `, photo:${m.file}`;
+  }
   const style = QA_STYLES[(job.templateIndex + ki) % QA_STYLES.length];
   ctx.setTransform(1, 0, 0, 1, 0, 0);
   const r = renderQuote(ctx, env, {
     content: { format: t.format, text, author: ki === 1 ? "Fred M" : undefined },
     template: t,
     signature: { enabled: true, style },
+    photo,
+    showCredit: isPhoto && ki === 2,
   });
   out.runs++;
   const problems: string[] = [];
   if (r.overflow) problems.push("text overflow");
   problems.push(...r.collisions);
   if (r.upscaled) problems.push(`photo upscaled (${r.photoScale?.toFixed(2)}x)`);
+  if (isPhoto && !r.photoUsed) problems.push("photo not used");
   for (const b of r.blocks) {
     out.worst = Math.min(out.worst, b.contrast);
     if (b.contrast < MIN_CONTRAST) problems.push(`${b.id} contrast ${b.contrast.toFixed(2)}:1`);
   }
   if (r.signature && r.signature.contrast < 3) problems.push(`signature contrast ${r.signature.contrast.toFixed(2)}:1`);
-  if (problems.length) out.failures.push(`${t.id} @ ${p.id} ${canvas.width}x${canvas.height} [${kind}, sig:${style}]: ${problems.join("; ")}`);
+  if (problems.length) out.failures.push(`${t.id} @ ${p.id} ${canvas.width}x${canvas.height} [${kind}, sig:${style}${photoName}]: ${problems.join("; ")}`);
   if (job.keepDir) {
     mkdirSync(job.keepDir, { recursive: true });
     writeFileSync(path.join(job.keepDir, `${t.id}_${p.id}_${kind}.png`), canvas.toBuffer("image/png"));
   }
-});
+}
 out.ms = Date.now() - t0;
 process.stdout.write(JSON.stringify(out));

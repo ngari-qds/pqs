@@ -9,3 +9,4 @@ qa-report
 samples/*.png
 !samples/README.md
 .vercel
+.mock-photos
