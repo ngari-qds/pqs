@@ -3,7 +3,7 @@
  * gradient, scrim and vignette is computed in float and quantised with
  * triangular dither, so 8-bit output never shows banding.
  */
-import { LINEAR_LUT, hexToRgb, mixOklab, type RGB } from "./color";
+import { LINEAR_LUT, hexToRgb, luminance, mixOklab, type RGB } from "./color";
 import { ditherTable, mulberry32 } from "./random";
 import type { Ctx, Rect } from "./types";
 
@@ -192,4 +192,47 @@ export function lumaStats(ctx: Ctx, rect: Rect): LumaStats {
   };
   const mean = sum / n;
   return { min: pct(0), p02: pct(0.02), p50: pct(0.5), p98: pct(0.98), max: pct(1), mean, sd: Math.sqrt(Math.max(0, sum2 / n - mean * mean)) };
+}
+
+/** Linear luminance (0..65535) -> the nearest 8-bit grey, by linear light. */
+let GREY_LUT: Uint8Array | null = null;
+function greyLut() {
+  if (GREY_LUT) return GREY_LUT;
+  const lut = new Uint8Array(65536);
+  let g = 0;
+  for (let i = 0; i < 65536; i++) {
+    const y = i / 65535;
+    while (g < 255 && Math.abs(LINEAR_LUT[g + 1] - y) <= Math.abs(LINEAR_LUT[g] - y)) g++;
+    lut[i] = g;
+  }
+  return (GREY_LUT = lut);
+}
+
+/**
+ * Black and white: every pixel becomes the grey with the same WCAG relative
+ * luminance, so all contrast ratios (and the checks made on them) are kept.
+ */
+export function toGreyscale(ctx: Ctx, rect: Rect = { x: 0, y: 0, w: ctx.canvas.width, h: ctx.canvas.height }) {
+  const r = clampRect(ctx, rect);
+  if (!r.w || !r.h) return;
+  const lut = greyLut();
+  // Rows in bands keep the readback buffer small on very large exports.
+  const band = Math.max(1, Math.floor(4_000_000 / r.w));
+  for (let y0 = r.y; y0 < r.y + r.h; y0 += band) {
+    const h = Math.min(band, r.y + r.h - y0);
+    const img = ctx.getImageData(r.x, y0, r.w, h);
+    const d = img.data;
+    for (let i = 0; i < d.length; i += 4) {
+      const v = lut[Math.round((0.2126 * LINEAR_LUT[d[i]] + 0.7152 * LINEAR_LUT[d[i + 1]] + 0.0722 * LINEAR_LUT[d[i + 2]]) * 65535)];
+      d[i] = d[i + 1] = d[i + 2] = v;
+    }
+    ctx.putImageData(img, r.x, y0);
+  }
+}
+
+/** The grey with the same relative luminance as `color`. */
+export function greyOf(color: string): string {
+  const v = greyLut()[Math.round(luminance(color) * 65535)];
+  const h = v.toString(16).padStart(2, "0");
+  return `#${h}${h}${h}`;
 }

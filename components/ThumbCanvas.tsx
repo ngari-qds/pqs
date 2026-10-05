@@ -38,11 +38,12 @@ export interface ThumbCanvasProps {
   aspect: number;
   photo?: Drawable;
   signature: { enabled: boolean; style: SignatureStyle };
+  blackWhite?: boolean;
   onRendered?: (r: RenderReport) => void;
   className?: string;
 }
 
-export const ThumbCanvas = memo(function ThumbCanvas({ template, content, aspect, photo, signature, onRendered, className }: ThumbCanvasProps) {
+export const ThumbCanvas = memo(function ThumbCanvas({ template, content, aspect, photo, signature, blackWhite, onRendered, className }: ThumbCanvasProps) {
   const ref = useRef<HTMLCanvasElement>(null);
   const [visible, setVisible] = useState(false);
   const isPhoto = template.background.kind.startsWith("photo");
@@ -72,6 +73,7 @@ export const ThumbCanvas = memo(function ThumbCanvas({ template, content, aspect
         content: { ...content, slide: content.slide ?? 0 },
         template,
         signature,
+        blackWhite,
         photo: isPhoto ? { image: photo ?? placeholderPhoto() } : undefined,
       });
       cb.current?.(r);
@@ -79,7 +81,7 @@ export const ThumbCanvas = memo(function ThumbCanvas({ template, content, aspect
     return () => {
       cancelled = true;
     };
-  }, [visible, template, content, aspect, photo, signature, isPhoto]);
+  }, [visible, template, content, aspect, photo, signature, blackWhite, isPhoto]);
 
   return <canvas ref={ref} className={className ?? "block w-full h-full"} />;
 });

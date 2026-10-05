@@ -32,6 +32,7 @@ interface Props {
   scale: number;
   format: ExportFormat;
   signature: { enabled: boolean; style: SignatureStyle };
+  blackWhite: boolean;
   currentTemplate: TemplateConfig;
   photo?: Drawable;
   onOpen: (content: QuoteContent, template: TemplateConfig) => void;
@@ -129,7 +130,7 @@ export default function Batch(props: Props) {
     try {
       const r = await exportBatch(
         selected.map((i, n) => ({ content: i.content, template: templateOf(i.content), stem: batchFileStem(from - 1 + n, i.content, contentText(i.content)), tags: i.tags })),
-        { width: w, height: h, format: props.format, signature: props.signature, photo: props.photo ? { image: props.photo } : undefined, baseName },
+        { width: w, height: h, format: props.format, signature: props.signature, blackWhite: props.blackWhite, photo: props.photo ? { image: props.photo } : undefined, baseName },
         (done, total) => setProgress({ done, total }),
         ac.signal,
       );
@@ -297,7 +298,7 @@ export default function Batch(props: Props) {
                 return (
                   <figure key={`${it.line}-${n}`}>
                     <button className="block w-full rounded-sm overflow-hidden bg-line/40" style={{ aspectRatio: String(aspect) }} onClick={() => props.onOpen(it.content, t)} title="Open in the studio">
-                      <ThumbCanvas template={t} content={it.content} aspect={aspect} photo={props.photo} signature={props.signature} />
+                      <ThumbCanvas template={t} content={it.content} aspect={aspect} photo={props.photo} signature={props.signature} blackWhite={props.blackWhite} />
                     </button>
                     <figcaption className="mt-1.5 text-[11px] leading-snug text-dim">
                       <span className="text-ink">{String(n + 1).padStart(3, "0")}</span> · {FORMATS[it.content.format].name}

@@ -12,7 +12,7 @@ import { rule } from "./draw";
 import { getPairing } from "./pairings";
 import { getPalette, type Palette } from "./palettes";
 import type { PhotoInput } from "./photo";
-import { compositeAlpha, lumaStats, smoothstep, type LumaStats } from "./pixels";
+import { compositeAlpha, greyOf, lumaStats, smoothstep, toGreyscale, type LumaStats } from "./pixels";
 import { chooseSignatureInk, layoutSignature } from "./signature";
 import { drawBlock, fitStack, placeStack, type PlacedBlock } from "./stack";
 import type { QuoteContent, SignatureStyle, TemplateConfig } from "./template";
@@ -26,6 +26,8 @@ export interface RenderInput {
   /** Tiny "Photo: Name / Unsplash" line in the bottom margin. */
   showCredit?: boolean;
   seed?: number;
+  /** Black and white: the finished image is converted to greys of equal luminance. */
+  blackWhite?: boolean;
 }
 
 export interface BlockReport {
@@ -147,6 +149,18 @@ const textContrast = (color: string, st: { p02: number; p98: number }) => {
  * says which fallback was applied.
  */
 export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport {
+  const r = renderAdaptive(ctx, env, input);
+  if (!input.blackWhite) return r;
+  // Greys of equal luminance keep every contrast ratio the report measured.
+  toGreyscale(ctx);
+  return {
+    ...r,
+    blocks: r.blocks.map((b) => ({ ...b, color: greyOf(b.color) })),
+    signature: r.signature && { ...r.signature, color: greyOf(r.signature.color) },
+  };
+}
+
+function renderAdaptive(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport {
   let r = renderOnce(ctx, env, input);
   if (!r.overflow) return r;
   const bg = input.template.background;

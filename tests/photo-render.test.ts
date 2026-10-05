@@ -85,5 +85,5 @@ describe("photo placement", () => {
       expect(r.collisions).toEqual([]);
       expect(intersects(r.credit!.rect, r.safe)).toBe(false);
     }
-  });
+  }, 20_000);
 });

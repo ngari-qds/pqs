@@ -96,6 +96,10 @@ Every format loads with a sample line (20 in all, one per format).
 - **Studio**: one quote at a time. Format, fields, live preview, style
   controls, export. The form has a **Library** box to save the current quote
   with tags.
+- **Black & white** (under Palette): renders every design and photo in
+  greys. Each colour becomes the grey of the same luminance, so contrast,
+  layout and the QA guarantees are unchanged. It applies to the preview,
+  the gallery, batch mode and every export, and is remembered.
 - **Gallery**: every curated and generated design for the format, shown with
   your text (see below).
 - **Batch**: paste many quotes, upload or drop files, or load the collection

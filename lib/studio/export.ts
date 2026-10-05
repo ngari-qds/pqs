@@ -85,7 +85,7 @@ export interface BatchResult {
  */
 export async function exportBatch(
   jobs: BatchJob[],
-  opts: { width: number; height: number; format: ExportFormat; signature: RenderInput["signature"]; photo?: RenderInput["photo"]; baseName: string; perZip?: number },
+  opts: { width: number; height: number; format: ExportFormat; signature: RenderInput["signature"]; blackWhite?: boolean; photo?: RenderInput["photo"]; baseName: string; perZip?: number },
   onProgress: (done: number, total: number) => void,
   signal?: AbortSignal,
 ): Promise<BatchResult> {
@@ -117,7 +117,7 @@ export async function exportBatch(
       const name = `${job.stem}${n > 1 ? `_${String(s + 1).padStart(2, "0")}of${String(n).padStart(2, "0")}` : ""}.${ext}`;
       const isPhoto = job.template.background.kind.startsWith("photo");
       const { blob, report } = await exportImage(
-        { content: { ...job.content, slide: s }, template: job.template, signature: opts.signature, photo: isPhoto ? opts.photo : undefined },
+        { content: { ...job.content, slide: s }, template: job.template, signature: opts.signature, blackWhite: opts.blackWhite, photo: isPhoto ? opts.photo : undefined },
         opts.width,
         opts.height,
         opts.format,

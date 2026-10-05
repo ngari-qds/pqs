@@ -58,8 +58,9 @@ interface Settings {
   scale: number;
   format: ExportFormat;
   showCredit: boolean;
+  blackWhite: boolean;
 }
-const DEFAULT_SETTINGS: Settings = { signatureEnabled: true, signatureStyle: "line", preset: "status", scale: 2, format: "png", showCredit: false };
+const DEFAULT_SETTINGS: Settings = { signatureEnabled: true, signatureStyle: "line", preset: "status", scale: 2, format: "png", showCredit: false, blackWhite: false };
 
 function loadSettings(): Settings {
   try {
@@ -185,8 +186,9 @@ export default function Studio() {
         ? { image: ph.photo.bitmap, credit: { name: ph.photo.candidate.author.name, source: PROVIDER_NAMES[ph.photo.candidate.provider] } }
         : undefined,
       showCredit: settings.showCredit,
+      blackWhite: settings.blackWhite,
     }),
-    [content, slide, template, settings.signatureEnabled, settings.signatureStyle, settings.showCredit, ph.photo],
+    [content, slide, template, settings.signatureEnabled, settings.signatureStyle, settings.showCredit, settings.blackWhite, ph.photo],
   );
 
   // Track the preview frame size.
@@ -358,6 +360,7 @@ export default function Studio() {
           scale={settings.scale}
           format={settings.format}
           signature={{ enabled: settings.signatureEnabled, style: settings.signatureStyle }}
+          blackWhite={settings.blackWhite}
           currentTemplate={template}
           photo={ph.photo?.bitmap}
           onOpen={openContent}
@@ -402,6 +405,7 @@ export default function Studio() {
           currentId={template.id}
           photo={ph.photo?.bitmap}
           signature={{ enabled: settings.signatureEnabled, style: settings.signatureStyle }}
+          blackWhite={settings.blackWhite}
           favorites={favorites}
           mine={mineIds}
           onToggleFavorite={toggleFavorite}
@@ -549,6 +553,11 @@ export default function Studio() {
               ))}
             </div>
             <div className="text-xs text-dim mt-1.5" data-testid="palette-name">{getPalette(template.palette).name}</div>
+            <label className="flex items-center gap-2 text-sm mt-3">
+              <input type="checkbox" checked={settings.blackWhite} onChange={(e) => updateSettings({ blackWhite: e.target.checked })} />
+              Black &amp; white
+            </label>
+            <div className="text-xs text-dim mt-1">Every design and photo in greys. Applies to the gallery, batch and exports.</div>
           </Group>
 
           <Group label="Background" lock={{ on: locks.image, toggle: () => setLocks((l) => ({ ...l, image: !l.image })) }}>
