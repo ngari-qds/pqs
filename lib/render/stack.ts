@@ -123,7 +123,7 @@ interface Trial {
   fits: boolean;
 }
 
-function trialBlock(m: Measurer, spec: BlockSpec, size: number, boxW: number, boxH: number, ref: number): Trial {
+function trialBlock(m: Measurer, spec: BlockSpec, size: number, boxW: number, boxH: number, ref: number, relaxMeasure = false): Trial {
   const ratio = size / ref;
   const tracking = quant(trackingFor(spec.role, ratio, spec.trackingBase ?? 0));
   const metrics = m.metrics(spec.face);
@@ -138,7 +138,7 @@ function trialBlock(m: Measurer, spec: BlockSpec, size: number, boxW: number, bo
     minSize: size,
     maxSize: size,
     maxLines: spec.maxLines,
-    minCharsPerLine: auto ? minChars : undefined,
+    minCharsPerLine: auto && !relaxMeasure ? minChars : undefined,
     maxCharsPerLine: auto ? maxChars : undefined,
     avgCharWidth: metrics.avgChar + tracking,
     capHeight: metrics.capHeight,
@@ -158,11 +158,11 @@ export function fitStack(m: Measurer, specs: BlockSpec[], box: Rect, ref: number
   const auto = specs.filter((s) => "ratio" in s.size) as (BlockSpec & { size: { ratio: number; min: number; max: number } })[];
   const sizeAt = (s: BlockSpec, k: number) => ("fixed" in s.size ? s.size.fixed : Math.max(s.size.min, Math.min(s.size.max, k * s.size.ratio)));
 
-  const run = (k: number) => {
+  const run = (k: number, relaxMeasure = false) => {
     let total = 0;
     let ok = true;
     const trials = specs.map((s, i) => {
-      const t = trialBlock(m, s, sizeAt(s, k), box.w, box.h, ref);
+      const t = trialBlock(m, s, sizeAt(s, k), box.w, box.h, ref, relaxMeasure);
       if (!t.fits) ok = false;
       total += t.h + (i > 0 ? s.gapBefore ?? 0 : 0);
       return t;
@@ -176,7 +176,12 @@ export function fitStack(m: Measurer, specs: BlockSpec[], box: Rect, ref: number
   if (hi < lo) hi = lo;
   let best = run(hi);
   if (!best.ok && auto.length) {
-    const low = run(lo);
+    let low = run(lo);
+    // The measure rule must never cause an overflow: relax it at the minimum size.
+    if (!low.ok) {
+      const relaxed = run(lo, true);
+      if (relaxed.ok) low = relaxed;
+    }
     best = low;
     if (low.ok) {
       for (let i = 0; i < 24 && hi - lo > 0.002; i++) {

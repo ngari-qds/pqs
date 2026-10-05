@@ -116,4 +116,12 @@ describe("measure rules", () => {
     expect(r.fits).toBe(true);
     expect(r.lines.length).toBe(2);
   });
+  it("judges the fewest possible lines by real widths, not a character estimate", () => {
+    // 54 characters fit a 55-character maximum by count, but the font runs wider
+    // than its average estimate, so the line must break; that is not "too short".
+    const p = params("The loss arrived by phone during a supermarket queue.", { minCharsPerLine: 30, maxCharsPerLine: 55, avgCharWidth: CW * 0.95 });
+    const r = layoutAtSize(p, 10);
+    expect(r.lines.length).toBe(2);
+    expect(r.fits).toBe(true);
+  });
 });

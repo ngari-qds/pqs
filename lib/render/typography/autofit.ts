@@ -61,8 +61,10 @@ export function layoutAtSize(p: FitParams, size: number): FitResult {
     const multiWordParas = p.paragraphs.some((para) => para.length > 1);
     // Only reject short lines when fewer, fuller lines are actually possible:
     // a 57-character line under a 55-character maximum must take two lines,
-    // even though they average under the minimum.
-    const fewestPossible = p.maxCharsPerLine ? p.paragraphs.filter((x) => x.length).length + Math.max(0, Math.ceil(total / p.maxCharsPerLine) - 1) : 1;
+    // even though they average under the minimum. The fewest possible is a
+    // greedy break at the full measure (real widths, not a character estimate).
+    const ideal = p.maxCharsPerLine ? breakLines(p.paragraphs, p.space, p.maxCharsPerLine * p.avgCharWidth, { balance: false }) : null;
+    const fewestPossible = ideal ? ideal.filter((l) => l.tokens.length).length : 1;
     if (multiWordParas && avg < p.minCharsPerLine && nonEmpty.length > fewestPossible) reason = "measure-too-short";
   }
   return { size, lines, lineHeight: lh, height, fits: !reason, reason };
