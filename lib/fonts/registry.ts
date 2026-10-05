@@ -56,7 +56,12 @@ export const FONT_FAMILIES: FontFamilyDef[] = [
   def("Space Mono", "mono", [f(400), f(700)]),
   def("IBM Plex Mono", "mono", [f(400), f(500)]),
   def("JetBrains Mono", "mono", [f(400), f(600)]),
+  // Glyph fallback only (IPA, rare symbols); never chosen as a design face.
+  def("Gentium Book Plus", "serif", [f(400), f(400, "italic"), f(700)]),
 ];
+
+/** Appended to every canvas font list so missing glyphs (e.g. IPA) still render. */
+export const FALLBACK_FAMILY = "Gentium Book Plus";
 
 export const fontFile = (fam: FontFamilyDef, face: FontFace) =>
   `${fam.slug}-${face.weight}${face.style === "italic" ? "i" : ""}.ttf`;

@@ -5,14 +5,16 @@ import type { Composition, LayoutContext, StackSpec } from "../compose";
 import { hairline, rule } from "../draw";
 import { fontString } from "../env";
 import type { BlockSpec, PlacedBlock } from "../stack";
-import type { ClassicContent } from "../template";
+import { str, type QuoteContent } from "../template";
 import { smartQuotes } from "../typography/smart";
+import { emColorFor } from "./common";
 import type { Rect } from "../types";
 
-export function composeClassic(lc: LayoutContext, content: ClassicContent): Composition {
+export const CLASSIC_LAYOUTS = ["centered", "editorial", "bottom", "top", "pull-quote", "corner", "framed-card"] as const;
+
+export function composeClassic(lc: LayoutContext, content: QuoteContent, layout: string = lc.template.layout): Composition {
   const { ref, box, pairing, template, palette } = lc;
-  const layout = template.layout;
-  const author = content.author?.trim();
+  const author = str(content, "author") || str(content, "source");
   const align = layout === "centered" || layout === "framed-card" ? "center" : "left";
 
   const maxSize: Record<string, number> = {
@@ -22,7 +24,7 @@ export function composeClassic(lc: LayoutContext, content: ClassicContent): Comp
   const display = (ink: string): BlockSpec => ({
     id: "quote",
     role: "display",
-    text: smartQuotes(content.text.trim()),
+    text: smartQuotes(str(content, "text")),
     face: pairing.display,
     emFace: pairing.displayEm,
     color: ink,
@@ -33,7 +35,7 @@ export function composeClassic(lc: LayoutContext, content: ClassicContent): Comp
     lineHeightFactor: pairing.lineHeightFactor,
     hangPunctuation: true,
     emStyle: template.emphasis ?? "italic",
-    emColor: lc.accent,
+    emColor: emColorFor(lc, template.emphasis ?? "italic"),
     maxWidth: layout === "corner" ? box.w * 0.64 : layout === "editorial" ? box.w * 0.9 : undefined,
   });
 
@@ -64,6 +66,7 @@ export function composeClassic(lc: LayoutContext, content: ClassicContent): Comp
         },
       };
     }
+    default:
     case "editorial":
       return { stacks: [{ specs: blocks(lc.ink, lc.muted), box, valign: "optical" }] };
     case "bottom":
@@ -114,7 +117,7 @@ export function composeClassic(lc: LayoutContext, content: ClassicContent): Comp
         return { x: box.x, y: top, w: box.w, h: last.y + last.h - bl[0].y + pad * 2 };
       };
       return {
-        stacks: [{ specs: blocks(cardInk, cardMuted).map((b) => ({ ...b, emColor: palette.accent })), box: inner, valign: "center", hAlign: "center" }],
+        stacks: [{ specs: blocks(cardInk, cardMuted).map((b) => ({ ...b, emColor: template.emphasis === "marker" ? b.emColor : palette.accent })), box: inner, valign: "center", hAlign: "center" }],
         prepaint: (ctx, placed) => {
           const r = card(placed);
           ctx.save();

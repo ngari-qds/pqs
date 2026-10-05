@@ -1,0 +1,4 @@
+[
+  {"id": "field-note-notebook", "name": "Notebook", "format": "field-note", "layout": "notebook", "pairing": "plex-serif-mono", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "field-note-sand-margin", "name": "Margin note", "format": "field-note", "layout": "margin", "pairing": "spectral-manrope", "palette": "sandstone", "background": {"kind": "paper"}, "hero": true}
+]

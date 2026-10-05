@@ -1,0 +1,5 @@
+[
+  {"id": "post-card-fog", "name": "Fog post", "format": "post-card", "layout": "card", "pairing": "fraunces-inter", "palette": "fog", "background": {"kind": "gradient", "angle": 0}, "hero": true},
+  {"id": "post-card-photo", "name": "Photo post", "format": "post-card", "layout": "card", "pairing": "newsreader-intertight", "palette": "paper-ink", "background": {"kind": "photo-blur"}, "hero": true},
+  {"id": "post-card-ink-flat", "name": "Ink post", "format": "post-card", "layout": "flat", "pairing": "grotesk-mono", "palette": "ink", "background": {"kind": "solid"}, "hero": true}
+]

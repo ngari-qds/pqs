@@ -1,0 +1,4 @@
+[
+  {"id": "paradox-ink-mirror", "name": "Ink mirror", "format": "paradox", "layout": "mirror", "pairing": "cormorant-work", "palette": "ink", "background": {"kind": "vignette", "strength": 0.4}, "hero": true},
+  {"id": "paradox-bone-axis", "name": "Bone axis", "format": "paradox", "layout": "axis", "pairing": "fraunces-inter", "palette": "bone-rust", "background": {"kind": "paper"}, "hero": true}
+]

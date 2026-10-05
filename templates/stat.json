@@ -1,0 +1,5 @@
+[
+  {"id": "stat-bebas-hero", "name": "Bold stat", "format": "stat", "layout": "hero", "pairing": "bebas-inter", "palette": "ink", "background": {"kind": "solid"}, "hero": true},
+  {"id": "stat-paper-centered", "name": "Paper stat", "format": "stat", "layout": "centered", "pairing": "fraunces-inter", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "stat-terracotta-hero", "name": "Terracotta stat", "format": "stat", "layout": "hero", "pairing": "dmserif-dmsans", "palette": "terracotta", "background": {"kind": "solid"}, "hero": true}
+]

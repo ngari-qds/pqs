@@ -1,0 +1,4 @@
+[
+  {"id": "law-bone-placard", "name": "Bone placard law", "format": "law", "layout": "placard", "pairing": "caslon-karla", "palette": "bone-rust", "background": {"kind": "paper"}, "hero": true},
+  {"id": "law-navy-centered", "name": "Navy law", "format": "law", "layout": "centered", "pairing": "garamond-plex", "palette": "midnight", "background": {"kind": "vignette", "strength": 0.4}, "hero": true}
+]

@@ -5,6 +5,8 @@
  * fallback face.
  */
 import { NEXT_FONTS } from "../fonts/next-fonts";
+import { FALLBACK_FAMILY, findFamily } from "../fonts/registry";
+import type { QuoteContent } from "./template";
 import { pairingFaces, type Pairing } from "./pairings";
 import type { CanvasLike, FaceRef, RenderEnv } from "./types";
 
@@ -38,9 +40,20 @@ export async function ensureFonts(faces: FaceRef[]): Promise<void> {
   todo.forEach((s) => loaded.add(s));
 }
 
-export function facesForRender(pairing: Pairing): FaceRef[] {
+/** Characters outside what every design face covers (Latin, punctuation, arrows, math). */
+const NEEDS_FALLBACK = /[^\u0000-\u024F\u2000-\u206F\u20AC\u2190-\u21FF\u2200-\u22FF]/;
+
+/** Every face a render may draw with, so all of them are loaded first. */
+export function facesForRender(pairing: Pairing, content?: QuoteContent): FaceRef[] {
   const faces = pairingFaces(pairing);
   faces.push({ ...pairing.label, weight: Math.max(pairing.label.weight, 500) });
+  // Bold hooks use the display family's heaviest weight.
+  const fam = findFamily(pairing.display.family);
+  if (fam) for (const f of fam.faces) faces.push({ family: fam.family, weight: f.weight, style: f.style });
+  if (content?.format === "equation" && !pairing.mono) faces.push({ family: "JetBrains Mono", weight: 400 }, { family: "JetBrains Mono", weight: 600 });
+  const text = content ? Object.values(content).flat().filter((v) => typeof v === "string").join(" ") : "";
+  if (NEEDS_FALLBACK.test(text))
+    faces.push({ family: FALLBACK_FAMILY, weight: 400 }, { family: FALLBACK_FAMILY, weight: 400, style: "italic" }, { family: FALLBACK_FAMILY, weight: 700 });
   return faces;
 }
 

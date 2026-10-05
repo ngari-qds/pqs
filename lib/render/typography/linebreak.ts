@@ -26,6 +26,8 @@ export interface BreakOptions {
   avoidOrphans?: boolean;
 }
 
+const DANGLING = /^(a|an|the|I|A|An|The)$/;
+
 const lineWidth = (tokens: Token[], from: number, to: number, space: number) => {
   let w = 0;
   for (let i = from; i < to; i++) w += tokens[i].width;
@@ -56,8 +58,8 @@ function breakParagraph(tokens: Token[], space: number, maxWidth: number, avoidO
         c *= 0.6;
         if (avoidOrphans && j - i === 1 && n >= 3) c += orphanPenalty;
       }
-      // Avoid ending a line on a tiny function word ("a", "I", "of").
-      if (j < n && tokens[j - 1].text.length <= 2 && /^[a-z]+$/i.test(tokens[j - 1].text)) c += slack * slack * 0.5 + maxWidth * maxWidth * 0.02;
+      // Avoid ending a line on an article or a lone letter ("a", "I", "the").
+      if (j < n && DANGLING.test(tokens[j - 1].text)) c += maxWidth * maxWidth * 0.015;
       const total = cost[i] + c;
       if (total < cost[j]) {
         cost[j] = total;

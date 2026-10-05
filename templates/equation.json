@@ -1,0 +1,5 @@
+[
+  {"id": "equation-paper-centered", "name": "Paper equation", "format": "equation", "layout": "centered", "pairing": "jetbrains", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "equation-ink-ledger", "name": "Ink ledger", "format": "equation", "layout": "ledger", "pairing": "plex-serif-mono", "palette": "ink", "background": {"kind": "solid"}, "hero": true},
+  {"id": "equation-concrete", "name": "Concrete equation", "format": "equation", "layout": "centered", "pairing": "grotesk-mono", "palette": "concrete", "background": {"kind": "solid"}, "hero": true}
+]

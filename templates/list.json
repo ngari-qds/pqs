@@ -1,0 +1,5 @@
+[
+  {"id": "list-paper-numbered", "name": "Paper list", "format": "list", "layout": "numbered", "pairing": "newsreader-intertight", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "list-graphite-ruled", "name": "Graphite ruled list", "format": "list", "layout": "ruled", "pairing": "garamond-plex", "palette": "graphite", "background": {"kind": "solid"}, "hero": true},
+  {"id": "list-teal-numbered", "name": "Teal list", "format": "list", "layout": "numbered", "pairing": "syne-inter", "palette": "deep-teal", "background": {"kind": "solid"}, "hero": true}
+]

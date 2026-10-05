@@ -7,7 +7,8 @@ import { drawBackground } from "./background";
 import { contrastFromLuminance, luminance } from "./color";
 import type { Composition, LayoutContext } from "./compose";
 import { Measurer, fontString } from "./env";
-import { composeClassic } from "./formats/classic";
+import { FORMATS, composeFormat, resolveLayout } from "./formats";
+import { rule } from "./draw";
 import { getPairing } from "./pairings";
 import { getPalette, type Palette } from "./palettes";
 import type { PhotoInput } from "./photo";
@@ -51,6 +52,8 @@ export interface RenderReport {
   photoUsed: boolean;
   photoScale?: number;
   background: string;
+  /** Set when the design had to adapt to fit long text. */
+  fallback?: string;
   ms: number;
 }
 
@@ -72,10 +75,7 @@ export function safeArea(W: number, H: number): Rect {
 }
 
 function compose(lc: LayoutContext, content: QuoteContent): Composition {
-  switch (content.format) {
-    case "classic":
-      return composeClassic(lc, content);
-  }
+  return composeFormat(lc, content);
 }
 
 function intersect(a: Rect, b: Rect): Rect {
@@ -138,7 +138,33 @@ const textContrast = (color: string, st: { p02: number; p98: number }) => {
   return Math.min(contrastFromLuminance(L, st.p02), contrastFromLuminance(L, st.p98));
 };
 
+/**
+ * Renders a quote. If the text cannot fit at the minimum readable size, the
+ * design adapts instead of shrinking further: split/framed photos give up
+ * space in steps, then the format's most compact layout is used. The report
+ * says which fallback was applied.
+ */
 export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport {
+  let r = renderOnce(ctx, env, input);
+  if (!r.overflow) return r;
+  const bg = input.template.background;
+  if (bg.kind === "photo-split" || bg.kind === "photo-frame") {
+    for (const ratio of [0.36, 0.26]) {
+      const t = { ...input.template, background: { ...bg, ratio } };
+      r = renderOnce(ctx, env, { ...input, template: t });
+      if (!r.overflow) return { ...r, fallback: `photo reduced to ${Math.round(ratio * 100)}%` };
+    }
+  }
+  const compact = FORMATS[input.content.format]?.layouts[0]?.id;
+  if (compact && resolveLayout(input.content.format, input.template.layout) !== compact) {
+    const t = { ...input.template, layout: compact };
+    const r2 = renderOnce(ctx, env, { ...input, template: t });
+    if (!r2.overflow) return { ...r2, fallback: `layout changed to ${compact}` };
+  }
+  return r;
+}
+
+function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport {
   const t0 = typeof performance !== "undefined" ? performance.now() : Date.now();
   const W = ctx.canvas.width, H = ctx.canvas.height;
   const m = measurerFor(env);
@@ -171,11 +197,18 @@ export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): Rende
   const comp = compose(lc, input.content);
 
   let overflow = false;
-  const placed: PlacedBlock[][] = comp.stacks.map((st) => {
-    const inner = { ...st.box, y: st.box.y + (st.padTop ?? 0), h: st.box.h - (st.padTop ?? 0) - (st.padBottom ?? 0) };
-    const fitted = fitStack(m, st.specs, inner, lc.ref);
-    if (!fitted.fits) overflow = true;
-    return placeStack(fitted, inner, st.valign, st.hAlign);
+  const inners = comp.stacks.map((st) => ({ ...st.box, y: st.box.y + (st.padTop ?? 0), h: st.box.h - (st.padTop ?? 0) - (st.padBottom ?? 0) }));
+  let fitted = comp.stacks.map((st, i) => fitStack(m, st.specs, inners[i], lc.ref));
+  // Grouped stacks share the smallest fitted scale, so paired panels match.
+  const groups = new Map<string, number>();
+  comp.stacks.forEach((st, i) => st.group && groups.set(st.group, Math.min(groups.get(st.group) ?? Infinity, fitted[i].k)));
+  fitted = fitted.map((f, i) => {
+    const g = comp.stacks[i].group;
+    return g && f.k > groups.get(g)! + 1e-6 ? fitStack(m, comp.stacks[i].specs, inners[i], lc.ref, groups.get(g)!) : f;
+  });
+  const placed: PlacedBlock[][] = fitted.map((f, i) => {
+    if (!f.fits) overflow = true;
+    return placeStack(f, inners[i], comp.stacks[i].valign, comp.stacks[i].hAlign);
   });
 
   comp.prepaint?.(ctx, placed);
@@ -207,6 +240,17 @@ export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): Rende
   }
 
   const decorations = comp.decorate?.(ctx, placed) ?? [];
+  // Rules requested by blocks, centred in the gap above them.
+  for (const stack of placed)
+    stack.forEach((b, i) => {
+      const r = b.spec.ruleAbove;
+      if (!r || i === 0) return;
+      const prev = stack[i - 1];
+      const y = (prev.y + prev.h + b.y) / 2;
+      const w = b.colW * (r.width ?? 1);
+      const x = b.spec.align === "center" ? b.x + (b.colW - w) / 2 : b.spec.align === "right" ? b.x + b.colW - w : b.x;
+      decorations.push(rule(ctx, x, y, w, r.thickness, r.color, r.alpha ?? 0.35));
+    });
 
   let signature: RenderReport["signature"];
   if (sig) {

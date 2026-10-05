@@ -33,6 +33,8 @@ export interface StackSpec {
   /** Extra space to keep above/below the fitted stack (for rules, marks). */
   padTop?: number;
   padBottom?: number;
+  /** Stacks sharing a group are set at one common scale (e.g. side-by-side panels). */
+  group?: string;
 }
 
 export interface Composition {

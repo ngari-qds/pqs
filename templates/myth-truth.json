@@ -1,0 +1,4 @@
+[
+  {"id": "myth-paper-stacked", "name": "Paper myth", "format": "myth-truth", "layout": "stacked", "pairing": "caslon-karla", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "myth-oxblood-panels", "name": "Oxblood myth", "format": "myth-truth", "layout": "panels", "pairing": "dmserif-dmsans", "palette": "oxblood", "background": {"kind": "solid"}, "hero": true}
+]

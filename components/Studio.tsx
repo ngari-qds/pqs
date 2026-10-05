@@ -7,25 +7,18 @@ import { PALETTES, getPalette } from "@/lib/render/palettes";
 import { PRESETS, getPreset } from "@/lib/render/presets";
 import { renderQuote, type RenderInput, type RenderReport } from "@/lib/render/render";
 import { SIGNATURE_STYLES } from "@/lib/render/signature";
-import type { BackgroundConfig, LayoutId, SignatureStyle, TemplateConfig } from "@/lib/render/template";
+import type { BackgroundConfig, SignatureStyle, TemplateConfig } from "@/lib/render/template";
 import type { Ctx } from "@/lib/render/types";
-import { download, exportImage, slug, type ExportFormat } from "@/lib/studio/export";
-import { HERO_TEMPLATES } from "@/lib/studio/templates";
+import { contentText, download, exportCarousel, exportImage, slug, type ExportFormat } from "@/lib/studio/export";
+import { templatesFor } from "@/lib/studio/templates";
+import { FORMATS, FORMAT_LIST, resolveLayout, slideCount, type FieldDef } from "@/lib/render/formats";
+import type { FormatId, QuoteContent } from "@/lib/render/template";
+import { autoStructure, flatten } from "@/lib/studio/autostructure";
 import { usePhoto } from "@/lib/studio/usePhoto";
 import { trackDownload } from "@/lib/images/client";
 import { MOODS, MOOD_IDS } from "@/lib/images/keywords";
 import { PROVIDER_NAMES } from "@/lib/images/types";
 import { withReferral } from "@/lib/images/urls";
-
-const LAYOUTS: { id: LayoutId; name: string }[] = [
-  { id: "centered", name: "Centred" },
-  { id: "editorial", name: "Editorial" },
-  { id: "bottom", name: "Bottom" },
-  { id: "top", name: "Top" },
-  { id: "pull-quote", name: "Pull quote" },
-  { id: "corner", name: "Corner" },
-  { id: "framed-card", name: "Card" },
-];
 
 const BACKGROUNDS: { id: BackgroundConfig["kind"]; name: string; config: BackgroundConfig }[] = [
   { id: "solid", name: "Solid", config: { kind: "solid" } },
@@ -44,7 +37,7 @@ const PHOTO_BACKGROUNDS: { id: BackgroundConfig["kind"]; name: string; config: B
 ];
 const ALL_BACKGROUNDS = [...BACKGROUNDS, ...PHOTO_BACKGROUNDS];
 
-const SAMPLE = "Most people don't want the truth. They want a *quieter* version of it they can live next to.";
+const SAMPLES = Object.fromEntries(FORMAT_LIST.map((f) => [f.id, f.sample])) as Record<FormatId, QuoteContent>;
 const SETTINGS_KEY = "pqs.settings.v1";
 
 interface Settings {
@@ -72,9 +65,14 @@ const pick = <T,>(xs: T[], not?: T) => {
 };
 
 export default function Studio() {
-  const [text, setText] = useState(SAMPLE);
-  const [author, setAuthor] = useState("");
-  const [template, setTemplate] = useState<TemplateConfig>(HERO_TEMPLATES[0]);
+  const [format, setFormat] = useState<FormatId>("classic");
+  const [contents, setContents] = useState<Record<FormatId, QuoteContent>>(SAMPLES);
+  const [slide, setSlide] = useState(0);
+  const [template, setTemplate] = useState<TemplateConfig>(templatesFor("classic")[0]);
+  const content = contents[format];
+  const text = useMemo(() => contentText(content), [content]);
+  const slides = slideCount(content);
+  const fmt = FORMATS[format];
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
   const [report, setReport] = useState<RenderReport | null>(null);
   const [busy, setBusy] = useState(false);
@@ -97,11 +95,29 @@ export default function Studio() {
   const preset = getPreset(settings.preset);
   const exportSize = useMemo(() => ({ width: preset.width * settings.scale, height: preset.height * settings.scale }), [preset, settings.scale]);
   const photoBg = template.background.kind.startsWith("photo");
-  const ph = usePhoto({ enabled: photoBg, text, layout: template.layout, target: exportSize });
+  const ph = usePhoto({ enabled: photoBg, text, layout: resolveLayout(format, template.layout), target: exportSize });
+
+  useEffect(() => setSlide((s) => Math.min(s, slides - 1)), [slides]);
+
+  const setField = (key: string, value: string | string[]) => setContents((c) => ({ ...c, [format]: { ...c[format], [key]: value } }));
+  const chooseFormat = (id: FormatId) => {
+    setFormat(id);
+    setSlide(0);
+    // Keep the current look where the format allows it; otherwise use the format's first template.
+    const own = templatesFor(id);
+    setTemplate((t) => (t.format === id ? t : own[0] ? { ...own[0] } : { ...t, format: id, layout: FORMATS[id].layouts[0].id }));
+  };
+  /** Classic → Hook/Body/Punchline: split the pasted paragraph at sentence boundaries. */
+  const structureInto = (target: "hbp" | "carousel") => {
+    const source = format === "classic" ? String(content.text ?? "") : flatten(content as Record<string, string>);
+    const parts = autoStructure(source);
+    setContents((c) => ({ ...c, [target]: { ...c[target], ...parts } }));
+    if (format !== target) chooseFormat(target);
+  };
 
   const input: RenderInput = useMemo(
     () => ({
-      content: { format: "classic", text: text || " ", author: author || undefined },
+      content: { ...content, slide },
       template,
       signature: { enabled: settings.signatureEnabled, style: settings.signatureStyle },
       photo: ph.photo
@@ -109,7 +125,7 @@ export default function Studio() {
         : undefined,
       showCredit: settings.showCredit,
     }),
-    [text, author, template, settings.signatureEnabled, settings.signatureStyle, settings.showCredit, ph.photo],
+    [content, slide, template, settings.signatureEnabled, settings.signatureStyle, settings.showCredit, ph.photo],
   );
 
   // Track the preview frame size.
@@ -132,7 +148,7 @@ export default function Studio() {
     const dpr = Math.min(3, window.devicePixelRatio || 1);
     (async () => {
       try {
-        await ensureFonts(facesForRender(getPairing(template.pairing)));
+        await ensureFonts(facesForRender(getPairing(template.pairing), input.content));
         if (cancelled) return;
         canvas.style.width = `${cssW}px`;
         canvas.style.height = `${cssH}px`;
@@ -155,9 +171,10 @@ export default function Studio() {
       ...t,
       id: "custom",
       name: "Shuffled",
-      layout: pick(LAYOUTS.map((l) => l.id), t.layout),
+      layout: pick(FORMATS[t.format].layouts.map((l) => l.id), t.layout),
       palette: pick(PALETTES.map((p) => p.id), t.palette),
-      pairing: pick(PAIRINGS.filter((p) => !p.mono).map((p) => p.id), t.pairing),
+      // Monospace pairings only where the format allows them.
+      pairing: pick(PAIRINGS.filter((p) => !p.mono || FORMATS[t.format].monoAllowed).map((p) => p.id), t.pairing),
       background: pick(ALL_BACKGROUNDS.map((b) => b.config)),
     }));
   }, []);
@@ -173,18 +190,26 @@ export default function Studio() {
       const exportInput: RenderInput = loaded
         ? { ...input, photo: { image: loaded.bitmap, credit: { name: loaded.candidate.author.name, source: PROVIDER_NAMES[loaded.candidate.provider] } } }
         : input;
-      const { blob, report } = await exportImage(exportInput, w, h, settings.format);
+      const base = `fred-m_${slug(text)}_${format}_${preset.id}_${w}x${h}`;
+      let reports: RenderReport[];
+      if (slides > 1) {
+        const r = await exportCarousel(exportInput, w, h, settings.format, slides, base);
+        download(r.blob, `${base}_${slides}-slides.zip`);
+        reports = r.reports;
+      } else {
+        const r = await exportImage(exportInput, w, h, settings.format);
+        download(r.blob, `${base}.${settings.format === "jpeg" ? "jpg" : settings.format}`);
+        reports = [r.report];
+      }
       if (loaded) trackDownload(loaded.candidate);
-      const name = `fred-m_${slug(text)}_${preset.id}_${w}x${h}.${settings.format === "jpeg" ? "jpg" : settings.format}`;
-      download(blob, name);
-      const issues = [...report.collisions, ...(report.overflow ? ["text overflow"] : []), ...(report.upscaled ? ["photo upscaled"] : [])];
-      setLastExport(`${w}×${h} in ${Math.round(performance.now() - t0)} ms${issues.length ? ` · ${issues.join(", ")}` : ""}`);
+      const issues = [...new Set(reports.flatMap((report) => [...report.collisions, ...(report.overflow ? ["text overflow"] : []), ...(report.upscaled ? ["photo upscaled"] : [])]))];
+      setLastExport(`${slides > 1 ? `${slides} slides, ` : ""}${w}×${h} in ${Math.round(performance.now() - t0)} ms${issues.length ? ` · ${issues.join(", ")}` : ""}`);
     } catch (e) {
       setError((e as Error).message);
     } finally {
       setBusy(false);
     }
-  }, [input, exportSize, preset, settings.format, text, photoBg, ph]);
+  }, [input, exportSize, preset, settings.format, text, photoBg, ph, slides, format]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -219,24 +244,36 @@ export default function Studio() {
         <section className="order-2 lg:order-1 bg-panel border-r border-line p-5 space-y-5 lg:overflow-y-auto">
           <div>
             <div className="label mb-2">Format</div>
-            <div className="flex flex-wrap gap-1.5">
-              <span className="chip" data-on="true">Classic</span>
-              <span className="chip text-dim">19 more in step 3</span>
-            </div>
+            <select className="field" value={format} onChange={(e) => chooseFormat(e.target.value as FormatId)}>
+              {FORMAT_LIST.map((f, i) => (
+                <option key={f.id} value={f.id}>
+                  {String(i + 1).padStart(2, "0")} · {f.name}
+                </option>
+              ))}
+            </select>
+            <div className="mt-1 text-xs text-dim">{fmt.description}</div>
           </div>
-          <label className="block">
-            <div className="label mb-2">Quote</div>
-            <textarea className="field min-h-36 font-[inherit]" value={text} onChange={(e) => setText(e.target.value)} />
-            <div className="mt-1 text-xs text-dim">Wrap words in *asterisks* for emphasis. Quotes, apostrophes and dashes are set automatically.</div>
-          </label>
-          <label className="block">
-            <div className="label mb-2">Author (optional)</div>
-            <input className="field" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Leave empty for your own lines" />
-          </label>
+
+          {fmt.fields.map((f) => (
+            <Field key={`${format}-${f.key}`} def={f} value={content[f.key]} onChange={(v) => setField(f.key, v)} />
+          ))}
+
+          <div className="flex flex-wrap gap-2">
+            {(format === "classic" || format === "hbp" || format === "carousel") && (
+              <button className="btn" onClick={() => structureInto(format === "carousel" ? "carousel" : "hbp")} title="Split into hook, body and punchline at sentence boundaries">
+                Auto-structure
+              </button>
+            )}
+            <button className="btn" onClick={() => setContents((c) => ({ ...c, [format]: SAMPLES[format] }))}>Load sample</button>
+          </div>
+          {(format === "hbp" || format === "carousel") && (
+            <div className="text-xs text-dim -mt-3">Auto-structure re-splits all the text: first sentence → hook, last → punchline, the rest → body.</div>
+          )}
+
           <div>
             <div className="label mb-2">Templates</div>
             <div className="grid grid-cols-2 gap-1.5">
-              {HERO_TEMPLATES.map((t) => (
+              {templatesFor(format).map((t) => (
                 <button key={t.id} className="chip text-left overflow-hidden text-ellipsis" data-on={template.id === t.id} onClick={() => setTemplate(t)}>
                   {t.name}
                 </button>
@@ -250,12 +287,20 @@ export default function Studio() {
           <div ref={frameRef} className="flex-1 min-h-0 flex items-center justify-center">
             <canvas ref={canvasRef} className="shadow-[0_1px_2px_rgba(0,0,0,0.08),0_8px_28px_rgba(0,0,0,0.08)]" />
           </div>
+          {slides > 1 && (
+            <div className="mt-3 flex items-center justify-center gap-3 text-sm">
+              <button className="btn" onClick={() => setSlide((s) => Math.max(0, s - 1))} disabled={slide === 0} aria-label="Previous slide">←</button>
+              <span className="tabular-nums text-dim">Slide {slide + 1} of {slides}</span>
+              <button className="btn" onClick={() => setSlide((s) => Math.min(slides - 1, s + 1))} disabled={slide === slides - 1} aria-label="Next slide">→</button>
+            </div>
+          )}
           <div className="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs text-dim">
             <span>{preset.width * settings.scale}×{preset.height * settings.scale} export</span>
             {report && <span>contrast {Math.min(...report.blocks.map((b) => b.contrast)).toFixed(1)}:1</span>}
             {report && report.collisions.length > 0 && <span className="text-red-700">{report.collisions.join(", ")}</span>}
             {report?.overflow && <span className="text-red-700">text too long for this size</span>}
             {report?.upscaled && <span className="text-red-700">photo would be upscaled</span>}
+            {report?.fallback && <span>Adjusted to fit: {report.fallback}</span>}
             {error && <span className="text-red-700">{error}</span>}
           </div>
         </section>
@@ -264,7 +309,7 @@ export default function Studio() {
         <section className="order-3 bg-panel border-l border-line p-5 space-y-5 lg:overflow-y-auto">
           <div className="flex gap-2">
             <button className="btn flex-1" onClick={shuffle}>Shuffle</button>
-            <button className="btn btn-primary flex-1" onClick={doExport} disabled={busy}>{busy ? "Rendering…" : "Export"}</button>
+            <button className="btn btn-primary flex-1" onClick={doExport} disabled={busy}>{busy ? "Rendering…" : slides > 1 ? `Export ${slides}` : "Export"}</button>
           </div>
           {lastExport && <div className="text-xs text-dim -mt-3">Exported {lastExport}</div>}
 
@@ -286,7 +331,7 @@ export default function Studio() {
           </Group>
 
           <Group label="Layout">
-            <Chips items={LAYOUTS} value={template.layout} onPick={(id) => set({ layout: id })} />
+            <Chips items={fmt.layouts} value={resolveLayout(format, template.layout)} onPick={(id) => set({ layout: id })} />
           </Group>
 
           <Group label="Type pairing">
@@ -423,5 +468,29 @@ function PhotoPanel({ ph, showCredit, onCredit }: { ph: ReturnType<typeof usePho
         Tiny photo credit on the image
       </label>
     </div>
+  );
+}
+
+function Field({ def, value, onChange }: { def: FieldDef; value: QuoteContent[string]; onChange: (v: string | string[]) => void }) {
+  const text = Array.isArray(value) ? value.join("\n") : value === undefined ? "" : String(value);
+  return (
+    <label className="block">
+      <div className="label mb-2">
+        {def.label}
+        {def.optional && <span className="normal-case tracking-normal"> (optional)</span>}
+      </div>
+      {def.kind === "text" ? (
+        <input className="field" value={text} placeholder={def.placeholder} onChange={(e) => onChange(e.target.value)} />
+      ) : (
+        <textarea
+          className="field font-[inherit]"
+          rows={def.kind === "list" ? 6 : def.rows ?? 3}
+          value={text}
+          placeholder={def.placeholder}
+          onChange={(e) => onChange(def.kind === "list" ? e.target.value.split("\n") : e.target.value)}
+        />
+      )}
+      {def.hint && <div className="mt-1 text-xs text-dim">{def.hint}</div>}
+    </label>
   );
 }

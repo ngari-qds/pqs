@@ -6,7 +6,7 @@ next-env.d.ts
 .env*.local
 .env
 qa-report
-samples/*.png
+samples/**/*.png
 !samples/README.md
 .vercel
 .mock-photos

@@ -228,6 +228,16 @@ const f_jetbrains_mono = localFont({
   adjustFontFallback: false,
   preload: false,
 });
+const f_gentium_book_plus = localFont({
+  src: [
+    { path: "../../assets/fonts/gentium-book-plus-400.ttf", weight: "400", style: "normal" },
+    { path: "../../assets/fonts/gentium-book-plus-400i.ttf", weight: "400", style: "italic" },
+    { path: "../../assets/fonts/gentium-book-plus-700.ttf", weight: "700", style: "normal" },
+  ],
+  display: "block",
+  adjustFontFallback: false,
+  preload: false,
+});
 
 /** Canonical family name -> next/font result (className + style.fontFamily). */
 export const NEXT_FONTS = {
@@ -255,4 +265,5 @@ export const NEXT_FONTS = {
   "Space Mono": f_space_mono,
   "IBM Plex Mono": f_ibm_plex_mono,
   "JetBrains Mono": f_jetbrains_mono,
+  "Gentium Book Plus": f_gentium_book_plus,
 } as const;

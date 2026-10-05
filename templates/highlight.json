@@ -1,0 +1,5 @@
+[
+  {"id": "highlight-paper-marker", "name": "Paper highlighter", "format": "highlight", "layout": "centered", "pairing": "playfair-source", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true, "emphasis": "marker"},
+  {"id": "highlight-ink-color", "name": "Ink, coloured words", "format": "highlight", "layout": "editorial", "pairing": "spectral-manrope", "palette": "ink", "background": {"kind": "solid"}, "hero": true, "emphasis": "color"},
+  {"id": "highlight-sand-underline", "name": "Sandstone underline", "format": "highlight", "layout": "bottom", "pairing": "newsreader-intertight", "palette": "sandstone", "background": {"kind": "gradient", "angle": 0}, "hero": true, "emphasis": "underline"}
+]

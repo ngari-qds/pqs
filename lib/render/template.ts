@@ -1,15 +1,14 @@
-/** Template configs are plain JSON so they can be duplicated, tweaked and saved. */
+/** Template configs and quote content are plain JSON (duplicable, savable). */
 
-export type FormatId = "classic";
+export const FORMAT_IDS = [
+  "classic", "hbp", "carousel", "one-liner", "highlight", "contrast", "myth-truth", "then-now",
+  "paradox", "list", "qa", "definition", "equation", "stat", "law", "dialogue", "stanza",
+  "field-note", "post-card", "pull-quote",
+] as const;
+export type FormatId = (typeof FORMAT_IDS)[number];
 
-export type LayoutId =
-  | "centered"
-  | "editorial"
-  | "bottom"
-  | "top"
-  | "pull-quote"
-  | "corner"
-  | "framed-card";
+/** Layout ids are per format (see formats/index.ts); unknown ids fall back to the format's first layout. */
+export type LayoutId = string;
 
 export type BackgroundConfig =
   | { kind: "solid" }
@@ -21,7 +20,7 @@ export type BackgroundConfig =
   | { kind: "photo-duotone" }
   | { kind: "photo-blur"; radius?: number }
   | { kind: "photo-split"; ratio?: number }
-  | { kind: "photo-frame" };
+  | { kind: "photo-frame"; ratio?: number };
 
 export type SignatureStyle = "line" | "stacked" | "caps" | "rule" | "monogram" | "vertical";
 
@@ -33,7 +32,7 @@ export interface TemplateConfig {
   pairing: string;
   palette: string;
   background: BackgroundConfig;
-  /** Attribution treatment for the author line. */
+  /** Attribution treatment for author lines. */
   attribution?: "caps" | "dash";
   emphasis?: "italic" | "color" | "underline" | "marker";
   /** Use the accent colour for decorative marks (rules, quotation marks). */
@@ -42,12 +41,30 @@ export interface TemplateConfig {
   tags?: string[];
 }
 
-export interface ClassicContent {
+/**
+ * Quote content: the format plus its named fields (see each format's field
+ * definitions). Lists are string arrays. `slide` selects a carousel slide.
+ */
+export interface QuoteContent {
+  format: FormatId;
+  slide?: number;
+  [field: string]: string | string[] | number | undefined;
+}
+
+/** For classic content in older call sites and tests. */
+export interface ClassicContent extends QuoteContent {
   format: "classic";
   text: string;
   author?: string;
 }
 
-export type QuoteContent = ClassicContent;
+export const str = (c: QuoteContent, key: string): string => {
+  const v = c[key];
+  return typeof v === "string" ? v.trim() : typeof v === "number" ? String(v) : "";
+};
+export const list = (c: QuoteContent, key: string): string[] => {
+  const v = c[key];
+  return Array.isArray(v) ? v.map((x) => x.trim()).filter(Boolean) : typeof v === "string" ? v.split("\n").map((x) => x.trim()).filter(Boolean) : [];
+};
 
 export const isPhotoBackground = (bg: BackgroundConfig) => bg.kind.startsWith("photo");

@@ -3,11 +3,11 @@
 A personal quote image designer. Paste a line, pick a look, export a
 pixel-perfect image with the signature **Fred M | 1963ke · @ngariq_** on it.
 
-> **Build status:** steps 1–2 of 5 are done: render engine, typography, the
-> Classic format, crisp exports up to 3×, six signature styles, QA, and photo
-> backgrounds from Unsplash / Pexels / Pixabay with resolution checks.
-> The other 19 formats (step 3), the gallery (step 4) and batch/library
-> (step 5) come next.
+> **Build status:** steps 1–3 of 5 are done: render engine, typography, all
+> 20 quote formats with their own layouts, crisp exports up to 3×, six
+> signature styles, QA, and photo backgrounds from Unsplash / Pexels /
+> Pixabay with resolution checks. The template generator and gallery
+> (step 4) and batch mode / library (step 5) come next.
 
 ## Quick start
 
@@ -23,6 +23,7 @@ npm run dev          # http://localhost:3000
 | `npm test` | Unit tests (auto-fit, line breaking, smart typography) |
 | `npm run qa` | Renders every template × every preset at 3× and fails on overflow, contrast < 4.5:1, signature collisions or photo upscaling. Photo templates are tested on generated test photos, created automatically on first run. Flags: `-- --scale 1` for a fast pass, `-- --keep` to save the PNGs to `qa-report/`, `-- --only photo` to filter templates by id |
 | `npm run sample` | Writes sample exports to `samples/`, including a 400% crop |
+| `npx tsx scripts/render-formats.ts` | Renders every format's sample in every layout to `samples/formats/` with contact sheets |
 | `npm run fonts` | Re-downloads fonts after editing `lib/fonts/registry.ts` |
 | `npm run typecheck` | TypeScript |
 
@@ -40,6 +41,47 @@ PIXABAY_API_KEY=...       # pixabay.com/api/docs
 
 All three are optional. Without any keys, photo templates fall back to
 generated backgrounds rendered at full resolution, and the studio says so.
+
+## Formats
+
+Pick a format in the left panel; the form changes to that format's fields.
+Every format loads with a sample line (20 in all, one per format).
+
+| # | Format | Fields | Layouts |
+| --- | --- | --- | --- |
+| 1 | Classic | quote, author | centred, editorial, bottom, top, pull quote, corner, card |
+| 2 | Hook / Body / Punchline | hook, body, punchline | stacked, centred, margin rule, split |
+| 3 | Carousel | hook, body, punchline | left, centred (3–5 numbered slides, exported as a ZIP) |
+| 4 | One-liner | line | centred, low, corner |
+| 5 | Highlight | quote with `*emphasis*` | centred, editorial, bottom |
+| 6 | Contrast | two labels, two statements | stacked, panels, split |
+| 7 | Myth vs Truth | same | stacked, panels, split |
+| 8 | Then / Now | same | stacked, panels, split |
+| 9 | Paradox | two lines | mirror, axis |
+| 10 | List | title, 3–7 items | numbered, ruled |
+| 11 | Question + Answer | question, answer | margin, stacked |
+| 12 | Definition | word, phonetic, part of speech, definition, usage | entry, centred |
+| 13 | Equation | equation (several lines align on `=`), caption | centred, ledger |
+| 14 | Stat | number, context, source | hero, centred |
+| 15 | Law | name, number, statement | placard, centred |
+| 16 | Dialogue | two speakers, two lines | script, stacked |
+| 17 | Stanza | title, verse, author | left, centred (line breaks preserved) |
+| 18 | Field Note | date, place, observation | notebook, margin |
+| 19 | Post Card | post, date | card, flat (name and handle, no fake metrics) |
+| 20 | Pull Quote | quote, source | rules, hanging mark, centred |
+
+- **Auto-structure** splits a pasted paragraph into hook, body and punchline
+  at sentence boundaries (first sentence → hook, last → punchline). It is a
+  suggestion; edit freely.
+- **Emphasis**: `*words*` in any field get the template's treatment
+  (italic, colour, underline or a highlighter tint).
+- **Equations** get a true × for `x`/`*`, − for a spaced `-`, ÷ for a spaced
+  `/`, and set in a monospace face.
+- **Phonetics**: IPA and other rare glyphs fall back to Gentium Book Plus,
+  glyph by glyph, wherever a face lacks them.
+- **Long text never overflows.** If text cannot fit at the minimum readable
+  size, split and framed photos give up space, then the format's most compact
+  layout is used, and the studio says so.
 
 ## Photos
 
@@ -105,7 +147,7 @@ generated backgrounds rendered at full resolution, and the studio says so.
 ```
 lib/render/            isolated render engine (no React)
   typography/          smart quotes, tokenizer, line breaking, auto-fit, metrics
-  formats/classic.ts   Classic format, 7 layouts
+  formats/             the 20 formats: registry (fields, layouts, samples) and composers
   stack.ts             joint auto-fit of stacked text blocks + drawing
   signature.ts         6 signature styles, adaptive ink
   pixels.ts            dithered gradients, scrims, paper, luminance sampling
@@ -114,7 +156,7 @@ lib/render/            isolated render engine (no React)
 lib/images/            photo sourcing: providers, fallback chain, resolution rules,
                        keyword engine, calm-area scoring, browser client
 app/api/images/        search, file proxy, Unsplash download ping, mock photos
-templates/*.json       template configs (duplicate and tweak freely)
+templates/*.json       template configs, one file per format (duplicate and tweak freely)
 scripts/               qa.ts (+ qa-worker.ts), render-sample.ts, mock-photos.ts,
                        fetch-fonts.ts, node-env.ts
 tests/                 vitest unit tests

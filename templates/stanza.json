@@ -1,0 +1,4 @@
+[
+  {"id": "stanza-paper-left", "name": "Paper verse", "format": "stanza", "layout": "left", "pairing": "garamond-plex", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "stanza-fog-centered", "name": "Fog verse", "format": "stanza", "layout": "centered", "pairing": "cormorant-work", "palette": "fog", "background": {"kind": "gradient", "angle": 0}, "hero": true}
+]

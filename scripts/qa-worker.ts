@@ -6,7 +6,8 @@
 import { MIN_CONTRAST, renderQuote, type TemplateConfig } from "../lib/render";
 import { getPreset } from "../lib/render/presets";
 import { newCanvas, nodeEnv } from "./node-env";
-import { QA_TEXTS, QA_STYLES } from "./qa-config";
+import { QA_STYLES, qaContent } from "./qa-config";
+import { slideCount } from "../lib/render/formats";
 import { writeFileSync, mkdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { loadImage } from "@napi-rs/canvas";
@@ -44,7 +45,7 @@ const fitting = PHOTO_ORDER.map((f) => manifest.find((m) => m.file === f)!).filt
 const isPhoto = t.background.kind.startsWith("photo");
 if (isPhoto && !fitting.length) throw new Error(`No mock photo covers ${canvas.width}x${canvas.height}`);
 
-for (const [ki, [kind, text]] of Object.entries(QA_TEXTS).entries()) {
+for (const [ki, { kind, content }] of qaContent(t.format).entries()) {
   let photo: PhotoInput | undefined;
   let photoName = "";
   if (isPhoto) {
@@ -53,29 +54,33 @@ for (const [ki, [kind, text]] of Object.entries(QA_TEXTS).entries()) {
     photoName = `, photo:${m.file}`;
   }
   const style = QA_STYLES[(job.templateIndex + ki) % QA_STYLES.length];
-  ctx.setTransform(1, 0, 0, 1, 0, 0);
-  const r = renderQuote(ctx, env, {
-    content: { format: t.format, text, author: ki === 1 ? "Fred M" : undefined },
-    template: t,
-    signature: { enabled: true, style },
-    photo,
-    showCredit: isPhoto && ki === 2,
-  });
-  out.runs++;
-  const problems: string[] = [];
-  if (r.overflow) problems.push("text overflow");
-  problems.push(...r.collisions);
-  if (r.upscaled) problems.push(`photo upscaled (${r.photoScale?.toFixed(2)}x)`);
-  if (isPhoto && !r.photoUsed) problems.push("photo not used");
-  for (const b of r.blocks) {
-    out.worst = Math.min(out.worst, b.contrast);
-    if (b.contrast < MIN_CONTRAST) problems.push(`${b.id} contrast ${b.contrast.toFixed(2)}:1`);
-  }
-  if (r.signature && r.signature.contrast < 3) problems.push(`signature contrast ${r.signature.contrast.toFixed(2)}:1`);
-  if (problems.length) out.failures.push(`${t.id} @ ${p.id} ${canvas.width}x${canvas.height} [${kind}, sig:${style}${photoName}]: ${problems.join("; ")}`);
-  if (job.keepDir) {
-    mkdirSync(job.keepDir, { recursive: true });
-    writeFileSync(path.join(job.keepDir, `${t.id}_${p.id}_${kind}.png`), canvas.toBuffer("image/png"));
+  // Every slide of a carousel is checked.
+  for (let slide = 0; slide < slideCount(content); slide++) {
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    const r = renderQuote(ctx, env, {
+      content: { ...content, slide },
+      template: t,
+      signature: { enabled: true, style },
+      photo,
+      showCredit: isPhoto && ki === 2,
+    });
+    out.runs++;
+    const problems: string[] = [];
+    if (r.overflow) problems.push("text overflow");
+    problems.push(...r.collisions);
+    if (r.upscaled) problems.push(`photo upscaled (${r.photoScale?.toFixed(2)}x)`);
+    if (isPhoto && !r.photoUsed) problems.push("photo not used");
+    for (const b of r.blocks) {
+      out.worst = Math.min(out.worst, b.contrast);
+      if (b.contrast < MIN_CONTRAST) problems.push(`${b.id} contrast ${b.contrast.toFixed(2)}:1`);
+    }
+    if (r.signature && r.signature.contrast < 3) problems.push(`signature contrast ${r.signature.contrast.toFixed(2)}:1`);
+    const slideTag = slideCount(content) > 1 ? ` slide ${slide + 1}` : "";
+    if (problems.length) out.failures.push(`${t.id} @ ${p.id} ${canvas.width}x${canvas.height} [${kind}${slideTag}, sig:${style}${photoName}]: ${problems.join("; ")}`);
+    if (job.keepDir) {
+      mkdirSync(job.keepDir, { recursive: true });
+      writeFileSync(path.join(job.keepDir, `${t.id}_${p.id}_${kind}${slideTag.replace(" slide ", "_s")}.png`), canvas.toBuffer("image/png"));
+    }
   }
 }
 out.ms = Date.now() - t0;

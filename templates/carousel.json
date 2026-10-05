@@ -1,0 +1,4 @@
+[
+  {"id": "carousel-bone-left", "name": "Bone carousel", "format": "carousel", "layout": "left", "pairing": "caslon-karla", "palette": "bone-rust", "background": {"kind": "paper"}, "hero": true},
+  {"id": "carousel-midnight-centered", "name": "Midnight carousel", "format": "carousel", "layout": "centered", "pairing": "instrument-inter", "palette": "midnight", "background": {"kind": "gradient", "angle": 0}, "hero": true}
+]

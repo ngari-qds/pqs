@@ -1,0 +1,5 @@
+[
+  {"id": "hbp-ink-stacked", "name": "Ink, stacked", "format": "hbp", "layout": "stacked", "pairing": "fraunces-inter", "palette": "ink", "background": {"kind": "solid"}, "hero": true},
+  {"id": "hbp-paper-margin", "name": "Paper, margin rule", "format": "hbp", "layout": "margin-rule", "pairing": "newsreader-intertight", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "hbp-photo-split", "name": "Photo split", "format": "hbp", "layout": "split", "pairing": "dmserif-dmsans", "palette": "graphite", "background": {"kind": "photo-scrim", "scrim": "auto"}, "hero": true}
+]

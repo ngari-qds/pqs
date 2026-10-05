@@ -1,0 +1,4 @@
+[
+  {"id": "dialogue-paper-script", "name": "Paper script", "format": "dialogue", "layout": "script", "pairing": "newsreader-intertight", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "dialogue-ink-stacked", "name": "Ink dialogue", "format": "dialogue", "layout": "stacked", "pairing": "fraunces-inter", "palette": "ink", "background": {"kind": "solid"}, "hero": true}
+]

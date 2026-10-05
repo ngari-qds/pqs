@@ -1,0 +1,4 @@
+[
+  {"id": "definition-paper-entry", "name": "Dictionary page", "format": "definition", "layout": "entry", "pairing": "garamond-plex", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "definition-mono-centered", "name": "White entry", "format": "definition", "layout": "centered", "pairing": "caslon-karla", "palette": "mono", "background": {"kind": "solid"}, "hero": true}
+]

@@ -1,0 +1,4 @@
+[
+  {"id": "qa-sand-margin", "name": "Sandstone Q&A", "format": "qa", "layout": "margin", "pairing": "fraunces-inter", "palette": "sandstone", "background": {"kind": "paper"}, "hero": true},
+  {"id": "qa-navy-stacked", "name": "Navy Q&A", "format": "qa", "layout": "stacked", "pairing": "playfair-source", "palette": "midnight", "background": {"kind": "gradient", "angle": 0}, "hero": true}
+]

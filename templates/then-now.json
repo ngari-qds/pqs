@@ -1,0 +1,4 @@
+[
+  {"id": "then-now-moss-panels", "name": "Moss then/now", "format": "then-now", "layout": "panels", "pairing": "newsreader-intertight", "palette": "moss", "background": {"kind": "solid"}, "hero": true},
+  {"id": "then-now-fog-split", "name": "Fog then/now", "format": "then-now", "layout": "split", "pairing": "instrument-inter", "palette": "fog", "background": {"kind": "gradient", "angle": 0}, "hero": true}
+]

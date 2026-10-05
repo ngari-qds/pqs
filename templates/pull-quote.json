@@ -1,0 +1,5 @@
+[
+  {"id": "pull-quote-midnight-rules", "name": "Midnight pull quote", "format": "pull-quote", "layout": "rules", "pairing": "caslon-karla", "palette": "midnight", "background": {"kind": "vignette", "strength": 0.4}, "hero": true, "accentMarks": true},
+  {"id": "pull-quote-paper-hanging", "name": "Hanging mark", "format": "pull-quote", "layout": "hanging", "pairing": "playfair-source", "palette": "paper-ink", "background": {"kind": "paper"}, "hero": true},
+  {"id": "pull-quote-photo-duotone", "name": "Duotone pull quote", "format": "pull-quote", "layout": "centered", "pairing": "instrument-inter", "palette": "ink", "background": {"kind": "photo-duotone"}, "hero": true}
+]

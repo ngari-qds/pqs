@@ -136,9 +136,10 @@ export function drawBackground(
       ctx.fillStyle = palette.bg;
       ctx.fillRect(0, 0, W, H);
       const portrait = H >= W * 1.05;
+      const ratio = bg.ratio ?? (portrait ? 0.5 : 0.45);
       const photoRect = portrait
-        ? { x: safe.x, y: safe.y, w: safe.w, h: Math.round(safe.h * 0.5) }
-        : { x: safe.x, y: safe.y, w: Math.round(safe.w * 0.45), h: safe.h };
+        ? { x: safe.x, y: safe.y, w: safe.w, h: Math.round(safe.h * ratio) }
+        : { x: safe.x, y: safe.y, w: Math.round(safe.w * ratio), h: safe.h };
       const r = drawPhotoCover(ctx, env, photo!, photoRect);
       const th = hairline(Math.min(W, H));
       ctx.save();

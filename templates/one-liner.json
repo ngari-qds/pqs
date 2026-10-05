@@ -1,0 +1,5 @@
+[
+  {"id": "one-liner-fog-center", "name": "Fog one-liner", "format": "one-liner", "layout": "center", "pairing": "instrument-inter", "palette": "fog", "background": {"kind": "gradient", "angle": 0}, "hero": true},
+  {"id": "one-liner-photo-low", "name": "Photo one-liner", "format": "one-liner", "layout": "low", "pairing": "fraunces-inter", "palette": "ink", "background": {"kind": "photo-scrim", "scrim": "auto"}, "hero": true},
+  {"id": "one-liner-mono-corner", "name": "Placard one-liner", "format": "one-liner", "layout": "corner", "pairing": "garamond-plex", "palette": "mono", "background": {"kind": "solid"}, "hero": true}
+]

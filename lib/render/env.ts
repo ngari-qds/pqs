@@ -1,8 +1,14 @@
+import { FALLBACK_FAMILY } from "../fonts/registry";
 import type { Ctx, FaceRef, RenderEnv } from "./types";
 
-/** Builds a CSS font shorthand for canvas. */
+/**
+ * Builds a CSS font shorthand for canvas. The fallback family only supplies
+ * glyphs the face lacks (IPA, rare symbols); browsers and Skia both fall back
+ * per glyph, so measurement and drawing stay identical everywhere.
+ */
 export function fontString(env: RenderEnv, face: FaceRef, px: number): string {
-  return `${face.style === "italic" ? "italic " : ""}${face.weight} ${px}px ${env.fontFamily(face.family)}`;
+  const fallback = face.family === FALLBACK_FAMILY ? "" : `, ${env.fontFamily(FALLBACK_FAMILY)}`;
+  return `${face.style === "italic" ? "italic " : ""}${face.weight} ${px}px ${env.fontFamily(face.family)}${fallback}`;
 }
 
 export interface FaceMetrics {

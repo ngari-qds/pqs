@@ -1,0 +1,4 @@
+[
+  {"id": "contrast-concrete-stacked", "name": "Concrete contrast", "format": "contrast", "layout": "stacked", "pairing": "spectral-manrope", "palette": "concrete", "background": {"kind": "solid"}, "hero": true},
+  {"id": "contrast-slate-panels", "name": "Slate panels", "format": "contrast", "layout": "panels", "pairing": "fraunces-inter", "palette": "slate", "background": {"kind": "solid"}, "hero": true}
+]
