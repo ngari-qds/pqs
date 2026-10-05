@@ -8,6 +8,7 @@ import { browserEnv, ensureFonts, facesForRender } from "@/lib/render/browser";
 import { getPairing } from "@/lib/render/pairings";
 import { renderQuote, type RenderReport } from "@/lib/render/render";
 import type { QuoteContent, SignatureStyle, TemplateConfig } from "@/lib/render/template";
+import type { Tone } from "@/lib/render/tone";
 import type { Ctx, Drawable } from "@/lib/render/types";
 import { placeholderPhoto } from "@/lib/studio/gallery";
 
@@ -38,12 +39,12 @@ export interface ThumbCanvasProps {
   aspect: number;
   photo?: Drawable;
   signature: { enabled: boolean; style: SignatureStyle };
-  blackWhite?: boolean;
+  tone?: Tone;
   onRendered?: (r: RenderReport) => void;
   className?: string;
 }
 
-export const ThumbCanvas = memo(function ThumbCanvas({ template, content, aspect, photo, signature, blackWhite, onRendered, className }: ThumbCanvasProps) {
+export const ThumbCanvas = memo(function ThumbCanvas({ template, content, aspect, photo, signature, tone, onRendered, className }: ThumbCanvasProps) {
   const ref = useRef<HTMLCanvasElement>(null);
   const [visible, setVisible] = useState(false);
   const isPhoto = template.background.kind.startsWith("photo");
@@ -73,7 +74,7 @@ export const ThumbCanvas = memo(function ThumbCanvas({ template, content, aspect
         content: { ...content, slide: content.slide ?? 0 },
         template,
         signature,
-        blackWhite,
+        tone,
         photo: isPhoto ? { image: photo ?? placeholderPhoto() } : undefined,
       });
       cb.current?.(r);
@@ -81,7 +82,7 @@ export const ThumbCanvas = memo(function ThumbCanvas({ template, content, aspect
     return () => {
       cancelled = true;
     };
-  }, [visible, template, content, aspect, photo, signature, blackWhite, isPhoto]);
+  }, [visible, template, content, aspect, photo, signature, tone, isPhoto]);
 
   return <canvas ref={ref} className={className ?? "block w-full h-full"} />;
 });

@@ -9,6 +9,7 @@ import { FORMATS, FORMAT_LIST } from "@/lib/render/formats";
 import { PALETTES } from "@/lib/render/palettes";
 import { getPreset } from "@/lib/render/presets";
 import type { FormatId, QuoteContent, SignatureStyle, TemplateConfig } from "@/lib/render/template";
+import type { Tone } from "@/lib/render/tone";
 import type { Drawable } from "@/lib/render/types";
 import { GALLERY_MOODS } from "@/lib/templates/generator";
 import { filterTemplates, type GalleryFilter } from "@/lib/studio/gallery";
@@ -21,7 +22,7 @@ interface Props {
   currentId: string;
   photo?: Drawable;
   signature: { enabled: boolean; style: SignatureStyle };
-  blackWhite: boolean;
+  tone: Tone;
   favorites: Set<string>;
   mine: Set<string>;
   onToggleFavorite: (id: string) => void;
@@ -139,7 +140,7 @@ export default function Gallery(props: Props) {
               aspect={preset.width / preset.height}
               photo={props.photo}
               signature={props.signature}
-              blackWhite={props.blackWhite}
+              tone={props.tone}
               current={t.id === props.currentId}
               favorite={favorites.has(t.id)}
               mine={mine.has(t.id)}
@@ -161,7 +162,7 @@ interface ThumbProps {
   aspect: number;
   photo?: Drawable;
   signature: { enabled: boolean; style: SignatureStyle };
-  blackWhite: boolean;
+  tone: Tone;
   current: boolean;
   favorite: boolean;
   mine: boolean;
@@ -170,7 +171,7 @@ interface ThumbProps {
   onApply: () => void;
 }
 
-const Thumb = memo(function Thumb({ template, content, aspect, photo, signature, blackWhite, current, favorite, mine, onToggleFavorite, onDelete, onApply }: ThumbProps) {
+const Thumb = memo(function Thumb({ template, content, aspect, photo, signature, tone, current, favorite, mine, onToggleFavorite, onDelete, onApply }: ThumbProps) {
   return (
     <figure className="group">
       <button
@@ -179,7 +180,7 @@ const Thumb = memo(function Thumb({ template, content, aspect, photo, signature,
         style={{ aspectRatio: String(aspect), outline: current ? "2px solid #1b1b1a" : "none" }}
         title={`Use “${template.name}”`}
       >
-        <ThumbCanvas template={template} content={content} aspect={aspect} photo={photo} signature={signature} blackWhite={blackWhite} />
+        <ThumbCanvas template={template} content={content} aspect={aspect} photo={photo} signature={signature} tone={tone} />
       </button>
       <figcaption className="mt-1.5 flex items-start gap-1 text-[11px] leading-snug text-dim">
         <span className="flex-1 min-w-0">

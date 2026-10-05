@@ -230,9 +230,11 @@ export function toGreyscale(ctx: Ctx, rect: Rect = { x: 0, y: 0, w: ctx.canvas.w
   }
 }
 
-/** The grey with the same relative luminance as `color`. */
-export function greyOf(color: string): string {
-  const v = greyLut()[Math.round(luminance(color) * 65535)];
-  const h = v.toString(16).padStart(2, "0");
+/** The 8-bit grey (as hex) nearest to relative luminance `l`, by linear light. */
+export function greyFromLuminance(l: number): string {
+  const h = greyLut()[Math.round(l * 65535)].toString(16).padStart(2, "0");
   return `#${h}${h}${h}`;
 }
+
+/** The grey with the same relative luminance as `color`. */
+export const greyOf = (color: string) => greyFromLuminance(luminance(color));

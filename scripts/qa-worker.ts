@@ -13,6 +13,9 @@ import path from "node:path";
 import { loadImage } from "@napi-rs/canvas";
 import type { PhotoInput } from "../lib/render/photo";
 import { coversTarget } from "../lib/images/resolution";
+import { contrastFromLuminance } from "../lib/render/color";
+import { lumaStats } from "../lib/render/pixels";
+import type { Tone } from "../lib/render/tone";
 
 export interface WorkerJob {
   template: TemplateConfig;
@@ -20,6 +23,7 @@ export interface WorkerJob {
   preset: string;
   scale: number;
   keepDir?: string;
+  tone?: Tone;
 }
 export interface WorkerResult {
   runs: number;
@@ -65,6 +69,7 @@ for (const [ki, { kind, content }] of variants.entries()) {
       signature: { enabled: true, style },
       photo,
       showCredit: isPhoto && ki === 2,
+      tone: job.tone,
     });
     out.runs++;
     const problems: string[] = [];
@@ -75,6 +80,16 @@ for (const [ki, { kind, content }] of variants.entries()) {
     for (const b of r.blocks) {
       out.worst = Math.min(out.worst, b.contrast);
       if (b.contrast < MIN_CONTRAST) problems.push(`${b.id} contrast ${b.contrast.toFixed(2)}:1`);
+    }
+    // Black and white modes change pixels after layout (grain, vignette,
+    // dither): re-read the contrast under every block from the finished image.
+    if (job.tone && job.tone !== "color") {
+      for (const b of r.blocks) {
+        const st = lumaStats(ctx, b.rect);
+        const c = contrastFromLuminance(st.p02, st.p98);
+        out.worst = Math.min(out.worst, c);
+        if (c < MIN_CONTRAST) problems.push(`${b.id} finished contrast ${c.toFixed(2)}:1`);
+      }
     }
     if (r.signature && r.signature.contrast < 3) problems.push(`signature contrast ${r.signature.contrast.toFixed(2)}:1`);
     const slideTag = slideCount(content) > 1 ? ` slide ${slide + 1}` : "";

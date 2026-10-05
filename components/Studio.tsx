@@ -7,6 +7,7 @@ import { PALETTES, getPalette } from "@/lib/render/palettes";
 import { PRESETS, getPreset } from "@/lib/render/presets";
 import { renderQuote, type RenderInput, type RenderReport } from "@/lib/render/render";
 import { SIGNATURE_STYLES } from "@/lib/render/signature";
+import { TONES, type Tone } from "@/lib/render/tone";
 import type { BackgroundConfig, SignatureStyle, TemplateConfig } from "@/lib/render/template";
 import type { Ctx } from "@/lib/render/types";
 import { contentText, download, exportCarousel, exportImage, slug, type ExportFormat } from "@/lib/studio/export";
@@ -50,6 +51,11 @@ const PHOTO_BACKGROUNDS: { id: BackgroundConfig["kind"]; name: string; config: B
 
 const SAMPLES = Object.fromEntries(FORMAT_LIST.map((f) => [f.id, f.sample])) as Record<FormatId, QuoteContent>;
 const SETTINGS_KEY = "pqs.settings.v1";
+const TONE_NOTES: Record<Tone, string> = {
+  color: "Full colour, as designed.",
+  mono: "Analog black and white: deep blacks, contrasty photos, film grain.",
+  pure: "Two tones only: solid black and white type, photos as 1-bit dither.",
+};
 
 interface Settings {
   signatureEnabled: boolean;
@@ -58,14 +64,17 @@ interface Settings {
   scale: number;
   format: ExportFormat;
   showCredit: boolean;
-  blackWhite: boolean;
+  tone: Tone;
 }
-const DEFAULT_SETTINGS: Settings = { signatureEnabled: true, signatureStyle: "line", preset: "status", scale: 2, format: "png", showCredit: false, blackWhite: false };
+const DEFAULT_SETTINGS: Settings = { signatureEnabled: true, signatureStyle: "line", preset: "status", scale: 2, format: "png", showCredit: false, tone: "color" };
 
 function loadSettings(): Settings {
   try {
     const raw = localStorage.getItem(SETTINGS_KEY);
-    return raw ? { ...DEFAULT_SETTINGS, ...JSON.parse(raw) } : DEFAULT_SETTINGS;
+    if (!raw) return DEFAULT_SETTINGS;
+    const { blackWhite, ...saved } = JSON.parse(raw);
+    // Earlier versions stored an on/off "blackWhite" switch.
+    return { ...DEFAULT_SETTINGS, ...(blackWhite ? { tone: "mono" } : {}), ...saved };
   } catch {
     return DEFAULT_SETTINGS;
   }
@@ -186,9 +195,9 @@ export default function Studio() {
         ? { image: ph.photo.bitmap, credit: { name: ph.photo.candidate.author.name, source: PROVIDER_NAMES[ph.photo.candidate.provider] } }
         : undefined,
       showCredit: settings.showCredit,
-      blackWhite: settings.blackWhite,
+      tone: settings.tone,
     }),
-    [content, slide, template, settings.signatureEnabled, settings.signatureStyle, settings.showCredit, settings.blackWhite, ph.photo],
+    [content, slide, template, settings.signatureEnabled, settings.signatureStyle, settings.showCredit, settings.tone, ph.photo],
   );
 
   // Track the preview frame size.
@@ -360,7 +369,7 @@ export default function Studio() {
           scale={settings.scale}
           format={settings.format}
           signature={{ enabled: settings.signatureEnabled, style: settings.signatureStyle }}
-          blackWhite={settings.blackWhite}
+          tone={settings.tone}
           currentTemplate={template}
           photo={ph.photo?.bitmap}
           onOpen={openContent}
@@ -405,7 +414,7 @@ export default function Studio() {
           currentId={template.id}
           photo={ph.photo?.bitmap}
           signature={{ enabled: settings.signatureEnabled, style: settings.signatureStyle }}
-          blackWhite={settings.blackWhite}
+          tone={settings.tone}
           favorites={favorites}
           mine={mineIds}
           onToggleFavorite={toggleFavorite}
@@ -553,11 +562,9 @@ export default function Studio() {
               ))}
             </div>
             <div className="text-xs text-dim mt-1.5" data-testid="palette-name">{getPalette(template.palette).name}</div>
-            <label className="flex items-center gap-2 text-sm mt-3">
-              <input type="checkbox" checked={settings.blackWhite} onChange={(e) => updateSettings({ blackWhite: e.target.checked })} />
-              Black &amp; white
-            </label>
-            <div className="text-xs text-dim mt-1">Every design and photo in greys. Applies to the gallery, batch and exports.</div>
+            <div className="label mt-4 mb-2">Black &amp; white</div>
+            <Chips items={TONES} value={settings.tone} onPick={(id) => updateSettings({ tone: id })} />
+            <div className="text-xs text-dim mt-1.5">{TONE_NOTES[settings.tone]}</div>
           </Group>
 
           <Group label="Background" lock={{ on: locks.image, toggle: () => setLocks((l) => ({ ...l, image: !l.image })) }}>

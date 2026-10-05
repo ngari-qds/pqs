@@ -22,7 +22,7 @@ npm run dev          # http://localhost:3000
 | `npm run dev` | Studio with live preview |
 | `npm run dev:mock` | Studio with generated local test photos instead of the APIs (run `npm run mock:photos` once first) |
 | `npm test` | Unit tests (auto-fit, line breaking, smart typography) |
-| `npm run qa` | Renders every template × every preset at 3× and fails on overflow, contrast < 4.5:1, signature collisions or photo upscaling. Photo templates are tested on generated test photos, created automatically on first run. Flags: `-- --scale 1` for a fast pass, `-- --keep` to save the PNGs to `qa-report/`, `-- --only photo` to filter templates by id |
+| `npm run qa` | Renders every template × every preset at 3× and fails on overflow, contrast < 4.5:1, signature collisions or photo upscaling. Photo templates are tested on generated test photos, created automatically on first run. Flags: `-- --scale 1` for a fast pass, `-- --keep` to save the PNGs to `qa-report/`, `-- --only photo` to filter templates by id, `-- --tone mono` / `-- --tone pure` to check a black and white mode (contrast is then re-read from the finished pixels) |
 | `npm run sample` | Writes sample exports to `samples/`, including a 400% crop |
 | `npx tsx scripts/render-formats.ts` | Renders every format's sample in every layout to `samples/formats/` with contact sheets |
 | `npx tsx scripts/check-quotes.ts [filter]` | Checks that every quote in the collection sets cleanly at Stories and Instagram portrait (`filter` limits it to matching files, e.g. `stanza`) |
@@ -96,10 +96,16 @@ Every format loads with a sample line (20 in all, one per format).
 - **Studio**: one quote at a time. Format, fields, live preview, style
   controls, export. The form has a **Library** box to save the current quote
   with tags.
-- **Black & white** (under Palette): renders every design and photo in
-  greys. Each colour becomes the grey of the same luminance, so contrast,
-  layout and the QA guarantees are unchanged. It applies to the preview,
-  the gallery, batch mode and every export, and is remembered.
+- **Black & white** (under Palette): three tones for every design, applied
+  to the preview, the gallery, batch mode and every export, and remembered:
+  - **Colour**: as designed.
+  - **Mono**: analog black and white. Neutral greys with deep blacks and
+    bright paper, contrasty film-curve photos, film grain over the whole
+    frame and a print vignette. Secondary text is held at 7:1 so the grain
+    never costs readability.
+  - **Pure B&W**: two tones only. Type, rules and the signature in solid
+    black or white; photos and soft areas as Atkinson 1-bit dither, like an
+    old photocopy. Solid pixels never take dither, so type stays clean.
 - **Gallery**: every curated and generated design for the format, shown with
   your text (see below).
 - **Batch**: paste many quotes, upload or drop files, or load the collection

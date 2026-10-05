@@ -12,6 +12,7 @@
  *   npm run qa -- --scale 1            faster pass
  *   npm run qa -- --keep               also write PNGs to qa-report/
  *   npm run qa -- --only classic-ink   filter templates by id substring
+ *   npm run qa -- --tone mono          check a black and white mode (mono | pure)
  */
 import { spawn } from "node:child_process";
 import { readdir, readFile } from "node:fs/promises";
@@ -26,6 +27,8 @@ const args = process.argv.slice(2);
 const flag = (name: string) => (args.includes(name) ? args[args.indexOf(name) + 1] : undefined);
 const scale = Number(flag("--scale")) || 3;
 const only = flag("--only");
+const tone = flag("--tone") as WorkerJob["tone"];
+if (tone && !["color", "mono", "pure"].includes(tone)) throw new Error(`--tone must be color, mono or pure`);
 const root = path.resolve(import.meta.dirname, "..");
 const keepDir = args.includes("--keep") ? path.join(root, "qa-report") : undefined;
 const parallel = Math.max(1, Math.min(4, os.cpus().length - 1));
@@ -56,7 +59,7 @@ async function main() {
   const templates = await loadTemplates();
   if (templates.some((t) => t.background.kind.startsWith("photo"))) await ensureMockPhotos();
   const jobs: WorkerJob[] = templates.flatMap((template, templateIndex) =>
-    PRESETS.map((p) => ({ template, templateIndex, preset: p.id, scale, keepDir })),
+    PRESETS.map((p) => ({ template, templateIndex, preset: p.id, scale, keepDir, tone })),
   );
   const t0 = Date.now();
   const failures: string[] = [];
@@ -75,7 +78,7 @@ async function main() {
     }),
   );
 
-  console.log(`\n${runs} renders of ${templates.length} templates at ${scale}x in ${((Date.now() - t0) / 1000).toFixed(1)}s · lowest text contrast ${worst.toFixed(2)}:1`);
+  console.log(`\n${runs} renders of ${templates.length} templates at ${scale}x${tone && tone !== "color" ? ` (${tone})` : ""} in ${((Date.now() - t0) / 1000).toFixed(1)}s · lowest text contrast ${worst.toFixed(2)}:1`);
   if (failures.length) {
     console.error(`\nFAILED (${failures.length}):\n` + failures.map((f) => "  ✗ " + f).join("\n"));
     process.exit(1);

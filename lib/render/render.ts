@@ -12,7 +12,8 @@ import { rule } from "./draw";
 import { getPairing } from "./pairings";
 import { getPalette, type Palette } from "./palettes";
 import type { PhotoInput } from "./photo";
-import { compositeAlpha, greyOf, lumaStats, smoothstep, toGreyscale, type LumaStats } from "./pixels";
+import { compositeAlpha, greyOf, lumaStats, smoothstep, type LumaStats } from "./pixels";
+import { finishTone, tonePalette, tonePhoto, type Tone } from "./tone";
 import { chooseSignatureInk, layoutSignature } from "./signature";
 import { drawBlock, fitStack, placeStack, type PlacedBlock } from "./stack";
 import type { QuoteContent, SignatureStyle, TemplateConfig } from "./template";
@@ -26,8 +27,8 @@ export interface RenderInput {
   /** Tiny "Photo: Name / Unsplash" line in the bottom margin. */
   showCredit?: boolean;
   seed?: number;
-  /** Black and white: the finished image is converted to greys of equal luminance. */
-  blackWhite?: boolean;
+  /** Monochrome rendering: "mono" (analog black and white) or "pure" (two tones). */
+  tone?: Tone;
 }
 
 export interface BlockReport {
@@ -93,7 +94,7 @@ function intersect(a: Rect, b: Rect): Rect {
  */
 function drawCredit(
   ctx: Ctx, env: RenderEnv, m: Measurer, credit: { name: string; source: string },
-  W: number, H: number, safe: Rect, face: FaceRef, palette: Palette, sigSize: number,
+  W: number, H: number, safe: Rect, face: FaceRef, palette: Palette, sigSize: number, solid = false,
 ) {
   const size = Math.max(sigSize * 0.62, Math.min(W, H) * 0.0105);
   const text = `Photo: ${credit.name} / ${credit.source}`;
@@ -108,7 +109,7 @@ function drawCredit(
   ctx.font = fontString(env, face, size);
   if ("letterSpacing" in ctx) ctx.letterSpacing = `${(tracking * size).toFixed(3)}px`;
   ctx.fillStyle = ink.color;
-  ctx.globalAlpha = Math.min(0.85, ink.alpha);
+  ctx.globalAlpha = solid ? 1 : Math.min(0.85, ink.alpha);
   ctx.fillText(text, rect.x, base);
   ctx.restore();
   return { rect, text };
@@ -149,10 +150,11 @@ const textContrast = (color: string, st: { p02: number; p98: number }) => {
  * says which fallback was applied.
  */
 export function renderQuote(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport {
-  const r = renderAdaptive(ctx, env, input);
-  if (!input.blackWhite) return r;
-  // Greys of equal luminance keep every contrast ratio the report measured.
-  toGreyscale(ctx);
+  const tone = input.tone ?? "color";
+  if (tone === "color") return renderAdaptive(ctx, env, input);
+  // The palette is mapped inside renderOnce; the photo is converted up front.
+  const r = renderAdaptive(ctx, env, { ...input, photo: tonePhoto(env, input.photo, tone, ctx.canvas.width, ctx.canvas.height) });
+  finishTone(ctx, tone, input.seed);
   return {
     ...r,
     blocks: r.blocks.map((b) => ({ ...b, color: greyOf(b.color) })),
@@ -191,7 +193,8 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
   const W = ctx.canvas.width, H = ctx.canvas.height;
   const m = measurerFor(env);
   const { template } = input;
-  const palette = getPalette(template.palette);
+  const tone = input.tone ?? "color";
+  const palette = tonePalette(getPalette(template.palette), tone);
   const pairing = getPairing(template.pairing);
   const seed = input.seed ?? 1963;
 
@@ -218,9 +221,9 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
   const onPhoto = bg.textOnPhoto;
   const lc: LayoutContext = {
     W, H, ref: Math.min(W, H * 1.1), safe, box, palette, pairing, template, env, m, isPhoto: onPhoto,
-    ink: onPhoto ? "#f6f3ee" : palette.ink,
-    muted: onPhoto ? "#e4ded4" : palette.muted,
-    accent: onPhoto ? "#f1e4c8" : palette.accent,
+    ink: onPhoto ? (tone === "pure" ? "#ffffff" : "#f6f3ee") : palette.ink,
+    muted: onPhoto ? (tone === "pure" ? "#ffffff" : "#e4ded4") : palette.muted,
+    accent: onPhoto ? (tone === "pure" ? "#ffffff" : "#f1e4c8") : palette.accent,
   };
   const comp = compose(lc, input.content);
 
@@ -295,13 +298,15 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
       strengthenScrim(ctx, region, chosen, Math.max(sig.size * 4, H * 0.06), () => chooseSignatureInk(ctx, sig.rect, palette, sig.size * 0.4).contrast);
       ink = chooseSignatureInk(ctx, sig.rect, palette, sig.size * 0.4);
     }
+    // Two-tone output has no half-tones: the signature is drawn solid.
+    if (tone === "pure") ink = { ...ink, alpha: 1 };
     sig.draw(ctx, ink.color, ink.alpha);
     signature = { rect: sig.rect, ...ink };
   }
 
   let credit: RenderReport["credit"];
   if (input.showCredit && bg.photoUsed && input.photo?.credit) {
-    credit = drawCredit(ctx, env, m, input.photo.credit, W, H, safe, pairing.label, palette, sig?.size ?? H * 0.018);
+    credit = drawCredit(ctx, env, m, input.photo.credit, W, H, safe, pairing.label, palette, sig?.size ?? H * 0.018, tone === "pure");
   }
   ctx.restore();
 

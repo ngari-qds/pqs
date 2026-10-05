@@ -9,6 +9,7 @@ import { FORMATS, FORMAT_LIST, slideCount } from "@/lib/render/formats";
 import { getPalette } from "@/lib/render/palettes";
 import { getPreset } from "@/lib/render/presets";
 import type { FormatId, QuoteContent, SignatureStyle, TemplateConfig } from "@/lib/render/template";
+import type { Tone } from "@/lib/render/tone";
 import type { Drawable } from "@/lib/render/types";
 import { STYLE_FAMILIES, batchFileStem, parseBatch, templateFor, toBatchText, type BatchItem, type StyleFamily } from "@/lib/studio/batch";
 import { collectionIndex, loadCollection, type CollectionIndex } from "@/lib/studio/collection";
@@ -32,7 +33,7 @@ interface Props {
   scale: number;
   format: ExportFormat;
   signature: { enabled: boolean; style: SignatureStyle };
-  blackWhite: boolean;
+  tone: Tone;
   currentTemplate: TemplateConfig;
   photo?: Drawable;
   onOpen: (content: QuoteContent, template: TemplateConfig) => void;
@@ -130,7 +131,7 @@ export default function Batch(props: Props) {
     try {
       const r = await exportBatch(
         selected.map((i, n) => ({ content: i.content, template: templateOf(i.content), stem: batchFileStem(from - 1 + n, i.content, contentText(i.content)), tags: i.tags })),
-        { width: w, height: h, format: props.format, signature: props.signature, blackWhite: props.blackWhite, photo: props.photo ? { image: props.photo } : undefined, baseName },
+        { width: w, height: h, format: props.format, signature: props.signature, tone: props.tone, photo: props.photo ? { image: props.photo } : undefined, baseName },
         (done, total) => setProgress({ done, total }),
         ac.signal,
       );
@@ -298,7 +299,7 @@ export default function Batch(props: Props) {
                 return (
                   <figure key={`${it.line}-${n}`}>
                     <button className="block w-full rounded-sm overflow-hidden bg-line/40" style={{ aspectRatio: String(aspect) }} onClick={() => props.onOpen(it.content, t)} title="Open in the studio">
-                      <ThumbCanvas template={t} content={it.content} aspect={aspect} photo={props.photo} signature={props.signature} blackWhite={props.blackWhite} />
+                      <ThumbCanvas template={t} content={it.content} aspect={aspect} photo={props.photo} signature={props.signature} tone={props.tone} />
                     </button>
                     <figcaption className="mt-1.5 text-[11px] leading-snug text-dim">
                       <span className="text-ink">{String(n + 1).padStart(3, "0")}</span> · {FORMATS[it.content.format].name}
