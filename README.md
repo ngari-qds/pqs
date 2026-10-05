@@ -7,7 +7,8 @@ pixel-perfect image with the signature **Fred M | 1963ke · @ngariq_** on it.
 > 20 quote formats with 25 layout archetypes, photo backgrounds with
 > resolution checks, a generated gallery of 485 QA-verified designs plus 60
 > hand-tuned heroes, batch mode, a quote library with tags, export history,
-> and a collection of 441 cold quotes ready to load.
+> a collection of 2,845 cold quotes (200 or more per format) ready to load,
+> and upload import for .txt, .md, .json and .csv files.
 
 ## Quick start
 
@@ -24,7 +25,9 @@ npm run dev          # http://localhost:3000
 | `npm run qa` | Renders every template × every preset at 3× and fails on overflow, contrast < 4.5:1, signature collisions or photo upscaling. Photo templates are tested on generated test photos, created automatically on first run. Flags: `-- --scale 1` for a fast pass, `-- --keep` to save the PNGs to `qa-report/`, `-- --only photo` to filter templates by id |
 | `npm run sample` | Writes sample exports to `samples/`, including a 400% crop |
 | `npx tsx scripts/render-formats.ts` | Renders every format's sample in every layout to `samples/formats/` with contact sheets |
-| `npx tsx scripts/check-quotes.ts` | Checks that every quote in the collection sets cleanly at Stories and Instagram portrait |
+| `npx tsx scripts/check-quotes.ts [filter]` | Checks that every quote in the collection sets cleanly at Stories and Instagram portrait (`filter` limits it to matching files, e.g. `stanza`) |
+| `npx tsx scripts/count-quotes.ts` | Counts quotes per collection file; reports parse errors, untagged quotes and duplicates across files |
+| `npx tsx scripts/quotes-index.ts` | Rewrites `public/quotes/index.json` after editing collection files |
 | `npm run templates` | Regenerates `templates/gallery.json` (see below), about 3 minutes |
 | `npm run fonts` | Re-downloads fonts after editing `lib/fonts/registry.ts` |
 | `npm run typecheck` | TypeScript |
@@ -95,8 +98,9 @@ Every format loads with a sample line (20 in all, one per format).
   with tags.
 - **Gallery**: every curated and generated design for the format, shown with
   your text (see below).
-- **Batch**: paste many quotes, or load the collection, pick a style family,
-  preview every item, then **Render → ZIP**.
+- **Batch**: paste many quotes, upload or drop files, or load the collection
+  (everything or one file); pick a style family, choose a range (e.g. quotes
+  1–200), preview every item, then **Render → ZIP**.
 - **Library**: saved quotes (search, tag and format filters, open in the
   studio, edit tags, export as text) and **History** of every export, any of
   which can be reopened.
@@ -130,6 +134,42 @@ tags: self
 (verse keeps its line breaks), `- item` adds list items, `tags:` feeds the
 library, and `//` starts a comment.
 
+For long files of one format, add `+` to the header. Every blank-line
+separated chunk after it is one quote, and a chunk that is only a `tags:`
+line sets the tags for all the quotes after it. `---` or another header ends
+the section.
+
+```
+@qa+
+tags: love
+
+question: Does love last forever?
+answer: As long as someone keeps choosing it.
+
+question: Is it enough?
+answer: Never on its own.
+
+tags: death
+
+question: What do the dead want?
+answer: Nothing. That is the point.
+```
+
+### Importing files
+
+**Batch → Upload files** (or drag files onto the text box) and **Library →
+Import from files…** accept several files at once:
+
+| File | Read as |
+| --- | --- |
+| `.txt`, `.md` | batch syntax (all of the above) |
+| `.json` | an array of quotes, or `{ "quotes": [...] }`. Each item has `format` (default: the current format), the format's fields (`text`, `hook`, `items`…) and optional `tags` (array or comma list). A string item is a quote in the default format |
+| `.csv` | header row of field names: `format`, any field keys, `tags` (split on `,` or `;`), list items split on `|`. A single `quote` column is read as `text` |
+
+Lines with problems are reported with their line number and skipped; the
+rest import. Library imports are keyed by content, so importing a file twice
+never duplicates.
+
 **Style families** (Ink, Paper, Fog, Midnight, Sandstone, Graphite, Deep Teal,
 Oxblood, Bone, Pure Mono, or your current design) give every quote one
 palette, pairing and ground, in a layout chosen per format that obeys the
@@ -141,14 +181,36 @@ batches. Rendering can be cancelled; whatever finished is still downloaded.
 
 ## The quote collection
 
-`public/quotes/cold-quotes.txt` holds **441 original quotes** on reality,
-life, death, love, relationships, family, time and work, written cold and
-unsentimental. They cover all 20 formats, every one tagged, in batch syntax.
-In the app: **Batch → Load the cold-quotes collection** or **Library → Import
-the cold-quotes collection** (importing twice never duplicates; quotes are
-keyed by their content). Tests check that it parses, covers every format,
-has no duplicates and round-trips through the library's text export, and
-`scripts/check-quotes.ts` checks that every quote sets without overflow.
+`public/quotes/` holds **2,845 original quotes** on reality, life, death,
+love, relationships, family, time, work, grief, aging and more, written cold
+and unsentimental, every one tagged, in batch syntax:
+
+- `cold-quotes.txt`: a 441-quote sampler covering all 20 formats
+- `formats/<format>.txt`: 200 or more quotes for each format (`@format+` syntax)
+- `index.json`: the file list with counts, used by the app
+
+| File | Quotes |
+| --- | ---: |
+| `cold-quotes.txt` (Sampler (every format)) | 441 |
+| `formats/classic.txt` (Classic) | 200 |
+| `formats/hbp.txt` (Hook / Body / Punchline) | 200 |
+| `formats/one-liner.txt` (One-liner) | 200 |
+| `formats/myth-truth.txt` (Myth vs Truth) | 200 |
+| `formats/then-now.txt` (Then / Now) | 200 |
+| `formats/paradox.txt` (Paradox) | 200 |
+| `formats/equation.txt` (Equation) | 202 |
+| `formats/law.txt` (Law) | 200 |
+| `formats/dialogue.txt` (Dialogue) | 202 |
+| `formats/stanza.txt` (Stanza) | 200 |
+| `formats/post-card.txt` (Post Card) | 200 |
+| `formats/pull-quote.txt` (Pull Quote) | 200 |
+| **Total** | **2,845** |
+
+In the app: **Batch → Collection → Load** (everything, or one file) or
+**Library → Import collection**. Importing twice never duplicates; quotes are
+keyed by their content. Tests check that every file parses, holds only its
+format, is tagged, has no duplicates across files and matches `index.json`,
+and `scripts/check-quotes.ts` checks that every quote sets without overflow.
 
 ## Templates and the gallery
 
@@ -273,7 +335,7 @@ lib/images/            photo sourcing: providers, fallback chain, resolution rul
 app/api/images/        search, file proxy, Unsplash download ping, mock photos
 templates/*.json       template configs, one file per format (duplicate and tweak freely),
                        plus the generated gallery.json
-public/quotes/         the cold-quotes collection (batch syntax)
+public/quotes/         the quote collection: sampler, formats/*.txt, index.json
 scripts/               qa.ts (+ qa-worker.ts), generate-templates.ts (+ verify-worker.ts),
                        check-quotes.ts, render-sample.ts, render-formats.ts,
                        mock-photos.ts, fetch-fonts.ts, node-env.ts

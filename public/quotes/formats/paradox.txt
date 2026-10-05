@@ -1,0 +1,635 @@
+// Fred M | 1963ke · Paradox — 200 quotes.
+
+@paradox+
+tags: love
+
+first: The person who knows you best
+second: is the one who can hurt you most precisely.
+
+first: We wait years for someone to love us,
+second: then spend years teaching them how.
+
+first: The more perfect the first date,
+second: the harder the hundredth one lands.
+
+first: Love wants to be chosen freely,
+second: and then asks for a lifetime guarantee.
+
+first: You fall in love with someone's freedom,
+second: and then ask them to give it up.
+
+first: The deeper the love,
+second: the louder the silence when it ends.
+
+first: We say love is blind,
+second: and then list every flaw at the end.
+
+first: The couples who look happiest online
+second: are often the ones arguing in the car.
+
+first: You promise to love them forever,
+second: without knowing who either of you will become.
+
+first: We hide our worst selves to be loved,
+second: and then wonder why the love feels conditional.
+
+first: The easier it is to say I love you,
+second: the less it seems to weigh.
+
+first: Love feels safest at the start,
+second: when you know the least about it.
+
+first: You need courage to love someone,
+second: and more to stop.
+
+tags: death
+
+first: We spend a lifetime avoiding death,
+second: and one afternoon arranging the funeral.
+
+first: The dead never change,
+second: yet we see them differently every year.
+
+first: Everyone is sure they will die,
+second: and nobody really believes it.
+
+first: We say the most kind words at funerals,
+second: to the one person who cannot hear them.
+
+first: The fear of death keeps us alive,
+second: and stops us from living.
+
+first: We buy expensive coffins
+second: for people we could not find time to visit.
+
+first: Death is the only appointment you never book,
+second: and the only one you will not miss.
+
+first: The longer you live,
+second: the more of your life is underground.
+
+first: We make wills to keep the peace,
+second: and the wills start the war.
+
+first: The closer death comes,
+second: the smaller the things that matter.
+
+first: We say they died peacefully,
+second: because nobody wants to say how.
+
+first: The living fill the silence at a wake
+second: that the dead will never break.
+
+tags: family
+
+first: We spend childhood wanting to leave home,
+second: and adulthood trying to rebuild it.
+
+first: Parents try hardest to protect their children
+second: from the mistakes they still make themselves.
+
+first: The family that never argues
+second: often never talks either.
+
+first: You choose your partner for life,
+second: but not the family that comes attached.
+
+first: Children want their parents' attention
+second: until the day they finally get it.
+
+first: We forgive strangers in a day
+second: and our parents in a lifetime, if ever.
+
+first: The more a family insists it is close,
+second: the more secrets the kitchen holds.
+
+first: Parents give children roots,
+second: and then cry when they use their wings.
+
+first: We understand our parents best
+second: once they can no longer explain themselves.
+
+first: The child who stayed nearest
+second: is the one the parents thank the least.
+
+first: Siblings share a whole childhood
+second: and remember entirely different ones.
+
+first: You become an adult in your parents' eyes
+second: the day you start looking after them.
+
+first: The family photograph shows everyone smiling,
+second: which is how you know someone said cheese twice.
+
+tags: time
+
+first: We kill time all week
+second: and beg for more of it on Sunday night.
+
+first: The days drag on forever,
+second: while the years vanish.
+
+first: Everyone says they have no time,
+second: and everyone has the same twenty-four hours.
+
+first: We save time with every new machine
+second: and somehow have less of it.
+
+first: You only notice a clock
+second: when you are waiting or running late.
+
+first: The busiest people
+second: are often the ones going nowhere in particular.
+
+first: We plan our futures carefully
+second: and spend them reacting.
+
+first: Time is the thing we want most
+second: and use the worst.
+
+first: The present is all you ever have,
+second: and it is always somewhere else.
+
+first: The older you get, the slower you move,
+second: and the faster everything passes.
+
+first: We count down to holidays
+second: that are over before they begin.
+
+first: Nothing feels as long as a waiting room,
+second: and nothing as short as a life.
+
+tags: work
+
+first: We work hard to afford a life
+second: we are too tired to enjoy.
+
+first: The more irreplaceable you make yourself at work,
+second: the more replaceable you become at home.
+
+first: The better you are at your job,
+second: the more of it they give you.
+
+first: We take jobs to buy freedom,
+second: and spend that freedom at the job.
+
+first: Meetings are called to save time
+second: and end by scheduling another meeting.
+
+first: The harder you chase the promotion,
+second: the less you want it when it comes.
+
+first: We retire to rest at last,
+second: and find we no longer know how.
+
+first: The people who do the most work
+second: are the least likely to be thanked for it.
+
+first: Everyone wants a job they love,
+second: and resents it the moment it becomes a job.
+
+first: The busier the calendar,
+second: the emptier the evening.
+
+first: You work overtime for your family
+second: and miss the family you worked for.
+
+first: The less a job pays,
+second: the more it usually costs your body.
+
+tags: money
+
+first: The more money you have,
+second: the more you worry about losing it.
+
+first: We spend money to impress people
+second: whose opinion costs us nothing.
+
+first: The poor pay more for everything,
+second: because they can only buy a little at a time.
+
+first: Money buys you the freedom to rest,
+second: if you ever stop earning long enough to use it.
+
+first: You borrow to feel rich today
+second: and pay to feel poor for years.
+
+first: The cheapest things in life
+second: are often the most expensive to lose.
+
+first: People who say money does not matter
+second: usually have enough of it.
+
+first: We earn more each year
+second: and somehow never have more.
+
+first: The richer the family,
+second: the longer the fight over the will.
+
+first: Saving for the future means denying the present,
+second: which was once the future you saved for.
+
+first: The more you spend to look successful,
+second: the further you are from being it.
+
+first: We count every shilling at the market
+second: and never count the hours we sell.
+
+first: Money solves almost every problem,
+second: except the ones that keep you awake.
+
+tags: friendship
+
+first: The friends you make easily
+second: are the ones you lose easily.
+
+first: We have hundreds of contacts
+second: and nobody to call at midnight.
+
+first: True friends tell you hard things,
+second: which is why we keep so few of them.
+
+first: The longer the friendship,
+second: the less there is to say, and the more it means.
+
+first: We lose friends to distance
+second: who were never really close.
+
+first: You learn who your friends are
+second: at exactly the moment you need them most.
+
+first: Old friends know your whole story
+second: and none of your current address.
+
+first: We drift from friends to avoid a hard conversation,
+second: and lose them without a single one.
+
+first: The friend who always listens
+second: is the one nobody asks about.
+
+first: Everyone wants a loyal friend,
+second: and few want the work of being one.
+
+first: We say we will catch up soon
+second: until soon becomes a funeral.
+
+first: Friendship needs no contract,
+second: which is why it ends with no notice.
+
+tags: truth
+
+first: Everyone wants honesty
+second: until it is about them.
+
+first: The more often someone swears they are honest,
+second: the more carefully you should listen.
+
+first: Lies are told to keep the peace,
+second: and the peace dies of them.
+
+first: The truth is simple,
+second: which is why it takes so long to say.
+
+first: We demand transparency from others
+second: and keep our own curtains drawn.
+
+first: The kindest truth
+second: still lands like a slap.
+
+first: We believe strangers on the internet
+second: and doubt the people in our own house.
+
+first: The facts never change,
+second: but the story about them changes every year.
+
+first: You can tell the whole truth
+second: and still leave the wrong impression.
+
+first: The people who hate lies
+second: tell the smallest ones without noticing.
+
+first: Silence is often the most honest answer,
+second: and the one least accepted.
+
+first: The more evidence you show someone,
+second: the harder they defend what they already believed.
+
+first: We ask for the truth
+second: and then argue with it.
+
+tags: aging
+
+first: We spend youth trying to look older
+second: and old age trying to look young.
+
+first: The more years you collect,
+second: the fewer you seem to have left.
+
+first: You finally know how to live
+second: when the body no longer agrees to.
+
+first: The old give advice the young ignore,
+second: just as the old once ignored it.
+
+first: We want to live a long time
+second: and nobody wants to be old.
+
+first: Wisdom arrives with age,
+second: along with the poor hearing that keeps it unheard.
+
+first: The less time you have left,
+second: the more patience you seem to find.
+
+first: You stop caring what people think
+second: around the time people stop thinking about you.
+
+first: We celebrate every birthday
+second: that brings us one closer to the last.
+
+first: The older the face,
+second: the fewer people truly look at it.
+
+first: Age makes you careful with your body
+second: and careless with your opinions.
+
+first: The more you remember,
+second: the more you forget where you put the keys.
+
+tags: grief
+
+first: Grief is proof of love,
+second: and the love is the thing it takes.
+
+first: The worse the loss,
+second: the more ordinary the day it happened.
+
+first: We are told to let go
+second: of the only thing we have left to hold.
+
+first: Everyone brings food to the grieving,
+second: who cannot eat a single bite.
+
+first: The quicker you look recovered,
+second: the longer you suffer in private.
+
+first: We grieve most for the things left unsaid,
+second: and still do not say them to the living.
+
+first: Grief makes the world stop for you
+second: while it carries on for everyone else.
+
+first: The hardest person to mourn
+second: is the one you never got along with.
+
+first: We fear forgetting the dead
+second: and are relieved when the pain fades.
+
+first: The house is full of their things
+second: and completely empty of them.
+
+first: You need people most after a loss,
+second: just when you can least stand company.
+
+first: Grief has no timetable,
+second: but everyone around you seems to have one.
+
+first: The anniversary passes quietly for everyone
+second: except the one who cannot sleep.
+
+tags: self
+
+first: We want to be accepted as we are
+second: and spend our lives trying to change.
+
+first: The harder you look for yourself,
+second: the more people you seem to become.
+
+first: The people most sure of themselves
+second: often know themselves least.
+
+first: The more you describe who you are,
+second: the less of it anyone believes.
+
+first: The more you try to be original,
+second: the more you look like everyone else trying.
+
+first: You cannot see your own face
+second: without a mirror that reverses it.
+
+first: We hate in others
+second: what we have not forgiven in ourselves.
+
+first: The more you protect your image,
+second: the less there is behind it.
+
+first: Self-improvement promises a new you
+second: and delivers the old you, slightly busier.
+
+first: We want honest feedback
+second: and choose friends who will never give it.
+
+first: The person you fight hardest with
+second: is usually the one in the mirror.
+
+first: You become yourself
+second: by losing most of who you thought you were.
+
+tags: loneliness
+
+first: The more connected we become,
+second: the more alone we feel in it.
+
+first: Lonely people want company
+second: and are too tired to go and find it.
+
+first: The loneliest moment can come
+second: in a room full of people singing your name.
+
+first: We crave solitude all week,
+second: and dread it on Sunday evening.
+
+first: You keep people at a distance to stay safe,
+second: and then nobody comes close enough to help.
+
+first: The quieter someone becomes,
+second: the less anyone notices they are gone.
+
+first: We post our lives for everyone to see
+second: and hope no one sees how empty they are.
+
+first: Being alone is peaceful,
+second: until it is all you have.
+
+first: The more independent you become,
+second: the fewer people think you need them.
+
+first: Everyone is lonely,
+second: and everyone thinks they are the only one.
+
+first: We fill the house with noise
+second: so we cannot hear how quiet it is.
+
+first: You can share a bed for twenty years
+second: and still go to sleep alone.
+
+first: The phone has every number in it
+second: and not one you would call tonight.
+
+tags: fear
+
+first: We fear failure so much
+second: that we never try the thing that could succeed.
+
+first: The safest life
+second: is the one most full of quiet regret.
+
+first: Fear warns you about danger
+second: and then invents a hundred more.
+
+first: The things we fear most
+second: rarely arrive the way we rehearsed them.
+
+first: We lock every door at night
+second: against strangers, and let worry walk straight in.
+
+first: The more you avoid what scares you,
+second: the bigger it grows in the dark.
+
+first: Brave people are terrified,
+second: and cowards often feel perfectly calm.
+
+first: We fear being judged
+second: by people too busy fearing the same thing.
+
+first: The fear of losing someone
+second: can drive them away faster than anything.
+
+first: You worry about the future
+second: until it arrives and becomes an ordinary Tuesday.
+
+first: We fear change
+second: and are bored by everything staying the same.
+
+first: The smaller your world becomes to feel safe,
+second: the more frightening the rest of it looks.
+
+tags: society
+
+first: Everyone complains about the system
+second: and everyone keeps it running each morning.
+
+first: We praise kindness in speeches
+second: and reward ruthlessness in salaries.
+
+first: The more a society talks about freedom,
+second: the more rules it seems to need.
+
+first: Crowds feel powerful
+second: and are made of people who each feel powerless.
+
+first: We call the past simpler
+second: because we were not the ones carrying it.
+
+first: Everyone wants change
+second: as long as someone else goes first.
+
+first: The loudest voices on the street
+second: are rarely the ones who make the decisions.
+
+first: We admire people who break the rules
+second: and punish anyone who breaks them near us.
+
+first: The more choices we are given,
+second: the more alike our choices look.
+
+first: Progress makes life longer
+second: and somehow no less tiring.
+
+first: We say everyone is equal
+second: and then check where they went to school.
+
+first: The more we know about the world,
+second: the less we seem to do about it.
+
+tags: memory
+
+first: We take photos to remember the moment
+second: and miss the moment taking them.
+
+first: The memories we treasure most
+second: are the ones we have changed the most.
+
+first: You forget a thousand happy days
+second: and remember one cruel sentence for life.
+
+first: The past seems kinder from a distance,
+second: like a city seen from a plane.
+
+first: We keep boxes of things to remember
+second: and never open the boxes.
+
+first: The more you try to forget something,
+second: the more often it visits.
+
+first: We remember our first day at school
+second: and nothing of last Wednesday.
+
+first: The people who shaped you most
+second: are the ones you remember least clearly.
+
+first: Nostalgia is longing for a home
+second: that was never quite as you remember it.
+
+first: We write everything down to keep it
+second: and lose the notebook in the next move.
+
+first: The clearer a memory feels,
+second: the less likely it is to be accurate.
+
+first: You remember the song from that summer
+second: and not the name of the person you danced with.
+
+tags: home, city
+
+first: The city is full of people
+second: who moved there to be noticed and became invisible.
+
+first: We leave home to find ourselves
+second: and spend years trying to get back.
+
+first: The bigger the house,
+second: the harder it is to find each other in it.
+
+first: You build a home to feel safe
+second: and then work all hours to pay for the safety.
+
+first: The village knows everything about you
+second: and the city knows nothing, and both feel lonely.
+
+first: We dream of moving to the countryside
+second: and refresh city listings every night.
+
+first: Home is the place you most want to escape
+second: and the first place you run to when it breaks.
+
+first: The city never sleeps,
+second: and neither do the people paying its rent.
+
+first: We decorate our homes for guests
+second: who rarely come.
+
+first: Nairobi has millions of neighbours
+second: and most of us do not know the one next door.
+
+first: The more often you move house,
+second: the less you unpack.
+
+first: You can live somewhere for twenty years
+second: and still be called new by the old residents.
+
+first: We call it a home
+second: once someone has cried in every room.
+
+first: Everyone says there is no place like home,
+second: and half of them cannot wait to leave it.
+

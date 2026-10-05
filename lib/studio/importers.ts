@@ -2,7 +2,7 @@
  * Importers for uploaded quote files:
  *   .txt / .md  — the batch syntax (see batch.ts), including @format+ sections
  *   .json       — an array of quote contents ({ format, …fields }), of
- *                 { content, tags } objects, or { quotes: [...] }
+ *                 { content, tags } objects or of plain strings, or { quotes: [...] }
  *   .csv        — a header row of field names (format, text, author, hook,
  *                 body, punchline, a, b, items, …, tags); list items in one
  *                 cell separated by " | "; tags separated by "," or ";"
@@ -42,6 +42,7 @@ export function parseJson(text: string, defaultFormat: FormatId = "classic"): Ba
   const data = JSON.parse(text);
   const arr: unknown[] = Array.isArray(data) ? data : Array.isArray(data?.quotes) ? data.quotes : [data];
   return arr.map((x, i) => {
+    if (typeof x === "string") return toItem({ text: x }, [], i + 1, defaultFormat);
     const o = (x ?? {}) as Record<string, unknown>;
     if (o.content && typeof o.content === "object") return toItem(o.content as Record<string, unknown>, tagList(o.tags), i + 1, defaultFormat);
     const { tags, ...rest } = o;

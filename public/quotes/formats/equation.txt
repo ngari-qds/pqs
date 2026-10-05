@@ -1,0 +1,665 @@
+// Fred M | 1963ke · Equation — 200 quotes.
+
+@equation+
+tags: love
+
+equation: Passion - Patience = Affair
+caption: Loud, brief and expensive.
+
+equation: Love + Rent = Marriage
+caption: The romance is the smaller term.
+
+equation: Kindness - Respect = Pity
+caption: People can taste the difference.
+
+equation: Desire / Familiarity = Comfort
+caption: Then comfort divided by years.
+
+equation: Love x Fear = Control
+caption: It calls itself devotion.
+
+equation: Attraction - Character = Lesson
+caption: Usually learned twice.
+
+equation: Flowers - Apology = Decoration
+caption: Petals do not explain anything.
+
+equation: Love - Attention = Memory
+caption: Kept in a drawer with old receipts.
+
+equation: Jealousy / Trust = Proof
+caption: Of what was missing all along.
+
+equation: Romance + Bills = Reality
+Reality - Kindness = Separation
+caption: The order rarely changes.
+
+equation: Charm x Repetition = Suspicion
+caption: Eventually someone counts the lines.
+
+tags: relationships
+
+equation: Two Phones + One Table = Alone
+caption: Dinner, technically.
+
+equation: Small Lies x Years = Stranger
+caption: You married someone else slowly.
+
+equation: Need - Need = Truce
+caption: Most partnerships run on this.
+
+equation: Patience / Contempt = 0
+caption: Contempt always wins the division.
+
+equation: Sorry x 10 = Noise
+caption: An apology spent too often is worth nothing.
+
+equation: Unsaid + Unsaid = Distance
+Distance x Pride = Ending
+caption: Nobody slams the door. It just stays shut.
+
+equation: Habit - Choice = Staying
+caption: Not every long marriage is a happy one.
+
+equation: Text - Reply = Answer
+caption: Silence is a full sentence.
+
+equation: Effort / One Person = Collapse
+caption: A bridge built from one side falls.
+
+equation: Score + Score = War
+caption: Every couple that keeps books goes bankrupt.
+
+tags: family
+
+equation: Parents - Time = Photographs
+caption: The album is the only thing that stays.
+
+equation: Childhood + Distance = Story
+caption: Edited by whoever talks the most.
+
+equation: Inheritance / Siblings = Silence
+caption: Money divides cleaner than blood.
+
+equation: Duty - Love = Visits
+caption: Punctual and empty.
+
+equation: Your Father - Your Effort = You
+caption: Whatever you refuse to work on, you repeat.
+
+equation: Calls x 0 = Estrangement
+caption: Nobody announces it. They just stop dialling.
+
+equation: Old Wounds + Holidays = Dinner
+caption: Every table seats the past.
+
+equation: Mother + Phone = Worry
+Worry - Answer = Panic
+caption: She still counts the rings.
+
+equation: Home - Parents = House
+caption: The rooms are the same. Nothing else is.
+
+equation: Children - Attention = Strangers
+caption: You will meet them again at twenty-five.
+
+tags: death
+
+equation: Breath - Breath = Body
+caption: The difference is very small and total.
+
+equation: Funeral - Speeches = Hole
+caption: The ground does not care what was said.
+
+equation: Name + Two Dates = Stone
+caption: Everything else is weather.
+
+equation: You + Ninety Years = Nobody
+caption: That is the long and generous version.
+
+equation: Tomorrow x Certainty = 0
+caption: The calendar is a guess.
+
+equation: Wealth - Breath = Estate
+caption: Lawyers will take it from there.
+
+equation: Last Words - Listener = Air
+caption: Most die mid-sentence anyway.
+
+equation: Living - Dying = Nothing
+caption: They were the same process the whole time.
+
+equation: Body + Time = Dust
+Dust + Wind = Gone
+caption: No exceptions have been recorded.
+
+equation: Grave / Visitors = Weeds
+caption: Remembering is maintenance too.
+
+tags: time
+
+equation: Later + Later = Never
+caption: The most common sum in any life.
+
+equation: Someday / Calendar = Empty
+caption: It is not a day of the week.
+
+equation: Hours - Choices = Routine
+caption: Most days are spent on autopilot.
+
+equation: Scrolling x Evenings = Years
+caption: Gone without a single memory.
+
+equation: Waiting x Hope = Wasted Spring
+caption: Seasons do not wait for you to be ready.
+
+equation: Monday x 52 = Your Year
+caption: Weekends are the rounding error.
+
+equation: Now - Attention = Gone
+caption: The present is only there if you are.
+
+equation: Deadline - Discipline = Panic
+Panic + Coffee = Bad Work
+caption: Delivered on time, regretted forever.
+
+equation: Clock - Batteries = Still Time
+caption: Time never needed your permission.
+
+tags: work
+
+equation: Salary - Life = Job
+caption: The exchange rate is never posted.
+
+equation: Overtime x Loyalty = Replaced
+caption: The company will hire within a week.
+
+equation: Meetings + Meetings = Tuesday
+caption: Nothing decided, everything scheduled.
+
+equation: Talent - Discipline = Anecdote
+caption: Everyone knew someone gifted once.
+
+equation: Promotion - Rest = New Problems
+caption: The ladder is longer than it looks.
+
+equation: Passion / Payroll = Hobby
+caption: Love does not pay the landlord.
+
+equation: Busy - Results = Theatre
+caption: Applause from nobody.
+
+equation: Desk + Thirty Years = Clock
+Clock + Cake = Retirement
+caption: Then the badge stops working.
+
+equation: Effort - Credit = Experience
+caption: Somebody else will present it.
+
+equation: Ambition x Sleep Debt = Doctor
+caption: Every shortcut bills you later.
+
+equation: Hard Work - Direction = Treadmill
+caption: Sweat proves nothing about distance.
+
+equation: Your Job - You = Same Job
+caption: The chair is warm for someone else by Monday.
+
+tags: money
+
+equation: Income - Habits = Debt
+caption: No salary outruns bad arithmetic.
+
+equation: Money + Friends = Test
+caption: Lend once and learn everything.
+
+equation: Credit Card x Mood = Month
+caption: Feelings are expensive.
+
+equation: Savings - Discipline = Wish
+caption: A wish is not an account.
+
+equation: Debt + Interest = Owner
+caption: Someone else holds your mornings.
+
+equation: Wealth - Time = Rich Prisoner
+caption: The cell has good furniture.
+
+equation: Price / Value = Most Purchases
+caption: You paid for the feeling of buying.
+
+equation: Raise + New Car = Same Broke
+caption: Lifestyle grows faster than wages.
+
+equation: Pay - Rent = Food
+Food - Transport = Zero
+caption: The month ends before the money does.
+
+equation: Generosity - Boundaries = Bank
+caption: People will queue at your door.
+
+equation: Cash - Character = Spectacle
+caption: Money only magnifies.
+
+tags: aging
+
+equation: Mirror x Years = Surprise
+caption: You never feel the age you look.
+
+equation: Knees + Stairs = Biography
+caption: The body remembers every year.
+
+equation: Wisdom - Energy = Advice
+caption: Given freely, ignored freely.
+
+equation: Forty - Twenty = Same Questions
+caption: Only the joints are new.
+
+equation: Old Friends - Funerals = Few
+caption: The list shortens every winter.
+
+equation: Youth / Money = Freedom
+Age / Money = Medicine
+caption: The same cash buys different things.
+
+equation: Birthday x Fifty = Shrug
+caption: Candles become a fire hazard.
+
+equation: Memory - Names = Faces
+caption: Then faces go too.
+
+equation: Wrinkles - Lessons = Waste
+caption: Some age without ever growing.
+
+equation: Hair - Colour = Truth
+caption: The dye only buys a month.
+
+tags: grief
+
+equation: Loss + Morning = Remembering
+caption: Every day starts with the news again.
+
+equation: Grief - Audience = Real Grief
+caption: The quiet kind lasts longer.
+
+equation: Casseroles / Weeks = None
+caption: Sympathy has a short shelf life.
+
+equation: Voice - Voicemail = Gone
+caption: Do not delete the last message.
+
+equation: Empty Chair x Christmas = Grief
+caption: Furniture is the cruellest reminder.
+
+equation: Tears / Time = Fewer Tears
+Fewer Tears + Song = Flood
+caption: It never closes. It only scabs.
+
+equation: Their Number - Them = Contact
+caption: You still cannot delete it.
+
+equation: Condolences - Presence = Card
+caption: Paper is easy to send.
+
+tags: friendship
+
+equation: Friends - Usefulness = Few
+caption: Find out who stays when you have nothing.
+
+equation: Group Chat - You = Same Chat
+caption: Nobody will notice for days.
+
+equation: Favour x Favour = Debt
+caption: Some friendships are just ledgers.
+
+equation: Old Friend - Calls = Contact
+caption: A name in the phone, nothing more.
+
+equation: Loyalty / Distance = Test
+caption: Most fail it quietly.
+
+equation: Success - Envy = Rare Friend
+caption: Keep the one who is glad for you.
+
+equation: Laughter - Trouble = Acquaintance
+caption: Fun people vanish when it rains.
+
+equation: Advice - Listening = Lecture
+caption: Friends who only talk are audiences.
+
+equation: Gossip + You = Next Topic
+caption: Whoever brings it will take it.
+
+equation: Shared Past - Present = Nostalgia
+Nostalgia x Drinks = Reunion
+caption: Then nothing for ten years.
+
+tags: truth
+
+equation: Truth - Timing = Cruelty
+caption: Being right is not a licence.
+
+equation: Comfort + Lies = Peace
+Peace + Time = Explosion
+caption: Debts paid at once, with interest.
+
+equation: Facts / Feelings = Arguments
+caption: Feelings rarely lose.
+
+equation: Honesty - Kindness = Weapon
+caption: Some only tell the truth to wound.
+
+equation: Story x Retelling = Legend
+caption: Every retelling flatters the teller.
+
+equation: Silence + Guilt = Confession
+caption: Given enough nights.
+
+equation: Opinion - Evidence = Noise
+caption: Volume is not proof.
+
+equation: Doubt - Courage = Agreement
+caption: Most nodding is fear.
+
+equation: Truth x Delay = Bigger Truth
+caption: It only grows in the dark.
+
+equation: Secret / Two People = Rumour
+caption: Arithmetic nobody escapes.
+
+tags: self
+
+equation: Potential - Action = Excuse
+caption: Untried is not the same as able.
+
+equation: Self-Help + Sofa = Same You
+caption: Reading about running is not running.
+
+equation: Insecurity x Money = Shopping
+caption: The bag does not fill the gap.
+
+equation: Image - Substance = Profile
+caption: Curated, filtered, hollow.
+
+equation: Goals - Habits = Daydreams
+caption: Systems win. Intentions sleep.
+
+equation: Who You Are - Witnesses = Truth
+caption: Character is what happens alone.
+
+equation: Approval x Need = Leash
+caption: Anyone can walk you.
+
+equation: Ego + Mistake = Denial
+Denial x Time = Pattern
+caption: Pride repeats what it refuses to name.
+
+equation: Mood - Discipline = Day Lost
+caption: Feelings make poor managers.
+
+equation: Comparison / Yourself = Misery
+caption: Someone always has more.
+
+equation: Change - Discomfort = Fantasy
+caption: Growth always hurts somewhere.
+
+equation: Shame - Speech = Rot
+caption: It spreads in the quiet.
+
+tags: society
+
+equation: Crowd - Thought = Mob
+caption: Thousands of opinions, none their own.
+
+equation: Outrage / Attention Span = Week
+caption: Then the next scandal.
+
+equation: Likes x Strangers = Validation
+caption: Thin enough to see through.
+
+equation: Status - Money = Nobody
+caption: Society checks your wallet first.
+
+equation: News + Fear = Ratings
+caption: Panic is a business model.
+
+equation: Rules - Enforcement = Suggestions
+caption: Ask any queue.
+
+equation: Power - Scrutiny = Abuse
+caption: Every time, everywhere.
+
+equation: Trend + Six Months = Cringe
+caption: Fashion is a slow joke.
+
+equation: Promises x Election = Posters
+Posters + Rain = Litter
+caption: Peeling by the next season.
+
+equation: Charity + Camera = Advert
+caption: Kindness with a press office.
+
+tags: loneliness
+
+equation: Contacts - Callers = Loneliness
+caption: Hundreds of numbers, no one to ring.
+
+equation: Crowd - Connection = Isolation
+caption: The loudest room can be the loneliest.
+
+equation: Silence + Weekend = Long Hours
+caption: The flat gets bigger on Sundays.
+
+equation: Busyness - Company = Hiding
+caption: A full diary is a good disguise.
+
+equation: Followers - Friends = Screen
+caption: The glow is not company.
+
+equation: Pride / Loneliness = Unsent
+caption: Most messages die in the draft.
+
+equation: One Plate + One Chair = Dinner
+caption: Nobody asks how the day went.
+
+equation: Independence x Years = Isolation
+caption: Self-sufficiency has a ceiling.
+
+equation: Loneliness - Admission = Stuck
+caption: You cannot be found if you hide.
+
+tags: fear
+
+equation: Fear x Imagination = Paralysis
+caption: Most disasters stay in the head.
+
+equation: Risk - Risk = Stagnation
+caption: Playing safe is also a gamble.
+
+equation: Courage - Fear = Recklessness
+caption: Bravery needs the fear to count.
+
+equation: Fear + Comfort = Same Town
+caption: For forty years.
+
+equation: What If x 1,000 = Night
+caption: Insomnia does the maths badly.
+
+equation: Fear / Action = Smaller Fear
+caption: Doing is the only cure.
+
+equation: Anxiety - Sleep = Prophecy
+caption: Tired minds predict the worst.
+
+equation: Fear of Failure x Years = Failure
+caption: The waiting was the defeat.
+
+equation: Doctor + Delay = Diagnosis
+Diagnosis - Time = Options
+caption: Avoidance never cancelled an illness.
+
+tags: memory
+
+equation: Memory + Wine = Better Past
+caption: Nostalgia lies with confidence.
+
+equation: Photos - Names = Strangers
+caption: Write on the back of them.
+
+equation: Childhood / Adulthood = Smaller House
+caption: Rooms shrink when you return.
+
+equation: Memory x Retelling = Fiction
+caption: Each version moves further away.
+
+equation: Smell + Ten Years = Ambush
+caption: A perfume can undo a whole day.
+
+equation: Diary - Honesty = Novel
+caption: Even alone, people perform.
+
+equation: Forgetting / Forgiving = Mistake
+caption: One is a choice. One just happens.
+
+equation: Old Messages + Night = Bad Idea
+caption: Some archives should stay closed.
+
+equation: Mind - Memory = Stranger
+Stranger + Family = Visits
+caption: They sit with someone they used to know.
+
+tags: home, city
+
+equation: Rent - Neighbours = Building
+caption: Hundreds of doors, no names.
+
+equation: Traffic x Two Hours = Commute
+caption: Ten years in a car, accumulated.
+
+equation: City - Money = Pavement
+caption: The lights are not for you.
+
+equation: Home + Leaving = Hometown
+Hometown - Friends = Place
+caption: You go back and only the roads remember.
+
+equation: Village - Youth = Elders
+caption: Everyone young left for the city.
+
+equation: New Flat - Furniture = Echo
+caption: Starting over sounds hollow.
+
+equation: Keys - Door = Exile
+caption: Being locked out teaches belonging.
+
+equation: Matatu + Rain = Lateness
+caption: Nobody accepts it as an excuse.
+
+equation: Skyline - Salary = Postcard
+caption: You live under the view, not in it.
+
+equation: House - Laughter = Property
+caption: Walls do not make a home.
+
+tags: life
+
+equation: Plans x Reality = Detour
+caption: Life follows no itinerary.
+
+equation: Birth + Time = Bill
+caption: Every year arrives with an invoice.
+
+equation: Life - Meaning = Schedule
+caption: Wake, work, eat, repeat.
+
+equation: Luck + Preparation = Credit
+caption: People only notice the luck.
+
+equation: Choices x Years = Life
+caption: Nobody else signed the form.
+
+equation: Good Days / Bad Days = Life
+caption: The ratio is rarely in your favour.
+
+equation: Survival - Joy = Existence
+caption: Breathing is not the same as living.
+
+equation: Dreams - Deadline = Fog
+caption: Name a date or let it go.
+
+equation: Youth + Certainty = Mistakes
+Mistakes + Time = Humility
+caption: The tuition is always paid in full.
+
+equation: Life / Expectations = Disappointment
+caption: Lower one or keep dividing.
+
+equation: Fairness - Evidence = Hope
+caption: The universe never signed the contract.
+
+equation: Today - Tomorrow = Everything
+caption: That is the whole budget.
+
+tags: endings, change
+
+equation: Goodbye - Ceremony = Most Goodbyes
+caption: You rarely know it is the last time.
+
+equation: Last Time - Knowing = Normal Day
+caption: The final visit looked like any other.
+
+equation: Ending + Blame = Story
+caption: Everyone survives as the victim.
+
+equation: Change - Pain = Rumour
+caption: Nobody transforms comfortably.
+
+equation: Closure - Them = Your Job
+caption: They will never send it.
+
+equation: Resolution x January = February
+caption: The gym empties on schedule.
+
+equation: Habit / Willpower = Habit Wins
+caption: Every single evening.
+
+equation: Leaving + Nothing Said = Gone
+caption: Most exits are quiet ones.
+
+equation: Fresh Start - Old Habits = Never
+Fresh Start + Old Habits = Old Life
+caption: A new city cannot move you for you.
+
+equation: Bridges - Fire = Options
+caption: Burn carefully, if at all.
+
+equation: Era - Notice = Over
+caption: You only see chapters from behind.
+
+equation: Regret / Action = Lesson
+caption: Without action it is just regret.
+
+equation: Apology - Change = Manipulation
+caption: Sorry is a plan, not a word.
+
+equation: Excuse + Excuse = Decade
+caption: Each one sounded reasonable at the time.
+
+equation: Comfort Zone x Age = Cell
+caption: The door was never locked.
+
+equation: Staying - Wanting To = Fear
+caption: Call it what it is.
+
+equation: Plan B - Plan A = Life
+caption: The backup became the whole thing.
+
+equation: Regret - Honesty = Nostalgia
+caption: Calling the old pain pretty.
+
+equation: Years - Living = Age
+Age - Stories = Silence
+caption: Nothing to tell the grandchildren.
+
+equation: Hope x Inaction = Waiting Room
+caption: Nobody calls your name.

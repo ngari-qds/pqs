@@ -1,0 +1,1244 @@
+// Fred M | 1963ke · Stanza — 200 quotes.
+
+@stanza+
+tags: love
+
+title: Anniversary
+text: Thirty years.
+He still does not know
+how she takes her tea.
+She stopped telling him
+in the second year.
+
+title: First Love
+text: It felt like the sky opening.
+It was a boy with a bicycle
+who moved to Mombasa
+and forgot my name by June.
+
+title: Vows
+text: We promised forever
+in a hired hall
+with borrowed chairs
+and a deposit we never got back.
+
+title: Romance
+text: Roses on the table,
+the bill on the fridge,
+both of them
+quietly wilting.
+
+title: The Other Side
+text: You sleep facing the wall now.
+I learn the map
+of your shoulder blades
+like a country I cannot enter.
+
+title: Devotion
+text: She loved him the way
+a dog loves a locked door,
+sitting there
+long after the house was sold.
+
+title: Love Letter
+text: I kept every one.
+You kept none.
+We were never writing
+to the same person.
+
+title: Small Hours
+text: Two phones lit in the dark,
+two backs turned,
+one bed,
+no conversation.
+
+title: Heart
+text: They call it a broken heart.
+It still beats.
+That is the insult.
+
+title: Falling
+text: Nobody tells you
+that falling in love
+and falling down stairs
+end in the same place.
+
+title: Honeymoon
+text: The sea was warm.
+We did not argue once.
+It was the last week
+we tried that hard.
+
+title: Kindness
+text: He never hit her.
+He never held her either.
+Somewhere in between
+she spent forty years.
+
+tags: endings, relationships
+
+title: Last Message
+text: Seen at 11:42.
+No reply.
+That was the whole funeral
+for two years of us.
+
+title: Boxes
+text: Your books in one box,
+my patience in another.
+Only one of them
+was heavy to carry.
+
+title: Unfollow
+text: I did not cry.
+I pressed a button.
+That is how we bury
+the living now.
+
+title: The Key
+text: You left the key
+on the kitchen counter.
+It made a small sound.
+Ten years, one small sound.
+
+title: Drift
+text: No storm.
+No shouting.
+Just two boats
+and a lazy tide.
+
+title: Explanation
+text: I waited for a reason.
+You gave me a weather report.
+Busy, tired, complicated.
+I understood the forecast.
+
+title: Ghost
+text: You did not die.
+You just stopped answering,
+which is worse,
+because I still see your coffee shop.
+
+title: Closure
+text: There is no closure.
+There is a door
+that someone else closed
+while you were still talking.
+
+title: Ex
+text: You married someone kind.
+I saw the photos.
+I was happy for you
+for almost a minute.
+
+title: After the Fight
+text: The plates were washed.
+The words were not.
+They dried on the rack
+and we used them again.
+
+title: Promise
+text: You said you would call.
+Our telephones got newer.
+Your silence
+stayed the same model.
+
+title: Weekend Father
+text: Every second Saturday
+a man in a clean shirt
+learns his son's new words
+from someone else's mouth.
+
+tags: family
+
+title: Mother's Hands
+text: Her hands smell of onions
+and forty years of other people.
+Nobody photographs them.
+Everybody ate from them.
+
+title: Father
+text: He showed love
+by checking the tyres
+and saying nothing
+about the rest.
+
+title: Sunday Lunch
+text: Twelve chairs around the table.
+Eleven people.
+We set the plate anyway,
+then pretend we didn't.
+
+title: The Plot
+text: Three brothers, one plot,
+a father two months dead.
+The goats are grazing.
+The lawyers are hungry.
+
+title: Phone Call Home
+text: How are you, she asks.
+Fine, I say.
+We both hang up
+better at lying.
+
+title: Childhood Room
+text: My posters are gone.
+It is a storeroom now,
+full of things
+nobody uses but nobody throws away.
+
+title: Siblings
+text: We shared a bath,
+a bed, a fever.
+Now we share
+a group chat on mute.
+
+title: Proud
+text: He told the neighbours
+I was a doctor.
+He never told me.
+I found out at his funeral.
+
+title: Grandmother
+text: She remembers 1962 perfectly.
+She does not remember
+that I visited
+on Tuesday.
+
+title: Family Photo
+text: Everyone is smiling.
+Two were not speaking.
+One was drunk.
+It hangs in the hallway, framed.
+
+title: Like Him
+text: I swore I would not shout
+the way he did.
+I did not.
+I went silent instead, like his father.
+
+title: Dinner
+text: The television talks.
+We chew.
+Somewhere a family is laughing
+in an advert.
+
+tags: death
+
+title: The Ward
+text: Bed four is empty by morning.
+The sheets are changed by nine.
+By lunch a new name
+is written on the board.
+
+title: Obituary
+text: Seventy-eight years
+fit in four lines
+between a car sale
+and a lost dog.
+
+title: Burial
+text: The red soil goes back in.
+Somebody's phone rings
+with a cheerful tune.
+Nobody answers.
+
+title: Wardrobe
+text: His shirts still hang there,
+holding his shape
+like they are waiting
+for an answer.
+
+title: Last Words
+text: No speech.
+No wisdom.
+He asked for water
+and then it was over.
+
+title: Funeral Tent
+text: The tea is sweet,
+the speeches long,
+the uncles counting
+who contributed what.
+
+title: Voicemail
+text: I kept your voicemail.
+Four seconds.
+Call me back.
+I cannot.
+
+title: Hearse
+text: The traffic did not stop.
+A man in a red car
+hooted at the hearse
+for driving too slowly.
+
+title: Mortal
+text: Every morning
+the mirror shows a face
+a little closer
+to the photograph on a coffin.
+
+title: Cemetery
+text: Stone after stone,
+beloved, beloved, beloved.
+The grass grows the same
+over all of it.
+
+title: Death Certificate
+text: Cause of death.
+One line.
+For all those years
+of trying.
+
+title: Undertaker
+text: He measures the body,
+writes the number down,
+and goes home
+for supper.
+
+title: Final Bill
+text: The hospital sent the invoice
+on the day of the burial,
+neatly printed,
+with a polite reminder.
+
+title: Afterwards
+text: The kettle still boils.
+The dog still waits by the gate.
+Only I know
+what it is waiting for.
+
+tags: time
+
+title: Clock
+text: It ticks for the wedding.
+It ticks for the funeral.
+It has never once
+changed its tone.
+
+title: Birthdays
+text: Candles were a joy once.
+Now they are
+a fire hazard
+and a count.
+
+title: Someday
+text: Someday was a city
+I meant to visit.
+I kept the ticket
+until it expired.
+
+title: Hourglass
+text: The sand does not hurry.
+It does not need to.
+It knows
+how this ends.
+
+title: Calendar Pages
+text: January is a promise.
+March is a negotiation.
+By November
+nobody mentions it.
+
+title: Watch
+text: My grandfather's watch
+still keeps time.
+He did not.
+The watch does not mind.
+
+title: Seasons
+text: The jacaranda blooms again.
+It bloomed the year you died.
+It will bloom
+the year I do.
+
+title: Monday
+text: Another Monday.
+I have had about two thousand.
+I remember
+maybe nine.
+
+title: Later
+text: I put it off until later.
+Later arrived
+in a white coat
+with a clipboard.
+
+title: Old Photographs
+text: Everyone in this picture
+believed they had time.
+Look at their faces.
+They did not know.
+
+title: Ageing Light
+text: The afternoon sun
+moves across the floor
+the way it always did
+when I was not counting.
+
+title: Deadline
+text: Everything has one.
+The project, the milk,
+the lease,
+the man reading this.
+
+tags: aging
+
+title: Stairs
+text: Once I ran up them two at a time.
+Now I count them
+and rest
+on the landing.
+
+title: Reading Glasses
+text: First the menu,
+then the medicine bottle,
+then my own handwriting
+went quietly out of reach.
+
+title: Old Man at the Bus Stop
+text: He waits
+with a plastic bag
+and a dignity
+no one boards for.
+
+title: Retirement
+text: A cake, a card,
+a handshake from a man
+who learned his name
+that morning.
+
+title: Grey
+text: The first grey hair
+I pulled out.
+The hundredth
+I let stay.
+
+title: Visitors
+text: They come at Christmas,
+stay an hour,
+look at their phones,
+call it family.
+
+title: Old Woman
+text: She was once beautiful.
+The town remembers.
+She does not.
+She remembers being hungry.
+
+title: Mirror at Sixty
+text: Not wrinkles.
+My mother.
+Staring back
+with my disappointments.
+
+title: Pills
+text: Blue for the heart,
+white for the bones,
+yellow for the nights
+when nothing helps.
+
+title: Knees
+text: My knees forecast the rain
+more accurately
+than the radio,
+and with less optimism.
+
+tags: work
+
+title: Payslip
+text: A month of my life
+folded into an envelope
+and taxed
+before I opened it.
+
+title: Commute
+text: Two hours a day on the road.
+Ten hours a week.
+Somewhere a child
+is learning to read without me.
+
+title: Office Plant
+text: It is plastic.
+Nobody waters it.
+It is the only thing here
+that will outlast us all.
+
+title: Overtime
+text: The lights go off at nine.
+The cleaner and I
+nod at each other,
+two ghosts with lanyards.
+
+title: Promotion
+text: A new title.
+The same chair.
+Twice the emails
+and a parking space.
+
+title: Hustle
+text: Up at four,
+home at ten,
+asleep on the matatu
+between dreams.
+
+title: Leaving Do
+text: Twelve years.
+A card signed by people
+who spelled
+my name wrong.
+
+title: Boss
+text: He says the door is open.
+He does not say
+that the room
+is a trap.
+
+title: Factory Gate
+text: Six o'clock.
+A thousand faces
+walk out
+the same shade of tired.
+
+title: Interview
+text: Tell us about yourself.
+I list the parts
+that look good
+under fluorescent light.
+
+title: Desk
+text: When they let me go
+my desk was clear
+by Thursday.
+My mug went in the bin.
+
+tags: money
+
+title: End of the Month
+text: Twenty-ninth.
+Count the coins.
+Count the days.
+The days win.
+
+title: M-Pesa
+text: The message arrives,
+the money arrives,
+and before tea
+it is gone again.
+
+title: Loan
+text: I borrowed to look rich.
+Now I am poor
+in a nicer shirt
+with interest.
+
+title: Wallet
+text: Leather, worn.
+A receipt, a photograph,
+a card that declines
+the moment I need it.
+
+title: Rent
+text: The landlord does not ask
+how my month was.
+He asks
+for the money.
+
+title: Price of Bread
+text: It went up again.
+Nobody marched.
+We just bought
+the smaller loaf.
+
+title: Rich Man's Funeral
+text: Gold handles,
+white lilies,
+a choir.
+He is still in the ground.
+
+title: Savings
+text: I saved for a rainy day.
+It rained
+every single month
+of my thirties.
+
+title: Debt
+text: It does not sleep.
+It does not tire.
+It sits at the foot of the bed
+and counts.
+
+tags: grief
+
+title: The Chair
+text: Nobody sits in his chair.
+We do not discuss it.
+It sits there
+louder than he ever was.
+
+title: Toothbrush
+text: Your toothbrush is still there.
+It has become
+a small monument
+I cannot move.
+
+title: Mourning Period
+text: Forty days, they said.
+On the forty-first
+the world expected me
+to be finished.
+
+title: Condolences
+text: Sorry for your loss,
+typed by thumbs
+on the way to
+something else.
+
+title: Her Number
+text: I could not delete it.
+Now it belongs
+to a stranger in Thika
+who does not answer either.
+
+title: Grief at Noon
+text: Not at night.
+At the supermarket,
+by the tinned peaches
+she always bought.
+
+title: Tea for One
+text: One cup.
+One spoon.
+The kettle is too big now.
+Everything is.
+
+title: Laugh
+text: I laughed today
+for the first time.
+Then I hated myself
+for an hour.
+
+title: Ashes
+text: He was tall.
+He fits now
+in a box
+on the shelf by the radio.
+
+title: Second Year
+text: The first year they call.
+The second year
+they assume
+you are better.
+
+tags: loneliness
+
+title: Party
+text: Music, laughter,
+a full room.
+I stood by the window
+talking to my drink.
+
+title: Single Bed
+text: A narrow bed,
+a narrow life,
+a wide ceiling
+to stare at.
+
+title: Notifications
+text: Three hundred likes.
+Zero calls.
+The phone is warm
+from no one.
+
+title: Lift
+text: Twelve floors in silence
+with a neighbour
+I have known
+for six years.
+
+title: Weekend
+text: Saturday arrives.
+No plans,
+no messages,
+a long list of hours.
+
+title: Restaurant
+text: Table for one.
+The waiter takes away
+the second set of cutlery
+like a small verdict.
+
+title: Night Bus
+text: Everyone asleep or pretending.
+The city flickers past.
+Nobody is waiting
+at any stop for me.
+
+title: Crowd
+text: A million people in this city.
+Not one of them
+knows that today
+was my birthday.
+
+title: Empty Flat
+text: I say good evening
+to the furniture.
+The furniture
+is too polite to reply.
+
+title: Silence at Dinner
+text: The fridge hums.
+The clock ticks.
+Those are the only voices
+in this house tonight.
+
+tags: city
+
+title: Nairobi Rain
+text: The rain arrives at four.
+The roads become rivers.
+The rich wait in cars.
+The rest of us get wet.
+
+title: Matatu
+text: Loud music, tight seats,
+fourteen strangers
+sharing sweat
+and avoiding each other's eyes.
+
+title: Traffic
+text: Four hours on Mombasa Road.
+I could have read a book.
+I read the back
+of a lorry instead.
+
+title: Street Light
+text: It flickers all night
+above the man who sleeps
+on cardboard
+outside the bank.
+
+title: Skyline
+text: New towers every year.
+Old people
+in the same small rooms
+beneath them.
+
+title: Sirens
+text: A siren passes.
+Nobody looks up.
+Somebody's worst night
+is just noise to us.
+
+title: Market Day
+text: Mangoes, cabbages,
+shouting, haggling.
+Everyone is selling something.
+Some of it is fruit.
+
+title: Gated
+text: High walls,
+glass on top,
+a guard at the gate
+paid less than the dog's food.
+
+title: Downtown
+text: The same beggar for years,
+on the same corner.
+We have both grown older.
+Only one of us got paid.
+
+title: Rooftops
+text: Iron sheets,
+satellite dishes,
+washing on lines,
+everyone drying out their week.
+
+title: Morning Commute
+text: Six a.m. at the stage.
+Faces like closed shops.
+Everyone already tired
+of a day not yet begun.
+
+tags: memory
+
+title: School Desk
+text: I carved my name there.
+They burned the desks
+in 1998
+for a new block.
+
+title: Old Songs
+text: The radio plays our song.
+I do not remember you.
+I remember
+the shoes I wore.
+
+title: Forgetting
+text: First the face.
+Then the voice.
+Then just the fact
+that there was someone.
+
+title: Childhood House
+text: New owners,
+new paint,
+a tree cut down
+where I learned to climb.
+
+title: Letters in a Drawer
+text: Her handwriting.
+Paper going yellow.
+Things she wrote
+I can no longer ask about.
+
+title: Reunion
+text: Name tags, bald men,
+a dead classmate
+we toast
+and then forget again.
+
+title: Nostalgia
+text: It was not better.
+We were younger
+and did not pay
+for the electricity.
+
+title: Memory Box
+text: A ticket, a ribbon,
+a shell, a lie,
+all kept carefully
+in the dark.
+
+tags: truth, self
+
+title: Mirror
+text: It does not flatter.
+It does not judge.
+It just keeps reporting
+the news.
+
+title: Reputation
+text: Built in twenty years,
+lost in an afternoon
+by a single sentence
+someone overheard.
+
+title: Self-Portrait
+text: I drew myself kinder,
+taller,
+less afraid.
+Nobody recognised it.
+
+title: Confession
+text: I said sorry
+the way you shut a window,
+to stop the noise,
+not because of the cold.
+
+title: Honest
+text: I wanted the truth.
+It came.
+I asked it, politely,
+to leave.
+
+title: Excuses
+text: Too busy, too tired,
+too young, too old.
+The years filed them
+in a neat drawer.
+
+title: Masks
+text: One for work,
+one for church,
+one for my mother.
+None of them fit at night.
+
+title: Ego
+text: I thought the room
+went quiet for me.
+It went quiet
+because the music stopped.
+
+title: Character
+text: Not what I said
+at the wedding.
+What I did
+when the bill came.
+
+title: Who I Am
+text: Not the plans.
+Not the speeches.
+The things I did
+when nobody was counting.
+
+tags: fear
+
+title: Waiting Room
+text: Forty chairs.
+Forty fears.
+One television
+showing a cooking show.
+
+title: Test Results
+text: The envelope is thin.
+It weighs
+more than everything
+I own.
+
+title: Courage
+text: It is not loud.
+It is a woman at a bus stop
+going to chemotherapy
+for the ninth time.
+
+title: Three a.m.
+text: The house creaks.
+The mind adds up
+every bill, every mistake,
+every name I forgot to call.
+
+title: What If
+text: What if I fail.
+What if I fall.
+What if I sit here
+until the question is answered for me.
+
+title: Comfort Zone
+text: Warm, soft, safe,
+and very slowly
+the size
+of a coffin.
+
+title: Dark
+text: As a child
+I feared the dark.
+Now I fear
+the electricity bill.
+
+tags: friendship
+
+title: Best Friend
+text: We were inseparable.
+Then she moved to Kisumu.
+Now we are
+two likes a year.
+
+title: Group Chat
+text: Once we talked every day.
+Now someone posts a meme
+at Christmas,
+and three people react.
+
+title: Borrowed
+text: I lent him money.
+He lent me nothing back,
+not even
+his company.
+
+title: Old Friend
+text: We met by chance in town.
+We hugged.
+We swapped numbers
+we will never use.
+
+title: Wedding Photos
+text: I was in the front row
+of her wedding.
+I was not invited
+to the divorce.
+
+title: Fair Weather
+text: When I had a car
+I had friends.
+When I sold the car
+I had a bus pass.
+
+title: The Visit
+text: He was in hospital a month.
+I meant to go.
+I sent a message.
+He sent one back, once.
+
+tags: society
+
+title: News
+text: A war at seven.
+A flood at eight.
+At nine, the weather,
+mild, with sunshine.
+
+title: Charity Gala
+text: Champagne for the hungry,
+speeches for the poor,
+a photographer
+for the generous.
+
+title: Headlines
+text: A thousand dead.
+A celebrity divorce.
+Guess which one
+we talked about at lunch.
+
+title: Strangers
+text: A man fell on the pavement.
+Six people filmed it.
+One helped.
+She was late for work.
+
+title: Election Posters
+text: Faces on every pole,
+smiling, promising.
+By December
+the rain has washed them off.
+
+title: Online
+text: Everyone is happy here.
+Everyone is travelling.
+Everyone is lying
+in very good light.
+
+title: Queue
+text: The queue for bread,
+the queue for the doctor,
+the queue for the grave.
+We wait in all of them.
+
+title: Fame
+text: Everybody knew his name
+for a week.
+Now he works
+in a bank in Nakuru.
+
+tags: life
+
+title: Ordinary
+text: No great story.
+A job, a wife,
+a mortgage, two children,
+then the hospital.
+
+title: Plans
+text: I wrote them on paper.
+Life read them,
+smiled,
+and used them for kindling.
+
+title: Lessons
+text: Every hard lesson
+came at the right price.
+That is to say
+too much.
+
+title: Morning
+text: The alarm.
+The coffee.
+The face in the mirror
+agreeing to one more day.
+
+title: Purpose
+text: I searched for it for years.
+In the meantime
+I fed my children.
+That might have been it.
+
+title: Luck
+text: Nobody calls it luck
+when they win.
+Everyone calls it luck
+when they lose.
+
+title: Meaning
+text: I asked the sky.
+It rained.
+That was
+the answer.
+
+title: Small Life
+text: A small house,
+a small job,
+small worries,
+a very large sky above it all.
+
+title: Happiness
+text: It came for an afternoon
+on a beach in Diani.
+I spent it
+taking pictures of it.
+
+title: Fifty
+text: Half the life spent.
+Most of it on queues,
+screens,
+and waiting for buses.
+
+tags: home
+
+title: Home
+text: Not the house.
+The smell of her cooking,
+which ended
+when she did.
+
+title: Village
+text: I go back every December.
+Each year fewer people
+know my name,
+and more graves do.
+
+title: Moving Day
+text: Twelve years in this flat.
+It took
+four hours
+and one lorry to erase.
+
+title: Front Door
+text: I used to run through it.
+Now I stand outside
+looking for the courage
+to knock.
+
+title: Rented Room
+text: Four walls, one window,
+a landlord's paint.
+Nothing here
+remembers me.
+
+title: Return
+text: I came home after ten years.
+The road was tarmacked.
+The people were older.
+I was a visitor.
+
+title: Kitchen Window
+text: She washed dishes there
+for forty years,
+watching the gate
+for someone to come.
+
+tags: marriage
+
+title: Married Years
+text: We do not fight.
+We do not talk.
+We pass the salt
+with great courtesy.
+
+title: Ring
+text: Gold, still bright,
+on a finger
+that has not held his hand
+since the children left.
+
+title: Twin Beds
+text: First one bed.
+Then two pillows.
+Then two rooms.
+Then two lawyers.
+
+title: Husband
+text: He remembers the football scores
+from 1987.
+He forgets
+her birthday.
+
+title: Wife
+text: She knows when he lies.
+She lets it go,
+the way you let a cough go
+until it turns into something.
+
+title: Silver Wedding
+text: Twenty-five years.
+A cake, some speeches,
+a photograph
+of two strangers smiling.
+
+tags: regret
+
+title: Unsaid
+text: I meant to tell him.
+I had the words ready
+for years.
+The funeral was on a Thursday.
+
+title: Road Not Taken
+text: I chose the safe road.
+It was safe.
+It was long.
+It went nowhere I wanted.
+
+title: Too Late
+text: I bought the ticket.
+I packed the bag.
+The phone rang
+before the bus left.
+
+title: Should Have
+text: Should have called.
+Should have gone.
+Should have.
+A whole language of the dead.
+
+title: Apology
+text: I wrote the letter.
+I never sent it.
+It is still in the drawer,
+older than the grudge.
+
+title: Youth
+text: I spent it waiting
+for my life to start.
+It started.
+I was looking the other way.
+
+title: Wrong Turn
+text: I said I would fix it
+next year.
+Next year arrived
+and fixed me instead.
+
+title: Twenty Again
+text: If I were twenty again
+I would make
+the same mistakes,
+only faster.
+
+title: Forgiveness
+text: I forgave him at last,
+standing by the grave,
+which was
+very convenient for both of us.
+
+tags: reality
+
+title: Weather
+text: The sun does not ask
+if you are grieving.
+It shines
+on the funeral and the picnic.
+
+title: Ocean
+text: It has swallowed ships,
+kings, and fishermen.
+It is still
+very blue in the brochures.
+
+title: Universe
+text: Billions of stars.
+Not one
+knows
+your name.
+
+title: Indifference
+text: The tree outside the hospital
+grew a new branch
+the week
+my father died.
+
+title: Gravity
+text: Everything falls.
+Apples, empires,
+standards,
+faces.

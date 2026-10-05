@@ -35,6 +35,9 @@ describe("JSON import", () => {
       tags: ["love", "power"],
     });
   });
+  it("reads plain strings as quotes in the default format", () => {
+    expect(parseJson('["Nobody is coming."]', "one-liner")[0]).toMatchObject({ content: { format: "one-liner", text: "Nobody is coming." }, errors: [] });
+  });
 });
 
 describe("parseImportFile", () => {

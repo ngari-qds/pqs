@@ -1,5 +1,5 @@
 {
-  "total": 1041,
+  "total": 2845,
   "files": [
     {
       "id": "sampler",
@@ -23,6 +23,60 @@
       "id": "one-liner",
       "name": "One-liner",
       "file": "formats/one-liner.txt",
+      "count": 200
+    },
+    {
+      "id": "myth-truth",
+      "name": "Myth vs Truth",
+      "file": "formats/myth-truth.txt",
+      "count": 200
+    },
+    {
+      "id": "then-now",
+      "name": "Then / Now",
+      "file": "formats/then-now.txt",
+      "count": 200
+    },
+    {
+      "id": "paradox",
+      "name": "Paradox",
+      "file": "formats/paradox.txt",
+      "count": 200
+    },
+    {
+      "id": "equation",
+      "name": "Equation",
+      "file": "formats/equation.txt",
+      "count": 202
+    },
+    {
+      "id": "law",
+      "name": "Law",
+      "file": "formats/law.txt",
+      "count": 200
+    },
+    {
+      "id": "dialogue",
+      "name": "Dialogue",
+      "file": "formats/dialogue.txt",
+      "count": 202
+    },
+    {
+      "id": "stanza",
+      "name": "Stanza",
+      "file": "formats/stanza.txt",
+      "count": 200
+    },
+    {
+      "id": "post-card",
+      "name": "Post Card",
+      "file": "formats/post-card.txt",
+      "count": 200
+    },
+    {
+      "id": "pull-quote",
+      "name": "Pull Quote",
+      "file": "formats/pull-quote.txt",
       "count": 200
     }
   ]

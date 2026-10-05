@@ -1,0 +1,635 @@
+// Fred M | 1963ke · Myth / Truth — 200 quotes.
+
+@myth-truth+
+tags: love
+
+a: True love lasts forever.
+b: True love lasts as long as two people keep choosing it. Some stop on a Tuesday.
+
+a: The right person will accept you exactly as you are.
+b: The right person will tolerate some of you and quietly negotiate the rest.
+
+a: Love means never having to say sorry.
+b: Love means saying sorry more often than you ever planned to.
+
+a: If they loved you, they would know what you need.
+b: Nobody reads minds. Unspoken needs mostly stay unmet.
+
+a: Jealousy proves they care.
+b: Jealousy proves they are afraid. Fear is not a compliment.
+
+a: Love at first sight is real.
+b: Attraction at first sight is real. Love needs a few winters of evidence.
+
+a: A baby will bring you closer together.
+b: A baby brings sleeplessness. Closeness has to survive it first.
+
+a: Real love is effortless.
+b: Real love is effort that has stopped complaining about itself.
+
+a: You will just know when it is the one.
+b: You will mostly hope, and then decide, and then keep deciding.
+
+a: Couples who never fight are happy.
+b: Some of them have simply stopped thinking it is worth the breath.
+
+a: Love makes you a better person.
+b: Love gives you reasons to be better. Doing it is still your job.
+
+a: Your partner should be your everything.
+b: Nobody can carry everything. Ask one person to, and they will drop it.
+
+a: Distance makes the heart grow fonder.
+b: Distance makes the heart grow forgetful, unless someone keeps writing.
+
+tags: death
+
+a: Death comes when it is your time.
+b: Death comes when it comes. Calling it your time is a comfort for the living.
+
+a: They are in a better place.
+b: Nobody knows where they are. We know only that they are not here.
+
+a: Death brings families together.
+b: Death brings families into one room. Then the will is read.
+
+a: You will be ready when the end comes.
+b: Most people are halfway through a sentence.
+
+a: The dead watch over us.
+b: The dead are gone. We watch over what they left.
+
+a: Life flashes before your eyes at the end.
+b: More often there is a ceiling, a drip and a nurse checking the time.
+
+a: People die the way they lived.
+b: People die the way their illness decides. Character has little say.
+
+a: A long life is a full life.
+b: A long life is a long life. Fullness was never guaranteed by the years.
+
+a: You will be remembered forever.
+b: You will be remembered for about two generations, then you become a name.
+
+a: Dying people say profound last words.
+b: Dying people mostly ask for water, or for someone who is not there.
+
+a: Funerals are for the dead.
+b: Funerals are for the living, who need a date to start missing someone.
+
+a: We fear death because it is unknown.
+b: We fear it because it is certain, and we know exactly what it takes.
+
+tags: family
+
+a: Family will always be there for you.
+b: Family will be there when it suits them, and sometimes that is often.
+
+a: Parents love all their children equally.
+b: Parents love their children differently and spend years denying it.
+
+a: Home is where you are always welcome.
+b: Home is where you are welcome as the person you were at fifteen.
+
+a: Siblings grow closer with age.
+b: Siblings grow older. Closeness depends on who looked after the parents.
+
+a: Your parents did their best.
+b: Your parents did what they could with what they had. Sometimes that was little.
+
+a: Children will thank you one day.
+b: Children will understand you one day, usually when it no longer helps.
+
+a: Family secrets protect the family.
+b: Family secrets protect whoever did the thing.
+
+a: You owe your parents everything.
+b: You owe them honesty and care. Everything is a debt nobody can repay.
+
+a: A happy family is a peaceful one.
+b: Many peaceful families are only quiet ones.
+
+a: Blood relatives understand you best.
+b: Blood relatives remember you best. Understanding is a different skill.
+
+a: Grandparents never have favourites.
+b: Grandparents have favourites. They are just better at hiding it than parents.
+
+a: Family holidays are joyful.
+b: Family holidays are old arguments in new jumpers.
+
+a: Children inherit your values.
+b: Children inherit your habits. Values are what you hoped they would notice.
+
+tags: time
+
+a: There is always tomorrow.
+b: There is usually tomorrow. One day there will not be, and it will not warn you.
+
+a: Youth is wasted on the young.
+b: Time is wasted at every age. The young just have more of it to waste.
+
+a: You will have time when things calm down.
+b: Things do not calm down. You simply run out of things, or time.
+
+a: Time is money.
+b: Money can be earned back. Time is only ever spent.
+
+a: The years go slowly when you are young.
+b: The years go at the same speed. You just stop noticing them.
+
+a: Better late than never.
+b: Late is sometimes the same as never, only with an apology attached.
+
+a: You can make up for lost time.
+b: You can only use the time that is left. Lost time stays lost.
+
+a: Good things come to those who wait.
+b: Things come to those who wait. Whether they are good is luck.
+
+a: The past is behind you.
+b: The past is in the next room, and it has a key.
+
+a: You have your whole life ahead of you.
+b: You have an unknown amount of life ahead of you. Nobody has the whole of it.
+
+a: Slow down and the days will last longer.
+b: Days last exactly as long. Slowing down only means you notice them leaving.
+
+a: Some day you will do the things you love.
+b: Some day is not on any calendar.
+
+tags: work
+
+a: Do what you love and you will never work a day.
+b: Do what you love and you will work every day, often for less.
+
+a: Your company is like a family.
+b: Your company is a company. Families do not restructure you by email.
+
+a: Loyalty at work is rewarded.
+b: Loyalty at work is assumed. Leaving is what gets rewarded.
+
+a: Nobody is irreplaceable, so do not worry.
+b: Nobody is irreplaceable at work. At home, you are the only one there is.
+
+a: Hard work speaks for itself.
+b: Hard work is silent. Someone louder usually speaks over it.
+
+a: A promotion will make you happier.
+b: A promotion gives you more meetings and a better view of the next ladder.
+
+a: Passion is the key to success.
+b: Habit is the key. Passion leaves on the first boring Wednesday.
+
+a: Your career defines you.
+b: Your career occupies you. Retirement will show what was underneath.
+
+a: Busy means important.
+b: Busy often means unclear about what matters.
+
+a: Take the job for the experience.
+b: Experience does not pay the electricity bill.
+
+a: Talent rises to the top.
+b: Talent rises when someone with power happens to notice it.
+
+a: Your boss wants your honest opinion.
+b: Your boss wants an opinion close enough to theirs to feel honest.
+
+a: You will relax when you retire.
+b: Many people retire and discover they never learned how.
+
+tags: money
+
+a: Money cannot buy happiness.
+b: Money cannot buy happiness. It buys sleep, distance and fewer arguments.
+
+a: Save now and enjoy it later.
+b: Save some. Later arrives with bad knees and different wishes.
+
+a: Rich people are smarter.
+b: Rich people are often earlier, luckier, or born into the right house.
+
+a: Debt is a tool.
+b: Debt is a tool that rarely forgets who is holding the handle.
+
+a: Money changes people.
+b: Money reveals people. It removes the reasons they used to behave.
+
+a: Being broke builds character.
+b: Being broke builds fatigue. Character is what survives it, if anything does.
+
+a: If you are good with money, you will be fine.
+b: One illness can undo a decade of being good with money.
+
+a: Lending to friends is an act of kindness.
+b: Lending to friends is often a way to buy the end of the friendship.
+
+a: Money talks.
+b: Money mostly keeps quiet and lets everyone else rearrange around it.
+
+a: You will earn more as you get older.
+b: You will spend more as you get older. Earning is optional.
+
+a: Cheap is always a bargain.
+b: Cheap is often paid for twice.
+
+a: Money is just paper.
+b: Money is hours of your life, folded small.
+
+tags: friendship
+
+a: True friends stay forever.
+b: True friends stay for a season, sometimes a long one. Few stay for all of them.
+
+a: A friend in need is a friend indeed.
+b: A friend in need is often a friend you hear from only when they need.
+
+a: Real friends never drift apart.
+b: Real friends drift apart and call it being busy.
+
+a: Old friends know you best.
+b: Old friends know who you were. They may not have met who you are.
+
+a: Friends tell you the truth.
+b: Friends tell you the truth they think you can survive.
+
+a: You can never have too many friends.
+b: You can have too many friends to notice which ones are gone.
+
+a: Friendship is easier than love.
+b: Friendship has no vows, so it ends with even less ceremony.
+
+a: Good friends are always available.
+b: Good friends have jobs, children and parents of their own.
+
+a: Friends will understand if you cancel.
+b: Friends understand the first few times. Then they stop inviting you.
+
+a: Distance cannot break a real friendship.
+b: Distance does not break it. Silence does, slowly, by unanswered message.
+
+a: Childhood friends are for life.
+b: Childhood friends are for childhood. A few earn a second contract.
+
+a: You will make new friends anywhere.
+b: After thirty, new friends take years, schedules and real effort.
+
+a: A friend will always defend you.
+b: A friend will defend you when it costs them little.
+
+tags: truth
+
+a: Honesty is always the best policy.
+b: Honesty is the best policy for the honest. It is expensive for everyone else.
+
+a: The truth will set you free.
+b: The truth will set you free, after it has cost you a few people.
+
+a: Numbers do not lie.
+b: Numbers do not lie. The people choosing which numbers to show do.
+
+a: People want the truth.
+b: People want a truth they already agreed with.
+
+a: Lies always catch up with you.
+b: Some lies outrun everyone and get carved on a headstone.
+
+a: Children always tell the truth.
+b: Children tell the truth until they learn what it costs.
+
+a: You can tell when someone is lying.
+b: You can tell when a bad liar is lying. Good ones become your friends.
+
+a: Time reveals everything.
+b: Time reveals some things and buries most of the rest.
+
+a: Seeing is believing.
+b: Believing is seeing. We notice what we already expected.
+
+a: The facts speak for themselves.
+b: Facts never speak. Someone always speaks for them.
+
+a: A white lie hurts no one.
+b: A white lie hurts the person who now has to remember it.
+
+a: Confession clears the conscience.
+b: Confession clears your conscience by moving the weight onto someone else.
+
+tags: aging
+
+a: Age is just a number.
+b: Age is a number your knees, your eyes and your doctor all take seriously.
+
+a: You get wiser as you get older.
+b: You get older. Wisdom is optional, and many decline the offer.
+
+a: Life begins at forty.
+b: Life continues at forty, with more paperwork and fewer illusions.
+
+a: You are only as old as you feel.
+b: You are as old as your birth certificate. Feelings do not reset the body.
+
+a: Old people have earned respect.
+b: Old people have earned years. Respect is still earned the usual way.
+
+a: You stop caring what people think when you are older.
+b: You stop being noticed when you are older. It looks similar from outside.
+
+a: Older couples are content.
+b: Some older couples are content. Others are just too tired to leave.
+
+a: Getting old happens slowly.
+b: It happens slowly, and then on one particular morning, all at once.
+
+a: The elderly have nothing left to learn.
+b: The elderly are learning the hardest subject: how to lose everything gracefully.
+
+a: Your children will look after you.
+b: Your children will try, between their jobs, their children and their limits.
+
+a: Retirement is the golden years.
+b: Retirement is the years when the gold is spent on medication.
+
+a: You will feel grown up one day.
+b: Most people are still waiting for that feeling at their own retirement party.
+
+a: Grey hair brings dignity.
+b: Grey hair brings invisibility. Dignity is a separate purchase.
+
+tags: grief
+
+a: Grief has five neat stages.
+b: Grief has no stages. It has rooms, and it walks between them without asking.
+
+a: Keeping busy helps you heal.
+b: Keeping busy helps you postpone. The grief waits patiently in the car.
+
+a: After a year, you should be moving on.
+b: After a year, everyone else has moved on. That is not the same thing.
+
+a: Crying shows you have healed.
+b: Crying shows you are still carrying it. Healing is learning to lift it.
+
+a: Grief is the price of love.
+b: Grief is the price of love, and it arrives without an invoice date.
+
+a: People will support you through loss.
+b: People will support you for about three weeks. Then they expect you back.
+
+a: You never forget the ones you lose.
+b: You forget their voice first. That is its own grief.
+
+a: Grief makes you stronger.
+b: Grief makes you different. Strength is just what people call surviving it.
+
+a: Saying goodbye brings closure.
+b: Closure is a story we tell to make an open door look shut.
+
+a: Time makes the loss smaller.
+b: Time makes your life bigger around the loss. The loss stays its size.
+
+a: Grieving people want to be left alone.
+b: Grieving people want their person back. Everything else is a poor second.
+
+a: You will feel better after the funeral.
+b: The funeral is the last day anyone brings food.
+
+tags: self
+
+a: Just be yourself.
+b: Be yourself, and watch who quietly leaves. Then decide if it was worth it.
+
+a: You have to love yourself before anyone else can.
+b: Plenty of people are loved while hating themselves. It just costs more.
+
+a: You can find yourself by travelling.
+b: You will find yourself in the airport, the same as when you left.
+
+a: Confidence comes from within.
+b: Confidence mostly comes from having done the thing before.
+
+a: You know yourself better than anyone.
+b: You know your excuses better than anyone. Others see your patterns.
+
+a: Everyone has a purpose.
+b: Everyone has days. Purpose is what some of them are later called.
+
+a: Self-care will fix you.
+b: A bath fixes nothing that a hard conversation was meant to fix.
+
+a: You are the hero of your story.
+b: You are a minor character in most of the stories you appear in.
+
+a: Your feelings are always valid.
+b: Your feelings are real. Whether they are right is a separate question.
+
+a: Deep down, you are a good person.
+b: Good is what you do on an ordinary day when nobody is checking.
+
+a: Change comes from a single decision.
+b: Change comes from the same small decision made a thousand dull times.
+
+a: Your potential is unlimited.
+b: Your potential is limited by time, health, money and the hours you sleep.
+
+a: The real you is the best you.
+b: The real you is the one who shows up when tired. Plan for that one.
+
+tags: loneliness
+
+a: Lonely people are alone.
+b: The loneliest people are often in full houses.
+
+a: Marriage cures loneliness.
+b: Marriage can be the loneliest room you ever live in.
+
+a: Social media keeps us connected.
+b: Social media keeps us informed about people we no longer speak to.
+
+a: Being alone means being lonely.
+b: Being alone is a place. Being lonely is a condition. Many confuse the two.
+
+a: Loneliness is a problem of the old.
+b: Loneliness has no age. The young just have more screens to hide it behind.
+
+a: A busy social life means you are loved.
+b: A busy social life means you are invited. Love is who visits when you are ill.
+
+a: Someone will notice if you go quiet.
+b: Most people notice weeks later, if at all, and then they feel bad briefly.
+
+a: Loneliness is temporary.
+b: Loneliness is temporary until it becomes your personality.
+
+a: You can always call someone.
+b: You can. Then you look at the list and realise who would actually pick up.
+
+a: Strong people do not get lonely.
+b: Strong people get lonely and tell no one. That is part of why.
+
+a: A pet fills the empty house.
+b: A pet fills the house with a heartbeat. The silence still talks back.
+
+a: Cities are full of company.
+b: Cities are full of people. Company is a much smaller number.
+
+tags: fear
+
+a: Courage is the absence of fear.
+b: Courage is fear that got tired of waiting and went anyway.
+
+a: Face your fears and they disappear.
+b: Face your fears and they shrink a little. Most stay to watch.
+
+a: What you fear most rarely happens.
+b: What you fear most rarely happens. Something you never imagined does instead.
+
+a: Fear keeps you safe.
+b: Fear keeps you still. Still is not the same as safe.
+
+a: Brave people are not afraid.
+b: Brave people are afraid on schedule, and show up regardless.
+
+a: You will grow out of your fears.
+b: You will trade them. Spiders for scans, the dark for the phone at night.
+
+a: Worrying prepares you for the worst.
+b: Worrying lets you suffer the worst twice, once in advance.
+
+a: There is nothing to fear but fear itself.
+b: There is illness, poverty and loss. Fear is just the one we can see coming.
+
+a: Playing it safe protects your future.
+b: Playing it safe protects your present. Your future pays the bill.
+
+a: Anxiety is a sign of weakness.
+b: Anxiety is a sign the mind is working too hard on the wrong problem.
+
+a: Fearless people achieve more.
+b: Fearless people often achieve injuries. Careful people achieve old age.
+
+a: Once you leave, the fear goes.
+b: Once you leave, the fear changes address.
+
+a: Fear of failure stops you trying.
+b: Fear of being seen failing stops you. Failing alone, people try all day.
+
+tags: society
+
+a: Hard work lifts anyone out of poverty.
+b: Hard work helps. Where you were born helps far more.
+
+a: The system is fair if you follow the rules.
+b: The rules were written by people who already won.
+
+a: People are basically kind.
+b: People are basically busy. Kindness happens when it fits the schedule.
+
+a: The crowd knows best.
+b: The crowd knows what is popular. Best is rarely put to a vote.
+
+a: Everyone gets what they deserve.
+b: Everyone gets what happens. Deserving is a story told afterwards.
+
+a: Success means you made good choices.
+b: Success means your choices met good timing. Many good choices met bad timing.
+
+a: Things were better in the old days.
+b: Things were different in the old days. You were also younger.
+
+a: The news tells you what matters.
+b: The news tells you what sells. What matters is usually quieter.
+
+a: People follow leaders they respect.
+b: People follow leaders who make them feel safe, respected or not.
+
+a: Respect comes with a title.
+b: A title buys obedience. Respect is paid in a different currency.
+
+a: The public remembers.
+b: The public forgets by next month. Only the affected remember.
+
+a: Kindness is always repaid.
+b: Kindness is sometimes repaid. Do it anyway, but do not keep a ledger.
+
+tags: memory
+
+a: Memories last forever.
+b: Memories are rewritten every time you visit them. Few survive the editing.
+
+a: You will never forget this day.
+b: You will forget most of it by next year. A photograph will remember for you.
+
+a: Photos preserve the moment.
+b: Photos preserve the pose. The moment happened just outside the frame.
+
+a: The good old days were good.
+b: The good old days were ordinary days that you survived and then softened.
+
+a: Your memory is reliable.
+b: Your memory is a lawyer. It argues your side.
+
+a: You remember what matters most.
+b: You remember what hurt most, and a song from the wrong year.
+
+a: Childhood memories are the clearest.
+b: Childhood memories are the most retold. Retold is not the same as clear.
+
+a: The dead live on in our memories.
+b: The dead fade in our memories, a little each year, against our wishes.
+
+a: Writing it down means you will remember.
+b: Writing it down means someone may find it after you have forgotten.
+
+a: Nostalgia is harmless.
+b: Nostalgia is a pleasant way of refusing the present.
+
+a: Forgiving means forgetting.
+b: Forgiving means remembering and choosing not to collect.
+
+a: You always remember your first love.
+b: You remember how you felt. Their face goes blurry sooner than you think.
+
+tags: home, city
+
+a: You can always go home again.
+b: You can go back to the address. Home moved on without you.
+
+a: Home is where the heart is.
+b: Home is where the bills are sent.
+
+a: The city never sleeps.
+b: The city never sleeps because half of it is working the night shift.
+
+a: Moving to a big city changes your life.
+b: Moving to a big city changes your rent. Your life follows its own pace.
+
+a: Neighbours look out for each other.
+b: Neighbours look out of windows. Looking out for each other is rarer.
+
+a: Owning a house brings security.
+b: Owning a house brings a mortgage, a roof that leaks and a reason to stay.
+
+a: The village is simpler than the city.
+b: The village has the same troubles, only everyone knows your name.
+
+a: Your childhood home will always be there.
+b: Someone else's children are sleeping in your old room.
+
+a: A bigger house makes a happier family.
+b: A bigger house just gives an unhappy family more rooms to avoid each other.
+
+a: Everyone dreams of leaving the city.
+b: Everyone dreams of leaving the city. Few can afford the quiet.
+
+a: City people are cold.
+b: City people are tired. Cold is what tired looks like on a crowded matatu.
+
+a: Home is a feeling of safety.
+b: For many, home is the place they had to leave to feel safe.
+
+a: You belong where you were born.
+b: You belong where someone would notice you were missing.
+

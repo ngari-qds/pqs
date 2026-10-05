@@ -1,0 +1,636 @@
+// Fred M | 1963ke · Pull quote — 200 quotes.
+
+@pull-quote+
+tags: love
+
+text: Love is rarely lost. It is misplaced, a little at a time, under the weight of ordinary days.
+source: Notebook, 2026
+
+text: We do not fall in love with people. We fall in love with the hours they make bearable.
+source: Letters, 2025
+
+text: The first kiss is remembered. The ten-thousandth is the one that actually meant something.
+source: Unsent, 2026
+
+text: Some people love you the way weather loves a field. Completely, briefly, without asking.
+source: Field notes, 2026
+
+text: Every love story is also an inventory of what each person was willing to give up.
+source: Notebook, 2025
+
+text: Love is not the absence of doubt. It is staying in the room while the doubt talks.
+source: Letters, 2026
+
+text: The ones who love you best are often the ones who have stopped telling you so.
+source: Kitchen notes, 2026
+
+text: Nobody is the love of your life. There are only people who were present while you were living it.
+source: Unsent, 2025
+
+text: Love asks for very little at the start and everything by the end. That is the arrangement.
+source: Notebook, 2026
+
+text: Desire wants the person. Love wants the person to be all right, even somewhere else.
+source: Letters, 2025
+
+text: We call it heartbreak, but the heart keeps beating. It is the plans that break.
+source: Field notes, 2025
+
+text: Most love is spoken in the passive voice. Dishes were washed. The car was filled. You were kept.
+source: Notebook, 2026
+
+tags: relationships
+
+text: Two people can share a house for thirty years and still argue about where the scissors live.
+source: Kitchen notes, 2026
+
+text: Every couple has one fight they have been having, in different costumes, since the beginning.
+source: Notebook, 2025
+
+text: Relationships end the way paint dries: slowly, then all at once, and nobody watches it happen.
+source: Field notes, 2026
+
+text: You cannot be someone's whole world. Worlds are too heavy for one person to carry.
+source: Letters, 2026
+
+text: The quiet after an argument tells you more than the argument did.
+source: Unsent, 2026
+
+text: Not everyone who stays is loyal. Some are simply afraid of the paperwork.
+source: Notebook, 2026
+
+text: We teach people how to treat us, mostly by what we let slide the first time.
+source: Letters, 2025
+
+text: There is a moment in every ending when one person is already gone and the other is still making dinner for two.
+source: Unsent, 2025
+
+text: The person you choose is a decision about which problems you are willing to have for life.
+source: Notebook, 2026
+
+text: Respect leaves before love does. Love just takes longer to notice the door is open.
+source: Field notes, 2026
+
+text: Apologies have a shelf life. After a while they are only souvenirs.
+source: Letters, 2026
+
+text: You never really know someone. You know their habits, and you hope the habits hold.
+source: Notebook, 2025
+
+tags: family
+
+text: Every family is a small country with its own laws, its own exiles and its own official history.
+source: Notebook, 2026
+
+text: Our parents gave us what they had. The trouble is that it included what they never dealt with.
+source: Letters, 2026
+
+text: The dinner table is where families learn what not to say.
+source: Kitchen notes, 2025
+
+text: Children grow up and leave. Parents grow old and stay, in rooms that slowly fill with silence.
+source: Field notes, 2026
+
+text: You become your mother in the small moments: the sigh, the folding of towels, the worry at the window.
+source: Unsent, 2026
+
+text: Blood is thicker than water, and it clots in the same places for generations.
+source: Notebook, 2025
+
+text: Family is the first place you learn that love and fairness are not the same thing.
+source: Letters, 2025
+
+text: We forgive our parents eventually, usually around the time our children start forgiving us.
+source: Notebook, 2026
+
+text: Every house holds a drawer of things nobody can throw away and nobody can explain.
+source: Kitchen notes, 2026
+
+text: The child you were is still waiting for an apology your parents do not know they owe.
+source: Unsent, 2025
+
+text: Grandparents are proof that people can soften. Parents are proof that it takes a long time.
+source: Field notes, 2025
+
+text: There is no such thing as a family secret. Only a story everybody agreed to whisper.
+source: Notebook, 2026
+
+text: The last thing a parent teaches you is how to be without them.
+source: Letters, 2026
+
+tags: friendship
+
+text: Old friends are the ones who can tell you are lying by the way you stir your tea.
+source: Notebook, 2025
+
+text: Friendship is the only love that needs no ceremony to begin and none to end.
+source: Letters, 2026
+
+text: Most friendships do not die. They are simply left in another city with the furniture.
+source: Field notes, 2026
+
+text: A friend is someone who keeps your secrets even after you have stopped being friends.
+source: Unsent, 2026
+
+text: We outgrow people the way children outgrow shoes: suddenly, and with a little pain in the walking.
+source: Notebook, 2026
+
+text: The friends who matter are rarely the ones in the photographs. They were holding the camera.
+source: Field notes, 2025
+
+text: You learn who your friends are when you have nothing to offer them but company.
+source: Letters, 2025
+
+text: Some friendships last a lifetime because nobody ever tests them.
+source: Notebook, 2026
+
+text: Friendship is an agreement to be disappointed by someone and keep inviting them anyway.
+source: Kitchen notes, 2026
+
+text: The friend who drifted away still knows the name of your first dog. That counts for something.
+source: Unsent, 2025
+
+text: Adults make friends the way they make savings: slowly, reluctantly, and usually too late.
+source: Notebook, 2025
+
+text: Distance does not end friendships. Silence does, one unanswered message at a time.
+source: Letters, 2026
+
+text: Every friendship carries one conversation that both people have quietly decided never to have.
+source: Field notes, 2026
+
+tags: work
+
+text: A career is a long negotiation over how much of your life you are prepared to rent out.
+source: Notebook, 2026
+
+text: The office remembers your mistakes and forgets your weekends.
+source: Field notes, 2026
+
+text: Most people do not hate their work. They hate who they have to become to keep doing it.
+source: Letters, 2025
+
+text: Work will take everything you offer and then ask, kindly, whether you could offer a little more.
+source: Notebook, 2025
+
+text: Retirement parties are short because there is so little to say about forty years of being reliable.
+source: Field notes, 2025
+
+text: The job title is printed on the card. The cost is printed on the face.
+source: Unsent, 2026
+
+text: You are paid for your time, but you are never paid for the evenings you spend thinking about it.
+source: Notebook, 2026
+
+text: Ambition is a ladder leaning against a wall nobody bothered to check.
+source: Letters, 2026
+
+text: The most honest line in any contract is the notice period.
+source: Notebook, 2026
+
+text: Hard work is not always rewarded. Sometimes it is simply expected, and then increased.
+source: Field notes, 2026
+
+text: We build our lives around jobs that would not attend our funerals.
+source: Unsent, 2025
+
+text: Every inbox is a list of other people's priorities wearing your name.
+source: Notebook, 2025
+
+text: The meeting could have been an email. The career could have been a life.
+source: Field notes, 2026
+
+tags: money
+
+text: Money is a quiet language. Everyone speaks it, and almost nobody admits they are fluent.
+source: Notebook, 2026
+
+text: The poor worry about money every day. The rich worry about it only when someone else wants some.
+source: Letters, 2025
+
+text: A budget is a letter to your future self. Most of us leave it unwritten.
+source: Kitchen notes, 2026
+
+text: Money cannot buy love, but its absence can certainly wear it down.
+source: Notebook, 2025
+
+text: Every purchase is a small vote for the person you think you might become.
+source: Field notes, 2026
+
+text: Wealth is mostly time that someone else spent for you, at a lower rate.
+source: Notebook, 2026
+
+text: The cheapest thing in the world is advice about money from someone who inherited it.
+source: Unsent, 2026
+
+text: Debt is a story you tell about tomorrow, and tomorrow always reads it back to you.
+source: Letters, 2026
+
+text: Nobody is ever rich enough to stop counting. They just count bigger numbers.
+source: Notebook, 2025
+
+text: The price tag tells you what something costs. The receipt tells you what it cost you.
+source: Field notes, 2025
+
+text: Money arrives as relief and leaves as habit.
+source: Notebook, 2026
+
+text: A wallet is a diary nobody else is allowed to read.
+source: Kitchen notes, 2025
+
+text: Most people would rather look comfortable than be comfortable. It costs a great deal more.
+source: Letters, 2026
+
+tags: time
+
+text: Time does not pass. We pass through it, like strangers through a station.
+source: Field notes, 2026
+
+text: The past is finished, the future is guesswork, and the present keeps checking its phone.
+source: Notebook, 2026
+
+text: Every clock is a small reminder that nothing is waiting for you.
+source: Unsent, 2026
+
+text: We measure our lives in years and spend them in minutes we do not notice.
+source: Letters, 2025
+
+text: Later is a country with no visitors. Everyone means to go and nobody arrives.
+source: Notebook, 2025
+
+text: The hours you waste are not lost. They are simply spent on something you will never get to choose again.
+source: Field notes, 2025
+
+text: Time is generous with the young and suddenly strict with everyone else.
+source: Notebook, 2026
+
+text: You do not notice time passing. You notice it has passed, in a photograph or a child's height.
+source: Kitchen notes, 2026
+
+text: A decade is long enough to change everything and short enough to feel like a weekend.
+source: Letters, 2026
+
+text: Patience is the polite name we give to time we could not avoid losing.
+source: Notebook, 2026
+
+text: Nobody has ever saved time. It is spent either way, whether or not you notice the bill.
+source: Unsent, 2025
+
+text: The calendar is a map of where you said you would be, not where you actually were.
+source: Field notes, 2026
+
+tags: aging
+
+text: Ageing is the slow discovery that you were never going to be the exception.
+source: Notebook, 2026
+
+text: The body keeps an honest record. The face simply publishes the highlights.
+source: Field notes, 2025
+
+text: Old age is a room where every chair once belonged to someone you knew.
+source: Letters, 2026
+
+text: You stop being young not when your hair goes grey but when you stop expecting to be surprised.
+source: Notebook, 2025
+
+text: The elderly are not slow. They have simply stopped hurrying towards things that turned out not to matter.
+source: Field notes, 2026
+
+text: Every wrinkle is a fold in a map of places you can no longer return to.
+source: Unsent, 2026
+
+text: Youth spends its health to earn money. Age spends its money trying to buy the health back.
+source: Notebook, 2026
+
+text: The young envy the old for their certainty. The old envy the young for their knees.
+source: Kitchen notes, 2026
+
+text: Growing old is attending more funerals and fewer weddings, and learning which shoes suit both.
+source: Letters, 2025
+
+text: We age the way houses settle, a little crooked, with doors that no longer quite close.
+source: Notebook, 2026
+
+text: Nobody feels old on the inside. That is the joke, and the body is the punchline.
+source: Field notes, 2026
+
+text: The older you get, the shorter the list of people who remember you as a child.
+source: Unsent, 2025
+
+tags: death
+
+text: Death is not the opposite of life. It is the deadline that gives life its shape.
+source: Notebook, 2026
+
+text: The dead leave behind a coat on the hook and a question nobody wants to answer: what now?
+source: Field notes, 2026
+
+text: Every obituary is a life compressed into the space between two advertisements.
+source: Notebook, 2025
+
+text: We bury the dead and then spend years digging them up in conversation.
+source: Letters, 2026
+
+text: Death is democratic. It does not check your diary, your bank balance or your plans for spring.
+source: Field notes, 2025
+
+text: The hardest thing about death is how ordinary the morning after looks.
+source: Unsent, 2026
+
+text: Nobody dies with their inbox empty.
+source: Notebook, 2026
+
+text: A funeral is the last party you are invited to and the only one you cannot leave early.
+source: Notebook, 2025
+
+text: Death takes the person and leaves the paperwork, which is its own kind of cruelty.
+source: Letters, 2025
+
+text: The graveyard is the only neighbourhood where nobody complains about the noise.
+source: Field notes, 2026
+
+text: We are all on the list. Only the order is a mystery.
+source: Unsent, 2025
+
+text: Death does not take everything. It leaves the voicemails, and that is somehow worse.
+source: Notebook, 2026
+
+text: The candle burns the same whether or not anyone is watching. So do we.
+source: Field notes, 2025
+
+tags: grief
+
+text: Grief is the shape love takes when it has lost its address.
+source: Notebook, 2026
+
+text: Mourning ends in public long before it ends in private.
+source: Letters, 2026
+
+text: The empty chair at the table is louder than anyone who sits at it.
+source: Kitchen notes, 2026
+
+text: Grief does not leave. It moves to a smaller room and visits on birthdays.
+source: Unsent, 2026
+
+text: Nobody tells you that grief is boring. Long afternoons of the same ache, with nothing to do about it.
+source: Field notes, 2025
+
+text: You keep their number in your phone because deleting it would be a second funeral.
+source: Notebook, 2025
+
+text: The world sends flowers once. The absence keeps arriving every morning.
+source: Letters, 2025
+
+text: Grief is not a wound that closes. It is a limp you learn to walk with.
+source: Notebook, 2026
+
+text: The worst part of losing someone is the day you realise you have not thought of them since breakfast.
+source: Unsent, 2025
+
+text: We grieve not only who they were but who we were when they were here.
+source: Field notes, 2026
+
+text: Sympathy cards say the same six things. Grief says one thing, over and over, in silence.
+source: Notebook, 2026
+
+text: You do not get over it. You get used to it, which is quieter and lasts longer.
+source: Letters, 2026
+
+tags: truth
+
+text: The truth does not arrive. It waits, patiently, for you to run out of other options.
+source: Notebook, 2026
+
+text: Most of what we call wisdom is just truth we accepted too late to use.
+source: Field notes, 2026
+
+text: A lie needs constant care. The truth can be left alone for years and still be true.
+source: Letters, 2025
+
+text: Honesty is not a gift you give others. It is a debt you owe yourself.
+source: Notebook, 2025
+
+text: People say the truth sets you free. They rarely mention the cost of the freedom.
+source: Unsent, 2026
+
+text: The truth is usually simple. It is the excuses that need diagrams.
+source: Notebook, 2026
+
+text: We believe what we can afford to believe.
+source: Field notes, 2025
+
+text: Every story has three versions: yours, theirs, and the one nobody wants to hear.
+source: Letters, 2026
+
+text: Denial is a comfortable room with no windows. People live there for decades.
+source: Notebook, 2026
+
+text: The truth is not cruel. It is just uninterested in how you feel about it.
+source: Field notes, 2026
+
+text: When nobody asks a question, it is usually because everyone already knows the answer.
+source: Unsent, 2025
+
+text: You can bend the truth for years. Eventually it straightens, usually at the worst moment.
+source: Notebook, 2025
+
+tags: self
+
+text: Most of us are strangers to ourselves, introduced occasionally by a crisis.
+source: Notebook, 2026
+
+text: You are not who you say you are. You are what you do when nobody is keeping score.
+source: Letters, 2026
+
+text: The self is a rumour we keep spreading about ourselves until it sounds true.
+source: Field notes, 2026
+
+text: Most people spend their lives defending a self they never actually chose.
+source: Unsent, 2026
+
+text: Character is mostly what you do on the days you have no energy left to be good.
+source: Notebook, 2025
+
+text: We carry our childhoods like luggage, convinced the weight is part of our body.
+source: Letters, 2025
+
+text: Self-knowledge is a mirror in a cold room. Few people stand in front of it for long.
+source: Notebook, 2026
+
+text: You become what you repeat, not what you intend.
+source: Field notes, 2025
+
+text: The person you are avoiding becoming is usually the person you are already practising to be.
+source: Notebook, 2026
+
+text: Your regrets know you better than your achievements do.
+source: Unsent, 2025
+
+text: There is no finding yourself. There is only deciding, and then living with the decision.
+source: Letters, 2026
+
+text: We are kinder to strangers than to the person we see in the bathroom mirror each morning.
+source: Notebook, 2026
+
+text: The self you show the world is a draft. The one you hide is the final copy.
+source: Field notes, 2026
+
+tags: society
+
+text: Society is a set of agreements nobody remembers signing and everyone is punished for breaking.
+source: Notebook, 2026
+
+text: The crowd forgives quickly and forgets even faster. That is not mercy. It is a short attention span.
+source: Field notes, 2026
+
+text: Every system works perfectly for the people who designed it.
+source: Letters, 2025
+
+text: We mistake noise for progress because both are loud and both keep us busy.
+source: Notebook, 2025
+
+text: Manners are how a society hides what it actually thinks of you.
+source: Unsent, 2026
+
+text: The public square has become a stage where everyone performs and nobody is in the audience.
+source: Notebook, 2026
+
+text: Nobody rebels against the rules that benefit them.
+source: Field notes, 2025
+
+text: A city of millions can agree on almost nothing except that someone else should fix it.
+source: Letters, 2026
+
+text: Fame is being misunderstood by more people at once.
+source: Notebook, 2026
+
+text: Every age believes it is the one that finally sees clearly. Every age is mostly wrong.
+source: Field notes, 2026
+
+tags: loneliness
+
+text: Loneliness is a quiet tenant. It pays no rent and never misses a night.
+source: Notebook, 2026
+
+text: You can be surrounded by voices and still be the only person speaking your language.
+source: Letters, 2025
+
+text: The loneliest people are often the most helpful, because helping is the only invitation they get.
+source: Field notes, 2026
+
+text: An empty flat at night is honest about how many people are thinking of you.
+source: Unsent, 2026
+
+text: Loneliness is not a lack of people. It is a lack of being known by any of them.
+source: Notebook, 2025
+
+text: Some people talk to the television so the silence does not win the evening.
+source: Kitchen notes, 2026
+
+text: We are more connected than ever and lonelier in more convenient ways.
+source: Letters, 2026
+
+text: The phone lights up all day and none of it is for you.
+source: Notebook, 2026
+
+text: Solitude is a room you choose. Loneliness is the same room with the door locked from outside.
+source: Field notes, 2025
+
+text: The lonely do not need advice. They need someone to stay after the advice runs out.
+source: Unsent, 2025
+
+tags: fear
+
+text: Fear is the most persuasive voice you will ever hear, and it always sounds like common sense.
+source: Notebook, 2026
+
+text: Most of what we fear never happens. The rest happens anyway, whether or not we worried first.
+source: Field notes, 2026
+
+text: We call it being careful. Usually it is being afraid in sensible shoes.
+source: Letters, 2026
+
+text: Fear builds walls and then complains that nobody visits.
+source: Notebook, 2025
+
+text: The bravest people are not fearless. They are tired of letting fear make the decisions.
+source: Unsent, 2026
+
+text: Fear of the unknown is mostly fear of losing the familiar, however bad the familiar is.
+source: Notebook, 2026
+
+text: The monster under the bed grows up into the mortgage, the diagnosis and the phone call at night.
+source: Field notes, 2025
+
+text: Anxiety is rehearsing a disaster for an audience that never arrives.
+source: Letters, 2025
+
+text: Fear keeps you alive and keeps you small. It rarely tells you which it is doing.
+source: Notebook, 2026
+
+text: Courage is not a feeling. It is a decision made while the feeling is still shouting.
+source: Field notes, 2026
+
+tags: memory
+
+text: Memory is a house we keep renovating, and every room looks a little better than it was.
+source: Notebook, 2026
+
+text: We remember the smell of a kitchen long after we have forgotten the face of the cook.
+source: Kitchen notes, 2025
+
+text: The past is not behind you. It is underneath you, holding up most of what you stand on.
+source: Letters, 2026
+
+text: Old photographs lie politely. Everyone is smiling, and nobody mentions what happened that evening.
+source: Field notes, 2026
+
+text: Forgetting is a mercy that arrives without being asked for and leaves without saying goodbye.
+source: Notebook, 2025
+
+text: We are the last place some people still exist. When we forget, they finish dying.
+source: Unsent, 2026
+
+text: Nostalgia is grief with the edges sanded down.
+source: Notebook, 2026
+
+text: A memory is not a record of what happened. It is a record of what you needed to believe.
+source: Letters, 2025
+
+text: Some memories are kept like jewellery. Others are kept like splinters.
+source: Field notes, 2025
+
+text: The mind keeps the wrong things: a stranger's coat, a song in a shop, and none of the important words.
+source: Notebook, 2026
+
+tags: city
+
+text: Nairobi does not sleep. It just lowers its voice between two and five in the morning.
+source: Field notes, 2026
+
+text: Every city is built on the shoulders of people who will never afford to live in it.
+source: Notebook, 2026
+
+text: The matatu is a moving parliament where nobody votes and everyone has an opinion.
+source: Field notes, 2025
+
+text: Home is not where you were born. It is where someone notices when your light stays off.
+source: Letters, 2026
+
+text: Cities promise anonymity and then charge you for it every month.
+source: Notebook, 2025
+
+text: You leave your hometown to become someone. You return to find it remembers you as someone else.
+source: Unsent, 2026
+
+text: The city at night is a thousand lit windows, each one certain it is the only one awake.
+source: Field notes, 2026
+
+text: Streets remember nothing. People walk the same pavements for years and leave no mark.
+source: Notebook, 2026
+
+text: A house becomes a home slowly and stops being one overnight.
+source: Kitchen notes, 2026
+
+text: Every city has a corner where someone you loved used to wait for you. It is just a corner now.
+source: Letters, 2025

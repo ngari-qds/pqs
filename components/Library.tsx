@@ -22,7 +22,7 @@ interface Props {
   /** Imports a bundled collection ("all", "sampler" or a format id); resolves to a summary. */
   onImportCollection: (id: string) => Promise<string>;
   /** Imports uploaded files; resolves to a summary. */
-  onImportFiles: (files: FileList) => Promise<string>;
+  onImportFiles: (files: File[]) => Promise<string>;
   onClearHistory: () => void;
 }
 
@@ -129,8 +129,8 @@ export default function Library(props: Props) {
                 className="hidden"
                 aria-label="Import quote files"
                 onChange={(e) => {
-                  const files = e.target.files;
-                  if (files?.length) run(() => props.onImportFiles(files));
+                  const files = Array.from(e.target.files ?? []);
+                  if (files.length) run(() => props.onImportFiles(files));
                   e.target.value = "";
                 }}
               />

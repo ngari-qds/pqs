@@ -1,0 +1,635 @@
+// Fred M | 1963ke · Then / Now — 200 quotes.
+
+@then-now+
+tags: love
+
+a: I wanted someone who would make me feel alive.
+b: I want someone who will make the appointment when I am too sick to.
+
+a: I thought love was a feeling.
+b: I know it is a schedule, kept by two tired people.
+
+a: I wanted grand gestures.
+b: I want the bin taken out without a speech.
+
+a: I believed love would fix the hard parts.
+b: Love just made the hard parts harder to walk away from.
+
+a: I looked for fireworks.
+b: I look for someone who stays after the smoke clears.
+
+a: I thought jealousy meant they cared.
+b: I know it meant they were afraid, and I paid for it.
+
+a: I wanted to be someone's whole world.
+b: I want to be one good part of a full life.
+
+a: I thought we would talk every night forever.
+b: Comfortable silence turned out to be the better promise.
+
+a: I counted how many times they said I love you.
+b: I count how many times they showed up.
+
+a: I thought a broken heart would kill me.
+b: It did not. It just made me careful, which is a smaller death.
+
+a: I believed the right person would never hurt me.
+b: The right person hurt me and stayed to help fix it.
+
+a: I wanted passion.
+b: I want peace, and someone who knows how I take my tea.
+
+a: I thought I would marry for love alone.
+b: I would also check how they treat waiters and money.
+
+tags: family
+
+a: I thought my father was unbreakable.
+b: I have held his arm on the stairs.
+
+a: I wanted to be nothing like my mother.
+b: I hear her voice when I tell my children to wear a jacket.
+
+a: I counted the days until I could leave home.
+b: I count the visits left.
+
+a: I thought my parents were too strict.
+b: They were frightened, and they had no one to ask.
+
+a: I blamed my family for everything.
+b: I see they were handed the same broken tools.
+
+a: I thought my siblings would always be close by.
+b: We meet at weddings, funerals and in the family group chat.
+
+a: I wanted my parents to apologise.
+b: I want them to stay alive long enough to forget what for.
+
+a: I rolled my eyes at family dinners.
+b: I would give a year's salary for one more with everyone there.
+
+a: I thought I would raise my children differently.
+b: I raise them differently, and they will still have their list.
+
+a: I thought grandmother would always be there to visit.
+b: Her house has new curtains and strangers in the doorway.
+
+a: I wanted my father's approval.
+b: I want to stop needing it before he dies.
+
+a: I believed family meant blood.
+b: Family means who drove to the hospital at three in the morning.
+
+tags: death
+
+a: I thought death happened to other families.
+b: It happened to mine on a Thursday, between errands.
+
+a: I believed I would have time to say everything.
+b: The last thing I said was about the traffic.
+
+a: I thought funerals were for old people.
+b: I have buried people younger than I am now.
+
+a: I avoided talking about death.
+b: I have written my wishes down and told someone where the file is.
+
+a: I thought dying would be dramatic.
+b: It was beeping machines, forms and a nurse asking about next of kin.
+
+a: I wanted to live forever.
+b: I want to leave with my affairs in order and my debts paid.
+
+a: I thought the dead stayed with us.
+b: They leave slowly, one forgotten detail at a time.
+
+a: I feared death.
+b: I fear a long, slow illness more.
+
+a: I thought there would be warning signs.
+b: There was a cough nobody took seriously.
+
+a: I believed I would be brave at the end.
+b: I hope only to be clear-headed and not in pain.
+
+a: I kept the dead person's number in my phone for comfort.
+b: I keep it because deleting it feels like a second burial.
+
+a: I thought I would cry at every funeral.
+b: I mostly check whether the family has eaten.
+
+tags: time
+
+a: I wanted the weekends to come faster.
+b: I want the weeks to stop passing so fast.
+
+a: I thought I had decades for my dreams.
+b: I have a few years and a long list to cut.
+
+a: I wished my birthday would hurry up.
+b: I quietly hope people forget it.
+
+a: I wasted afternoons because there were so many.
+b: I protect them now like money.
+
+a: I thought five years was a long time.
+b: Five years is two jobs, one move and a funeral.
+
+a: I planned my life in decades.
+b: I plan it in seasons and hope for the next one.
+
+a: I thought I would always have later.
+b: Later turned into never while I was busy.
+
+a: I hated waiting.
+b: I know waiting was often the only time I had to think.
+
+a: I measured time in school terms.
+b: I measure it in my parents' health.
+
+a: I thought the past was finished.
+b: The past keeps sending invoices.
+
+a: I believed I would slow down when I was older.
+b: Time sped up instead, and slowing down became a luxury.
+
+a: I wanted to be grown up already.
+b: I want an afternoon with nothing required of me.
+
+a: I thought one bad year would ruin everything.
+b: One bad year is a chapter, and the book keeps going.
+
+tags: work
+
+a: I wanted a job that defined me.
+b: I want a job that ends at five.
+
+a: I thought my boss noticed my hard work.
+b: My boss noticed when I was late.
+
+a: I stayed late to prove I was committed.
+b: I leave on time and nobody has died.
+
+a: I believed the company would look after me.
+b: The company sent a short email and a box for my things.
+
+a: I wanted a title.
+b: I want time, and a title cannot give me that.
+
+a: I thought passion would carry me.
+b: Discipline carried me. Passion left in the second year.
+
+a: I wanted to change the world through my work.
+b: I want to do good work and get home before dark.
+
+a: I answered every email immediately.
+b: Most emails answer themselves if left for a day.
+
+a: I thought colleagues were friends.
+b: They were friendly. That is a different contract.
+
+a: I believed I would retire early.
+b: I hope to retire at all.
+
+a: I worked weekends to get ahead.
+b: I got ahead of nothing but my own health.
+
+a: I feared being replaced.
+b: I know I will be, within a month, and that is freeing.
+
+tags: money
+
+a: I thought being rich meant a big car.
+b: Being rich means not checking the price at the chemist.
+
+a: I spent money to look successful.
+b: I save money to stay calm.
+
+a: I believed I would earn my way out of worry.
+b: The worry grew with the salary.
+
+a: I lent money to anyone who asked.
+b: I lend only what I can afford never to see again.
+
+a: I thought money did not matter.
+b: I said that when someone else was paying.
+
+a: I wanted designer things.
+b: I want an emergency fund and good shoes.
+
+a: I thought savings were for old people.
+b: I am the old person now, and I wish I had listened.
+
+a: I envied people with money.
+b: I have seen what some of them trade for it.
+
+a: I thought one big payday would fix everything.
+b: The big payday fixed the car. Everything else stayed.
+
+a: I measured success in salary.
+b: I measure it in how well I sleep.
+
+a: I hid my money troubles from everyone.
+b: I talk about them now, and learned half my friends had the same.
+
+a: I wanted to give my children everything.
+b: I want to give them enough, and the knowledge of what enough is.
+
+a: I spent on nights out.
+b: I spend on medical cover.
+
+tags: friendship
+
+a: I had a best friend for every year of school.
+b: I have one old friend and we talk twice a year.
+
+a: I thought friendship needed no effort.
+b: Every friendship I kept was one I worked at.
+
+a: I wanted to be popular.
+b: I want to be known by a few, and that is plenty.
+
+a: I kept every friend from my youth.
+b: Most left quietly, and so did I.
+
+a: I believed friends would always call back.
+b: I learned whose silence meant goodbye.
+
+a: I told my friends everything.
+b: I tell them what they can carry.
+
+a: I thought falling out was the end.
+b: Drifting apart ends more friendships than any fight.
+
+a: I judged friends by how much fun they were.
+b: I judge them by who came to the hospital.
+
+a: I wanted a big circle.
+b: I want a short list of names I trust with a key.
+
+a: I thought we would grow old together, the whole group.
+b: Two have died and three moved abroad.
+
+a: I waited for friends to reach out.
+b: I reach out first, and stopped counting who called last.
+
+a: I collected acquaintances.
+b: I keep friends.
+
+tags: truth
+
+a: I thought honesty would make people respect me.
+b: Honesty made some people leave. The ones who stayed respected me.
+
+a: I believed what people told me.
+b: I believe what they keep doing.
+
+a: I wanted to win every argument.
+b: I want to be right with fewer people watching.
+
+a: I thought lies were rare.
+b: Small lies run most of everyday life.
+
+a: I believed the truth would always come out.
+b: Some of it went into the ground with the people who knew.
+
+a: I said whatever I thought.
+b: I say less and mean all of it.
+
+a: I trusted official stories.
+b: I read the footnotes now.
+
+a: I thought my memory was the truth.
+b: My memory is my version, and it flatters me.
+
+a: I believed people when they said they had changed.
+b: I wait a year and watch.
+
+a: I wanted to hear the truth from everyone.
+b: I learned most people prefer to tell you what you want.
+
+a: I hid the truth to keep the peace.
+b: The peace was fake, and it cost more later.
+
+a: I thought there was one truth.
+b: There are facts, and there are a dozen stories about them.
+
+a: I needed everyone to see things my way.
+b: I let them be wrong and go home.
+
+tags: aging
+
+a: I thought forty was old.
+b: Forty was the start of reading glasses and honesty.
+
+a: I laughed at people who complained about their backs.
+b: I make a noise when I sit down.
+
+a: I wanted to look older.
+b: I avoid the mirror under bright lights.
+
+a: I thought old people were slow.
+b: They were careful, because they had learned what falling costs.
+
+a: I stayed up until dawn for fun.
+b: I am in bed by ten and grateful for it.
+
+a: I believed wisdom came with grey hair.
+b: The grey hair came alone.
+
+a: I wanted to be taken seriously.
+b: I am taken seriously, and also overlooked, by people half my age.
+
+a: I thought my body would always forgive me.
+b: It keeps a record, and it is sending the bill.
+
+a: I dreaded turning thirty.
+b: I would happily go back to the fear of thirty.
+
+a: I thought I would feel old inside one day.
+b: I feel nineteen inside a body that disagrees.
+
+a: I ignored doctor's appointments.
+b: I book them in January, all of them.
+
+a: I thought age would make me calm.
+b: Age made me tired, which looks like calm from a distance.
+
+tags: grief
+
+a: I thought grief was sadness.
+b: Grief is also anger, paperwork and forgetting to eat.
+
+a: I expected to cry every day.
+b: Some days I forgot, and that felt worse.
+
+a: I believed I would get over it.
+b: I got used to it, which is not the same.
+
+a: I wanted people to talk about my loss.
+b: I want them to say the name without lowering their voice.
+
+a: I thought the first year was the hardest.
+b: The second year was harder, because nobody was asking anymore.
+
+a: I kept every one of their things.
+b: I kept a jumper and the handwriting on a shopping list.
+
+a: I thought grief had an end date.
+b: It has anniversaries.
+
+a: I avoided the house where it happened.
+b: Someone else lives there now and has painted the door blue.
+
+a: I said everything happens for a reason.
+b: I stopped saying it the day it happened to me.
+
+a: I thought losing a parent would make me grown up.
+b: It made me an orphan with a mortgage.
+
+a: I believed I would hear their voice in my head forever.
+b: I had to find an old voicemail to remember it.
+
+a: I waited for the grief to leave.
+b: I made room for it, like a lodger who will not go.
+
+a: I thought strong people did not grieve openly.
+b: The strongest person I know cried in the supermarket.
+
+tags: self
+
+a: I wanted to be special.
+b: I want to be useful and reasonably kind.
+
+a: I tried to please everyone.
+b: I please a few people and let the rest be disappointed.
+
+a: I believed I could become anyone.
+b: I became one person, and it took everything I had.
+
+a: I thought my opinions were who I was.
+b: My habits are who I am. Opinions change weekly.
+
+a: I needed to be the best in the room.
+b: I would rather be in the right room.
+
+a: I thought I would figure myself out by thirty.
+b: I am still getting introduced to myself.
+
+a: I hid my weaknesses.
+b: I name them, before someone else does.
+
+a: I wanted to be admired.
+b: I want to be trusted, which takes longer and lasts.
+
+a: I blamed my bad luck.
+b: I count my bad decisions now, and they outnumber the luck.
+
+a: I thought confidence meant being loud.
+b: The most confident people I know barely speak.
+
+a: I believed I was the exception.
+b: I am the rule, like everyone.
+
+a: I wanted to stand out.
+b: I want to stand up when it matters.
+
+tags: loneliness
+
+a: I thought loneliness was for people with no friends.
+b: I have felt it at my own wedding.
+
+a: I filled every evening with plans.
+b: I sit with the quiet now. It has things to say.
+
+a: I thought marriage meant I would never be alone.
+b: Some of my loneliest nights were next to someone asleep.
+
+a: I wanted a big city full of people.
+b: I found the city full and myself unseen.
+
+a: I scrolled to feel less alone.
+b: I scrolled and felt every person I was not with.
+
+a: I feared eating alone in a restaurant.
+b: I enjoy the table, the book and the bill for one.
+
+a: I thought someone would notice if I disappeared.
+b: It took my landlord, not my friends.
+
+a: I believed loneliness would pass with time.
+b: It passes with effort, phone calls and showing up first.
+
+a: I needed constant company.
+b: I need one person who checks on me, and my own company.
+
+a: I waited to be invited.
+b: I do the inviting and accept the empty chairs.
+
+a: I thought being alone was a failure.
+b: Being alone is a skill, and most of us learn it late.
+
+a: I talked to fill silences.
+b: I let them sit and see who speaks first.
+
+a: I thought loneliness was loud.
+b: It is a phone that does not ring on a Sunday.
+
+tags: fear
+
+a: I was afraid of the dark.
+b: I am afraid of a phone ringing after midnight.
+
+a: I feared failing in public.
+b: I fear never having tried while there was time.
+
+a: I thought brave people felt no fear.
+b: Brave people feel it and pack their bag anyway.
+
+a: I feared monsters under the bed.
+b: I fear test results in a brown envelope.
+
+a: I avoided risks to stay safe.
+b: Avoiding them was the biggest risk I took.
+
+a: I worried about what people would say.
+b: I learned they forget by Friday.
+
+a: I thought fear would go away with age.
+b: Fear just moved from me to my children.
+
+a: I feared being laughed at.
+b: I fear being ignored, which is quieter and worse.
+
+a: I let fear make my decisions.
+b: I let it speak and then vote against it.
+
+a: I thought anxiety was a phase.
+b: It is a neighbour. We have agreed on boundaries.
+
+a: I feared losing my job.
+b: I fear losing the people who would help me through it.
+
+a: I thought the worst thing was rejection.
+b: The worst thing was never asking.
+
+tags: society
+
+a: I believed the world was fair.
+b: The world is indifferent, which is fairer to no one.
+
+a: I thought adults had everything under control.
+b: I am an adult, and nobody has anything under control.
+
+a: I believed hard work always paid.
+b: Connections paid. Hard work kept me in the room.
+
+a: I trusted that leaders knew what they were doing.
+b: They are guessing, with better tailoring.
+
+a: I wanted to fit in.
+b: I want to belong somewhere without pretending.
+
+a: I thought kindness was weakness.
+b: Kindness is expensive, and only strong people keep paying.
+
+a: I believed the news was neutral.
+b: I ask who owns it first.
+
+a: I thought success meant being seen.
+b: Success is being left in peace with enough.
+
+a: I followed trends to belong.
+b: Trends left, and so did the people who followed them.
+
+a: I wanted everyone to agree with me.
+b: I want them to be decent, agreeing or not.
+
+a: I thought my generation would fix things.
+b: We fixed some things and broke a few new ones.
+
+a: I believed status would make me happy.
+b: Status made me watched, which is not the same.
+
+a: I thought rules were made for everyone.
+b: Rules are made for people who cannot afford lawyers.
+
+tags: memory
+
+a: I thought I would remember every detail of that summer.
+b: I remember the heat and one song.
+
+a: I took photos of everything.
+b: I put the phone away and actually look.
+
+a: I believed my childhood was happy.
+b: It was mixed, like everyone's, and memory chose the sunny parts.
+
+a: I thought I would never forget their phone number.
+b: I lost it when they changed networks and died.
+
+a: I kept a diary to remember.
+b: I read it now and barely know the writer.
+
+a: I wanted to forget the bad years.
+b: The bad years taught me most of what I use.
+
+a: I thought nostalgia was harmless.
+b: It kept me in a past that never existed.
+
+a: I believed old letters would always matter.
+b: Most went out with the boxes when we moved.
+
+a: I thought memory was a record.
+b: It is a rumour I keep retelling.
+
+a: I visited old places to feel young.
+b: They were smaller, and I felt old.
+
+a: I wanted to be remembered by everyone.
+b: I want to be remembered accurately by a few.
+
+a: I thought I would remember my grandfather's laugh.
+b: I remember that he laughed, not how.
+
+tags: home, city
+
+a: I thought home was the house I grew up in.
+b: Home is wherever my keys and my people are.
+
+a: I wanted to move to Nairobi and become someone.
+b: I moved to Nairobi and became someone stuck in traffic.
+
+a: I dreamed of a big house.
+b: I dream of a small one, paid off.
+
+a: I thought the city would make me less lonely.
+b: The city taught me how many people you can pass and never meet.
+
+a: I wanted to leave my village.
+b: I go back and nobody remembers the boy who left.
+
+a: I thought renting was temporary.
+b: I have rented for fifteen years.
+
+a: I wanted the noise of the city.
+b: I pay extra for a quiet room.
+
+a: I thought I would always go home for Christmas.
+b: Home for Christmas stopped when the parents did.
+
+a: I believed my neighbourhood would stay the same.
+b: The kiosk is a car wash and the field is flats.
+
+a: I thought owning a house meant freedom.
+b: It meant a roof, a loan and twenty years of staying.
+
+a: I wanted a view.
+b: I want a door that locks and neighbours who say hello.
+
+a: I thought I could always move back.
+b: The place I would move back to no longer exists.
+
+a: I counted the days until I left home.
+b: I count the hours of the drive back to see what is left.
+

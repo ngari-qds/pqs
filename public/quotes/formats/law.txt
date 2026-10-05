@@ -1,0 +1,842 @@
+// Fred M | 1963ke · Law — 200 quotes.
+
+@law+
+tags: love
+
+name: The Law of the Second Year
+number: 1
+statement: Whatever annoyed you quietly in the first year will be shouted about in the fifth.
+
+name: The Law of Fading Effort
+number: 2
+statement: Effort declines at exactly the rate certainty increases.
+
+name: The Law of Pet Names
+number: 3
+statement: The sweeter the nickname, the colder the full name will sound at the end.
+
+name: The Law of Late Flowers
+number: 4
+statement: Flowers bought after an argument are receipts, not gifts.
+
+name: The Law of the Easy Lover
+number: 5
+statement: Love that costs you nothing will be worth exactly that.
+
+name: The Law of Rehearsed Goodbyes
+number: 6
+statement: By the time someone says it is over, they have been leaving for months.
+
+name: The Law of Loud Romance
+number: 7
+statement: The more public the declaration, the more private the doubt.
+
+name: The Law of Being Chosen
+number: 8
+statement: You are only chosen once. After that you are kept, or you are not.
+
+name: The Law of Small Tenderness
+number: 9
+statement: Love is lost in small unkindnesses long before any large betrayal.
+
+name: The Law of the Unread Heart
+number: 10
+statement: Nobody can love the parts of you that you refuse to show.
+
+name: The Law of Cheap Forever
+number: 11
+statement: Forever is promised most often by people who have never kept a year.
+
+name: The Law of Shared Silence
+number: 12
+statement: When silence stops being comfortable, it has started being information.
+
+tags: relationships
+
+name: The Law of the Unanswered Message
+number: 13
+statement: A reply that takes three days is already an answer.
+
+name: The Law of the Last Word
+number: 14
+statement: Whoever needs the last word has usually already lost the argument.
+
+name: The Law of Uneven Effort
+number: 15
+statement: In every relationship one person plans the weekends. Ask which one you are.
+
+name: The Law of Old Arguments
+number: 16
+statement: Every fight is about the same three things wearing different clothes.
+
+name: The Law of Apologies
+number: 17
+statement: An apology followed by "but" is a defence with good manners.
+
+name: The Law of Convenient Love
+number: 18
+statement: People find time for what they want. Everything else gets an excuse.
+
+name: The Law of the Busy Partner
+number: 19
+statement: Nobody is too busy. They are busy with something else.
+
+name: The Law of Rescue
+number: 20
+statement: You cannot save anyone who has not yet decided to be saved.
+
+name: The Law of Hidden Ledgers
+number: 21
+statement: The person who says they never keep score knows the exact total.
+
+name: The Law of Reconciliation
+number: 22
+statement: People who get back together break up again for the same reason, only faster.
+
+name: The Law of Blame
+number: 23
+statement: After a breakup, both people tell the story in which they waited too long.
+
+name: The Law of Borrowed Patience
+number: 24
+statement: Patience extended without limits becomes permission.
+
+tags: family
+
+name: The Law of Inherited Habits
+number: 25
+statement: You will catch yourself saying your father's sentence in your father's voice.
+
+name: The Law of Holiday Tables
+number: 26
+statement: Every family dinner seats at least one argument that started years ago.
+
+name: The Law of Favourites
+number: 27
+statement: Every parent has a favourite child. Every child knows which one.
+
+name: The Law of the Late Phone Call
+number: 28
+statement: Calls from home after midnight never carry good news.
+
+name: The Law of Shrinking Parents
+number: 29
+statement: Your parents grow smaller every visit, and you keep pretending not to notice.
+
+name: The Law of the Family Story
+number: 30
+statement: Every family has an official version and a true one. They are rarely the same.
+
+name: The Law of Divided Estates
+number: 31
+statement: Siblings who shared a bedroom can stop speaking over a sideboard.
+
+name: The Law of Repeated Wounds
+number: 32
+statement: Whatever was not healed in the parent is passed to the child for free.
+
+name: The Law of Postponed Visits
+number: 33
+statement: You will regret the visit you skipped more than any visit you endured.
+
+name: The Law of Grown Children
+number: 34
+statement: Children forgive their parents eventually, usually after it no longer helps.
+
+name: The Law of the Empty Room
+number: 35
+statement: A child's bedroom stays the same long after the child has stopped being one.
+
+tags: death
+
+name: The Law of the Last Visit
+number: 36
+statement: The final time you see someone almost never feels final.
+
+name: The Law of Unclaimed Things
+number: 37
+statement: Everything you own will one day be sorted into piles by tired relatives.
+
+name: The Law of Eulogies
+number: 38
+statement: The dead are always kinder in speeches than they were in kitchens.
+
+name: The Law of Queues
+number: 39
+statement: Death does not take a number, and it does not respect yours.
+
+name: The Law of Final Words
+number: 40
+statement: Last words are rarely profound. They are usually about water or the light.
+
+name: The Law of Shared Mortality
+number: 41
+statement: Everyone at the funeral is also, quietly, in the queue.
+
+name: The Law of Swift Forgetting
+number: 42
+statement: Within one generation most names on a gravestone become decoration.
+
+name: The Law of the Second Death
+number: 43
+statement: You die once in the body and again when the last person who knew you does.
+
+name: The Law of Unsent Letters
+number: 44
+statement: Every grave holds something someone meant to say.
+
+name: The Law of Indifferent Mornings
+number: 45
+statement: The sun rises the day after every funeral, exactly on time.
+
+name: The Law of Hospital Clocks
+number: 46
+statement: Time moves slowest in waiting rooms and fastest in the last good years.
+
+tags: time
+
+name: The Law of Shrinking Summers
+number: 47
+statement: Each year feels shorter because each year is a smaller part of the whole.
+
+name: The Law of Someday
+number: 48
+statement: Someday has no date, which is why nothing ever happens on it.
+
+name: The Law of Lost Afternoons
+number: 49
+statement: Hours spent scrolling leave no memories, only a vague tiredness.
+
+name: The Law of the Calendar
+number: 50
+statement: A year planned in January is mostly abandoned by March.
+
+name: The Law of Borrowed Time
+number: 51
+statement: Everyone believes they have more time than the people they buried believed.
+
+name: The Law of the Waiting Room
+number: 52
+statement: Waiting for the right moment is how most moments pass.
+
+name: The Law of Fast Decades
+number: 53
+statement: Days drag, years sprint, and decades disappear while you are looking at your phone.
+
+name: The Law of Tomorrow
+number: 54
+statement: Tomorrow is the most crowded day in any diary and the least reliable.
+
+name: The Law of Expired Chances
+number: 55
+statement: Opportunities do not knock twice. They knock once, quietly, while you sleep.
+
+tags: work
+
+name: The Law of the Replaceable Employee
+number: 56
+statement: Your desk will be cleared faster than your farewell card is signed.
+
+name: The Law of Loyal Staff
+number: 57
+statement: Loyalty to a company is a one-way contract with no termination clause for them.
+
+name: The Law of Urgent Emails
+number: 58
+statement: Anything marked urgent at five on a Friday could have waited until Monday.
+
+name: The Law of Meetings
+number: 59
+statement: A meeting called to save time will create two more meetings.
+
+name: The Law of Credit
+number: 60
+statement: Credit flows upward and blame flows downward, like water finding its level.
+
+name: The Law of the Busy Schedule
+number: 61
+statement: A full calendar is often an empty life wearing a lanyard.
+
+name: The Law of Office Friendship
+number: 62
+statement: Work friends are friends until one of you hands in notice.
+
+name: The Law of Hard Work
+number: 63
+statement: Working hard in the wrong direction is just a faster way to get lost.
+
+name: The Law of the Vision Statement
+number: 64
+statement: The longer the mission statement, the shorter the actual mission.
+
+name: The Law of Retirement
+number: 65
+statement: You give a company forty years and it gives you a cake and a parking space for one day.
+
+name: The Law of Burnout
+number: 66
+statement: The body sends the invoice for every skipped rest, with interest.
+
+name: The Law of Good Workers
+number: 67
+statement: Do your job well and you will be given everyone else's.
+
+tags: money
+
+name: The Law of Rising Income
+number: 68
+statement: Spending rises to meet any salary, then quietly exceeds it.
+
+name: The Law of Lending
+number: 69
+statement: Lend money to a friend and you will soon have neither.
+
+name: The Law of Rich Relatives
+number: 70
+statement: The moment you have money, family you have never met will find your number.
+
+name: The Law of Small Leaks
+number: 71
+statement: It is never the big purchase that ruins you. It is the daily one.
+
+name: The Law of Debt
+number: 72
+statement: Debt is a promise your future self never agreed to.
+
+name: The Law of Expensive Comfort
+number: 73
+statement: Everything sold as convenient will cost you more over time.
+
+name: The Law of Generosity
+number: 74
+statement: Be generous once and people remember. Stop being generous and they remember longer.
+
+name: The Law of Envy
+number: 75
+statement: People admire your money only until they need some of it.
+
+name: The Law of the Last Shilling
+number: 76
+statement: The last coin always leaves faster than the first.
+
+name: The Law of Paid Respect
+number: 77
+statement: Respect bought with money ends the day the money does.
+
+tags: aging
+
+name: The Law of the Unexpected Mirror
+number: 78
+statement: Every older person still feels twenty-five until they pass a shop window.
+
+name: The Law of Tired Knees
+number: 79
+statement: The body keeps the record of every year you thought you were invincible.
+
+name: The Law of Advice
+number: 80
+statement: The old give advice because they can no longer set a bad example.
+
+name: The Law of Fewer Invitations
+number: 81
+statement: After a certain age the invitations change from weddings to funerals.
+
+name: The Law of Wisdom
+number: 82
+statement: Wisdom arrives roughly when the energy to use it departs.
+
+name: The Law of Late Health
+number: 83
+statement: Most people start caring about their health on the day they lose it.
+
+name: The Law of Slowing Down
+number: 84
+statement: Age does not slow you down. Neglect does, and age gets the blame.
+
+name: The Law of Old Photographs
+number: 85
+statement: You will look at old photographs and wish you had loved that body when you had it.
+
+name: The Law of Invisible Age
+number: 86
+statement: After sixty, people stop seeing you before you stop seeing them.
+
+tags: grief
+
+name: The Law of Ordinary Days
+number: 87
+statement: Grief waits for a supermarket aisle, not a graveside.
+
+name: The Law of the Second Month
+number: 88
+statement: Everyone stops asking how you are at precisely the time it gets worse.
+
+name: The Law of Unfinished Arguments
+number: 89
+statement: The hardest grief is for the person you never made peace with.
+
+name: The Law of the Voicemail
+number: 90
+statement: You will play an old voicemail more times than you ever answered the calls.
+
+name: The Law of Stopped Clocks
+number: 91
+statement: The world moves on at the same speed, and that is the cruellest part.
+
+name: The Law of Sympathy
+number: 92
+statement: Sympathy is plentiful for a week and scarce for a year.
+
+name: The Law of Belongings
+number: 93
+statement: Clothes keep the smell longer than the mind keeps the face.
+
+name: The Law of Anniversaries
+number: 94
+statement: The date on the calendar hurts less than the ordinary Tuesday after it.
+
+tags: friendship
+
+name: The Law of Fair-Weather Friends
+number: 95
+statement: The number of your friends is inversely proportional to the size of your trouble.
+
+name: The Law of Drifting Friends
+number: 96
+statement: Most friendships do not end. They simply stop being renewed.
+
+name: The Law of the Reunion
+number: 97
+statement: Reunions prove you were close to who they were, not to who they became.
+
+name: The Law of Hospital Visitors
+number: 98
+statement: Count your friends by who visits the hospital, not who attends the party.
+
+name: The Law of Secrets
+number: 99
+statement: The friend who brings you gossip will carry yours just as far.
+
+name: The Law of Success
+number: 100
+statement: Your success will lose you at least one friend who wished you well in failure.
+
+name: The Law of the Busy Friend
+number: 101
+statement: The friend who is always too busy has already chosen, and it was not you.
+
+name: The Law of the One-Way Call
+number: 102
+statement: If you stop calling and nobody notices, you have measured the friendship.
+
+name: The Law of New Partners
+number: 103
+statement: Friends disappear into new love and return when it ends, slightly surprised you waited.
+
+tags: truth
+
+name: The Law of the Delayed Truth
+number: 104
+statement: A truth told late costs more than the lie that delayed it.
+
+name: The Law of Convenient Memory
+number: 105
+statement: Everyone remembers the argument in the version where they behaved well.
+
+name: The Law of Unwelcome Honesty
+number: 106
+statement: People ask for honesty and mean agreement.
+
+name: The Law of Confident Fools
+number: 107
+statement: Certainty is loudest in the people who have checked the least.
+
+name: The Law of Repetition
+number: 108
+statement: A lie repeated often enough does not become true, but it becomes accepted.
+
+name: The Law of Polite Lies
+number: 109
+statement: Most social life runs on small lies that everyone agrees not to inspect.
+
+name: The Law of Overexplaining
+number: 110
+statement: The longer the explanation, the shorter the truth inside it.
+
+name: The Law of the Truth Teller
+number: 111
+statement: The first person to say it aloud is punished for what everyone already knew.
+
+name: The Law of Facts and Feelings
+number: 112
+statement: No fact has ever won an argument against a feeling that wanted to win.
+
+name: The Law of Self-Deception
+number: 113
+statement: The easiest person to lie to is the one who wants to believe you, especially yourself.
+
+tags: self
+
+name: The Law of the Comfortable Excuse
+number: 114
+statement: Any excuse that lets you stay where you are will seem extremely reasonable.
+
+name: The Law of Starting Monday
+number: 115
+statement: The diet, the gym and the novel all start on a Monday that never comes.
+
+name: The Law of Practised Habits
+number: 116
+statement: You are not what you intend. You are what you repeat on tired days.
+
+name: The Law of Hidden Character
+number: 117
+statement: Character shows in how you treat people who can do nothing for you.
+
+name: The Law of Self-Help Shelves
+number: 118
+statement: The more books you own on changing, the less likely you are to have changed.
+
+name: The Law of Approval
+number: 119
+statement: The need to be liked by everyone guarantees being respected by no one.
+
+name: The Law of Projection
+number: 120
+statement: What irritates you most in others is usually a mirror you have not cleaned.
+
+name: The Law of Potential
+number: 121
+statement: Potential is a polite word for what has not happened yet and may never.
+
+name: The Law of Comparison
+number: 122
+statement: Compare yourself to anyone long enough and you will find a reason to feel small.
+
+name: The Law of Effortless Change
+number: 123
+statement: Nobody has ever changed comfortably. If it is comfortable, it is not change.
+
+name: The Law of the Inner Critic
+number: 124
+statement: You would never speak to a friend the way you speak to yourself at 3 a.m.
+
+tags: society
+
+name: The Law of the Crowd
+number: 125
+statement: The bigger the crowd, the smaller each person's conscience.
+
+name: The Law of Outrage
+number: 126
+statement: Public anger lasts exactly as long as the next headline takes to arrive.
+
+name: The Law of Status
+number: 127
+statement: People will forgive almost anything in the powerful and almost nothing in the poor.
+
+name: The Law of Visible Charity
+number: 128
+statement: Kindness with a camera is marketing.
+
+name: The Law of the Expert Stranger
+number: 129
+statement: The internet makes everyone an expert in subjects they discovered this morning.
+
+name: The Law of Rules
+number: 130
+statement: Rules apply most strictly to those with the least power to argue.
+
+name: The Law of Fashionable Opinions
+number: 131
+statement: Most opinions are borrowed from whoever spoke last with confidence.
+
+name: The Law of Elections
+number: 132
+statement: Promises made in campaign season expire with the posters.
+
+name: The Law of Bystanders
+number: 133
+statement: Everyone films the problem. Very few put the phone down to help.
+
+name: The Law of Applause
+number: 134
+statement: Society rewards the appearance of success faster than success itself.
+
+name: The Law of Back Doors
+number: 135
+statement: Every system has a back door, and the connected know where it is.
+
+tags: loneliness
+
+name: The Law of Sunday Evenings
+number: 136
+statement: Loneliness keeps no schedule, but it is always punctual on Sunday evenings.
+
+name: The Law of Full Contacts
+number: 137
+statement: You can have five hundred contacts and no one to call when the car breaks down.
+
+name: The Law of the Crowded Room
+number: 138
+statement: The loneliest place is a party where everyone knows your name and nothing else.
+
+name: The Law of Unspoken Need
+number: 139
+statement: People who never ask for help are rarely offered it.
+
+name: The Law of Solitude
+number: 140
+statement: Solitude chosen is rest. Solitude imposed is a slow erosion.
+
+name: The Law of Small Talk
+number: 141
+statement: You can speak to people all day and still not be heard once.
+
+name: The Law of the Quiet Phone
+number: 142
+statement: A phone that only rings for deliveries says more than any diary.
+
+name: The Law of Pride
+number: 143
+statement: Loneliness is often pride that refused to send the first message.
+
+tags: fear
+
+name: The Law of Imagined Disasters
+number: 144
+statement: Most of what you fear never happens, and what happens you never thought to fear.
+
+name: The Law of the Unopened Letter
+number: 145
+statement: The letter you are afraid to open will not improve by waiting.
+
+name: The Law of Safe Choices
+number: 146
+statement: Playing it safe is a gamble too. The losses are just slower and quieter.
+
+name: The Law of Night Thoughts
+number: 147
+statement: Problems double in size after midnight and halve by breakfast.
+
+name: The Law of Avoidance
+number: 148
+statement: Every difficult conversation you postpone gets longer.
+
+name: The Law of the Doctor's Appointment
+number: 149
+statement: The symptom you ignore is the one that will not ignore you.
+
+name: The Law of Courage
+number: 150
+statement: Courage never feels like courage. It feels like doing it while shaking.
+
+tags: memory
+
+name: The Law of Edited Pasts
+number: 151
+statement: Memory is not a record. It is a draft revised every time you open it.
+
+name: The Law of Golden Years
+number: 152
+statement: The past looks better the further away it gets, like a city from a plane.
+
+name: The Law of Unlabelled Photographs
+number: 153
+statement: Within one generation every unlabelled photograph becomes a picture of strangers.
+
+name: The Law of Painful Recall
+number: 154
+statement: You forget the birthdays but remember every humiliation in full detail.
+
+name: The Law of Smells
+number: 155
+statement: A single scent can return a decade you thought you had finished with.
+
+name: The Law of the Last Witness
+number: 156
+statement: When the last person who was there dies, the story belongs to whoever tells it.
+
+name: The Law of Childhood Houses
+number: 157
+statement: Every house you grew up in is smaller when you return.
+
+name: The Law of Old Messages
+number: 158
+statement: Rereading old conversations at night has never improved a single morning.
+
+tags: home, city
+
+name: The Law of Thin Walls
+number: 159
+statement: You will know your neighbours' arguments long before you know their names.
+
+name: The Law of the Commute
+number: 160
+statement: Two hours a day in traffic is a season of your life spent staring at brake lights.
+
+name: The Law of Returning Home
+number: 161
+statement: You can go back to the place, but not to the time that made it home.
+
+name: The Law of City Lights
+number: 162
+statement: The city sparkles most for those who cannot afford to live in it.
+
+name: The Law of Rent
+number: 163
+statement: Rent is due on the first whether or not the month was kind to you.
+
+name: The Law of New Cities
+number: 164
+statement: Moving to a new city changes your address, not your habits.
+
+name: The Law of the Village
+number: 165
+statement: Everyone leaves the village to become someone and returns to be remembered as who they were.
+
+name: The Law of Matatu Time
+number: 166
+statement: The matatu leaves when it is full, not when you are ready, and life works the same way.
+
+name: The Law of Empty Houses
+number: 167
+statement: A house without voices becomes furniture waiting to be sold.
+
+name: The Law of Hometowns
+number: 168
+statement: Your hometown keeps going without you, and that is the first lesson of leaving.
+
+tags: life
+
+name: The Law of Plans
+number: 169
+statement: Every life plan survives until it meets the first hospital bill.
+
+name: The Law of Fairness
+number: 170
+statement: Life is not unfair to you personally. It simply never agreed to be fair.
+
+name: The Law of Small Choices
+number: 171
+statement: Lives are not ruined by one decision but by a thousand minor ones made tired.
+
+name: The Law of Luck
+number: 172
+statement: The prepared are called lucky by people who did not see them prepare.
+
+name: The Law of Detours
+number: 173
+statement: The detour you resent will turn out to be most of the route.
+
+name: The Law of the Good Days
+number: 174
+statement: You rarely know a good day while you are in it.
+
+name: The Law of Ordinary Lives
+number: 175
+statement: Most lives are made of the same things and feel completely unique from inside.
+
+name: The Law of Meaning
+number: 176
+statement: Life does not hand out meaning. You build it or go without.
+
+name: The Law of the Uninvited Guest
+number: 177
+statement: Trouble never phones ahead and always stays longer than planned.
+
+name: The Law of Survival
+number: 178
+statement: Surviving is not the same as living, but it is often mistaken for it.
+
+name: The Law of Choices Not Made
+number: 179
+statement: Not deciding is a decision, and usually the worst one available.
+
+tags: endings, change
+
+name: The Law of Quiet Exits
+number: 180
+statement: Most people leave without a scene. They simply stop arriving.
+
+name: The Law of Closure
+number: 181
+statement: Closure is not given by the other person. You manufacture it or live without it.
+
+name: The Law of New Year Resolutions
+number: 182
+statement: Resolutions last precisely as long as the January weather.
+
+name: The Law of Burnt Bridges
+number: 183
+statement: The bridge you burned will be the only one across the river you need later.
+
+name: The Law of Final Chapters
+number: 184
+statement: You never notice the end of an era while it is ending.
+
+name: The Law of Fresh Starts
+number: 185
+statement: A fresh start carries all your old luggage unless you leave some on the platform.
+
+name: The Law of Resistance
+number: 186
+statement: People do not resist change. They resist losing what change will take.
+
+name: The Law of the Slow Ending
+number: 187
+statement: Endings are announced in one sentence after being written over years.
+
+name: The Law of Sudden Change
+number: 188
+statement: Change is slow until it is sudden, and then it is too late to prepare.
+
+tags: comfort, regret
+
+name: The Law of the Comfort Zone
+number: 189
+statement: The comfort zone has no fence. That is why so few people notice they never left.
+
+name: The Law of Regret
+number: 190
+statement: You will regret the risks you skipped more than the ones that failed.
+
+name: The Law of Hindsight
+number: 191
+statement: Hindsight is perfect and completely useless, like a map handed out at the finish line.
+
+name: The Law of Unspent Youth
+number: 192
+statement: Youth is wasted on caution as often as it is wasted on recklessness.
+
+name: The Law of Comfortable Misery
+number: 193
+statement: People will stay in familiar misery rather than risk unfamiliar happiness.
+
+name: The Law of the Easy Chair
+number: 194
+statement: Every comfortable evening is borrowed from a future morning.
+
+name: The Law of Unsaid Things
+number: 195
+statement: The words you kept to yourself will follow you longer than any you said.
+
+name: The Law of Second Chances
+number: 196
+statement: Second chances exist, but they are rarer than people assume and never identical.
+
+name: The Law of the Road Not Taken
+number: 197
+statement: The life you did not choose always looks better because it was never tested.
+
+name: The Law of Settling
+number: 198
+statement: Nobody decides to settle. They just stop deciding, and settling happens.
+
+name: The Law of Reality
+number: 199
+statement: Reality does not argue. It waits until you are finished and then continues.
+
+name: The Law of the Final Count
+number: 200
+statement: At the end, nobody counts the money. They count the faces in the room.

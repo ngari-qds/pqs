@@ -1,0 +1,531 @@
+// Fred M | 1963ke · Post card — 200 quotes.
+
+@post-card+
+tags: love
+
+text: Unpopular opinion: "I just want someone who gets me" usually means "I want someone who never asks me to change."
+date: 2 Jan 2026
+
+text: Love will not survive on chemistry. Chemistry is the deposit. The rent is due every month after.
+
+text: Nobody tells you that the hardest part of love is being known by someone who has stopped being impressed.
+date: 14 Feb 2026
+
+text: You can be loved and still be lonely in the same bed. Ask anyone married long enough to be honest.
+
+text: If you only feel loved when someone is losing sleep over you, what you want is a hostage, not a partner.
+
+text: Love letters age badly. The grocery list they wrote you on a Tuesday will mean more in twenty years.
+date: 9 Mar 2026
+
+text: Unpopular opinion: soulmates are just people who did the work and then got lucky with timing.
+
+text: Most people are not looking for love. They are looking for an audience that will clap on cue.
+date: 21 Apr 2026
+
+text: The person who loves you will eventually bore you. Decide in advance whether boredom is a reason to leave.
+
+text: Falling in love takes a week. Learning how someone argues takes a decade. Plan for the decade.
+
+text: Love is not proven by what you would die for. It is proven by what you will clean up without mentioning.
+date: 30 May 2026
+
+text: Your ex is not thinking about you. That is not cruel. That is simply what time does to everyone.
+
+tags: relationships
+
+text: Unpopular opinion: "we never fight" is not a flex. It often means one of you gave up arguing years ago.
+date: 3 Jun 2026
+
+text: The silent treatment is not peace. It is a sentence handed down without a trial.
+
+text: If you need a screenshot to prove they care, they have already told you everything you need to know.
+
+text: Some relationships do not end. They just thin out until one person realises they are holding the whole thing.
+date: 17 Jul 2026
+
+text: Compatibility is overrated. Two people who apologise properly will outlast two people who simply agree.
+
+text: Nobody changes for you. They change for themselves, and occasionally you are standing nearby when it happens.
+
+text: Reminder: being chosen is not the same as being valued. Plenty of people are chosen out of convenience.
+date: 8 Aug 2026
+
+text: The person who keeps score has already left. They are just collecting evidence for the departure.
+
+text: "Let's see where this goes" is a sentence with a destination already in mind. It just isn't yours.
+
+text: You do not lose people by fighting. You lose them by deciding one day that it is not worth the fight.
+date: 1 Sep 2026
+
+text: Trust is not given back after a lie. It is rented out again at a much higher rate.
+
+text: Most breakups are announced months after they actually happen.
+date: 12 Sep 2026
+
+tags: family
+
+text: Your parents are not your heroes or your villains. They are two tired people who were guessing the whole time.
+date: 5 Jan 2026
+
+text: Unpopular opinion: "family comes first" is mostly said by the members who benefit from coming first.
+
+text: Every family has one person carrying the memory of what really happened. Usually they are the one nobody calls.
+
+text: You will spend your thirties discovering your parents were younger than you are now when they made their worst mistakes.
+date: 19 Feb 2026
+
+text: The house you grew up in is smaller than you remember. So were the people in it.
+
+text: Your mother's voice in your head will outlive her. Choose carefully which sentences you keep.
+
+text: Siblings are the only people who knew you before you became a story you tell about yourself.
+date: 11 Mar 2026
+
+text: Children do not remember the lectures. They remember the tone of the kitchen when you thought they were asleep.
+
+text: Reminder: your father is learning to be old for the first time. He is not good at it yet. Neither will you be.
+date: 26 Apr 2026
+
+text: Inheritance fights are rarely about money. They are about who was loved more, settled at last in property.
+
+text: The family group chat is where unspoken resentment goes to send birthday emojis.
+
+text: Calling home once a week is not a chore. It is a countdown nobody is allowed to say out loud.
+date: 7 Jun 2026
+
+text: Some families heal. Others just agree to stop bringing it up at Christmas, and call that healing.
+
+tags: friendship
+
+text: Unpopular opinion: most friendships end not with a betrayal but with a calendar that never quite lines up.
+date: 15 Jan 2026
+
+text: The friend who only calls when things go wrong is not a friend. They are a subscriber to your bad news.
+
+text: Adult friendship is two people saying "we should catch up" until one of them moves away.
+date: 28 Feb 2026
+
+text: You find out who your friends are at funerals and at hospital car parks, not at birthdays.
+
+text: Some friends are seasons. Stop trying to make them climate.
+
+text: A real friend will tell you the truth and then stay for the consequences.
+date: 16 Mar 2026
+
+text: The friends from school knew a version of you that died somewhere around twenty-five. Let them grieve it too.
+
+text: Being the friend who always reaches out first is a job. Nobody will notice when you resign.
+date: 4 May 2026
+
+text: Your friends are not obliged to like your partner. They are only obliged to tell you when they are worried.
+
+text: Friendship survives distance easily. It rarely survives one of you becoming successful.
+date: 22 Jun 2026
+
+text: Most people have fewer friends than they think, and more acquaintances who would bring a casserole.
+
+text: The friends you outgrew were not wrong. They were simply heading somewhere you were not.
+date: 10 Aug 2026
+
+text: If you are always the listener, check whether you are a friend or a free service.
+
+tags: work
+
+text: Unpopular opinion: your company is not a family. Families do not hold restructuring meetings.
+date: 6 Jan 2026
+
+text: The office will hold a minute of silence for you and then discuss who takes your desk.
+
+text: You are not underpaid because nobody noticed. You are underpaid because somebody did the maths.
+date: 20 Jan 2026
+
+text: Burnout is not a badge. It is a receipt for hours you can never get back.
+
+text: Nobody on their last day of life wishes they had answered one more email at 11 p.m.
+
+text: Your dream job will still have Mondays, a printer that jams and a manager who takes credit.
+date: 3 Mar 2026
+
+text: Being indispensable at work just means nobody will ever promote you out of the thing you are good at.
+
+text: Reminder: "we'll revisit your salary next quarter" is a polite way of saying no, four times a year.
+date: 13 Apr 2026
+
+text: Passion is what companies ask for when they do not want to pay for skill.
+
+text: You will be replaced at work within weeks. At home, the chair stays empty for years.
+
+text: Most meetings exist so that nobody has to take responsibility alone.
+date: 25 May 2026
+
+text: The commute is unpaid work. Add it up and look at your real hourly rate.
+
+text: You did not choose your career at twenty. You drifted into it and then stayed out of fear.
+date: 18 Jul 2026
+
+tags: money
+
+text: Unpopular opinion: money does buy happiness. It mostly buys the absence of a certain kind of fear.
+date: 9 Jan 2026
+
+text: Most people are not bad with money. They are good at buying the feeling of not being poor.
+
+text: Your salary is not your worth. But your rent does not care how you feel about that.
+date: 23 Feb 2026
+
+text: Lending money to family is a gift with extra steps. Write it off in your head the moment it leaves.
+
+text: Nobody looks rich in their bank statement. Only on their timeline.
+
+text: Debt is just your past self spending your future self's weekends.
+date: 6 Apr 2026
+
+text: The richest person you know is probably the one who stopped wanting things first.
+
+text: Reminder: a sale is still spending. Saving 30 percent on something you did not need is losing 70.
+date: 15 May 2026
+
+text: Money reveals people. It does not change them. It just removes the reasons they had for hiding.
+
+text: Every "treat yourself" is a small loan taken out against a calmer future.
+
+text: Poverty is expensive. Ask anyone who has paid overdraft fees on a bus fare.
+date: 29 Jun 2026
+
+text: You do not need more money. You need to know what enough looks like before somebody sells you more.
+
+text: The bills arrive on time whether you are grieving, sick or in love.
+date: 20 Aug 2026
+
+tags: time
+
+text: Unpopular opinion: you do not have time management problems. You have priorities you will not admit to.
+date: 12 Jan 2026
+
+text: "One day" is not on any calendar. Check.
+
+text: You have fewer summers left than you think. Count them. It takes about a second and ruins a whole afternoon.
+date: 2 Mar 2026
+
+text: The days are long and the years are short and nobody can tell you which day was the important one.
+
+text: Time is not money. You can earn money back.
+
+text: Every routine is a small agreement to let time pass without asking questions.
+date: 19 Apr 2026
+
+text: Reminder: the version of you that will "have more time later" also has a job, a body and a mortgage.
+
+text: Your phone shows you the screen time report every Sunday. It is the most honest thing in your life.
+date: 31 May 2026
+
+text: Nobody gets more time. Some people just stop giving theirs away to people who do not notice.
+
+text: The clock does not speed up as you age. You simply stop doing anything new enough to remember.
+date: 14 Jul 2026
+
+text: Waiting for the right moment is how most people spend the right moment.
+
+text: The calendar is full and the life is empty. Both can be true at once.
+date: 27 Sep 2026
+
+tags: aging
+
+text: Unpopular opinion: you are not ageing like fine wine. You are ageing like a person, which is to say unevenly.
+date: 16 Jan 2026
+
+text: At some point the doctors become younger than you and the obituaries become your classmates.
+
+text: Getting older is mostly discovering which parts of your body have opinions.
+date: 7 Mar 2026
+
+text: Nobody warns you that you will one day become the old person the young ones are being polite to.
+
+text: You do not get wiser with age. You just make your mistakes more slowly and with better excuses.
+
+text: Reminder: the knees you are ignoring now will send the invoice at sixty.
+date: 24 Apr 2026
+
+text: Ageing is losing the right to say "I'll do it when I'm older."
+
+text: The mirror is not lying. It is just early.
+date: 11 Jun 2026
+
+text: Old age is not a disease. It is the bill for having been lucky enough not to die young.
+
+text: The young think they will be different at seventy. Ask a seventy-year-old how that went.
+date: 3 Aug 2026
+
+text: Every birthday after forty is half celebration, half inventory.
+
+text: You stop being young the day you start explaining what things used to cost.
+date: 22 Sep 2026
+
+tags: death
+
+text: Unpopular opinion: nobody "loses a battle" with illness. Bodies stop. Calling it a battle just blames the dead.
+date: 8 Jan 2026
+
+text: You will be talked about at your funeral for about forty minutes, then everyone will ask where the food is.
+
+text: Death does not wait for you to be ready. Nobody has ever been ready. That is not how it works.
+date: 26 Feb 2026
+
+text: Write the will. It is not morbid. Leaving a mess for grieving people is morbid.
+
+text: The last time you see someone rarely announces itself. It is usually a quick goodbye in a doorway.
+
+text: Reminder: everyone you follow online will die. So will you. Scroll accordingly.
+date: 9 Apr 2026
+
+text: The dead do not care about the flowers. The flowers are for the living, who need something to do with their hands.
+
+text: Most people are more afraid of being forgotten than of dying. Both are coming anyway.
+
+text: Your phone will keep receiving messages after you are gone. Someone will have to decide when to stop paying the bill.
+date: 21 May 2026
+
+text: Death is the only appointment nobody has to confirm.
+
+text: We call it "passing away" because "stopped" is too honest for a card.
+date: 4 Jul 2026
+
+text: You will not get a dramatic last scene. Most people go on an ordinary Tuesday, mid-sentence, with laundry still in the machine.
+
+text: Every graveyard is full of people who were sure they had more time.
+date: 15 Sep 2026
+
+tags: grief
+
+text: Unpopular opinion: time does not heal. It just teaches you to carry the weight with fewer people watching.
+date: 18 Jan 2026
+
+text: The casseroles stop after three weeks. The grief does not get the memo.
+
+text: Grief is answering "I'm fine" so many times that you start to forget what fine was.
+date: 4 Mar 2026
+
+text: Nobody tells you that you will grieve people who are still alive. Sometimes that is worse.
+
+text: You will reach for your phone to tell them something. That reflex can last for years.
+
+text: Reminder: people who are grieving do not need advice. They need you to say the name out loud.
+date: 17 Apr 2026
+
+text: Grief does not come in stages. It comes in ambushes, usually in the supermarket.
+
+text: The world goes back to normal faster than you do. That is the second loss.
+date: 8 Jun 2026
+
+text: You do not move on. You move forward, with an extra weight nobody else can see.
+
+text: There is no correct amount of crying. There is only the amount you are allowed in public.
+date: 25 Jul 2026
+
+text: The first anniversary is loud. The tenth is quiet, and you are the only one who remembers the date.
+
+text: Grief is love with nowhere left to go, standing in the hallway with its coat on.
+date: 19 Sep 2026
+
+tags: truth
+
+text: Unpopular opinion: most people do not want the truth. They want agreement delivered in an honest tone.
+date: 10 Jan 2026
+
+text: The truth rarely hurts as much as the time you spent pretending not to know it.
+
+text: If you have to rehearse the explanation, you already know it is not quite true.
+date: 1 Mar 2026
+
+text: Facts do not care about your feelings. Neither, it turns out, do most of your feelings.
+
+text: Honesty is cheap when it is about other people. Try it on yourself first.
+
+text: Reminder: "I'm just being honest" is usually followed by cruelty that was already planned.
+date: 2 May 2026
+
+text: Most lies are not told to others. They are told to the person in the mirror at 7 a.m.
+
+text: The truth does not need you to defend it. It will still be there after you are tired.
+date: 13 Jun 2026
+
+text: People who say they love honesty usually mean they love being the one who delivers it.
+
+text: Everybody knows the truth about their own life. Most just choose not to read it aloud.
+date: 6 Aug 2026
+
+text: A half truth is just a lie with a better lawyer.
+
+text: The thing you are avoiding thinking about is the thing you most need to think about.
+date: 28 Sep 2026
+
+tags: self
+
+text: Unpopular opinion: you are not hard to understand. You are just not saying what you mean.
+date: 13 Jan 2026
+
+text: Self-care is not a bath. Sometimes it is finally opening the letter from the bank.
+
+text: You are not your potential. You are what you did this week.
+date: 9 Feb 2026
+
+text: The story you tell about your childhood says more about who you are now than about who you were.
+
+text: Nobody is coming to rescue you. Good news: that means nobody is coming to stop you either.
+
+text: Reminder: being busy is the most respectable way to hide from yourself.
+date: 30 Mar 2026
+
+text: You keep waiting to become the person who would do the thing. That person only exists after you do it.
+
+text: Your personality is mostly habits you stopped questioning around twenty-two.
+date: 12 May 2026
+
+text: Most people are not lazy. They are afraid, and laziness is a more flattering word.
+
+text: You can be the victim of your past and still be responsible for your future. Both are true. Neither is fair.
+date: 23 Jun 2026
+
+text: Your comfort zone is not comfortable. It is just familiar, which is a different thing.
+
+text: The person who annoys you most is often doing the thing you will not let yourself do.
+date: 12 Aug 2026
+
+text: Confidence is not believing you will succeed. It is accepting you might not and going anyway.
+
+tags: society
+
+text: Unpopular opinion: most outrage online is just boredom wearing a moral costume.
+date: 7 Jan 2026
+
+text: Society will tell you to be yourself and then charge you for every part of yourself that does not fit.
+
+text: The crowd is never wrong in the moment. It is only wrong in the history books.
+date: 18 Mar 2026
+
+text: Everyone wants community until it asks them to attend a meeting on a Thursday evening.
+
+text: Reminder: the algorithm is not showing you the world. It is showing you yourself, louder.
+date: 28 Apr 2026
+
+text: Most people are kind in private and cowardly in public. Systems are built on the second part.
+
+text: Nobody reads the terms and conditions. That is the whole business model of the century.
+date: 16 Jun 2026
+
+text: Status is a game you can only win by convincing others to keep playing.
+
+text: We have more ways to speak than ever and fewer people willing to listen past the first sentence.
+date: 13 Aug 2026
+
+text: Every generation thinks the next one is ruining everything. Every generation is partly right.
+
+tags: loneliness
+
+text: Unpopular opinion: you can have five hundred followers and nobody to call when the car breaks down.
+date: 22 Jan 2026
+
+text: Loneliness is not being alone. It is being in a full room and realising nobody would notice if you left.
+
+text: The loneliest sound in the world is your own voice saying goodnight to an empty flat.
+date: 12 Mar 2026
+
+text: Nobody checks on the strong friend. That is how the strong friend learns to stop being strong.
+
+text: You can be married, employed and popular, and still eat lunch in the car to avoid people.
+
+text: Reminder: if nobody has asked how you are this week, you are allowed to ask first. It is not weakness.
+date: 5 May 2026
+
+text: Loneliness makes you grateful for the wrong people. Be careful who you let in when you are cold.
+
+text: The city is full of people walking home alone, each sure they are the only one.
+date: 2 Jul 2026
+
+text: Solitude is chosen. Loneliness is assigned. The difference is whether anyone would answer if you called.
+
+text: Some weekends you speak to nobody but the shop assistant, and you thank them too warmly.
+date: 25 Aug 2026
+
+tags: fear
+
+text: Unpopular opinion: fear is not your enemy. Most of the time it is just correctly reading the room.
+date: 27 Jan 2026
+
+text: The thing you are afraid of has probably already happened to someone you know. They survived it, mostly.
+
+text: Most people do not fear failure. They fear being seen failing by people they went to school with.
+date: 23 Mar 2026
+
+text: Fear makes excellent excuses. It has had a lifetime of practice.
+
+text: Reminder: playing it safe is also a risk. It just pays out slowly, in regret.
+date: 10 May 2026
+
+text: The worst night of worrying never matches the morning. The morning is usually just admin.
+
+text: You are not cautious. You are frightened, and you have given it a job title.
+date: 20 Jun 2026
+
+text: Everyone is afraid. The brave ones just stopped waiting for the fear to leave first.
+
+text: What you fear most will not be what gets you. It is usually something you never thought to fear.
+date: 17 Aug 2026
+
+text: Fear of missing out is just fear of living one life instead of all of them.
+
+tags: memory
+
+text: Unpopular opinion: your memories are not records. They are drafts you keep rewriting each time you open them.
+date: 30 Jan 2026
+
+text: You will forget most of this year. Take one photo of something boring. That is the one you will want.
+
+text: Nostalgia is memory with the bills removed.
+date: 27 Mar 2026
+
+text: The past was not better. You were just younger and nobody had told you the prices yet.
+
+text: Reminder: someone remembers the cruel thing you said in 2009. You do not. That is how memory works.
+date: 18 May 2026
+
+text: You remember the voice of someone you lost until one day you realise you are remembering your memory of it.
+
+text: Every old photo is a list of people who no longer speak to each other.
+date: 9 Jul 2026
+
+text: Memory is the only place you can visit the dead, and it gets a little smaller every year.
+
+text: People do not remember what you did. They remember how the room felt when you walked in.
+date: 31 Aug 2026
+
+text: The things you are trying to forget are the ones you will remember in perfect detail at 3 a.m.
+
+tags: city
+
+text: Unpopular opinion: Nairobi traffic is not a delay. It is a second, unpaid life you live inside a matatu.
+date: 3 Feb 2026
+
+text: Cities are full of people who moved there to become someone and stayed to pay rent.
+
+text: You can live in a building for six years and never learn your neighbour's name. That is city life.
+date: 29 Mar 2026
+
+text: Home is the place you go back to and realise nobody saved your seat.
+
+text: Reminder: the town you left keeps living without you. The shop changed hands. The teacher died.
+date: 22 May 2026
+
+text: The city does not notice you arrive and will not notice you leave. Do not take it personally.
+date: 1 Jul 2026
+
+text: Every city sells the same promise: more. More noise, more rent, more strangers, more chances.
+
+text: The rain in town does not care about your shoes, your meeting, or your plans for the evening.
+date: 11 Sep 2026
+
+text: You do not belong to a place because you love it. You belong when it would miss you a little.
+
+text: Moving away does not fix you. You pack yourself in the first box.
+date: 4 Oct 2026

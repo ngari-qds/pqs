@@ -161,7 +161,7 @@ export default function Studio() {
     return `${label}: ${added} new, ${ok.length - added} already saved${skipped ? `, ${skipped} skipped (problems)` : ""}.`;
   };
   const importCollection = async (id: string) => importItems(parseBatch(await loadCollection(id)), "Collection");
-  const importFiles = async (files: FileList) => {
+  const importFiles = async (files: File[]) => {
     const results = await readImportFiles(files);
     const failed = results.filter((r) => r.error).map((r) => `${r.name} (${r.error})`);
     const summary = await importItems(results.flatMap((r) => r.items), `${results.length} file${results.length === 1 ? "" : "s"}`);

@@ -1,0 +1,1048 @@
+// Fred M | 1963ke · Dialogue — 200 quotes.
+
+@dialogue+
+tags: love
+
+speakerA: Me
+lineA: How will I know it is real love?
+speakerB: Old woman
+lineB: When it bores you and you stay anyway.
+
+speakerA: Her
+lineA: Say you will never leave.
+speakerB: Him
+lineB: I can say it. Saying it has never been the hard part.
+
+speakerA: Young woman
+lineA: He makes me feel alive.
+speakerB: Her sister
+lineB: So does a fever. Ask how he makes you feel on a Tuesday.
+
+speakerA: Me
+lineA: Why does love hurt so much?
+speakerB: Love
+lineB: I don't. Expecting me to stay the same does.
+
+speakerA: Him
+lineA: I gave you everything.
+speakerB: Her
+lineB: You gave me what was easy for you to give. That is not the same list.
+
+speakerA: Me
+lineA: Is there someone out there for everyone?
+speakerB: Reality
+lineB: There is someone out there. Whether they turn up is not my department.
+
+speakerA: Daughter
+lineA: Did you marry for love?
+speakerB: Mother
+lineB: I married for love. I stayed for reasons I did not have words for at twenty.
+
+speakerA: Me
+lineA: We were perfect for each other.
+speakerB: The mirror
+lineB: You were perfect for each other for about eight months.
+
+speakerA: Her
+lineA: You used to write me letters.
+speakerB: Him
+lineB: I used to want you to notice me. Now I assume you do.
+
+speakerA: Love
+lineA: I will make everything better.
+speakerB: Rent
+lineB: You will make everything louder. I will still be due on the first.
+
+speakerA: Young man
+lineA: She is the one.
+speakerB: Old man
+lineB: I have had three of those. Each one was certain.
+
+speakerA: Me
+lineA: Can love survive anything?
+speakerB: Time
+lineB: Love survives a great deal. It rarely survives being ignored.
+
+tags: relationships
+
+speakerA: Me
+lineA: Why did they stop texting back?
+speakerB: Reality
+lineB: Because they could. Nothing else needs explaining.
+
+speakerA: Friend
+lineA: You should tell them how you feel.
+speakerB: Me
+lineB: They already know. That is the problem.
+
+speakerA: Him
+lineA: Can we talk about us?
+speakerB: Her
+lineB: We have been talking about us for two years. Nothing ever moves.
+
+speakerA: Me
+lineA: I thought we had something special.
+speakerB: Them
+lineB: You did. I had something convenient.
+
+speakerA: Therapist
+lineA: What do you want from this relationship?
+speakerB: Me
+lineB: For it to be the one I imagined before it started.
+
+speakerA: Her
+lineA: Why do you always bring up the past?
+speakerB: Him
+lineB: Because the past keeps showing up in the present wearing your coat.
+
+speakerA: Me
+lineA: Should I give them another chance?
+speakerB: The mirror
+lineB: You gave them four. You are not counting. They are.
+
+speakerA: Young woman
+lineA: I can change him.
+speakerB: Grandmother
+lineB: You can change his shirts. The man inside comes as delivered.
+
+speakerA: Me
+lineA: We just drifted apart.
+speakerB: Reality
+lineB: Drifting takes no effort. That is why it is so common.
+
+speakerA: Him
+lineA: I never meant to hurt you.
+speakerB: Her
+lineB: I know. You never meant anything much. That was the trouble.
+
+speakerA: Me
+lineA: Why do I keep choosing the same kind of person?
+speakerB: Therapist
+lineB: Because the same person is doing the choosing.
+
+speakerA: Ex
+lineA: Can we still be friends?
+speakerB: Me
+lineB: We were never friends. We were something, and then we were not.
+
+tags: family
+
+speakerA: Son
+lineA: Why are you always so tired?
+speakerB: Father
+lineB: Because I have been paying for this house since before you could ask.
+
+speakerA: Me
+lineA: My parents will always be there.
+speakerB: Time
+lineB: Look at their hands next Sunday. Then say that again.
+
+speakerA: Daughter
+lineA: You never said sorry.
+speakerB: Mother
+lineB: Nobody said sorry to me either. I thought that was how it worked.
+
+speakerA: Brother
+lineA: We should visit Mum more.
+speakerB: Sister
+lineB: We say that every Christmas. She hears it every Christmas.
+
+speakerA: Child
+lineA: Will you always protect me?
+speakerB: Father
+lineB: For as long as I can. That is shorter than either of us would like.
+
+speakerA: Me
+lineA: I will never be like my father.
+speakerB: The mirror
+lineB: You already cough like him. Give it ten years.
+
+speakerA: Mother
+lineA: Call me when you get home.
+speakerB: Son
+lineB: I always forget. One day she will stop asking, and I will remember.
+
+speakerA: Uncle
+lineA: Family comes first.
+speakerB: Me
+lineB: Family comes first when the will is read. Before that, it comes when it can.
+
+speakerA: Grandson
+lineA: What was Grandpa like?
+speakerB: Grandmother
+lineB: Better in the stories than in the kitchen. Most men are.
+
+speakerA: Daughter
+lineA: Why did you stay with him?
+speakerB: Mother
+lineB: Because leaving had a price, and I could not afford it with three of you.
+
+speakerA: Me
+lineA: We used to be close.
+speakerB: Sister
+lineB: We used to share a bedroom. That is not the same thing.
+
+speakerA: Father
+lineA: I did my best.
+speakerB: Son
+lineB: I believe you. That is what makes it hard.
+
+tags: death
+
+speakerA: Me
+lineA: Not yet.
+speakerB: Death
+lineB: Everyone says that. I have never once been early.
+
+speakerA: Patient
+lineA: Is there any hope?
+speakerB: Nurse
+lineB: There is morphine, and there is your family. Spend the time on the second.
+
+speakerA: Child
+lineA: Is Grandpa sleeping?
+speakerB: Mother
+lineB: No. Sleeping is the word we use until you are old enough for the real one.
+
+speakerA: Me
+lineA: I thought there would be more time.
+speakerB: Death
+lineB: Everyone does. It is the only thing you all agree on.
+
+speakerA: Widow
+lineA: How do I go on?
+speakerB: Old widow
+lineB: You get up. You make tea for one. You stop setting the second cup.
+
+speakerA: Young man
+lineA: I am not afraid of dying.
+speakerB: Old man
+lineB: You are not afraid of dying yet. Ask me again at the hospital.
+
+speakerA: Me
+lineA: What will people say at my funeral?
+speakerB: Reality
+lineB: Kind things, briefly. Then they will discuss the traffic.
+
+speakerA: Son
+lineA: Did he suffer?
+speakerB: Doctor
+lineB: Not at the end. Before the end is a longer conversation.
+
+speakerA: Me
+lineA: Where do the dead go?
+speakerB: Death
+lineB: Into photographs, then into drawers, then into nobody's memory at all.
+
+speakerA: Daughter
+lineA: Are you scared?
+speakerB: Dying father
+lineB: Of the dying, a little. Of what I never said, much more.
+
+speakerA: Me
+lineA: Can you make an exception?
+speakerB: Death
+lineB: I have no exceptions. I only have a waiting list.
+
+speakerA: Friend
+lineA: At least she is in a better place.
+speakerB: Me
+lineB: She was in a fine place. It was here, at this table, with us.
+
+speakerA: Me
+lineA: I will deal with it later.
+speakerB: Death
+lineB: Later is my favourite word. I collect people who use it.
+
+speakerA: Nurse
+lineA: Do you want to call anyone?
+speakerB: Old man
+lineB: I made a list once. Most of them went first.
+
+tags: time
+
+speakerA: Me
+lineA: Where did the year go?
+speakerB: Time
+lineB: Where it always goes. You were looking at your phone.
+
+speakerA: Young woman
+lineA: I have my whole life ahead of me.
+speakerB: Time
+lineB: So did everyone in the cemetery. Read the dates.
+
+speakerA: Me
+lineA: Can you slow down?
+speakerB: Time
+lineB: I have never sped up. You just stopped noticing the days.
+
+speakerA: Student
+lineA: I will travel when I retire.
+speakerB: Retired teacher
+lineB: My knees retired before I did. Go now.
+
+speakerA: Me
+lineA: Just five more minutes.
+speakerB: Time
+lineB: You said that in 2019. I am still keeping count.
+
+speakerA: Son
+lineA: I will visit next month.
+speakerB: Time
+lineB: Next month has a way of becoming next year, then a phone call.
+
+speakerA: Me
+lineA: I want to go back.
+speakerB: Time
+lineB: Nobody goes back. You go forward carrying the photographs.
+
+speakerA: Child
+lineA: How long is forever?
+speakerB: Grandfather
+lineB: About as long as the person promising it.
+
+speakerA: Me
+lineA: I am waiting for the right moment.
+speakerB: Time
+lineB: I do not make right moments. I make moments. You pick.
+
+speakerA: Me
+lineA: I still have time.
+speakerB: Calendar
+lineB: You have dates. Whether they become time is your problem.
+
+speakerA: Young man
+lineA: When does life start?
+speakerB: Old man
+lineB: It started. You were busy preparing for it.
+
+speakerA: Me
+lineA: Why does it go faster every year?
+speakerB: Time
+lineB: Because you stopped doing anything for the first time.
+
+tags: work, money
+
+speakerA: Employee
+lineA: We are like a family here.
+speakerB: HR
+lineB: Families do not have notice periods. Sign here.
+
+speakerA: Me
+lineA: Money cannot buy happiness.
+speakerB: Money
+lineB: Say that to the man choosing between rent and medicine.
+
+speakerA: Graduate
+lineA: Follow your passion, they said.
+speakerB: Landlord
+lineB: Your passion is two months behind on rent.
+
+speakerA: Me
+lineA: I deserve a raise.
+speakerB: Manager
+lineB: Deserve is not a budget line. Replaceable is.
+
+speakerA: Young man
+lineA: I will work hard and get rich.
+speakerB: Old cleaner
+lineB: I have worked hard for forty years. Ask me about rich.
+
+speakerA: Me
+lineA: Who will remember my late nights?
+speakerB: The office
+lineB: Nobody. Your desk will be cleared in an afternoon.
+
+speakerA: Me
+lineA: Lend me some money. I will pay you back.
+speakerB: Old friend
+lineB: Take it as a gift. It is cheaper than losing you over it.
+
+speakerA: Son
+lineA: Why do you work so much?
+speakerB: Mother
+lineB: So you can ask that question in a school uniform.
+
+speakerA: Me
+lineA: I am indispensable here.
+speakerB: Reality
+lineB: The job advert is already written. It is waiting in a drawer.
+
+speakerA: Me
+lineA: I will be happy once I earn more.
+speakerB: Money
+lineB: You will be anxious about larger numbers.
+
+speakerA: Intern
+lineA: How do I get ahead?
+speakerB: Old clerk
+lineB: Learn who takes the credit. Then decide if you want to be him.
+
+speakerA: Me
+lineA: Is it greedy to want more?
+speakerB: Money
+lineB: Everyone wants more. The honest ones just admit the number.
+
+speakerA: Me
+lineA: Why do rich people seem calmer?
+speakerB: Reality
+lineB: Because a broken car is an errand for them, not a catastrophe.
+
+speakerA: Boss
+lineA: Your health comes first.
+speakerB: Me
+lineB: Then why is the meeting at seven?
+
+tags: aging
+
+speakerA: Me
+lineA: I do not feel old.
+speakerB: The mirror
+lineB: Nobody feels it. I am here to show it.
+
+speakerA: Young woman
+lineA: What is the worst part of getting old?
+speakerB: Old woman
+lineB: Becoming furniture at your own family's table.
+
+speakerA: Me
+lineA: When did my back start hurting?
+speakerB: Time
+lineB: Quietly, while you were telling people you would live forever.
+
+speakerA: Grandson
+lineA: Were you ever young?
+speakerB: Grandfather
+lineB: Yes. It went exactly as quickly as yours is going.
+
+speakerA: Me
+lineA: I will stay young at heart.
+speakerB: Knees
+lineB: Your heart can do what it likes. We are voting differently.
+
+speakerA: Old man
+lineA: Nobody asks my opinion any more.
+speakerB: Old woman
+lineB: They stopped asking mine at sixty. I started saying it anyway.
+
+speakerA: Me
+lineA: What do you miss most?
+speakerB: Old woman
+lineB: Being looked at. Not admired. Just seen.
+
+speakerA: Daughter
+lineA: You repeated that story again.
+speakerB: Father
+lineB: I know. It is one of the few I can still find.
+
+speakerA: Me
+lineA: Age is just a number.
+speakerB: Doctor
+lineB: So is blood pressure. Sit down.
+
+speakerA: Young man
+lineA: I will never get like that.
+speakerB: Old man
+lineB: That is what I said about my father, on this bench.
+
+tags: friendship
+
+speakerA: Me
+lineA: We will be friends forever.
+speakerB: Time
+lineB: Until one of you moves, marries or gets busy.
+
+speakerA: Old friend
+lineA: Let us do lunch sometime.
+speakerB: Me
+lineB: Sometime is where friendships go to retire.
+
+speakerA: Me
+lineA: Why did they stop calling?
+speakerB: Reality
+lineB: You stopped too. You just counted only their silence.
+
+speakerA: Friend
+lineA: I am always here for you.
+speakerB: Me
+lineB: You are here when it suits your evening. I have learned the hours.
+
+speakerA: Me
+lineA: How many real friends do I have?
+speakerB: Hospital bed
+lineB: Count the visitors in the second week, not the first.
+
+speakerA: Young woman
+lineA: My friends are my family.
+speakerB: Old woman
+lineB: Until they have families. Then you are a birthday message.
+
+speakerA: Me
+lineA: I miss how close we were.
+speakerB: Old friend
+lineB: So do I. Neither of us misses it enough to pick up the phone.
+
+speakerA: Me
+lineA: Should I tell my friend the truth?
+speakerB: Reality
+lineB: You may keep the truth or the friend. Some days you cannot keep both.
+
+speakerA: Friend
+lineA: I am happy for you.
+speakerB: Me
+lineB: You are happy for me in public. I have seen your face in the car.
+
+speakerA: Me
+lineA: We have not spoken in years.
+speakerB: Old friend
+lineB: And yet we both still know the other one's coffee order.
+
+speakerA: Me
+lineA: True friends never leave.
+speakerB: Reality
+lineB: True friends leave too. They just tell you first.
+
+speakerA: Friend
+lineA: You have changed.
+speakerB: Me
+lineB: Yes. You were hoping I would stay the person who needed you.
+
+tags: grief
+
+speakerA: Me
+lineA: When will it stop hurting?
+speakerB: Grief
+lineB: I do not stop. I just learn to sit quietly in the corner.
+
+speakerA: Friend
+lineA: Time heals everything.
+speakerB: Widower
+lineB: Time teaches you to walk with the limp. That is different.
+
+speakerA: Me
+lineA: I keep calling her number.
+speakerB: Grief
+lineB: It still rings. That is the cruellest part of the arrangement.
+
+speakerA: Daughter
+lineA: Should we clear out his room?
+speakerB: Mother
+lineB: Not yet. Once the room is empty, he is gone twice.
+
+speakerA: Me
+lineA: Everyone has moved on.
+speakerB: Grief
+lineB: Everyone else had less to carry. Do not measure your pace by theirs.
+
+speakerA: Neighbour
+lineA: Let me know if you need anything.
+speakerB: Widow
+lineB: I need him back. You meant groceries.
+
+speakerA: Me
+lineA: Why do I feel guilty for laughing?
+speakerB: Grief
+lineB: Because you think I am a test of loyalty. I am not keeping score.
+
+speakerA: Son
+lineA: I forgot the sound of her voice.
+speakerB: Father
+lineB: So did I, last spring. Nobody warns you about that loss.
+
+speakerA: Me
+lineA: Is there a right way to grieve?
+speakerB: Old widow
+lineB: There is your way. Everyone else is just watching.
+
+speakerA: Me
+lineA: I thought I would be ready.
+speakerB: Grief
+lineB: Nobody is ready. Being prepared only means you knew the date.
+
+speakerA: Child
+lineA: Can we still talk to Grandma?
+speakerB: Father
+lineB: You can. She will not answer. Talk anyway, for your sake.
+
+speakerA: Me
+lineA: Will I ever be happy again?
+speakerB: Grief
+lineB: Yes, and that will hurt too, in its own way.
+
+tags: truth, self
+
+speakerA: Me
+lineA: I am a good person.
+speakerB: The mirror
+lineB: You are a convenient person to yourself. Let us start there.
+
+speakerA: Me
+lineA: Tell me the truth.
+speakerB: Reality
+lineB: You want the truth that agrees with you. I only stock the other kind.
+
+speakerA: Young man
+lineA: I want to find myself.
+speakerB: Old man
+lineB: You will. Most people are disappointed by what they find.
+
+speakerA: Me
+lineA: Why do I lie to myself?
+speakerB: Therapist
+lineB: Because you are the only audience who always believes you.
+
+speakerA: Me
+lineA: I am not like other people.
+speakerB: Reality
+lineB: Everyone says that. You even say it in the same words.
+
+speakerA: Me
+lineA: I would never do that.
+speakerB: The mirror
+lineB: You have never been tired, frightened and offered enough.
+
+speakerA: Me
+lineA: Who am I really?
+speakerB: Calendar
+lineB: Whatever you did most days. The rest is a story you tell at parties.
+
+speakerA: Me
+lineA: I just want to be honest.
+speakerB: Friend
+lineB: You want to be cruel without being blamed for it.
+
+speakerA: Me
+lineA: Am I the problem?
+speakerB: Therapist
+lineB: You are in every room where the problem happens. That is data.
+
+speakerA: Me
+lineA: I will start being myself tomorrow.
+speakerB: Reality
+lineB: You have been yourself all along. That is what you are avoiding.
+
+speakerA: Me
+lineA: Why does the truth hurt?
+speakerB: Truth
+lineB: I do not hurt. Your plans for me do.
+
+speakerA: Me
+lineA: I have no regrets.
+speakerB: The mirror
+lineB: Then you have a poor memory or a careful one.
+
+tags: loneliness
+
+speakerA: Me
+lineA: I am surrounded by people.
+speakerB: Loneliness
+lineB: I like crowds. Nobody notices me there.
+
+speakerA: Old man
+lineA: Does anyone call you?
+speakerB: Old woman
+lineB: The bank, on Thursdays. They are very polite.
+
+speakerA: Me
+lineA: Why do I feel alone in my own house?
+speakerB: Loneliness
+lineB: Because you live with people who stopped asking how you are.
+
+speakerA: Young woman
+lineA: I have a thousand followers.
+speakerB: Loneliness
+lineB: And no one to call at two in the morning. I know.
+
+speakerA: Me
+lineA: Will someone notice if I disappear?
+speakerB: Reality
+lineB: Eventually. The landlord first, sadly. Call someone today.
+
+speakerA: Me
+lineA: I am fine on my own.
+speakerB: Loneliness
+lineB: You say it to the television every night. It never argues.
+
+speakerA: Neighbour
+lineA: I did not know he lived alone.
+speakerB: Caretaker
+lineB: Nobody knew. That was the problem for eleven years.
+
+speakerA: Me
+lineA: Why is Sunday the worst day?
+speakerB: Loneliness
+lineB: Because nobody needs you, and nothing is open to pretend.
+
+speakerA: Me
+lineA: I married to stop being lonely.
+speakerB: Loneliness
+lineB: I came to the wedding. I sat at your table.
+
+speakerA: Me
+lineA: How do I stop feeling alone?
+speakerB: Old woman
+lineB: Be useful to someone. Loneliness hates having a job.
+
+tags: fear
+
+speakerA: Me
+lineA: What if I fail?
+speakerB: Reality
+lineB: You will. Then you will do the next thing. That is the whole secret.
+
+speakerA: Me
+lineA: I am not ready.
+speakerB: Fear
+lineB: Thank you. That is all I needed you to say.
+
+speakerA: Young man
+lineA: How do you stop being afraid?
+speakerB: Old soldier
+lineB: You do not. You just get bored of letting it decide.
+
+speakerA: Me
+lineA: Fear is keeping me safe.
+speakerB: Time
+lineB: Fear is keeping you still. I am still moving.
+
+speakerA: Child
+lineA: Is there a monster under the bed?
+speakerB: Father
+lineB: No. The monsters come later, as letters and test results.
+
+speakerA: Me
+lineA: What are you protecting me from?
+speakerB: Fear
+lineB: From finding out you were capable all along. That would be awkward.
+
+speakerA: Me
+lineA: I will act when I stop being scared.
+speakerB: Fear
+lineB: Then we will grow old together in this chair.
+
+speakerA: Patient
+lineA: I am afraid of the results.
+speakerB: Doctor
+lineB: The results already exist. Fear is only about when you hear them.
+
+speakerA: Me
+lineA: Courage means not being afraid.
+speakerB: Old nurse
+lineB: Courage means doing the night shift with your hands shaking.
+
+speakerA: Me
+lineA: Why do I always expect the worst?
+speakerB: Fear
+lineB: Because the worst happened once, and I have kept the receipt.
+
+tags: memory
+
+speakerA: Me
+lineA: I will always remember this day.
+speakerB: Memory
+lineB: You will remember the weather and one sentence. Possibly wrong.
+
+speakerA: Daughter
+lineA: Do you remember me, Mum?
+speakerB: Mother
+lineB: I remember someone kind who visits. Is that you?
+
+speakerA: Me
+lineA: It was better back then.
+speakerB: Memory
+lineB: It was younger back then. I edited out the rest for you.
+
+speakerA: Old man
+lineA: I remember every face from school.
+speakerB: Old friend
+lineB: You remember them at fifteen. Half are gone. The rest are bald.
+
+speakerA: Me
+lineA: Why can I not forget it?
+speakerB: Memory
+lineB: Because you keep visiting. I just open the door.
+
+speakerA: Me
+lineA: How did it actually happen?
+speakerB: Memory
+lineB: I no longer know. I kept the version you told most often.
+
+speakerA: Son
+lineA: You used to sing to me.
+speakerB: Father
+lineB: Did I? I remember only the bills from that year.
+
+speakerA: Me
+lineA: I will take a photo so I never forget.
+speakerB: Memory
+lineB: Then you will remember the photo, and forget the room.
+
+speakerA: Me
+lineA: Promise you will remember me.
+speakerB: Old friend
+lineB: For a while, clearly. Then as a name in a story.
+
+speakerA: Grandson
+lineA: What was the war like?
+speakerB: Grandfather
+lineB: Loud, then quiet, then I spent fifty years not discussing it.
+
+tags: home, city
+
+speakerA: Me
+lineA: I will go back home one day.
+speakerB: Home
+lineB: I moved too. The house is still here. I am not.
+
+speakerA: Young man
+lineA: Nairobi will make me somebody.
+speakerB: Matatu driver
+lineB: Nairobi makes everybody somebody. Usually somebody tired.
+
+speakerA: Me
+lineA: This city never sleeps.
+speakerB: Night guard
+lineB: It sleeps. I am the one who does not.
+
+speakerA: Me
+lineA: Home is where the heart is.
+speakerB: Landlord
+lineB: Home is where the lease is. Renewal is in March.
+
+speakerA: Village aunt
+lineA: When are you coming home?
+speakerB: Me
+lineB: When it stops costing a month of rent to get there.
+
+speakerA: Me
+lineA: Why does the old house look so small?
+speakerB: Home
+lineB: I am the same size. You just stopped being a child in me.
+
+speakerA: Newcomer
+lineA: How long until this city feels like home?
+speakerB: Old resident
+lineB: Until you have buried someone here. Then it is yours.
+
+speakerA: Me
+lineA: Everyone in this city is in a hurry.
+speakerB: City
+lineB: They are running from rent, from bosses, from their own thoughts.
+
+speakerA: Me
+lineA: I miss home.
+speakerB: Mother
+lineB: You miss being looked after. Home was the place where it happened.
+
+speakerA: Son
+lineA: Will you sell the farm?
+speakerB: Father
+lineB: Not while I am alive. After that it will be your quarrel.
+
+tags: society
+
+speakerA: Me
+lineA: People are basically good.
+speakerB: Reality
+lineB: People are basically busy. Goodness happens when it is convenient.
+
+speakerA: Young woman
+lineA: I will change the world.
+speakerB: Old activist
+lineB: Start with the meeting minutes. The world is changed in committees.
+
+speakerA: Me
+lineA: Why does nobody help?
+speakerB: Crowd
+lineB: Each of us is waiting for one of the others to be the good one.
+
+speakerA: Voter
+lineA: This time it will be different.
+speakerB: Old voter
+lineB: I said that in four elections. The posters got glossier.
+
+speakerA: Me
+lineA: Success is about talent.
+speakerB: Reality
+lineB: Success is about talent, timing, an uncle and luck. In some order.
+
+speakerA: Me
+lineA: Why do people pretend online?
+speakerB: Society
+lineB: Because I reward the pretending and ignore the rest.
+
+speakerA: Student
+lineA: Is the world fair?
+speakerB: Teacher
+lineB: No. It is just consistent about who it is unfair to.
+
+speakerA: Me
+lineA: People will respect me if I am kind.
+speakerB: Reality
+lineB: People will use you if you are kind. Respect needs a spine as well.
+
+speakerA: Me
+lineA: Why does everyone want to be seen?
+speakerB: Society
+lineB: Because being ignored is the only punishment I give everyone.
+
+speakerA: Young man
+lineA: Hard work always pays.
+speakerB: Old porter
+lineB: It pays. Not always you, and not always fairly.
+
+tags: life
+
+speakerA: Me
+lineA: What is the meaning of life?
+speakerB: Reality
+lineB: Getting through this week. Ask again on Sunday.
+
+speakerA: Me
+lineA: Life is unfair.
+speakerB: Life
+lineB: I never claimed otherwise. You read that in a children's book.
+
+speakerA: Young woman
+lineA: When does it all make sense?
+speakerB: Old woman
+lineB: It does not. You just stop needing it to.
+
+speakerA: Me
+lineA: I want a simple life.
+speakerB: Life
+lineB: Simple costs more than anyone tells you, in money and in friends.
+
+speakerA: Me
+lineA: Things happen for a reason.
+speakerB: Reality
+lineB: Things happen. The reasons are added later by the survivors.
+
+speakerA: Me
+lineA: I will be happy when this is over.
+speakerB: Life
+lineB: Something else will start. That is the only schedule I keep.
+
+speakerA: Child
+lineA: What do grown-ups do all day?
+speakerB: Mother
+lineB: Worry, mostly. Then we cook, and worry while we cook.
+
+speakerA: Me
+lineA: I wasted my twenties.
+speakerB: Time
+lineB: Then do not waste your thirties grieving them.
+
+speakerA: Me
+lineA: Is it too late to start over?
+speakerB: Old man
+lineB: It is late. It is not too late. Those are different words.
+
+speakerA: Me
+lineA: Why is life so hard?
+speakerB: Life
+lineB: I am not hard. I am just indifferent, and you take it personally.
+
+speakerA: Me
+lineA: Everything will work out in the end.
+speakerB: Reality
+lineB: Everything will end. Working out is optional.
+
+speakerA: Young man
+lineA: What should I know before I am old?
+speakerB: Old man
+lineB: That you will be old. Most people learn it far too late to act.
+
+speakerA: Me
+lineA: I will be different from everyone else.
+speakerB: Life
+lineB: You will queue at the same bank, bury the same kind of parents.
+
+speakerA: Me
+lineA: Give me a sign.
+speakerB: Reality
+lineB: The bills on the table are the sign. They have been there since May.
+
+tags: marriage
+
+speakerA: Bride
+lineA: What is the secret of a long marriage?
+speakerB: Old wife
+lineB: Two bad memories and a second bathroom.
+
+speakerA: Husband
+lineA: You never listen to me.
+speakerB: Wife
+lineB: I listened for twenty years. You said the same four things.
+
+speakerA: Me
+lineA: Marriage will make us closer.
+speakerB: Old husband
+lineB: Marriage makes you nearer. Closer is extra work.
+
+speakerA: Wife
+lineA: When did we stop talking?
+speakerB: Husband
+lineB: Around the time the children started. We meant to come back to it.
+
+speakerA: Groom
+lineA: Till death do us part.
+speakerB: Lawyer
+lineB: That is the poetry. I handle the other clause.
+
+speakerA: Daughter
+lineA: Were you ever happy together?
+speakerB: Father
+lineB: For some years, yes. You were too young to see those ones.
+
+speakerA: Wife
+lineA: Do you even see me any more?
+speakerB: Husband
+lineB: I see you every day. That is how I stopped looking.
+
+speakerA: Me
+lineA: We never fight.
+speakerB: Counsellor
+lineB: Then one of you has stopped caring enough to argue.
+
+speakerA: Widower
+lineA: We fought about the dishes for forty years.
+speakerB: Son
+lineB: And now you wash two plates and leave one to dry for her.
+
+speakerA: Husband
+lineA: I am doing this for the family.
+speakerB: Wife
+lineB: The family would like you home before it is asleep.
+
+tags: regret
+
+speakerA: Me
+lineA: If only I had known.
+speakerB: Regret
+lineB: You knew. You hoped it would not matter.
+
+speakerA: Old man
+lineA: I should have said yes.
+speakerB: Regret
+lineB: You say that every evening. She married a teacher in 1981.
+
+speakerA: Me
+lineA: I would do it all differently.
+speakerB: Time
+lineB: You would do it the same with better excuses.
+
+speakerA: Me
+lineA: Sorry I missed it.
+speakerB: Son
+lineB: It is fine. There will be other recitals. I am not ten for long though.
+
+speakerA: Me
+lineA: I meant to visit him.
+speakerB: Regret
+lineB: Meaning to is the kindest phrase on most headstones.
+
+speakerA: Old woman
+lineA: My only regret is the time I spent worrying.
+speakerB: Young woman
+lineB: I will remember that. I will probably worry about it.

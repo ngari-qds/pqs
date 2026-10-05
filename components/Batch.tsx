@@ -89,7 +89,9 @@ export default function Batch(props: Props) {
   };
 
   /** Uploaded or dropped files: batch text is appended as-is; JSON/CSV are converted. */
-  const importFiles = async (files: FileList | File[]) => {
+  const importFiles = async (list: FileList | File[]) => {
+    // Copy first: the input's FileList is emptied when the input is reset.
+    const files = Array.from(list);
     const results = await readImportFiles(files, defaultFormat);
     const chunks: string[] = [];
     const notes: string[] = [];
@@ -101,7 +103,7 @@ export default function Batch(props: Props) {
       const ok = r.items.filter((i) => !i.errors.length);
       const bad = r.items.length - ok.length;
       const isText = !/\.(json|csv)$/i.test(r.name);
-      chunks.push(isText ? await (Array.from(files).find((f) => f.name === r.name) as File).text() : toBatchText(ok));
+      chunks.push(isText ? await (files.find((f) => f.name === r.name) as File).text() : toBatchText(ok));
       notes.push(`${r.name}: ${ok.length} quote${ok.length === 1 ? "" : "s"}${bad ? `, ${bad} with problems` : ""}`);
     }
     setText((t) => [t.trim(), ...chunks].filter(Boolean).join("\n\n---\n\n"));

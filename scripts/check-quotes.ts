@@ -1,11 +1,11 @@
 /**
- * Renders every quote in public/quotes/cold-quotes.txt with its format's
+ * Renders every quote in public/quotes (sampler + formats/*.txt) with its format's
  * first hero template at Stories and Instagram portrait (1x) and reports any
  * that overflow, need a fallback, or sit at the minimum type size.
- *   npx tsx scripts/check-quotes.ts
+ *   npx tsx scripts/check-quotes.ts [file-filter]
  */
 import { spawnSync } from "node:child_process";
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { renderQuote } from "../lib/render";
 import { slideCount } from "../lib/render/formats";
@@ -19,7 +19,11 @@ const env = nodeEnv();
 const heroes: TemplateConfig[] = ["classic", "hbp", "carousel", "one-liner", "highlight", "contrast", "myth-truth", "then-now", "paradox", "list", "qa", "definition", "equation", "stat", "law", "dialogue", "stanza", "field-note", "post-card", "pull-quote"].map(
   (f) => JSON.parse(readFileSync(path.join(root, "templates", `${f}.json`), "utf8")).find((t: TemplateConfig) => !t.background.kind.startsWith("photo")),
 );
-const items = parseBatch(readFileSync(path.join(root, "public/quotes/cold-quotes.txt"), "utf8"));
+const dir = path.join(root, "public/quotes");
+const files = ["cold-quotes.txt", ...readdirSync(path.join(dir, "formats")).filter((f) => f.endsWith(".txt")).sort().map((f) => `formats/${f}`)].filter(
+  (f) => !process.argv[2] || f.includes(process.argv[2]),
+);
+const items = files.flatMap((file) => parseBatch(readFileSync(path.join(dir, file), "utf8")).map((item) => ({ ...item, file })));
 const CHUNK = 60;
 const range = process.env.CHECK_RANGE;
 
@@ -28,7 +32,7 @@ if (!range) {
   // readback memory), then summarise.
   let problems = 0;
   for (let from = 0; from < items.length; from += CHUNK) {
-    const r = spawnSync(process.execPath, ["--import", "tsx", import.meta.filename], { env: { ...process.env, CHECK_RANGE: `${from}:${from + CHUNK}` }, encoding: "utf8" });
+    const r = spawnSync(process.execPath, ["--import", "tsx", import.meta.filename, ...process.argv.slice(2)], { env: { ...process.env, CHECK_RANGE: `${from}:${from + CHUNK}` }, encoding: "utf8" });
     process.stdout.write(r.stdout);
     if (r.status !== 0 && r.status !== 1) throw new Error(`chunk ${from} crashed: ${r.stderr}`);
     problems += (r.stdout.match(/^ {2}line /gm) ?? []).length;
@@ -51,7 +55,7 @@ for (const item of items.slice(from, to)) {
       const issue = r.overflow ? "OVERFLOW" : r.fallback ? `fallback: ${r.fallback}` : main?.atMin ? "at minimum size" : r.collisions.length ? r.collisions.join("; ") : null;
       if (issue) {
         problems++;
-        console.log(`  line ${item.line} (${item.content.format}, ${pid}${slideCount(item.content) > 1 ? `, slide ${s + 1}` : ""}): ${issue}`);
+        console.log(`  line ${item.line} ${item.file} (${item.content.format}, ${pid}${slideCount(item.content) > 1 ? `, slide ${s + 1}` : ""}): ${issue}`);
       }
     }
   }
