@@ -10,7 +10,9 @@ import { getPalette } from "@/lib/render/palettes";
 import { getPreset } from "@/lib/render/presets";
 import type { FormatId, QuoteContent, SignatureStyle, TemplateConfig } from "@/lib/render/template";
 import type { Drawable } from "@/lib/render/types";
-import { STYLE_FAMILIES, batchFileStem, parseBatch, templateFor, type BatchItem, type StyleFamily } from "@/lib/studio/batch";
+import { STYLE_FAMILIES, batchFileStem, parseBatch, templateFor, toBatchText, type BatchItem, type StyleFamily } from "@/lib/studio/batch";
+import { collectionIndex, loadCollection, type CollectionIndex } from "@/lib/studio/collection";
+import { IMPORT_ACCEPT, readImportFiles } from "@/lib/studio/importers";
 import { contentText, download, exportBatch, type ExportFormat } from "@/lib/studio/export";
 import { ALL_TEMPLATES } from "@/lib/studio/templates";
 
@@ -46,6 +48,14 @@ export default function Batch(props: Props) {
   const [progress, setProgress] = useState<{ done: number; total: number } | null>(null);
   const [message, setMessage] = useState<string | null>(null);
   const abort = useRef<AbortController | null>(null);
+  const fileInput = useRef<HTMLInputElement>(null);
+  const [index, setIndex] = useState<CollectionIndex | null>(null);
+  const [collection, setCollection] = useState("sampler");
+  const [range, setRange] = useState<{ from: number; to: number } | null>(null);
+  const [dragging, setDragging] = useState(false);
+  useEffect(() => {
+    collectionIndex().then(setIndex).catch(() => {});
+  }, []);
 
   useEffect(() => {
     const t = setTimeout(() => setItems(parseBatch(text, defaultFormat)), 250);
@@ -72,24 +82,51 @@ export default function Batch(props: Props) {
   const templateOf = (c: QuoteContent): TemplateConfig =>
     familyId === "current" && c.format === props.currentTemplate.format ? props.currentTemplate : templateFor(c, family, ALL_TEMPLATES);
 
-  const loadCollection = async () => {
-    const res = await fetch("/quotes/cold-quotes.txt");
-    setText(await res.text());
+  const loadChosen = async () => {
+    setText(await loadCollection(collection));
+    setRange(null);
     setMessage(null);
   };
 
+  /** Uploaded or dropped files: batch text is appended as-is; JSON/CSV are converted. */
+  const importFiles = async (files: FileList | File[]) => {
+    const results = await readImportFiles(files, defaultFormat);
+    const chunks: string[] = [];
+    const notes: string[] = [];
+    for (const r of results) {
+      if (r.error) {
+        notes.push(`${r.name}: ${r.error}`);
+        continue;
+      }
+      const ok = r.items.filter((i) => !i.errors.length);
+      const bad = r.items.length - ok.length;
+      const isText = !/\.(json|csv)$/i.test(r.name);
+      chunks.push(isText ? await (Array.from(files).find((f) => f.name === r.name) as File).text() : toBatchText(ok));
+      notes.push(`${r.name}: ${ok.length} quote${ok.length === 1 ? "" : "s"}${bad ? `, ${bad} with problems` : ""}`);
+    }
+    setText((t) => [t.trim(), ...chunks].filter(Boolean).join("\n\n---\n\n"));
+    setRange(null);
+    setMessage(`Imported ${notes.join(" · ")}`);
+  };
+
+  const from = Math.max(1, Math.min(range?.from ?? 1, valid.length || 1));
+  const to = Math.max(from, Math.min(range?.to ?? valid.length, valid.length));
+  const selected = valid.slice(from - 1, to);
+  const selectedImages = selected.reduce((n, i) => n + slideCount(i.content), 0);
+
   const render = async () => {
-    if (!valid.length) return;
+    if (!selected.length) return;
     const ac = new AbortController();
     abort.current = ac;
     setMessage(null);
-    setProgress({ done: 0, total: totalImages });
+    setProgress({ done: 0, total: selectedImages });
     const t0 = performance.now();
     const w = preset.width * props.scale, h = preset.height * props.scale;
-    const baseName = `fred-m_batch_${valid.length}-quotes_${preset.id}_${w}x${h}`;
+    const span = selected.length === valid.length ? `${valid.length}-quotes` : `quotes-${from}-${to}`;
+    const baseName = `fred-m_batch_${span}_${preset.id}_${w}x${h}`;
     try {
       const r = await exportBatch(
-        valid.map((i, n) => ({ content: i.content, template: templateOf(i.content), stem: batchFileStem(n, i.content, contentText(i.content)), tags: i.tags })),
+        selected.map((i, n) => ({ content: i.content, template: templateOf(i.content), stem: batchFileStem(from - 1 + n, i.content, contentText(i.content)), tags: i.tags })),
         { width: w, height: h, format: props.format, signature: props.signature, photo: props.photo ? { image: props.photo } : undefined, baseName },
         (done, total) => setProgress({ done, total }),
         ac.signal,
@@ -101,7 +138,7 @@ export default function Batch(props: Props) {
           (r.parts.length > 1 ? `, in ${r.parts.length} ZIP files` : "") +
           (r.issues.length ? ` · ${r.issues.length} adjusted to fit` : ""),
       );
-      if (r.files) props.onExported({ name: r.parts[0]?.name ?? baseName, files: r.files, preview: valid.slice(0, 3).map((i) => contentText(i.content).slice(0, 60)).join(" / ") });
+      if (r.files) props.onExported({ name: r.parts[0]?.name ?? baseName, files: r.files, preview: selected.slice(0, 3).map((i) => contentText(i.content).slice(0, 60)).join(" / ") });
     } catch (e) {
       setMessage((e as Error).message);
     } finally {
@@ -121,11 +158,57 @@ export default function Batch(props: Props) {
   return (
     <div className="flex-1 min-h-0 flex flex-col lg:flex-row">
       <aside className="lg:w-[380px] shrink-0 bg-panel border-b lg:border-b-0 lg:border-r border-line p-5 space-y-4 lg:overflow-y-auto">
+        <div>
+          <div className="label mb-2">Collection</div>
+          <div className="flex gap-2">
+            <select className="field" value={collection} onChange={(e) => setCollection(e.target.value)} aria-label="Collection">
+              {index && <option value="all">Everything ({index.total.toLocaleString()})</option>}
+              {(index?.files ?? [{ id: "sampler", name: "Sampler (every format)", count: 441, file: "" }]).map((f) => (
+                <option key={f.id} value={f.id}>{f.name} ({f.count})</option>
+              ))}
+            </select>
+            <button className="btn shrink-0" onClick={loadChosen}>Load</button>
+          </div>
+        </div>
         <div className="flex items-center justify-between">
           <div className="label">Quotes</div>
-          <button className="text-xs underline text-dim" onClick={loadCollection}>Load the cold-quotes collection</button>
+          <div className="flex items-center gap-3 text-xs">
+            <button className="underline text-dim" onClick={() => fileInput.current?.click()}>Upload files</button>
+            {text && <button className="underline text-dim" onClick={() => { setText(""); setMessage(null); }}>Clear</button>}
+          </div>
+          <input
+            ref={fileInput}
+            type="file"
+            multiple
+            accept={IMPORT_ACCEPT}
+            className="hidden"
+            aria-label="Upload quote files"
+            onChange={(e) => {
+              if (e.target.files?.length) importFiles(e.target.files);
+              e.target.value = "";
+            }}
+          />
         </div>
-        <textarea className="field font-mono text-[12px] leading-relaxed" rows={14} value={text} onChange={(e) => setText(e.target.value)} placeholder={PLACEHOLDER} spellCheck={false} />
+        <textarea
+          className="field font-mono text-[12px] leading-relaxed"
+          style={dragging ? { borderColor: "#1b1b1a", background: "#f7f6f2" } : undefined}
+          rows={14}
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          placeholder={PLACEHOLDER}
+          spellCheck={false}
+          onDragOver={(e) => {
+            e.preventDefault();
+            setDragging(true);
+          }}
+          onDragLeave={() => setDragging(false)}
+          onDrop={(e) => {
+            e.preventDefault();
+            setDragging(false);
+            if (e.dataTransfer.files.length) importFiles(e.dataTransfer.files);
+          }}
+        />
+        <div className="text-xs text-dim -mt-2">Drop or upload .txt, .md, .json or .csv files. Text files use the batch syntax, including @format+ sections.</div>
 
         <div>
           <div className="label mb-2">Plain quotes are</div>
@@ -172,6 +255,16 @@ export default function Batch(props: Props) {
           {totalImages > 120 && props.scale > 1 && <div>Large batch: it will download as several ZIP files of 60 images.</div>}
         </div>
 
+        {valid.length > 1 && (
+          <div className="flex items-center gap-2 text-xs text-dim">
+            <span>Render quotes</span>
+            <input className="field !w-20 !py-1" type="number" min={1} max={valid.length} value={from} onChange={(e) => setRange({ from: Number(e.target.value) || 1, to })} aria-label="From" />
+            <span>to</span>
+            <input className="field !w-20 !py-1" type="number" min={1} max={valid.length} value={to} onChange={(e) => setRange({ from, to: Number(e.target.value) || valid.length })} aria-label="To" />
+            <span>of {valid.length}</span>
+          </div>
+        )}
+
         {progress ? (
           <div className="space-y-2">
             <div className="h-1.5 bg-line rounded overflow-hidden">
@@ -184,7 +277,7 @@ export default function Batch(props: Props) {
           </div>
         ) : (
           <div className="flex gap-2">
-            <button className="btn btn-primary flex-1" disabled={!valid.length} onClick={render}>Render {totalImages || ""} → ZIP</button>
+            <button className="btn btn-primary flex-1" disabled={!selected.length} onClick={render}>Render {selectedImages || ""} → ZIP</button>
             <button className="btn" disabled={!valid.length} onClick={saveAll}>Save to library</button>
           </div>
         )}

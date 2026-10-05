@@ -3,7 +3,9 @@
  * Library: saved quotes (search, tags, format filter, open in studio) and the
  * export history (re-open any past export).
  */
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { collectionIndex, type CollectionIndex } from "@/lib/studio/collection";
+import { IMPORT_ACCEPT } from "@/lib/studio/importers";
 import { FORMATS, FORMAT_LIST } from "@/lib/render/formats";
 import { getPreset } from "@/lib/render/presets";
 import type { FormatId, QuoteContent, TemplateConfig } from "@/lib/render/template";
@@ -17,7 +19,10 @@ interface Props {
   onOpen: (content: QuoteContent, template?: TemplateConfig) => void;
   onDelete: (id: string) => void;
   onSetTags: (id: string, tags: string[]) => void;
-  onImportCollection: () => Promise<void>;
+  /** Imports a bundled collection ("all", "sampler" or a format id); resolves to a summary. */
+  onImportCollection: (id: string) => Promise<string>;
+  /** Imports uploaded files; resolves to a summary. */
+  onImportFiles: (files: FileList) => Promise<string>;
   onClearHistory: () => void;
 }
 
@@ -36,6 +41,24 @@ export default function Library(props: Props) {
   const [format, setFormat] = useState<FormatId | "">("");
   const [editing, setEditing] = useState<string | null>(null);
   const [importing, setImporting] = useState(false);
+  const [note, setNote] = useState<string | null>(null);
+  const [index, setIndex] = useState<CollectionIndex | null>(null);
+  const [collection, setCollection] = useState("all");
+  const fileInput = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    collectionIndex().then(setIndex).catch(() => {});
+  }, []);
+  const run = async (job: () => Promise<string>) => {
+    setImporting(true);
+    setNote(null);
+    try {
+      setNote(await job());
+    } catch (e) {
+      setNote((e as Error).message);
+    } finally {
+      setImporting(false);
+    }
+  };
 
   const tags = useMemo(() => {
     const m = new Map<string, number>();
@@ -86,20 +109,35 @@ export default function Library(props: Props) {
                 </div>
               </div>
             )}
-            <div className="flex flex-col gap-2">
-              <button
-                className="btn"
-                disabled={importing}
-                onClick={async () => {
-                  setImporting(true);
-                  await props.onImportCollection();
-                  setImporting(false);
-                }}
-              >
-                {importing ? "Importing…" : "Import the cold-quotes collection"}
+            <div className="space-y-2">
+              <div className="label">Import</div>
+              <select className="field" value={collection} onChange={(e) => setCollection(e.target.value)} aria-label="Collection to import">
+                {index && <option value="all">Whole collection ({index.total.toLocaleString()})</option>}
+                {(index?.files ?? []).map((f) => (
+                  <option key={f.id} value={f.id}>{f.name} ({f.count})</option>
+                ))}
+              </select>
+              <button className="btn w-full" disabled={importing} onClick={() => run(() => props.onImportCollection(collection))}>
+                {importing ? "Importing…" : "Import collection"}
               </button>
-              <button className="btn" disabled={!list.length} onClick={exportText}>Export {list.length} as text</button>
+              <button className="btn w-full" disabled={importing} onClick={() => fileInput.current?.click()}>Import from files…</button>
+              <input
+                ref={fileInput}
+                type="file"
+                multiple
+                accept={IMPORT_ACCEPT}
+                className="hidden"
+                aria-label="Import quote files"
+                onChange={(e) => {
+                  const files = e.target.files;
+                  if (files?.length) run(() => props.onImportFiles(files));
+                  e.target.value = "";
+                }}
+              />
+              <div className="text-xs text-dim">.txt / .md (batch syntax), .json or .csv. Re-importing never duplicates.</div>
+              {note && <div className="text-xs text-ink">{note}</div>}
             </div>
+            <button className="btn w-full" disabled={!list.length} onClick={exportText}>Export {list.length} as text</button>
           </>
         ) : (
           <>

@@ -1,0 +1,834 @@
+// Fred M | 1963ke · Hook / Body / Punchline — 200 quotes.
+
+@hbp+
+tags: love
+
+hook: Love is a daily decision.
+body: Not a feeling that arrives, but a choice made again every morning by two people who have seen each other at their worst. Feelings visit. Decisions stay.
+punchline: Most couples just stop deciding.
+
+hook: Nobody loves you for free.
+body: Every love has a price: attention, patience, forgiveness, time. The cheap kinds are paid in compliments. The real kind is paid in years.
+punchline: Check what you can afford.
+
+hook: Romance is a sales pitch.
+body: Candles, flowers and promises are the brochure. Then comes the contract: bills, illness, boredom and the slow work of staying kind.
+punchline: Read the contract.
+
+hook: Being in love is easy.
+body: Staying in love is maintenance. It is remembering the medication, the anniversary, the thing they said they were afraid of in the second year.
+punchline: Easy is not the same as lasting.
+
+hook: Love is not enough reason to stay.
+body: People stay for love and leave for respect. Love without respect becomes a cage with a beautiful lock.
+punchline: Respect is the lock that lets you leave.
+
+hook: Some love is just fear of being alone.
+body: It holds on tightly, calls it devotion, and panics at every silence. It is not love that grips like that. It is terror with a pet name.
+punchline: Real love can stand an empty room.
+
+hook: The spark always fades.
+body: Chemistry is a short season. What remains is whether you like the person when nothing is exciting, nothing is new and nobody is performing.
+punchline: Choose someone you would want on a dull Tuesday.
+
+hook: You cannot fix anyone.
+body: Love is not a renovation project. You can offer tools, light and patience. The building decides whether it wants to be repaired.
+punchline: Do not move into someone else's construction site.
+
+hook: Love is mostly logistics.
+body: Who picks up the child, who calls the plumber, who remembers the birthday, who notices the silence. The poetry lives inside the schedule.
+punchline: Romance is in the calendar.
+
+hook: People love the beginning.
+body: The first months are a story about potential. Everyone is their best edition. Then the reprints start, with typos.
+punchline: Love the reprints or leave the library.
+
+tags: relationships
+
+hook: The silent one has already left.
+body: When someone stops arguing, stops asking, stops caring how the evening goes, they are not at peace. They are packing in their head.
+punchline: Silence is a moving van.
+
+hook: You teach people how to treat you.
+body: Every time you accept the late reply, the cancelled plan, the half apology, you are writing the rules of the relationship.
+punchline: They are only following your instructions.
+
+hook: Not everyone is meant to stay.
+body: Some people are chapters. They change the story and then the story changes them out. Holding on does not make them permanent.
+punchline: It only makes the next chapter late.
+
+hook: Contempt is the end.
+body: Anger can be repaired. Disappointment can be talked through. But once someone rolls their eyes at who you are, the relationship is already in the past tense.
+punchline: Watch the eyes, not the words.
+
+hook: Communication is not talking.
+body: Couples talk all day about groceries and schedules and never once about what they fear. That is not communication. That is administration.
+punchline: Administer less. Ask more.
+
+hook: Every relationship has a scorekeeper.
+body: Someone is counting the favours, the apologies, the times they went first. It is usually the person who says they never keep score.
+punchline: The ledger is always open.
+
+hook: Distance is a test.
+body: Not of love, but of priority. People find time for what matters to them, even across time zones and bad signal.
+punchline: Busy is a choice with an alibi.
+
+hook: Apologies are not repairs.
+body: Saying sorry costs a sentence. Changing costs a habit. Most people pay the sentence and keep the habit.
+punchline: Watch what happens after sorry.
+
+hook: Breakups are slow.
+body: They start years before anyone says it. A shorter goodnight. A story told to someone else first. The official end is just the announcement.
+punchline: The ending already happened.
+
+hook: Some people only want you when you leave.
+body: They ignore you in the room and chase you at the door. That is not love. It is a fear of losing an audience.
+punchline: Keep walking.
+
+tags: death
+
+hook: Death is not coming.
+body: It is already here, in the sense that every day is one fewer. It does not knock. It simply subtracts, quietly, with perfect accuracy.
+punchline: Count accordingly.
+
+hook: Nobody will remember most of your life.
+body: Not the Tuesday afternoons, the queue at the bank, the ten thousand ordinary meals. Even you will forget them.
+punchline: Make a few days worth remembering.
+
+hook: The dead do not need your flowers.
+body: They needed your visits, your calls, your patience with their repeated stories. Flowers are for the guilt you are carrying back home.
+punchline: Visit the living.
+
+hook: Death ends every argument.
+body: Whoever was right, whoever owed the apology, whoever was waiting for the other to call first. All of it is settled in one second, unfairly.
+punchline: Settle it while it can still be settled.
+
+hook: Your funeral is not about you.
+body: It is about the people who need a place to put their grief. They will tell stories that flatter you and leave out the rest.
+punchline: You will not be there to correct them.
+
+hook: Life is a waiting room.
+body: Everyone is holding a ticket with a number they cannot read. Some are called early. Some wait so long they forget why they came.
+punchline: Do something while you wait.
+
+hook: Death is not dramatic.
+body: It is paperwork, phone calls, a bank account that needs closing and a jumper that still smells like them. The cinema lied.
+punchline: Grief is mostly admin.
+
+hook: Every day is someone's last.
+body: Somewhere today a person is making their final cup of tea without knowing it. They will not finish their book. They had plans for Thursday.
+punchline: So do you.
+
+hook: The world will not stop.
+body: The day you die, the trains will run, the markets will open, and someone will complain about the weather. Your absence will be a small dent in a huge machine.
+punchline: Matter to the few, not the machine.
+
+hook: Graves are permanent.
+body: The person in them is gone. The grief changes. The visits thin out. Only the stone stays exactly where it was put.
+punchline: Even mourning has a lifespan.
+
+tags: time
+
+hook: Time is the only currency.
+body: Everything else can be earned back: money, reputation, fitness, even trust. Time is spent at the same rate whether you use it or waste it.
+punchline: Your hours are the real budget.
+
+hook: Later never comes.
+body: Later is where we put the trip, the call, the book, the apology. Later is a drawer that only opens after the funeral.
+punchline: Now is the only day with a door.
+
+hook: Years go faster.
+body: At ten, a year is a tenth of your life. At fifty, a fiftieth. The days are the same length. Your sense of them is not.
+punchline: Slow down by paying attention.
+
+hook: You are not too busy.
+body: You are choosing other things. Busy is a word that hides priorities behind a schedule, so you do not have to admit them.
+punchline: Say "I chose" instead of "I couldn't".
+
+hook: The past is not coming back.
+body: Not the friends, the house, the body, the city as it was. Nostalgia keeps the door ajar so you keep standing in the draught.
+punchline: Close the door. Keep the photograph.
+
+hook: Waiting is a decision.
+body: Every day you wait for the right moment, you are choosing the wrong one. Readiness is a feeling that only arrives in hindsight.
+punchline: Start badly. It is still a start.
+
+hook: Your weekends are numbered.
+body: A long life has roughly four thousand of them. You have used a large share already. The rest are disappearing into errands and screens.
+punchline: Spend the next one on purpose.
+
+hook: Time reveals everyone.
+body: Charm fades, excuses repeat, patterns appear. Give anything enough time and it will show you exactly what it is.
+punchline: Believe the pattern, not the pitch.
+
+hook: You do not have forever.
+body: You have a number. Nobody tells you the number, and that is the only reason people keep acting as if it were infinite.
+punchline: Act as if it were finite.
+
+hook: Habits are time machines.
+body: They carry who you are today into who you will be in ten years, one repetition at a time, without asking for your permission.
+punchline: Choose the passenger carefully.
+
+tags: family
+
+hook: Your parents were young once.
+body: Younger than you are now, tired, broke and guessing. They made decisions with less information than you have, and you have been grading them ever since.
+punchline: Grade with a curve.
+
+hook: Families have roles.
+body: The responsible one, the difficult one, the funny one, the one who left. You can change, but at every holiday they will hand you the old script.
+punchline: You do not have to read it.
+
+hook: Children inherit habits.
+body: Not your speeches, your values or your intentions. They inherit how you talk when you are tired, how you treat waiters, how you handle money at month end.
+punchline: They are watching the rehearsal, not the performance.
+
+hook: Home changes.
+body: The house gets sold, the parents get smaller, the street gets new neighbours. You go back expecting the past and find a stranger's kitchen.
+punchline: Home was always the people.
+
+hook: Some families are not safe.
+body: Shared blood does not guarantee shared kindness. Sometimes the healthiest thing to do with family is to love them from a distance.
+punchline: Distance is also a boundary.
+
+hook: Your parents are getting old.
+body: Between visits they become a little slower, a little quieter, a little more repetitive. You notice suddenly, but it was never sudden.
+punchline: Visit before you have to.
+
+hook: Every family has a secret.
+body: An affair, a debt, a child nobody mentions, a reason someone stopped coming to Christmas. Secrets do not disappear. They get inherited.
+punchline: Silence is passed down too.
+
+hook: You will become your parents.
+body: Not completely, but in the places you swore you never would: the sigh, the phrase, the way you hold your cup when you are worried.
+punchline: Choose which parts to keep.
+
+hook: Siblings remember everything.
+body: They are the only witnesses to your childhood who cannot be edited out. They know the version of you before you got good at hiding.
+punchline: That is why they are dangerous and precious.
+
+hook: Forgiving parents is not forgetting.
+body: It is deciding that their limits explain your wounds without owning your future. You can understand them and still refuse their patterns.
+punchline: Understanding is not obedience.
+
+tags: work, money
+
+hook: Your job is not your identity.
+body: Titles change, companies merge, roles get automated. If you are only what you do, every restructuring becomes an existential crisis.
+punchline: Be someone the job cannot fire.
+
+hook: Money changes nothing.
+body: It amplifies. The kind become kinder with resources. The anxious buy bigger worries. The cruel simply become efficient.
+punchline: Money is a magnifying glass.
+
+hook: Nobody gets rich slowly by accident.
+body: Wealth is mostly boring: compounding, patience, not panicking, saying no to things that would impress people you do not like.
+punchline: Boring is a strategy.
+
+hook: Busy people are often avoiding something.
+body: A conversation, a feeling, a decision, a life they are not living. The schedule is full so the mind does not have to be.
+punchline: Empty the calendar once and see what shows up.
+
+hook: Work will take everything.
+body: It is not evil. It just has no limit. It will accept your nights, your weekends and your health, and send a calendar invite for more.
+punchline: The limit must come from you.
+
+hook: Ambition is a hungry animal.
+body: Feed it once and it wants more. Promotions become ladders, ladders become towers, and the view from the top is mostly other towers.
+punchline: Decide when enough is enough before you get there.
+
+hook: Debt is a time machine.
+body: It lets you spend your future self's life today. Your future self did not agree to this, and they will be tired.
+punchline: Be kind to the person you will become.
+
+hook: Success is lonely.
+body: The higher you climb, the fewer people tell you the truth. They want something, fear something or envy something.
+punchline: Keep the friends who knew you before.
+
+hook: Your boss is not your friend.
+body: They might like you, sincerely. But when budgets shrink, liking you will not be on the spreadsheet.
+punchline: Be friendly. Be prepared.
+
+hook: Retirement is not a reward.
+body: It is what is left after the work, and if work was all you were, retirement is just a large empty room with a nice view.
+punchline: Build a life you would not need to retire from.
+
+tags: self, truth
+
+hook: You already know.
+body: The relationship, the job, the habit, the thing you keep circling. You have known for a while. What you want is for it to stop costing anything to admit it.
+punchline: It will always cost something.
+
+hook: Nobody is coming to rescue you.
+body: Not a partner, a boss, a mentor or a lucky break. Help may come, but the rescue is a job you have to do yourself.
+punchline: Start the rescue today.
+
+hook: Your excuses are reasonable.
+body: That is the problem. Unreasonable excuses are easy to drop. Reasonable ones can follow you politely for a decade.
+punchline: Reasonable is not the same as true.
+
+hook: Confidence is built, not found.
+body: It is the evidence of promises you kept to yourself. Every small one counts. Every broken one counts more.
+punchline: Keep one promise today.
+
+hook: The truth is usually simple.
+body: It is not complicated. It is uncomfortable. We add complications so we can keep thinking about it instead of acting on it.
+punchline: Simple and easy are different words.
+
+hook: You are not your past.
+body: But you are the result of it, and pretending otherwise just means it keeps driving while you insist you are in control.
+punchline: Know your past. Then take the wheel.
+
+hook: Comparison steals the present.
+body: You compare your behind-the-scenes to everyone else's highlight reel, then wonder why your life feels like an outtake.
+punchline: Everyone edits.
+
+hook: Pride is expensive.
+body: It costs apologies not made, help not asked for, and years spent defending a position you abandoned privately long ago.
+punchline: Pride is fear in a good suit.
+
+hook: Discipline is boring.
+body: That is why it works. It does not need motivation, inspiration or a good mood. It only needs the next small action.
+punchline: Boring wins.
+
+hook: You are allowed to change your mind.
+body: Loyalty to a past opinion is not integrity. It is just stubbornness with a good memory.
+punchline: Update the belief, keep the character.
+
+tags: reality, society
+
+hook: The world is not fair.
+body: It never promised to be. Fairness is something people build, slowly, in small places, against the default.
+punchline: Build some where you stand.
+
+hook: People are busy.
+body: Nobody is ignoring you out of cruelty. They are just drowning in their own week, their own fears, their own unpaid bills.
+punchline: Do not take the silence personally.
+
+hook: The crowd is not wiser.
+body: It is louder. Wisdom rarely arrives in groups. It arrives alone, late at night, and usually disagrees with the group.
+punchline: Think before you follow.
+
+hook: Kindness is not weakness.
+body: It is strength used carefully. Cruelty is easy and cheap. Kindness requires attention, patience and boundaries.
+punchline: The hard thing is the kind thing.
+
+hook: Everyone is performing.
+body: Online, at work, at dinner, even alone in front of the mirror. The question is not whether you perform, but for whom.
+punchline: Perform for fewer people.
+
+hook: Most opinions are borrowed.
+body: From parents, from feeds, from whoever spoke last and loudest. Few people own their opinions; most are renting.
+punchline: Check the lease.
+
+hook: Fame is a strange prison.
+body: Strangers own a version of you, and they will be furious when the real one does not match.
+punchline: Anonymity is underrated.
+
+hook: The internet never forgets.
+body: But people do. The outrage moves on in a week. The screenshot stays forever. Nobody remembers why they were angry.
+punchline: Write as if it were permanent. Live as if they will forget.
+
+hook: Power reveals people.
+body: Give someone a little control and watch what they do with it. Character is not tested by struggle as much as by authority.
+punchline: Watch how they treat the waiter.
+
+hook: Society rewards confidence.
+body: Not competence. The loud and certain get promoted over the careful and correct, until the bridge falls down.
+punchline: Be careful anyway.
+
+tags: friendship
+
+hook: Most friendships are seasonal.
+body: School, work, a city, a crisis. Each season brings people who feel permanent. Then the season changes and nobody quite notices who stopped calling.
+punchline: Keep the ones who survive winter.
+
+hook: Real friends are inconvenient.
+body: They call at the wrong time, tell you the truth when you wanted comfort, and show up when it would have been easier to text.
+punchline: Convenience is not loyalty.
+
+hook: Envy hides in friendship.
+body: It congratulates you loudly and goes quiet when your life improves. It is there at every failure and missing at every success.
+punchline: Notice who claps.
+
+hook: Friendship needs proof.
+body: Not daily contact, not constant messages, but occasional evidence: a call when it mattered, a visit when it cost something.
+punchline: Proof beats frequency.
+
+hook: Old friends are archives.
+body: They remember who you were before you edited yourself. When they go, part of your history loses its only witness.
+punchline: Protect your witnesses.
+
+hook: You will outgrow some friends.
+body: Not because anyone did wrong, but because you changed shape. Forcing the fit only hurts both of you.
+punchline: Let it be a good memory, not a bad habit.
+
+hook: The group chat is not friendship.
+body: Memes, reactions and birthday stickers keep the lights on in an empty house. Friendship lives in the rooms you actually visit.
+punchline: Visit a room.
+
+hook: Some friends are only around for the party.
+body: They are wonderful company in good times and invisible in hospitals, moving days and funerals.
+punchline: Know who carries boxes.
+
+hook: Friendship ends quietly.
+body: There is rarely a fight. One person stops initiating, the other notices late, and both pretend it is just a busy year.
+punchline: Busy years become decades.
+
+hook: A friend tells you the truth.
+body: Flatterers are easy to find. A friend risks your irritation to save you from your own blind spot.
+punchline: Keep the one who annoys you honestly.
+
+hook: Making friends gets harder.
+body: Adults need appointments, shared calendars and a reason. The accidental closeness of childhood does not come back.
+punchline: Make the appointment.
+
+hook: Loyalty is tested by absence.
+body: What people say about you when you are not in the room is the only review that counts.
+punchline: Be the same in every room.
+
+hook: Some friendships are transactions.
+body: Favours traded, introductions exchanged, attention invoiced. Nothing wrong with that, until you mistake it for love.
+punchline: Know which account you are in.
+
+hook: Friends cannot fix you.
+body: They can sit with you, feed you, listen to the same story a fifth time. The repair is still your job.
+punchline: Let them help. Do the work.
+
+hook: The best friends are boring.
+body: No drama, no tests, no endless theatre. Just a person who answers, remembers, and stays the same over years.
+punchline: Boring is a compliment.
+
+tags: grief
+
+hook: Grief is lazy.
+body: It does not follow stages. It shows up at the supermarket, in a song, in the smell of a stranger's coat, and leaves without explaining.
+punchline: It keeps no appointments.
+
+hook: People stop asking.
+body: The casseroles stop after two weeks. The calls stop after two months. Grief continues for years, privately, without an audience.
+punchline: Ask again later. It matters.
+
+hook: You miss the ordinary things.
+body: Not the holidays, but the way they answered the phone, the noise of their keys, the predictable joke they always made.
+punchline: Ordinary was the treasure.
+
+hook: Grief does not shrink.
+body: You grow around it. The pain stays the same size, but your life slowly gets bigger, so it takes up less of the room.
+punchline: Grow, and it will fit.
+
+hook: The first year is a list.
+body: First birthday without them. First holiday. First anniversary. Every date becomes a small exam you did not study for.
+punchline: Then year two arrives, without a list.
+
+hook: Some grief has no funeral.
+body: For a friendship that ended, a parent who is alive but gone, a life you expected and did not get. Nobody brings flowers for that.
+punchline: It is still grief.
+
+hook: Grief makes you selfish.
+body: For a while you cannot care about anyone else's problems. That is not cruelty. It is triage.
+punchline: Forgive yourself for that season.
+
+hook: You will laugh again.
+body: The first time, you will feel guilty, as if laughing betrayed them. It did not. It just proved you are still alive.
+punchline: They would have hated the alternative.
+
+hook: Grief changes your address book.
+body: Some people vanish when you are sad. Others you barely knew turn up with soup. Loss sorts people quickly.
+punchline: Remember who brought soup.
+
+hook: Grief is love with nowhere to go.
+body: The habit of caring for someone does not stop when they do. It wanders around the house looking for a job.
+punchline: Give it another job.
+
+hook: Anniversaries ambush you.
+body: You think you are fine, then the calendar turns and your body remembers before your mind does.
+punchline: The body keeps the date.
+
+hook: You cannot grieve on a schedule.
+body: Work gives three days of leave. Grief takes as long as it takes, and it does not accept the company policy.
+punchline: Grieve anyway, quietly.
+
+hook: Not all goodbyes are said.
+body: Most people die mid-conversation, with something unsaid, a call postponed, a visit planned for next month.
+punchline: Say it this month.
+
+hook: Their things become heavy.
+body: A coat, a mug, a voicemail. Objects that meant nothing become impossible to throw away and painful to keep.
+punchline: Keep one. Let the rest go.
+
+hook: Grief makes you honest.
+body: After a loss, small talk feels unbearable and pretending feels absurd. For a while you see exactly what matters.
+punchline: Try to keep a little of that clarity.
+
+tags: aging
+
+hook: Your body keeps receipts.
+body: Every late night, every skipped stretch, every year of ignoring your back. Nothing is forgiven. It is just billed later.
+punchline: Pay small amounts now.
+
+hook: Aging is a slow subtraction.
+body: First the stairs get steeper, then the names get harder, then the people who remember you young start to disappear.
+punchline: Write down what you remember.
+
+hook: Nobody feels old inside.
+body: Most people at seventy still feel twenty-five in their heads, confused by the stranger in the mirror.
+punchline: Be kind to old strangers.
+
+hook: You become invisible.
+body: After a certain age, shops, offices and crowds stop seeing you. It is insulting, then strangely freeing.
+punchline: Invisible people can do anything.
+
+hook: Youth is wasted on fear.
+body: You spend your twenties worried about how you look and what people think. At sixty you realise nobody was looking.
+punchline: Nobody is looking now either.
+
+hook: Getting old is not optional.
+body: The only alternative is dying young. Every grey hair is a small victory over the other option.
+punchline: Complain, but count it as a win.
+
+hook: The older you get, the more funerals.
+body: Weddings become rarer, christenings become rarer, and the black suit moves to the front of the wardrobe.
+punchline: Visit the living between the funerals.
+
+hook: Experience is expensive.
+body: It costs years, mistakes, heartbreak and embarrassment. The young want it for free and the old cannot give it away.
+punchline: Everyone pays full price.
+
+hook: Your parents' age becomes yours.
+body: One day you will be the age they were when you thought they knew everything, and you will know nothing either.
+punchline: Forgive them a little more.
+
+hook: Memory goes first for small things.
+body: Keys, names, why you walked into the room. The big moments stay. The details leak away like water.
+punchline: Live the details while you have them.
+
+hook: Old age is a list of losses.
+body: Friends, mobility, independence, certainty. It is also a list of things that stopped mattering, which is a kind of freedom.
+punchline: Both lists are true.
+
+hook: Wisdom is overrated.
+body: Age does not make people wise. It gives them more evidence. Some read it. Most repeat their mistakes with better excuses.
+punchline: Read your evidence.
+
+hook: The young think they have time.
+body: The old know they had it. Both are right, and both are wrong about how much was really there.
+punchline: Nobody knows the number.
+
+hook: Retirement can be a cliff.
+body: For people whose whole identity was work, the first Monday off is not freedom. It is a very quiet room.
+punchline: Build other rooms before you need them.
+
+hook: Every year is a gift nobody wraps.
+body: It arrives quietly, on an ordinary morning, and most people spend it complaining about the weather.
+punchline: Open it on purpose.
+
+tags: loneliness
+
+hook: Loneliness is not about people.
+body: You can be lonely in a marriage, at a party, inside a family that loves you. It is about not being known by anyone in the room.
+punchline: Fewer, deeper people help more.
+
+hook: Phones make loneliness quieter.
+body: Notifications fill the silence, but they do not fill the chair across the table.
+punchline: Put the phone down and call someone.
+
+hook: Some people are lonely by habit.
+body: They cancel plans, decline invitations, keep everyone at arm's length, and then wonder why nobody is close.
+punchline: Closeness requires opening the door.
+
+hook: Cities are full of lonely people.
+body: Millions living a few metres apart, sharing walls and lifts, never learning each other's names.
+punchline: Learn one name.
+
+hook: Loneliness lies.
+body: It tells you nobody cares, that you are a burden, that calling would be an intrusion. It is wrong more often than you think.
+punchline: Call anyway.
+
+hook: Solitude and loneliness are different.
+body: Solitude is a room you chose. Loneliness is a room you cannot leave. The furniture is the same. The door is not.
+punchline: Check whether the door is locked.
+
+hook: Being needed is not being known.
+body: Plenty of people are surrounded by others who depend on them, and still nobody asks how they are.
+punchline: Ask the strong one.
+
+hook: Loneliness is contagious.
+body: Lonely people withdraw, others assume they want space, and the gap widens on both sides.
+punchline: Close the gap from your side.
+
+hook: The loneliest hour is Sunday evening.
+body: The weekend ends, the week looms, and nobody calls. It is the hour that tells you how full your life really is.
+punchline: Plan something for Sunday evening.
+
+hook: Lonely people overshare.
+body: When the silence is too long, the first kind face gets the whole story. It is not weakness. It is hunger.
+punchline: Listen to the oversharer.
+
+hook: Some loneliness is honest.
+body: It tells you that your life is built around the wrong people, the wrong city or the wrong version of yourself.
+punchline: Listen before you drown it out.
+
+hook: Retirement, divorce and grief.
+body: The three great doors to loneliness. Each removes a structure that used to fill the days with other people.
+punchline: Build structures before you need them.
+
+hook: You can be famous and lonely.
+body: Thousands know your name and nobody knows your fears. An audience is not a friend.
+punchline: Keep someone who knew you before.
+
+hook: Loneliness is a signal.
+body: Like hunger or thirst, it tells you something essential is missing. Ignoring it does not make it go away.
+punchline: Feed it with people.
+
+hook: Nobody notices quiet people leave.
+body: The loud ones are missed immediately. The quiet ones are noticed weeks later, when something they always did stops getting done.
+punchline: Notice the quiet ones now.
+
+tags: fear, courage
+
+hook: Fear is a decent advisor.
+body: It notices danger quickly. It is a terrible boss. Let it speak at the meeting, but never give it the final vote.
+punchline: Listen to fear. Do not obey it.
+
+hook: Most fears are rehearsals.
+body: You live through the disaster a hundred times in your head, and then reality, if it comes at all, happens once.
+punchline: Stop rehearsing.
+
+hook: Courage is not a feeling.
+body: It is an action taken while the feeling of fear is still loud. Brave people are not calm. They are moving.
+punchline: Move while shaking.
+
+hook: Fear grows in the dark.
+body: The unopened letter, the unasked question, the test you have not taken. Uncertainty feeds fear better than bad news ever could.
+punchline: Open the letter.
+
+hook: Safety can be a trap.
+body: The job you hate, the relationship that is fine, the city you never leave. Safe things can slowly empty a life.
+punchline: Risk something small.
+
+hook: You will be afraid either way.
+body: Afraid of trying and failing, or afraid of never trying and wondering. Only one of those fears ends.
+punchline: Choose the fear that ends.
+
+hook: Fear of judgement is expensive.
+body: It costs ideas never shared, people never approached, work never shown. And the judges were never paying attention.
+punchline: The audience is smaller than you think.
+
+hook: Bravery is boring up close.
+body: It looks like sending the email, booking the appointment, saying the true sentence at dinner. Not cinema. Paperwork.
+punchline: Do the brave paperwork.
+
+hook: Anxiety lives in the future.
+body: It borrows trouble from days that have not happened and spends it on today.
+punchline: Return the loan.
+
+hook: The worst rarely happens.
+body: And when it does, you usually cope better than you imagined, because you are no longer imagining.
+punchline: You are stronger in reality than in rehearsal.
+
+hook: Fear wants you small.
+body: Small plans, small rooms, small circles. It calls this sensible. It is just shrinkage with a good excuse.
+punchline: Take up some space.
+
+hook: Avoidance compounds.
+body: Every time you dodge the hard thing, it gets heavier, and the next dodge gets easier. Interest is charged daily.
+punchline: Pay it off today.
+
+hook: Courage is contagious.
+body: One person says the honest thing in the meeting and suddenly three others agree. Most people were waiting for permission.
+punchline: Give permission.
+
+hook: Fear and excitement are cousins.
+body: Same racing heart, same tight chest. The only difference is the story you tell yourself about what is coming.
+punchline: Change the story.
+
+hook: You are allowed to be scared.
+body: Fear is not a sign you are wrong or weak. It is a sign that something matters to you.
+punchline: Do it scared.
+
+tags: memory, past
+
+hook: Memory is a storyteller.
+body: It edits, softens, rearranges and invents. Your clearest memories are often the ones you have retold the most, and changed the most.
+punchline: Be suspicious of your favourite stories.
+
+hook: The past is a foreign country.
+body: You cannot visit, you cannot fix it, and its customs no longer apply. Nostalgia is just homesickness for a place that never existed exactly like that.
+punchline: Visit in photographs only.
+
+hook: Regret looks backwards.
+body: It replays the same decision a thousand times, as if the outcome might change on the next viewing.
+punchline: Turn the screen off.
+
+hook: You cannot change the past.
+body: You can only change what it means, and that changes everything that comes after it.
+punchline: Rewrite the meaning, not the facts.
+
+hook: Old wounds have long memories.
+body: A tone of voice, a smell, a word can open a door you thought you had locked decades ago.
+punchline: Know your doors.
+
+hook: Photographs lie politely.
+body: Everyone smiles, the light is good, the arguments before and after are cropped out. Albums are beautiful and incomplete.
+punchline: Remember what the camera missed.
+
+hook: Childhood shapes everything.
+body: Not in a dramatic way, but in the small habits: how you handle conflict, money, affection, silence.
+punchline: Trace the habit back to the house.
+
+hook: The good old days were mostly old.
+body: You remember the music and the friends and forget the fear, the bills and the boredom.
+punchline: Today will be someone's good old days.
+
+hook: Memory fades from the edges.
+body: First the details, then the colours, then the voice. Eventually you remember remembering, more than the thing itself.
+punchline: Write it down while it is sharp.
+
+hook: Some memories are kept for a reason.
+body: The painful ones stay vivid because your body believes you might need the lesson again.
+punchline: Learn it, so it can rest.
+
+hook: You cannot live in the past.
+body: But you can live with it, like a room in the house you visit sometimes, without moving your bed in there.
+punchline: Visit. Do not move in.
+
+hook: The past was not simpler.
+body: You were. You understood less, worried about different things, and someone else was carrying the weight.
+punchline: Simplicity was a lack of information.
+
+hook: Regret is information.
+body: It points at what you value. Ignore it and it repeats. Listen to it and it becomes a direction.
+punchline: Use regret as a compass, not a cell.
+
+hook: Every ending becomes a story.
+body: The breakup, the job loss, the move. Years later they become anecdotes, softer and funnier than they felt.
+punchline: Today's disaster is tomorrow's anecdote.
+
+hook: You remember the feeling, not the facts.
+body: You forget what was said at dinner and remember exactly how small you felt. Emotion is the ink of memory.
+punchline: Be careful how you make people feel.
+
+tags: truth, lies
+
+hook: Everyone lies a little.
+body: About being fine, about being busy, about having read the email. Small lies keep the social machine oiled.
+punchline: Just do not believe your own.
+
+hook: The truth is inconvenient.
+body: That is why people avoid it. Not because it is hidden, but because seeing it would require changing something.
+punchline: Look anyway.
+
+hook: Lies are expensive to maintain.
+body: You need a good memory, a careful story and constant vigilance. The truth only needs to be said once.
+punchline: Save the energy.
+
+hook: People prefer comfortable lies.
+body: They will thank the person who reassures them and resent the one who warns them, right up until the warning comes true.
+punchline: Warn anyway.
+
+hook: Honesty without kindness is cruelty.
+body: The truth can be delivered like a bandage or like a slap. Both are honest. Only one is useful.
+punchline: Choose the bandage.
+
+hook: The biggest lies are to ourselves.
+body: That we will start tomorrow, that it is not that bad, that they will change. Self-deception is the most popular hobby there is.
+punchline: Audit yourself.
+
+hook: Half-truths are full lies.
+body: They are built from facts arranged to mislead. They are the favourite tool of people who want to feel honest while lying.
+punchline: Watch what is left out.
+
+hook: Secrets are heavy.
+body: They take up room in every conversation, every holiday, every silence. Carrying one for years changes your posture.
+punchline: Put down what you can.
+
+hook: The truth comes out slowly.
+body: Not in a dramatic reveal, but in small contradictions, patterns and dates that do not add up.
+punchline: Pay attention to the small numbers.
+
+hook: Flattery is a transaction.
+body: It is payment in advance for something they will ask for later. Real praise is specific and expects nothing.
+punchline: Check what the compliment costs.
+
+hook: Some truths have no audience.
+body: Nobody wants to hear that their parent was cruel, that their hero cheated, that their company is failing. The truth waits anyway.
+punchline: The truth is patient.
+
+hook: You cannot lie to your body.
+body: It knows when you are scared, exhausted or unhappy, and it will tell the truth through headaches, insomnia and illness.
+punchline: Listen to the body's version.
+
+hook: Denial is a waiting room.
+body: People sit there for years, reading old magazines, convinced their name will never be called.
+punchline: Your name will be called.
+
+hook: The truth sets you apart.
+body: Saying what everyone knows but nobody says will cost you invitations. It will also make you trustworthy.
+punchline: Lose the invitations.
+
+hook: Honest people are rarely popular.
+body: They are respected later, quietly, by people who finally realised the warnings were gifts.
+punchline: Be respected later.
+
+tags: home, city
+
+hook: Home is not a building.
+body: It is the place where someone notices you are late. Without that, even the nicest house is just a well-furnished waiting room.
+punchline: Be someone's noticing.
+
+hook: Cities do not love anyone.
+body: They are indifferent machines for work, rent and noise. They give opportunities and take years, and never say thank you.
+punchline: Love it anyway, or leave it.
+
+hook: You cannot go home again.
+body: The town changed, the people changed, and you changed most of all. You arrive as a visitor in your own past.
+punchline: Visit kindly.
+
+hook: Moving does not fix you.
+body: You pack your problems with the dishes. The new city gets the same person with a different view.
+punchline: Change the person, then the address.
+
+hook: Every city has two faces.
+body: The postcard for visitors and the reality for residents: traffic, rent, noise and the long commute home.
+punchline: Love the second face too.
+
+hook: Neighbours are strangers with walls.
+body: You hear their arguments, smell their dinners and know their schedules, but you could not tell their names.
+punchline: Learn one name.
+
+hook: Home can be a person.
+body: When they leave or die, the house stays exactly the same and stops being home overnight.
+punchline: Homes are made of people.
+
+hook: Cities swallow time.
+body: Commutes, queues, traffic. An hour a day disappears into transit, and nobody counts it as part of their life.
+punchline: Count it.
+
+hook: Your hometown remembers an old you.
+body: Every visit, people greet the teenager you used to be, not the adult who arrived.
+punchline: Let them. You know who you are.
+
+hook: Rent is the price of possibility.
+body: In big cities you pay for proximity to opportunities you mostly do not have time to use.
+punchline: Use some of them.
+
+hook: The city never sleeps.
+body: Neither do the people trying to afford it.
+punchline: Sleep anyway.
+
+hook: Home is where you are not explaining.
+body: Not your accent, your habits, your silence. Most people have fewer such places than they think.
+punchline: Protect the places you can be quiet.
+
+hook: Every house holds old arguments.
+body: Walls remember raised voices, doors remember slams, and kitchens remember who cleaned up.
+punchline: Make better memories in the same rooms.
+
+hook: Leaving teaches you what home was.
+body: Only from far away do you notice the smell of rain, the sound of a language, the way people greeted each other.
+punchline: Distance is the teacher.
+
+hook: Cities are made of strangers.
+body: Millions of private lives pressed together, each the centre of its own universe, each invisible to the rest.
+punchline: Remember everyone is the centre of something.

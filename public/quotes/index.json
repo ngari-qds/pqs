@@ -1,0 +1,29 @@
+{
+  "total": 1041,
+  "files": [
+    {
+      "id": "sampler",
+      "name": "Sampler (every format)",
+      "file": "cold-quotes.txt",
+      "count": 441
+    },
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "formats/classic.txt",
+      "count": 200
+    },
+    {
+      "id": "hbp",
+      "name": "Hook / Body / Punchline",
+      "file": "formats/hbp.txt",
+      "count": 200
+    },
+    {
+      "id": "one-liner",
+      "name": "One-liner",
+      "file": "formats/one-liner.txt",
+      "count": 200
+    }
+  ]
+}

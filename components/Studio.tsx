@@ -19,7 +19,9 @@ import {
   addHistory, clearHistory, deleteMyTemplate, deleteQuote, listFavorites, listHistory, listMyTemplates, listQuotes,
   saveMyTemplate, saveQuotes, setFavorite, updateQuoteTags, type HistoryEntry, type SavedQuote,
 } from "@/lib/studio/db";
-import { parseBatch } from "@/lib/studio/batch";
+import { parseBatch, type BatchItem } from "@/lib/studio/batch";
+import { loadCollection } from "@/lib/studio/collection";
+import { readImportFiles } from "@/lib/studio/importers";
 import { FORMATS, FORMAT_LIST, resolveLayout, slideCount, type FieldDef } from "@/lib/render/formats";
 import type { FormatId, QuoteContent } from "@/lib/render/template";
 import { autoStructure, flatten } from "@/lib/studio/autostructure";
@@ -151,11 +153,19 @@ export default function Studio() {
     setSavedNote(added ? "Saved to the library." : "Already in the library; tags merged.");
     setTimeout(() => setSavedNote(null), 2500);
   };
-  const importCollection = async () => {
-    const text = await (await fetch("/quotes/cold-quotes.txt")).text();
-    const items = parseBatch(text).filter((i) => !i.errors.length);
-    await saveQuotes(items.map((i) => ({ content: i.content, tags: i.tags })));
+  const importItems = async (items: BatchItem[], label: string) => {
+    const ok = items.filter((i) => !i.errors.length);
+    const added = await saveQuotes(ok.map((i) => ({ content: i.content, tags: i.tags })));
     await refreshLibrary();
+    const skipped = items.length - ok.length;
+    return `${label}: ${added} new, ${ok.length - added} already saved${skipped ? `, ${skipped} skipped (problems)` : ""}.`;
+  };
+  const importCollection = async (id: string) => importItems(parseBatch(await loadCollection(id)), "Collection");
+  const importFiles = async (files: FileList) => {
+    const results = await readImportFiles(files);
+    const failed = results.filter((r) => r.error).map((r) => `${r.name} (${r.error})`);
+    const summary = await importItems(results.flatMap((r) => r.items), `${results.length} file${results.length === 1 ? "" : "s"}`);
+    return failed.length ? `${summary} Could not read: ${failed.join(", ")}.` : summary;
   };
 
   /** Classic → Hook/Body/Punchline: split the pasted paragraph at sentence boundaries. */
@@ -376,6 +386,7 @@ export default function Studio() {
             refreshLibrary();
           }}
           onImportCollection={importCollection}
+          onImportFiles={importFiles}
           onClearHistory={async () => {
             await clearHistory();
             refreshHistory();

@@ -115,3 +115,44 @@ describe("toBatchText", () => {
     expect(again.map((i) => i.tags)).toEqual(items.map((i) => i.tags));
   });
 });
+
+describe("parseBatch: @format+ sections", () => {
+  const text = `@one-liner+
+tags: death
+
+The dead do not miss you back.
+
+Death is the only appointment nobody reschedules.
+tags: death, time
+
+tags: love
+
+Love is mostly logistics.
+
+@contrast+
+a: Love lasts if it is real.
+b: Love lasts if it is maintained.
+
+a: Time heals.
+b: Time teaches you to stop touching it.
+tags: time
+
+@classic
+text: A single block after a section.`;
+  const items = parseBatch(text);
+  it("makes one quote per chunk, with sticky and per-quote tags", () => {
+    expect(items.map((i) => i.content.format)).toEqual(["one-liner", "one-liner", "one-liner", "contrast", "contrast", "classic"]);
+    expect(items[0]).toMatchObject({ content: { text: "The dead do not miss you back." }, tags: ["death"] });
+    expect(items[1].tags).toEqual(["death", "time"]);
+    expect(items[2]).toMatchObject({ content: { text: "Love is mostly logistics." }, tags: ["love"] });
+    expect(items[3].content).toEqual({ format: "contrast", a: "Love lasts if it is real.", b: "Love lasts if it is maintained." });
+    expect(items[4].tags).toEqual(["time"]);
+    expect(items[5].content.text).toBe("A single block after a section.");
+    expect(items.every((i) => !i.errors.length)).toBe(true);
+  });
+  it("reports an unknown many-section once", () => {
+    const r = parseBatch("@nope+\nfoo\n\nbar");
+    expect(r).toHaveLength(1);
+    expect(r[0].errors[0]).toMatch(/Unknown format/);
+  });
+});

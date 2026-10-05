@@ -1,0 +1,425 @@
+// Fred M | 1963ke · Classic — 200 quotes. Batch syntax: each paragraph under
+// "@classic+" is one quote; a "tags:" line sets tags for the quotes after it.
+
+@classic+
+tags: love
+
+Love is not blind. It sees everything and decides to stay quiet for a while.
+
+Most people fall in love with the version of you that existed before they knew you.
+
+Love does not fade. It gets outnumbered by small irritations.
+
+You can love someone completely and still be the wrong shape for their life.
+
+The most romantic thing anyone ever did was keep showing up after the romance was gone.
+
+Love is easiest with people who are not yet disappointed in you.
+
+Being adored is a short contract. Being tolerated is the long one.
+
+People say love is patient. Love is mostly exhausted, and polite about it.
+
+Nobody falls out of love in one day. They just notice one day.
+
+The person who loves you most will also know exactly where to hurt you.
+
+Love is a story two people tell until one of them changes the ending.
+
+Most love dies of hunger, not of wounds.
+
+Romance is what you call attention before it becomes a habit.
+
+You do not lose love. You stop paying for it, and it is repossessed.
+
+Love will not save you from loneliness. It only gives loneliness a witness.
+
+We call it a broken heart. It is mostly broken plans.
+
+People do not leave because love ended. Love ends because people already left.
+
+The first year is about who they are. Every year after is about who they are becoming.
+
+Love asks for honesty, then flinches every time it gets some.
+
+Nobody is your other half. Everyone is already whole, and difficult.
+
+tags: relationships
+
+Every relationship is a silent negotiation about who will need whom more.
+
+The quiet person in the relationship has usually already made a decision.
+
+You learn who someone is the first time you are inconvenient to them.
+
+Most couples are not fighting about the dishes. They are fighting about being seen.
+
+People will forgive you for leaving. They will not forgive you for being happier afterwards.
+
+A relationship is two people slowly learning which subjects are dangerous.
+
+The relationship ended the day you started rehearsing conversations in your head.
+
+You cannot argue someone into wanting you.
+
+Compatibility is just two sets of flaws that happen not to collide.
+
+Nobody owes you the reason they stopped trying.
+
+The person who explains the most usually has the most to hide.
+
+Some people only love you in private, where it costs them nothing.
+
+Every argument you avoid becomes a debt with interest.
+
+Attention is the only currency that cannot be faked for long.
+
+People do not change for you. At best they change near you.
+
+If you have to earn their kindness every week, it is not kindness. It is a fee.
+
+Breakups are rarely sudden. They are slow, and then they are official.
+
+You are not hard to love. You are hard to love cheaply.
+
+Most people want honesty until it is about them.
+
+The end of a relationship is mostly paperwork for something that died earlier.
+
+tags: death
+
+Everyone you have ever met is on the same schedule, just with different dates.
+
+Death is not the opposite of life. It is the deadline.
+
+The dead keep their secrets better than the living keep their promises.
+
+At the funeral everyone remembered the same three stories. The rest of his life was gone.
+
+You will die in the middle of something. Everyone does.
+
+The hardest part of death is that the world does not pause to notice.
+
+There is no good age to die. There are only ages at which people are less surprised.
+
+Death makes everyone honest, for about a week.
+
+Your obituary will be shorter than your inbox.
+
+Nobody lies on their deathbed about work. They just stop mentioning it.
+
+Death does not care what you were saving for.
+
+The phone still has their number. Nobody can delete it. Nobody can call it either.
+
+Every unfinished conversation becomes permanent the moment one side dies.
+
+You do not get to choose your last words. You only get to choose how many good ones you said before.
+
+Death is the only problem everyone solves the same way.
+
+Graves are kept tidy by people who did not visit often enough when it mattered.
+
+People fear death because it ends the story. The story ended for most of them years ago.
+
+Mortality is the only fact that makes the rest of the calendar matter.
+
+The dead are not waiting for you. They are not doing anything at all.
+
+Death is ordinary. That is what makes it unbearable.
+
+tags: grief
+
+Grief is the only visitor who keeps a key after you change the locks.
+
+Nobody tells you grief is mostly paperwork and leftovers.
+
+You grieve the person, then the future, then the version of yourself that knew them.
+
+Grief does not get smaller. Your life gets bigger around it, if you let it.
+
+Some losses are not loud. They are just a chair nobody sits in.
+
+People stop asking how you are long before you stop being not fine.
+
+The worst day of grief is not the funeral. It is the first ordinary Tuesday after.
+
+Grief is love that has run out of things to do.
+
+You do not move on. You move with it, more slowly.
+
+Mourning ends officially. Missing does not.
+
+tags: family
+
+Your family has a version of you they will defend against all evidence.
+
+Families are where people practise their first cruelties and call it teasing.
+
+Every family has one person carrying everyone else's silence.
+
+You can leave home and still spend decades answering to it.
+
+Parents give you two things: a story about yourself and a lifetime to correct it.
+
+Some families stay together the way stones stay in a wall: by weight, not by choice.
+
+Your parents' marriage taught you more about love than any book you read.
+
+The holidays are when families remember why they live in different cities.
+
+Children notice everything and understand it all wrong, for years.
+
+You only see your parents clearly when you are older than they were when they hurt you.
+
+Every family has a ledger. Nobody admits to keeping it.
+
+Blood makes you related. Effort makes you family.
+
+Your siblings are the only people who remember the house the way it really was.
+
+Inheritance reveals more about a family than any funeral speech.
+
+Some parents love their children. Some love the idea of having had them.
+
+Home is where your oldest wounds know the way back.
+
+The family story is always told by the person who survived it best.
+
+You will spend your adulthood unlearning things that kept you safe as a child.
+
+Families forgive the loud and punish the honest.
+
+The day your parents need you is the day the roles quietly reverse forever.
+
+tags: friendship
+
+Friendship survives distance only when it was never about convenience.
+
+Some friends are only friends at a certain volume of alcohol.
+
+You learn who your friends are when your news is good, not when it is bad.
+
+Most friendships end without a fight. Someone simply stops starting the conversation.
+
+A friend who only calls when they need something is a client.
+
+The friends of your twenties are rarely the friends of your forties. Nobody announces the change.
+
+Friendship is the only relationship with no paperwork, which is why it ends so quietly.
+
+Real friends tell you the truth and then help you carry it.
+
+Old friends are archives. When they go, part of your past becomes unverifiable.
+
+You outgrow some friends the way you outgrow a coat: suddenly it just does not fit.
+
+Envy wears friendship as a costume more often than you think.
+
+The friend who never disagrees with you is not paying attention.
+
+Friendships do not need constant contact. They need occasional proof.
+
+Nobody tells you that making friends after thirty requires appointments.
+
+A friend is someone whose absence you would actually notice on a Wednesday.
+
+tags: time
+
+Time is not running out. It is running at exactly the same speed it always has. You just noticed.
+
+You have more yesterdays than you think and fewer tomorrows than you plan for.
+
+Later is where most plans go to be forgotten.
+
+Every year goes faster because each one is a smaller part of your life.
+
+The years you wasted did not feel wasted at the time. That is how it works.
+
+Time reveals everything, slowly enough that nobody gets credit for predicting it.
+
+You do not have time. Time has you, on loan.
+
+The clock is the most honest object in your house.
+
+Someday is not a day of the week.
+
+Most people spend their time like they have a refund policy.
+
+The present is the only place anything has ever happened.
+
+Time heals nothing. It just makes the injury old enough to stop discussing.
+
+You will remember very few days of this year. Choose them deliberately.
+
+People talk about killing time as if it were not killing them back.
+
+The best time to fix something was before it became a habit.
+
+Time is generous to the patient and merciless to the waiting.
+
+Every day you postpone becomes a day you cannot get back to.
+
+Calendars are full. Lives are empty. Both can be true.
+
+Time does not wait. It does not chase either. It simply leaves.
+
+You measure your life in years. Life measures it in attention.
+
+tags: work, money
+
+Your job title will not be mentioned at your funeral, unless nothing else can be.
+
+Work will take everything you offer and ask why you did not offer more.
+
+Busy is the most socially acceptable way to avoid your own life.
+
+Money cannot buy love, but poverty can certainly evict it.
+
+The company is not your family. Families do not do annual layoffs.
+
+You are paid for your time, not your loyalty. Do not give away the second for free.
+
+Success is mostly surviving long enough for luck to find you working.
+
+The richest people you know are often the most afraid of losing it.
+
+Debt is a promise your future self never agreed to.
+
+Most careers are a series of accidents told later as a plan.
+
+Money talks. Mostly it says what you were willing to trade.
+
+A raise feels like freedom for about three months.
+
+Nobody on their deathbed wishes they had answered more email.
+
+The meeting could have been an email. Most lives could have been a decision.
+
+Ambition without rest is just a faster way to arrive exhausted.
+
+You will be replaced at work faster than at the dinner table. Act accordingly.
+
+Wealth is mostly the ability to stop asking permission.
+
+Work hard enough at the wrong thing and you will become very good at it.
+
+Money buys comfort. Comfort buys forgetting. Forgetting buys nothing.
+
+Your salary is what they pay you to forget what you wanted to do.
+
+tags: truth, self
+
+The truth rarely arrives all at once. It leaks.
+
+You are not who you say you are. You are what you repeat.
+
+Self-awareness is mostly a list of things you would rather not know.
+
+Most people lie to themselves first, and to others only as a courtesy.
+
+Nobody is the villain in their own story. That is how villains are made.
+
+The things you refuse to look at are steering.
+
+You cannot think your way out of something you behaved your way into.
+
+Honesty is cheap when it costs someone else.
+
+The truth is not cruel. People who deliver it carelessly are.
+
+Your excuses are perfectly reasonable. That is what makes them dangerous.
+
+You already know what you need to do. You are waiting for it to be easier.
+
+Discipline is just remembering what you wanted when it is no longer exciting.
+
+Your habits are a vote on who you will be in ten years.
+
+Pride is fear wearing its best clothes.
+
+Most people do not want advice. They want permission.
+
+The person you are becoming is built entirely out of today.
+
+Confidence is often just ignorance with good posture.
+
+You do not find yourself. You build yourself, badly at first.
+
+The truth about you is in your calendar, not your intentions.
+
+Nobody can hurt you like the voice you agreed with as a child.
+
+tags: society, people
+
+People rarely remember what you said. They remember how small you made them feel.
+
+The crowd always looks confident. Every individual in it is guessing.
+
+Most cruelty is just convenience that never had to explain itself.
+
+People respect boundaries the way water respects sand: until the tide comes.
+
+Applause is the sound of people relieved it was not them.
+
+Everyone is performing. Some are just better rehearsed.
+
+The world does not reward kindness. It occasionally notices it, briefly.
+
+Most people are decent until it costs them something.
+
+Society is a large agreement to not say certain things out loud.
+
+The loudest opinions usually belong to the people who will never be affected.
+
+We judge others by their actions and ourselves by our intentions.
+
+People will believe almost anything, as long as it lets them keep their routine.
+
+Popularity is the art of disappointing no one important.
+
+The internet did not make people cruel. It gave them an audience.
+
+Nobody is watching you as closely as the version of them you imagine.
+
+tags: aging, memory
+
+Getting older is the slow process of becoming the last person who remembers certain things.
+
+Your body files every decision you made at twenty and sends the invoice at fifty.
+
+Old photographs are proof that you were happy and did not know it.
+
+Memory keeps the music and loses the words.
+
+You do not notice you are aging. You notice everyone else is younger.
+
+Nostalgia is grief that learned to smile.
+
+The older you get, the more funerals feel like reunions.
+
+Youth thinks it has time. Age knows it had it.
+
+Some memories are not lost. They are just no longer invited.
+
+Wrinkles are where the weather of your life left its marks.
+
+You become old the day you stop being curious, whatever your age.
+
+The past is a country where everyone you miss still lives.
+
+Your memory is a museum curated by someone who wanted you to feel better.
+
+Age does not bring wisdom. It brings evidence.
+
+The older you get, the more you understand people you once judged.
+
+Nobody tells you that one day your childhood home will belong to strangers.
+
+Every year you lose a little hearing and gain a little understanding of what was never said.
+
+You will forget most of what worried you this year. Your body will not.
+
+Memory is not a library. It is a rumour you keep spreading about yourself.
+
+Old age is not a defeat. It is a long list of things that stopped mattering.

@@ -1,0 +1,422 @@
+// Fred M | 1963ke · One-liner — 200 quotes. One sharp sentence each.
+
+@one-liner+
+tags: reality
+
+The world is not against you. It is not thinking about you.
+
+Nothing is owed. Everything is borrowed.
+
+Reality is the thing that keeps happening while you plan.
+
+The universe has no customer service.
+
+Facts do not care how long you have believed otherwise.
+
+Fair is a word for children and contracts.
+
+Nobody is in charge, and the bills still arrive.
+
+The truth is usually the least exciting option.
+
+Most news is weather with a narrator.
+
+Luck is real and it is not on a schedule.
+
+The map is not the city, and the city does not care.
+
+Nothing important happens on the day you expect it.
+
+The story ends whether or not you understood it.
+
+Chaos is just order you did not design.
+
+Plans are prayers with spreadsheets.
+
+Every certainty has an expiry date.
+
+The ground is moving. It always was.
+
+Stability is a long pause between changes.
+
+Nobody is coming back to explain.
+
+The present does not wait for your permission.
+
+tags: love
+
+Love is a verb that people keep treating like a noun.
+
+Being wanted is not the same as being chosen.
+
+Chemistry fades. Character stays.
+
+Love is cheap in words and expensive in hours.
+
+Some people love you the way they love the weather: when it suits them.
+
+Desire is loud. Devotion is quiet.
+
+Nobody completes you; they just keep you company.
+
+Love without respect is just a habit with a pet name.
+
+The honeymoon ends. The marriage starts.
+
+Love that keeps score is accounting.
+
+Romance is a costume. Care is the body underneath.
+
+Love is mostly showing up on boring days.
+
+You cannot love someone into loving themselves.
+
+Jealousy is fear holding love by the throat.
+
+Every kiss is also a goodbye in rehearsal.
+
+Love does not need fireworks. It needs a working kitchen.
+
+The opposite of love is not hate. It is a shrug.
+
+People fall in love with how you make them feel about themselves.
+
+Love that is always earned is a job.
+
+Tenderness is a decision, not a mood.
+
+tags: death
+
+The graveyard is full of people who were going to.
+
+You will be a photograph someone stops looking at.
+
+Death is the end of the argument.
+
+Nobody gets out early for good behaviour.
+
+The last day will look like any other morning.
+
+Every name on a stone was once a whole world.
+
+Mortality is the only universal membership.
+
+Death does not RSVP.
+
+You are already the age someone died at.
+
+The dead are finished. The living are not.
+
+A funeral is a meeting nobody wanted to schedule.
+
+Death makes everything you postponed permanent.
+
+The body is a lease, not a purchase.
+
+Some goodbyes are sent from hospital car parks.
+
+Death is not dramatic. It is final.
+
+Everyone ends up as a story told badly.
+
+The end is the only thing on time.
+
+Breathe now. It is not unlimited.
+
+Every candle burns at the same end.
+
+Nobody survives life.
+
+tags: time
+
+Tomorrow is a rumour.
+
+Time is the only thing you spend without a receipt.
+
+The years do not ask before they leave.
+
+Waiting is the most expensive habit there is.
+
+The best years are rarely announced.
+
+Time does not fly. You just stop looking.
+
+Every day is a draft you cannot revise.
+
+Clocks do not tick for you. They tick at you.
+
+You are running on borrowed seconds.
+
+Now is the only appointment you can keep.
+
+The past is closed. The future is not open yet.
+
+Later is a beautiful word for never.
+
+Time is patient until it is not.
+
+An hour wasted is an hour donated to nothing.
+
+You cannot save time. You can only spend it well.
+
+The calendar is a list of chances, mostly declined.
+
+Every Sunday evening is a small mortality.
+
+Time heals nothing. It just moves the furniture.
+
+Youth is wasted on people who think it is permanent.
+
+The deadline was always going to come.
+
+tags: people
+
+People reveal themselves in small rooms and long trips.
+
+Everyone is the hero of a story you are not in.
+
+Most people want to be heard, not helped.
+
+Kindness is rare because it is inconvenient.
+
+People forget favours and remember slights.
+
+Nobody is as confident as they look.
+
+Everyone has a price, and most have discounts.
+
+Strangers are just people you have not disappointed yet.
+
+The polite ones are often the most tired.
+
+People do not change their minds; they change their audience.
+
+Gossip is how cowards hold meetings.
+
+Most cruelty is boredom with power.
+
+Everyone is lonely in a different language.
+
+People leave the way water leaves a room.
+
+Charm is a tool, not a character.
+
+The quiet ones are keeping notes.
+
+Nobody reads the terms. Of anything.
+
+People are consistent. Their excuses vary.
+
+Admiration is cheaper than imitation.
+
+Respect is earned slowly and lost in an afternoon.
+
+tags: self
+
+You are not your thoughts. You are what you do with them.
+
+Your comfort zone is a waiting room.
+
+Self-pity is a warm room with no doors.
+
+You are allowed to outgrow who you were.
+
+The mirror does not lie. Lighting does.
+
+Your potential is a rumour you started.
+
+You cannot hate yourself into a better person.
+
+Habits are louder than intentions.
+
+The person you avoid becoming is still on your calendar.
+
+You are the average of your excuses.
+
+Insecurity is a loud roommate.
+
+Your past self is not coming to save you.
+
+Discipline is freedom with paperwork.
+
+You will not feel ready. Begin anyway.
+
+Most limits are invoices you agreed to pay.
+
+Nobody can live your life on your behalf.
+
+The work is the only shortcut.
+
+You are allowed to be unfinished.
+
+Your attention is your life.
+
+Shame is a terrible teacher with perfect attendance.
+
+tags: work, money
+
+Busy is not the same as important.
+
+The company will survive without you. Will you?
+
+Money is a tool that keeps trying to become a master.
+
+Your salary is not your worth.
+
+Burnout is ambition without a calendar.
+
+Rich is a feeling, not a number.
+
+Nobody frames their timesheets.
+
+Work expands to fill the life you give it.
+
+Debt is a leash with interest.
+
+Success is a moving target painted on your back.
+
+The weekend is a lease, not a purchase.
+
+Overtime is life you sold at a discount.
+
+Hustle is just anxiety with a slogan.
+
+Wealth whispers. Debt shouts.
+
+The office will not remember your sacrifices.
+
+Every promotion has a price tag nobody shows you.
+
+Retirement is the dream they sell to keep you working.
+
+A career is a long series of meetings about meetings.
+
+Money cannot buy time back.
+
+You can always earn more. You cannot always live more.
+
+tags: family
+
+Your parents are just people who got old in front of you.
+
+Family is a group chat you cannot leave.
+
+Every family has a myth it protects.
+
+Children remember the tone, not the words.
+
+Home is where the old arguments are kept.
+
+Your mother's voice lives in your head rent-free.
+
+Fathers teach by what they never say.
+
+Siblings are witnesses who cannot be bribed.
+
+Inheritance is how families settle old scores.
+
+You become your parents in the details.
+
+Some families are held together by silence.
+
+The kitchen table has heard everything.
+
+Every child is a parent's unfinished sentence.
+
+Family dinners are where old wounds get reheated.
+
+Your hometown remembers a version of you that died years ago.
+
+Parents age between visits.
+
+A family secret is a debt passed down.
+
+Holidays are reunions with old roles.
+
+Children are mirrors that talk back.
+
+Blood is a fact. Love is a choice.
+
+tags: endings
+
+Not every ending gets a scene.
+
+Some doors close so quietly you hear them years later.
+
+Goodbye is often the most honest thing anyone says.
+
+Endings are just beginnings that did not ask you first.
+
+The last time is never labelled.
+
+Closure is a door you build yourself.
+
+Every ending has a quiet beginning before it.
+
+Letting go is not an event. It is a habit.
+
+Some chapters end mid-sentence.
+
+The end was in the beginning, if you look closely.
+
+People leave long before they go.
+
+Nothing ends cleanly.
+
+Moving on is mostly moving.
+
+You do not get a farewell tour.
+
+The last conversation is usually about nothing.
+
+Some endings are mercies in disguise.
+
+Every exit is also an arrival somewhere.
+
+The final page is rarely the best one.
+
+Endings teach what beginnings hid.
+
+It was over before anyone said so.
+
+tags: solitude, fear
+
+Solitude is a room where you finally hear your own furniture.
+
+Fear makes the decision and lets you sign it.
+
+Alone is not the same as abandoned.
+
+Most fears are just old news on repeat.
+
+Courage is fear that finished its paperwork.
+
+The quiet is not empty. It is honest.
+
+Loneliness is a crowd that does not know your name.
+
+Fear is a liar with a good memory.
+
+You can be alone without being lonely, eventually.
+
+Silence keeps better company than most people.
+
+Anxiety is the future arriving uninvited.
+
+Brave people are scared people who went anyway.
+
+The dark is just a room without the decorations.
+
+Nobody notices your courage. Do it anyway.
+
+Being alone teaches what crowds hide.
+
+Fear shrinks when you look straight at it.
+
+Solitude is expensive in a noisy world.
+
+The thing you fear is usually smaller than the waiting.
+
+An empty room tells the truth.
+
+You meet yourself in the quiet hours.

@@ -22,6 +22,18 @@
  *    (line breaks are kept, so verse works); "- item" lines fill a list; text
  *    before the first key fills the format's first field. Lines starting with
  *    "//" are comments.
+ *
+ * 4. Many quotes of one format: a header with a "+" (e.g. "@classic+") makes
+ *    every blank-line-separated chunk after it a separate quote of that
+ *    format, until the next header. A chunk that is only a "tags:" line sets
+ *    the tags for the quotes that follow it.
+ *
+ *        @one-liner+
+ *        tags: death
+ *
+ *        The dead do not miss you back.
+ *
+ *        Death is the only appointment nobody reschedules.
  */
 import { FORMATS, resolveLayout } from "@/lib/render/formats";
 import { getPairing } from "@/lib/render/pairings";
@@ -46,27 +58,54 @@ interface RawBlock {
   unknownFormat?: string;
   lines: string[];
   line: number;
+  /** Tags set by a preceding "tags:" chunk in an @format+ section. */
+  stickyTags?: string[];
 }
 
 function splitBlocks(text: string): RawBlock[] {
   const lines = text.replace(/\r\n?/g, "\n").split("\n");
-  const structured = lines.some((l) => /^@[a-z-]+\s*$/i.test(l.trim()) || l.trim() === "---");
+  const structured = lines.some((l) => /^@[a-z-]+\+?\s*$/i.test(l.trim()) || l.trim() === "---");
   const blocks: RawBlock[] = [];
   let cur: RawBlock | null = null;
+  // Active "@format+" section: every blank-line chunk is its own quote.
+  let many: { format?: FormatId; unknownFormat?: string; tags: string[] } | null = null;
   const close = () => {
-    if (cur && cur.lines.some((l) => l.trim())) blocks.push(cur);
+    if (cur && cur.lines.some((l) => l.trim())) {
+      const only = cur.lines.filter((l) => l.trim());
+      const tagLine = only.length === 1 && only[0].trim().match(/^tags:\s*(.*)$/i);
+      if (many && tagLine) many.tags = parseTags(tagLine[1]);
+      else blocks.push(cur);
+    }
     cur = null;
   };
   lines.forEach((raw, i) => {
     const t = raw.trim();
     if (t.startsWith("//")) return;
     if (structured) {
-      if (t === "---") return close();
-      const at = t.match(/^@([a-z-]+)$/i);
+      if (t === "---") {
+        close();
+        many = null;
+        return;
+      }
+      const at = t.match(/^@([a-z-]+)(\+?)$/i);
       if (at) {
         close();
         const id = at[1].toLowerCase() as FormatId;
-        cur = FORMAT_IDS.includes(id) ? { format: id, lines: [], line: i + 1 } : { unknownFormat: at[1], lines: [], line: i + 1 };
+        const known = FORMAT_IDS.includes(id);
+        if (at[2]) {
+          many = known ? { format: id, tags: [] } : { unknownFormat: at[1], tags: [] };
+          if (!known) blocks.push({ unknownFormat: at[1], lines: ["-"], line: i + 1 });
+          return;
+        }
+        many = null;
+        cur = known ? { format: id, lines: [], line: i + 1 } : { unknownFormat: at[1], lines: [], line: i + 1 };
+        return;
+      }
+      if (many) {
+        if (!t) return close();
+        if (many.unknownFormat) return;
+        if (!cur) cur = { format: many.format, lines: [], line: i + 1, stickyTags: many.tags };
+        cur.lines.push(raw.replace(/\s+$/, ""));
         return;
       }
     } else if (!t) return close();
@@ -159,7 +198,9 @@ export function parseBatch(text: string, defaultFormat: FormatId = "classic"): B
   return splitBlocks(text).map((b) => {
     if (b.unknownFormat) return { content: { format: defaultFormat }, tags: [], line: b.line, errors: [`Unknown format "@${b.unknownFormat}"`] };
     const format = b.format ?? defaultFormat;
-    const { content, tags } = b.format ? parseFields(format, b.lines) : parsePlain(format, b.lines);
+    const parsed = b.format ? parseFields(format, b.lines) : parsePlain(format, b.lines);
+    const content = parsed.content;
+    const tags = parsed.tags.length ? parsed.tags : b.stickyTags ?? [];
     const errors: string[] = [];
     for (const f of FORMATS[format].fields) {
       if (f.optional) continue;
