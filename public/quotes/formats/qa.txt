@@ -1,0 +1,643 @@
+// Fred M | 1963ke · Question / Answer — 200 quotes.
+
+@qa+
+tags: love
+
+question: How do I know if it is love?
+answer: Wait until they bore you. If you still want them in the room, it might be.
+
+question: Can love fix what is broken in me?
+answer: No. It will only find the break faster and press on it.
+
+question: Why did they stop loving me?
+answer: Usually there is no single reason. Small things piled up until nobody could see over them.
+
+question: Is it normal for the spark to fade?
+answer: Yes. Sparks are for starting fires, not for keeping them going.
+
+question: Should I stay for the good times we had?
+answer: The past is not rent. It does not pay for the present.
+
+question: Will they come back?
+answer: Sometimes. Rarely as the person you are waiting for.
+
+question: Why do I love people who do not love me?
+answer: Because chasing feels familiar, and familiar is easily mistaken for love.
+
+question: What is the secret to a long marriage?
+answer: Two people too stubborn to leave and kind enough to stay. There is no secret beyond that.
+
+question: Is love enough?
+answer: Not without respect, money, patience and two people willing to do the dishes.
+
+question: Do soulmates exist?
+answer: No. Some people simply put in more years than others.
+
+question: How long until I stop missing them?
+answer: Longer than you want. Shorter than you fear. Then it returns on odd days.
+
+question: Why does love feel like work?
+answer: Because it is. Feelings are the wages, not the job.
+
+question: Can you love two people?
+answer: Yes. You cannot be honest with both for long.
+
+question: Why did my partner change?
+answer: They did not change. They stopped performing.
+
+tags: relationships
+
+question: Why do we keep having the same fight?
+answer: Because the fight is not about the topic. It is about something neither of you will say.
+
+question: Should I give them another chance?
+answer: Count how many you have already given. The number is the answer.
+
+question: Why do they not listen to me?
+answer: They hear you. They have decided your words cost nothing to ignore.
+
+question: How do I know when to leave?
+answer: When staying requires you to lie to yourself every morning.
+
+question: Is it my fault?
+answer: Partly. It nearly always is. That does not make it all yours.
+
+question: Why can I not let go?
+answer: You are not holding on to them. You are holding on to who you were with them.
+
+question: Can we be friends after a breakup?
+answer: Eventually, perhaps. Usually one person is only waiting.
+
+question: Why did they lie to me?
+answer: Because the truth was more expensive for them than your trust.
+
+question: Are they going to change?
+answer: People change for themselves, never for your patience.
+
+question: Should I tell them how I feel?
+answer: Yes. Their answer will hurt less than the years of wondering.
+
+question: Why do people cheat?
+answer: Because they can, and because they decided you would not find out.
+
+question: Was any of it real?
+answer: Some of it. Not enough of it to come back for.
+
+question: Why am I always the one who tries?
+answer: Because they learned you would. Stop, and you will see what remains.
+
+tags: family
+
+question: Do I have to forgive my parents?
+answer: No. You do have to stop waiting for them to become different parents.
+
+question: Why does my family not understand me?
+answer: They met you at birth and stopped updating. Most families do.
+
+question: Will my parents ever say sorry?
+answer: Most will not. Many die believing they did their best, and some did.
+
+question: Why do I become a child at home?
+answer: Because your family only knows the child. They have no script for you now.
+
+question: Should I keep visiting a parent who hurt me?
+answer: Visit if you can bear it. Duty is not a debt that must be paid in damage.
+
+question: Why are siblings so different?
+answer: They grew up in the same house with different parents. Parents change between children.
+
+question: Will my children thank me?
+answer: Perhaps at forty, after raising their own. Do not plan around it.
+
+question: Why do family arguments never end?
+answer: Because everyone is still defending a version of themselves from years ago.
+
+question: Am I turning into my mother?
+answer: In some ways, certainly. Pick which ways while you still can.
+
+question: How much time do I have left with my parents?
+answer: Count the visits per year and multiply by their likely years. The number will be small.
+
+question: What do I tell my children about death?
+answer: The truth, in words their size. They will notice the lies before the words.
+
+question: Why does the inheritance matter so much?
+answer: Because it is the last ranking a parent ever gives.
+
+tags: death
+
+question: Am I afraid of dying?
+answer: Most people are afraid of the waiting room more than the door.
+
+question: How should I prepare for death?
+answer: Write a will, say the things, clear the passwords. The rest is out of your hands.
+
+question: Will it hurt?
+answer: Sometimes. Medicine is better at pain now than at time.
+
+question: What will people say at my funeral?
+answer: Kind things, mostly untrue, then they will discuss the traffic.
+
+question: Is there life after death?
+answer: There is life after yours. Other people carry on, which is the only certainty.
+
+question: Why do people wait until the funeral to say it?
+answer: Because saying it to the living carries the risk of a reply.
+
+question: How long will I be remembered?
+answer: Roughly as long as the people who knew you are alive.
+
+question: What should I do with their belongings?
+answer: Keep one thing. Give the useful things away. Throw out the rest before it owns you.
+
+question: Why did they die so young?
+answer: There is no why. There is only when, and it was not fair.
+
+question: Does death give life meaning?
+answer: It gives life a deadline. Meaning is still your job.
+
+question: Why do I avoid hospitals?
+answer: Because they are the one place where nobody pretends about the ending.
+
+tags: grief
+
+question: When does grief end?
+answer: It does not end. It shrinks until it fits in your pocket, then falls out on bad days.
+
+question: Am I grieving wrong?
+answer: There is no wrong way. There is only the slow way, and everyone gets that one.
+
+question: Why do I feel relief?
+answer: Because watching someone suffer is exhausting. Relief is not betrayal.
+
+question: Why have my friends gone quiet?
+answer: Grief frightens people. Most would rather vanish than say the wrong thing.
+
+question: Should I delete their number?
+answer: When you are ready. Not before. Nobody else gets to set that date.
+
+question: Why does it hurt more in the second year?
+answer: The shock has worn off and the world has stopped bringing food.
+
+question: Will I forget their voice?
+answer: Probably. Save the voicemails now, while you still can.
+
+question: How do I help a grieving friend?
+answer: Bring food, sit down, say their name. Then come back in three months when everyone else has gone.
+
+question: Why did grief make me angry?
+answer: Because there is nowhere to send the bill.
+
+question: Is it wrong to laugh after a death?
+answer: No. The body takes small holidays from pain so it can keep going.
+
+tags: time
+
+question: Is there still time?
+answer: For some things. Less for others. Find out which before you choose.
+
+question: Why do the years go faster?
+answer: Because you stopped doing new things. Routine compresses memory.
+
+question: When is the right time?
+answer: There is no right time. There are only times you used and times you did not.
+
+question: Why do I keep putting it off?
+answer: Because starting means you might fail, and waiting lets you stay hopeful.
+
+question: Where did my twenties go?
+answer: Into rent, waiting and people who were not worth the evenings.
+
+question: Am I too old to start again?
+answer: You will be older in five years either way. Start or do not.
+
+question: How do I make time for what matters?
+answer: Take it from what does not. Nobody gives it back to you.
+
+question: Will I regret the time I wasted?
+answer: Yes. Regret the next hour less by using it.
+
+question: Is it ever too late to apologise?
+answer: Once they die, yes. Before that, it is only harder.
+
+question: Why does a Sunday feel so short?
+answer: Because you spend half of it dreading Monday.
+
+question: How many summers do I have left?
+answer: Fewer than you think. Count them if you dare.
+
+question: Why does waiting feel safe?
+answer: Because nothing can fail while you wait. Nothing can happen either.
+
+tags: work
+
+question: Should I stay in a job I hate?
+answer: Only as long as it takes to find the exit. Staying forever is a decision too.
+
+question: Will hard work get me promoted?
+answer: Sometimes. Being visible and liked gets people promoted more often.
+
+question: Does my company care about me?
+answer: As much as a contract can care. Read the redundancy terms.
+
+question: Why am I always tired after work?
+answer: Because you spend the day pretending to be calmer than you are.
+
+question: Is my job my identity?
+answer: Only until you lose it. Then you will learn what was underneath.
+
+question: Should I answer emails at night?
+answer: Only if you want it to become your job description.
+
+question: What if I never find my passion?
+answer: Most people do not. They find work they can bear and a life outside it.
+
+question: Why do lazy colleagues get ahead?
+answer: Because they spend their energy on being noticed instead of being useful.
+
+question: Is it weak to take a sick day?
+answer: It is weaker to take six months off later because you did not.
+
+question: Will anyone notice if I leave?
+answer: For a week. Then the desk will be someone else's and the work will continue.
+
+question: Should I take the safe job?
+answer: Safe jobs end too. Choose the risk you can live with.
+
+question: Why does my boss take the credit?
+answer: Because nobody stopped them. Put your work in writing.
+
+tags: money
+
+question: Does money buy happiness?
+answer: It buys relief from many kinds of unhappiness. That is close enough for most people.
+
+question: Should I lend money to family?
+answer: Only money you can treat as a gift. That is how it usually ends.
+
+question: Why am I always broke?
+answer: Because small expenses do not feel like decisions until the month ends.
+
+question: Will I ever own a house?
+answer: Maybe. Do the arithmetic before you do the dreaming.
+
+question: Why do rich people seem calmer?
+answer: Because most of their emergencies are just invoices.
+
+question: Is it shallow to care about money?
+answer: Only people who have enough call it shallow.
+
+question: Why do friends change when you earn more?
+answer: Your success reminds them of their choices. Some forgive you for it.
+
+question: Should I spend it or save it?
+answer: Save enough to say no. Spend some so you remember why.
+
+question: Why does debt feel so heavy?
+answer: Because it is your future, already sold.
+
+question: Will money change me?
+answer: It will mostly reveal you. Watch how you treat people once you no longer need them.
+
+tags: friendship
+
+question: Why did my best friend drift away?
+answer: Lives move at different speeds. Nobody had to do anything wrong.
+
+question: How many real friends does a person have?
+answer: Count the ones who would come to the hospital at night. Use one hand.
+
+question: Should I reach out first again?
+answer: Once more, perhaps. If you are always first, you are a habit, not a friend.
+
+question: Why are my friends not happy for me?
+answer: Some are. Others measure your news against their own life and lose.
+
+question: Is it normal to have no friends at forty?
+answer: It is common. Friendship after school needs scheduling, and few people bother.
+
+question: Can a friendship survive a loan?
+answer: Some do. Most become a debt with occasional dinners.
+
+question: Why do I feel used by my friends?
+answer: Look at who calls whom, and for what. The pattern is usually clear.
+
+question: Should I end a toxic friendship?
+answer: Yes. Old history is not a reason to keep receiving new damage.
+
+question: Why do friends vanish when life gets hard?
+answer: Because they came for the easy version. Now you know who stays.
+
+question: Do old friends matter more?
+answer: They know your history. That is valuable, but it is not the same as knowing you now.
+
+question: How do I make new friends?
+answer: Turn up to the same place, repeatedly, for months. There is no shortcut.
+
+tags: truth
+
+question: Why do people lie?
+answer: Because the truth costs them something and the lie costs you.
+
+question: Do people want honesty?
+answer: They want honesty that agrees with them.
+
+question: Should I tell the painful truth?
+answer: If it helps them act, yes. If it only relieves you, wait.
+
+question: Why is the truth so hard to hear?
+answer: Because it removes the story you were living inside.
+
+question: How do I know if I am being lied to?
+answer: Watch what they do, not what they say. Behaviour cannot hold a lie for long.
+
+question: Is a white lie harmless?
+answer: Each one is small. Together they build a person nobody can trust.
+
+question: Why does everyone else seem sure?
+answer: Many are pretending. Confidence is easier to fake than knowledge.
+
+question: Will the truth come out?
+answer: Not always. Sometimes the lie simply outlives everyone who knew.
+
+question: Why do I believe what I want to?
+answer: Because comfort is cheaper than evidence, and the bill comes later.
+
+question: Is it kind to stay silent?
+answer: Sometimes it is only cowardly. Ask yourself who the silence protects.
+
+tags: self
+
+question: Why can I not change?
+answer: Because your old habits still pay you something. Find out what.
+
+question: Who am I really?
+answer: What you do when nobody is grading you. Not what you post.
+
+question: Why am I so hard on myself?
+answer: Someone taught you that harshness was safety. It was only their fear.
+
+question: Am I a good person?
+answer: You are someone who does good and bad things. Count both honestly.
+
+question: Why do I need people to like me?
+answer: Because you once needed it to be safe. You are older now.
+
+question: Will I ever feel confident?
+answer: Confidence comes after doing the thing, not before. You will be frightened first.
+
+question: Why do I sabotage good things?
+answer: Because ruining it yourself feels safer than waiting for it to be taken.
+
+question: Is it selfish to put myself first?
+answer: Sometimes. It is also how you avoid becoming bitter.
+
+question: Why do I compare myself to others?
+answer: Because you see their highlights and live your outtakes.
+
+question: Should I follow my heart?
+answer: Take your heart, but bring your head. The heart is bad at sums.
+
+question: Why do I feel stuck?
+answer: Because you want change without the loss that comes with it.
+
+question: When will I be ready?
+answer: Not before you start. Readiness is a story told afterwards.
+
+tags: ageing
+
+question: Why is getting old so lonely?
+answer: Because the people who knew you young keep dying, and new people rarely ask.
+
+question: Will ageing make me wiser?
+answer: Not automatically. Plenty of people simply become older versions of the same mistakes.
+
+question: Why do older people repeat stories?
+answer: Because the stories are what remains, and few people are left to hear them.
+
+question: When did I become invisible?
+answer: Somewhere after fifty, when shops stopped noticing you. Use it.
+
+question: Is it too late to look after my body?
+answer: It is late. It is not too late. Every year you wait makes it more expensive.
+
+question: Why do my parents seem smaller?
+answer: Because they are ageing and you are finally looking at them as adults.
+
+question: What do old people regret?
+answer: Mostly the things they did not do, the calls they did not make and the fears they obeyed.
+
+question: Why does my body hurt for no reason?
+answer: There is a reason. It is called years, and the body keeps the receipts.
+
+question: Will anyone look after me when I am old?
+answer: Plan as if not. Be pleasantly surprised if they do.
+
+tags: loneliness
+
+question: Why am I lonely in a relationship?
+answer: Because sharing a bed is not the same as being known in it.
+
+question: Will I always be alone?
+answer: Possibly. Learn to be decent company, either way.
+
+question: Why do weekends feel worse?
+answer: Work fills the silence on weekdays. On Saturday the silence is all yours.
+
+question: Is it sad to eat alone in a restaurant?
+answer: No. It is sadder to sit with people you do not want to see.
+
+question: Why does nobody call me?
+answer: Perhaps because you never call them. Loneliness often waits for an invitation it never sends.
+
+question: How do I stop feeling lonely?
+answer: There is no cure. There are habits: show up, ask questions, call first, repeat.
+
+question: Why is the city so lonely?
+answer: Because millions of people agreed to look at their phones instead of each other.
+
+question: Is loneliness my fault?
+answer: Not entirely. But fixing it will be your job, unfairly.
+
+question: Why do I feel lonely at parties?
+answer: Because noise is not contact, and small talk is not company.
+
+question: Does anyone think about me?
+answer: Less than you fear and less than you hope. That is freeing.
+
+tags: fear
+
+question: Why am I so afraid of failing?
+answer: Because you think failure is a verdict. It is only information, delivered rudely.
+
+question: How do I stop being afraid?
+answer: You do not. You get used to acting while frightened.
+
+question: What if it goes wrong?
+answer: Then it goes wrong, and you will deal with that version too. You have before.
+
+question: Why do I fear what people think?
+answer: Because you assume they are thinking about you. Mostly they are not.
+
+question: Is my fear protecting me?
+answer: Sometimes. More often it protects your comfort from your future.
+
+question: Why does the night make worries bigger?
+answer: Because nobody is awake to contradict them.
+
+question: Should I wait until I am less scared?
+answer: That day does not come. The fear shrinks after you move, not before.
+
+question: Why do I avoid the doctor?
+answer: Because not knowing feels safer. It is not. It is only quieter.
+
+question: What is the worst that could happen?
+answer: Usually something you would survive. Sometimes not. Plan for both.
+
+question: Why does change frighten me?
+answer: Because even a bad situation is one you know how to live in.
+
+tags: memory
+
+question: Why do I remember the bad things more?
+answer: Because the mind keeps pain as a warning and lets comfort go.
+
+question: Were the old days really better?
+answer: You were younger, and someone else was paying. That is most of it.
+
+question: Why can I not remember my childhood?
+answer: Some of it was dull, and some of it you put away for a reason.
+
+question: Can I trust my memories?
+answer: Partly. Every time you remember, you edit a little.
+
+question: Why does a smell bring everything back?
+answer: Because smell takes the shortcut past your defences.
+
+question: Will they remember me as I was?
+answer: They will remember a version. You will not get to approve it.
+
+question: Why do I keep old messages?
+answer: Because deleting them feels like a second ending.
+
+question: Should I go back to my hometown?
+answer: Visit, by all means. It will be smaller, and so will you.
+
+tags: society
+
+question: Why do people care so much about status?
+answer: Because it is the cheapest way to feel safe among strangers.
+
+question: Why is everyone so angry online?
+answer: Because anger travels further, and someone is paid by the mile.
+
+question: Does it matter what people think?
+answer: For your job, sometimes. For your life, much less than you behave.
+
+question: Why are the rude so often rewarded?
+answer: Because most people would rather give in than face a scene.
+
+question: Should I fit in?
+answer: Enough to keep your job and your friends. Not enough to lose yourself.
+
+question: Why do people follow the crowd?
+answer: Because being wrong together feels safer than being right alone.
+
+question: Is the world getting worse?
+answer: Some parts, some years. Mostly you are seeing more of it, faster.
+
+tags: life
+
+question: What is the point of it all?
+answer: There is no single point. There are people, mornings, work and a few good years.
+
+question: Why is life so unfair?
+answer: Because fairness is a human idea, and life is not human.
+
+question: Will things get better?
+answer: Some things will. Others will not. Both will happen to you.
+
+question: How do I find meaning?
+answer: You do not find it. You build it from responsibilities you choose to keep.
+
+question: Why does nothing make me happy?
+answer: Check your sleep, your body and your loneliness before you check your soul.
+
+question: Is it normal to feel lost at thirty?
+answer: Yes. Most people are only better at hiding it by forty.
+
+question: Should I take the risk?
+answer: Not taking it is also a risk. It is just slower.
+
+question: What should I do with my one life?
+answer: Something you can explain without lying, to someone you love, at the end.
+
+question: Why does happiness never last?
+answer: It is weather, not climate. Build a life that can stand bad weather.
+
+question: Is everything going to be all right?
+answer: No. Some of it will be. You will be fine with less than all right.
+
+question: Why do good days feel so ordinary?
+answer: Because most good days are ordinary. You notice later, when they stop.
+
+tags: home, city
+
+question: Where is home?
+answer: Wherever someone would notice your absence by dinner. For many, nowhere.
+
+question: Why does my hometown feel foreign?
+answer: Because it kept living while you were gone, and did not wait for you.
+
+question: Should I move to the city?
+answer: Go if you want speed and anonymity. Bring savings; the city charges for both.
+
+question: Why can I not afford to live where I work?
+answer: Because the city prices people out and still expects them at nine.
+
+question: Will Nairobi ever feel like mine?
+answer: When you know a fundi, a shortcut and a vendor who saves you the good mangoes.
+
+question: Why do I miss a place that hurt me?
+answer: Because it was where you were young, and youth gets the credit for everything.
+
+question: Is renting forever a failure?
+answer: It is arithmetic. Shame belongs to the market, not to you.
+
+tags: reality
+
+question: Why does nobody come to help?
+answer: Because everyone is busy rescuing themselves. Help is rare; plan without it.
+
+question: Is this as good as it gets?
+answer: Perhaps. Look around before you decide it is not good.
+
+question: Why do bad things happen to good people?
+answer: Because the world does not check character before it acts.
+
+question: Can I control what happens?
+answer: Some of it. The rest you can only respond to.
+
+question: Why did nobody warn me?
+answer: They did. You were not ready to hear it, and neither were they at your age.
+
+question: Will I get what I deserve?
+answer: Rarely. You get what happens, plus what you do with it.
+
+question: Why do I keep waiting for a sign?
+answer: Because a sign would let someone else take the blame for your choice.
+
+question: Should I wait for things to calm down?
+answer: They will not. Calm is something you build inside the noise.
+
+question: Is anyone coming to save me?
+answer: No. That is the bad news and the beginning of everything useful.
+
+question: What happens if I do nothing?
+answer: Time passes anyway, and decides for you.
+
+question: Why does reality feel so heavy?
+answer: Because you are carrying the version you wanted on top of the one you have.
+
+question: What do I do now?
+answer: The next small thing. Then the one after that. That is all anyone does.

@@ -313,3 +313,322 @@ b: Friendship costs time, patience and the occasional airport pick-up.
 
 a: You can always rekindle an old friendship.
 b: You can try. Often you find two strangers sharing a few old jokes.
+
+tags: grief
+
+a: Grief gets easier every day.
+b: Grief gets quieter. Some days are still harder than the first week.
+
+a: Keeping busy helps you heal.
+b: Keeping busy helps you postpone. The grief waits patiently in the hallway.
+
+a: You should be over it by now.
+b: There is no now. Grief does not read calendars.
+
+a: Talking about the dead upsets the bereaved.
+b: Not talking about the dead tells the bereaved that everyone has forgotten.
+
+a: Strong people do not cry at funerals.
+b: Strong people cry at funerals and still drive everyone home afterwards.
+
+a: Grief brings families together.
+b: Grief brings families into the same room. Together is another matter.
+
+a: Losing a pet is not real grief.
+b: Losing anything that loved you daily is real grief.
+
+a: Clearing their things will help.
+b: Clearing their things will feel like losing them again, one drawer at a time.
+
+a: Children get over loss quickly.
+b: Children carry loss quietly and unpack it again at every new age.
+
+a: The anniversary is the hardest day.
+b: The hardest day is the random one with no warning and no visitors.
+
+a: Grief is sadness.
+b: Grief is also anger, guilt, relief, exhaustion and forgetting to eat.
+
+a: At least they are no longer suffering.
+b: At least is a phrase for the comforter. The mourner hears only the loss.
+
+tags: truth
+
+a: Honesty is always the best policy.
+b: Honesty is the best policy, and it has a cost most people will not pay.
+
+a: The truth will come out eventually.
+b: The truth comes out sometimes. Many lies are buried with their owners.
+
+a: People appreciate honest feedback.
+b: People appreciate honest feedback about other people.
+
+a: Seeing is believing.
+b: Believing is seeing. People notice what they already decided was there.
+
+a: You can tell when someone is lying.
+b: You can tell when someone is nervous. Good liars are often very calm.
+
+a: White lies are harmless.
+b: White lies teach people that your word has exceptions.
+
+a: Everyone deserves to know the truth.
+b: Everyone deserves the truth, but not everyone can carry it on the day it arrives.
+
+a: Facts speak for themselves.
+b: Facts are mute. Someone always chooses which ones get a microphone.
+
+a: The truth hurts.
+b: The truth stings. The lie is what keeps hurting for years.
+
+a: A clear conscience means you did nothing wrong.
+b: A clear conscience often just means a convenient memory.
+
+a: Honest people have nothing to hide.
+b: Honest people have plenty to hide. They simply do not lie about hiding it.
+
+a: Admitting fault shows weakness.
+b: Admitting fault shows strength, and most people find out only too late.
+
+a: History tells us what happened.
+b: History tells us what survivors agreed to write down.
+
+tags: self
+
+a: Be yourself and people will love you.
+b: Be yourself and some people will leave. The rest are worth it.
+
+a: You can be anything you want.
+b: You can be many things. Wanting is the least important ingredient.
+
+a: Confidence comes from within.
+b: Confidence comes from evidence. You collect it by doing difficult things.
+
+a: You need to find yourself.
+b: You need to make yourself. Nothing is hidden under the sofa.
+
+a: Self-care is bubble baths and candles.
+b: Self-care is paying bills, going to the doctor and leaving people who harm you.
+
+a: You are what you think.
+b: You are what you repeatedly do. Thoughts are just the commentary.
+
+a: Everyone has a hidden talent.
+b: Everyone has hidden potential. Talent only appears after years of work.
+
+a: Self-doubt means you are not good enough.
+b: Self-doubt means you are paying attention. The dangerous ones never doubt.
+
+a: You should never compare yourself to others.
+b: You will compare yourself to others. Just choose the comparisons more carefully.
+
+a: Personality is fixed.
+b: Personality is sticky, not fixed. It shifts slowly under pressure and habit.
+
+a: Motivation comes first.
+b: Action comes first. Motivation usually shows up halfway through.
+
+a: You will feel ready one day.
+b: You will never feel ready. You will simply run out of excuses.
+
+a: Your past defines you.
+b: Your past explains you. Defining is still being done each morning.
+
+tags: loneliness
+
+a: Lonely people are antisocial.
+b: Lonely people are often very social and still unseen.
+
+a: Being single means being lonely.
+b: Many of the loneliest people are married.
+
+a: Loneliness is a choice.
+b: Loneliness is often a result of moves, deaths and busy years nobody chose.
+
+a: Social media connects us.
+b: Social media lets us watch each other from a distance and call it contact.
+
+a: Lonely people should just join a club.
+b: Lonely people often need one person to notice them, not a membership card.
+
+a: Loneliness is only a problem for the elderly.
+b: Loneliness is common among the young, the busy and the recently moved.
+
+a: If you were lonely, you would say so.
+b: People admit to almost anything before they admit to being lonely.
+
+a: Being around people cures loneliness.
+b: Being understood by one person does more than a room of forty.
+
+a: Living alone is sad.
+b: Living alone can be peaceful. Lonely is about connection, not furniture.
+
+a: Loneliness passes on its own.
+b: Loneliness tends to deepen unless someone deliberately reaches out.
+
+a: Everyone else has plenty of friends.
+b: Everyone else is posting the dinners. They are not posting the empty weekends.
+
+a: Lonely people are hard to like.
+b: Lonely people are often easy to like. Nobody stayed long enough to find out.
+
+tags: society
+
+a: Hard work always pays off.
+b: Hard work pays off more reliably for people who already have a safety net.
+
+a: Everyone is equal before the law.
+b: Everyone is equal before the law. Not everyone can afford the same lawyer.
+
+a: The majority is usually right.
+b: The majority is usually comfortable. Right is a separate vote.
+
+a: People are fundamentally selfish.
+b: People are fundamentally tired. Selfishness is often just exhaustion.
+
+a: Progress is inevitable.
+b: Progress is fragile. Every generation has to defend it again.
+
+a: Good people stand up to injustice.
+b: Good people often stay quiet to protect their jobs, and call it prudence.
+
+a: The news tells you what is happening.
+b: The news tells you what is dramatic. Most of what matters happens slowly.
+
+a: Success is a sign of virtue.
+b: Success is a sign of success. Virtue is measured somewhere else.
+
+a: Tradition exists for good reasons.
+b: Tradition exists because nobody remembered to question it.
+
+a: Popular means good.
+b: Popular means visible. Good often stays quiet in a back room.
+
+a: People will judge you by your character.
+b: People will judge you by your shoes, your accent and your car, first.
+
+a: Online anger changes things.
+b: Online anger changes the mood for an afternoon. Then it changes the topic.
+
+a: Society cares about its weakest.
+b: Society cares about its weakest in speeches, and less in budgets.
+
+tags: fear
+
+a: Fear keeps you safe.
+b: Fear keeps you small. Safety is just its favourite excuse.
+
+a: Brave people are not afraid.
+b: Brave people are afraid and go anyway.
+
+a: You will stop being afraid with time.
+b: You will learn to act while afraid. The fear rarely leaves first.
+
+a: Playing it safe avoids regret.
+b: Playing it safe is how most people collect their biggest regrets.
+
+a: Worrying shows you care.
+b: Worrying shows you are frightened. Caring would take action.
+
+a: Fear of failure motivates you.
+b: Fear of failure mostly paralyses you, politely and for years.
+
+a: If it scares you, it is wrong.
+b: If it scares you, it is new. Wrong is a separate question.
+
+a: The worst case is likely.
+b: The worst case is vivid. Vivid is not the same as likely.
+
+a: Avoiding conflict keeps the peace.
+b: Avoiding conflict keeps the silence. Peace requires saying the thing.
+
+a: Anxious people are weak.
+b: Anxious people are carrying a heavy load in a crowd that cannot see it.
+
+a: You can wait until the fear passes.
+b: You can wait, and the opportunity will pass first.
+
+a: Fear is irrational.
+b: Fear is often perfectly rational. It is just answering an old question.
+
+tags: memory
+
+a: Memories are accurate records.
+b: Memories are rewritten every time you open them.
+
+a: You will remember this day forever.
+b: You will remember a feeling and two details, one of them wrong.
+
+a: The good old days were better.
+b: The good old days were the days you were too young to pay the bills.
+
+a: Photographs preserve memories.
+b: Photographs preserve images. The memory still fades around them.
+
+a: Forgetting is a sign of not caring.
+b: Forgetting is the brain making room. Caring is in what you choose to revisit.
+
+a: We remember the important things.
+b: We remember the emotional things. Important things often slip away.
+
+a: Revisiting the past brings closure.
+b: Revisiting the past often reopens the drawer you just managed to close.
+
+a: Everyone remembers the same event.
+b: Everyone at the table remembers a different dinner.
+
+a: Old wounds are forgotten.
+b: Old wounds are filed. One remark can pull the folder back out.
+
+a: You never forget your first love.
+b: You forget most of it. What remains is a younger version of yourself.
+
+a: The past cannot hurt you.
+b: The past cannot touch you, and still it shapes every room you enter.
+
+a: Remembering the dead keeps them alive.
+b: Remembering the dead keeps you company. They remain exactly as gone.
+
+tags: home, city
+
+a: Home is where the heart is.
+b: Home is where the rent is due. The heart is often elsewhere.
+
+a: Your hometown will always welcome you back.
+b: Your hometown will greet you as a visitor and ask how long you are staying.
+
+a: The city offers endless opportunity.
+b: The city offers endless competition for a limited number of opportunities.
+
+a: Buying a bigger house will make you happier.
+b: Buying a bigger house gives you more rooms to be unhappy in.
+
+a: Neighbours look out for each other.
+b: Neighbours look out of their windows. Looking out for you is rarer.
+
+a: Moving somewhere new is a fresh start.
+b: Moving somewhere new is the same you with new curtains.
+
+a: City people are unfriendly.
+b: City people are busy. Friendliness is rationed by the commute.
+
+a: Your childhood home will always be there.
+b: Your childhood home will be sold, renovated and forgotten by everyone but you.
+
+a: Living in the city is exciting.
+b: Living in the city is mostly queues, rent and noise, with some excitement.
+
+a: You can always go back home.
+b: You can go back to the address. Home moved on without you.
+
+a: A house becomes a home with time.
+b: A house becomes a home with people. Time alone just adds damp.
+
+a: Home is a place.
+b: Home is mostly a person who notices when you are late.
+
+a: Cities never sleep.
+b: Cities sleep in shifts. Someone is always awake to clean up after the rest.
+
+a: Your street is safe because nothing has happened.
+b: Your street is quiet. Safety is just what nobody has tested yet.

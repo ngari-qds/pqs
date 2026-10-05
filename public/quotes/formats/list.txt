@@ -1050,3 +1050,237 @@ title: What the old neighbourhood lost
 - The neighbours
 - The trees
 - You
+
+tags: life
+
+title: What adulthood mostly is
+- Forms
+- Queues
+- Bills
+- Waiting for repairmen
+- Pretending you know
+
+title: Things nobody owes you
+- An explanation
+- A second chance
+- Fairness
+- A happy ending
+
+title: What life does not do
+- Explain itself
+- Wait for you
+- Keep promises
+- Repeat good days
+
+title: What luck actually decides
+- Where you were born
+- Your health
+- Your parents
+- More than you admit
+
+title: Things that matter at the end
+- Who held your hand
+- Who you forgave
+- Whether you were kind
+- Very little else
+
+title: What plans are for
+- Calming you down
+- Being changed
+- Being abandoned
+
+title: What every life contains
+- One great loss
+- One great mistake
+- Many dull Tuesdays
+- A few perfect evenings
+
+title: Things that rarely happen
+- Overnight success
+- Sincere apologies
+- Perfect timing
+- Closure
+
+title: What the good life costs
+- Discipline
+- Saying no
+- Boredom
+- Losing some people
+
+title: What happiness turns out to be
+- Sleep
+- Health
+- Someone kind nearby
+- A quiet hour
+- Enough money
+
+title: What change requires
+- Losing your old excuses
+- Disappointing someone
+- Repetition
+- Time you do not want to give
+
+title: Things that are not coming back
+- That person
+- That chance
+- That body
+- That version of the city
+
+tags: regret
+
+title: Regrets of the old
+- Working too much
+- Not calling
+- Staying quiet
+- Caring what they thought
+
+title: What regret sounds like
+- I should have gone
+- I meant to call
+- If only
+- There was always time
+
+title: Things you will wish you had said
+- I love you
+- I am sorry
+- Thank you
+- Goodbye
+
+title: What hindsight gives you
+- Clarity
+- Nothing you can use
+- A better story
+
+title: Mistakes that compound
+- Ignoring your teeth
+- Ignoring your debt
+- Ignoring your marriage
+- Ignoring yourself
+
+tags: hope
+
+title: What hope requires
+- Evidence, eventually
+- Effort
+- Patience you do not have
+- Accepting it may fail
+
+title: Things worth hoping for
+- Enough
+- Health
+- A few honest people
+- Mornings without dread
+
+title: Where hope goes wrong
+- Waiting instead of acting
+- Expecting people to change
+- Mistaking wishes for plans
+
+title: What survives the worst
+- Routine
+- Small kindness
+- Dark jokes
+- The need for breakfast
+
+title: What you can still control
+- Your effort
+- Your words
+- What you consume
+- When you go to bed
+
+tags: reality
+
+title: How the world actually works
+- Who you know
+- Who owes whom
+- Who is in the room
+- Who signs the cheques
+
+title: Things that do not care about you
+- The weather
+- The market
+- Traffic
+- Gravity
+- Your deadline
+
+title: What fairness is
+- A rule for children
+- A hope for adults
+- Rare
+
+title: What prayer cannot replace
+- A doctor
+- A savings account
+- A difficult conversation
+- A locked door
+
+title: What results ignore
+- Your intentions
+- Your excuses
+- How hard it was
+
+title: Things that happen anyway
+- Rain on the wedding
+- Illness on holiday
+- Rent on the first
+- Monday
+
+title: What reality asks of you
+- Attention
+- Adjustment
+- Payment
+- Nothing personal
+
+title: How problems grow
+- Ignored
+- Postponed
+- Explained away
+- Then all at once
+
+title: Things the universe never sends
+- Signs
+- Refunds
+- Apologies
+- A warning
+
+title: What an emergency reveals
+- Who answers
+- What you saved
+- What you never checked
+- Who you really are
+
+title: What you are not owed
+- Comfort
+- Recognition
+- A long life
+- The ending you wanted
+
+title: What remains at the end of a day
+- Dishes
+- Messages
+- Tiredness
+- Tomorrow
+
+title: What the morning brings
+- The same problems
+- Slightly more light
+- Another chance, maybe
+- The alarm
+
+title: What survives a hard year
+- Scar tissue
+- Better boundaries
+- Fewer friends
+- Real ones
+
+title: Things that are simply true
+- You will be forgotten
+- Today still counts
+- Someone needs your call
+- Nothing waits
+
+title: What peace costs
+- Fewer opinions
+- Fewer people
+- Unanswered messages
+- Accepting what is

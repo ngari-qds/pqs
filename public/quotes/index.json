@@ -1,5 +1,5 @@
 {
-  "total": 3909,
+  "total": 4249,
   "files": [
     {
       "id": "sampler",
@@ -41,7 +41,7 @@
       "id": "contrast",
       "name": "Contrast",
       "file": "formats/contrast.txt",
-      "count": 99
+      "count": 200
     },
     {
       "id": "myth-truth",
@@ -65,7 +65,13 @@
       "id": "list",
       "name": "List",
       "file": "formats/list.txt",
-      "count": 163
+      "count": 201
+    },
+    {
+      "id": "qa",
+      "name": "Question + Answer",
+      "file": "formats/qa.txt",
+      "count": 201
     },
     {
       "id": "equation",
