@@ -118,16 +118,16 @@ function drawCredit(
 /**
  * Darkens (or lightens) a full-width horizontal band behind `region` with a
  * tall, soft fade above and below, a step at a time, until `measure` reaches
- * 4.5:1 (at most 8 steps). A full-width band reads as part of the photo's
+ * `target` (4.5:1 by default; at most 8 steps). A full-width band reads as part of the photo's
  * scrim rather than a box behind the text. Dark ink gets a light band.
  */
-function strengthenScrim(ctx: Ctx, region: Rect, ink: string, feather: number, measure: (st: LumaStats) => number) {
+function strengthenScrim(ctx: Ctx, region: Rect, ink: string, feather: number, measure: (st: LumaStats) => number, target = MIN_CONTRAST) {
   const W = ctx.canvas.width;
   const scrimColor = luminance(ink) < 0.4 ? "#f4f1ea" : "#000000";
   const outer = { x: 0, y: region.y - feather, w: W, h: region.h + feather * 2 };
   let st = lumaStats(ctx, region);
   let c = measure(st);
-  for (let k = 0; k < 8 && c < MIN_CONTRAST; k++) {
+  for (let k = 0; k < 8 && c < target; k++) {
     compositeAlpha(ctx, outer, scrimColor, (_x, y) => {
       const dy = Math.max(region.y - y, 0, y - (region.y + region.h));
       return 0.16 * (1 - smoothstep(0, feather, dy));
@@ -244,7 +244,10 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
 
   comp.prepaint?.(ctx, placed);
 
-  // Contrast enforcement: sample the real pixels under every block.
+  // Contrast enforcement: sample the real pixels under every block. Mono's
+  // finish (faded blacks, vignette, grain) costs up to ~25% of the measured
+  // contrast on photos, so it aims higher here to still clear 4.5:1 after.
+  const target = tone === "mono" ? 6 : MIN_CONTRAST;
   const blocks: BlockReport[] = [];
   for (const b of placed.flat()) {
     // Sample just around the ink, but never beyond the text area: for very
@@ -256,11 +259,11 @@ function renderOnce(ctx: Ctx, env: RenderEnv, input: RenderInput): RenderReport 
     let st = lumaStats(ctx, region);
     let c = textContrast(color, st);
     let fix: BlockReport["fix"];
-    if (c < MIN_CONTRAST && onPhoto) {
-      ({ st, c } = strengthenScrim(ctx, region, color, Math.max(b.size * 3, H * 0.08), (s2) => textContrast(color, s2)));
+    if (c < target && onPhoto) {
+      ({ st, c } = strengthenScrim(ctx, region, color, Math.max(b.size * 3, H * 0.08), (s2) => textContrast(color, s2), target));
       fix = "scrim";
     }
-    if (c < MIN_CONTRAST) {
+    if (c < target) {
       const candidates = [palette.ink, palette.bg, "#111111", "#f6f3ee", "#000000", "#ffffff"];
       const best = candidates.reduce((a, x) => (textContrast(x, st) > textContrast(a, st) ? x : a), color);
       if (best !== color) {
